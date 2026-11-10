@@ -1,6 +1,6 @@
 [
   {
-    "evidence_id": "EVD-BB47EEB2",
+    "evidence_id": "EVD-B9055DAE",
     "filename": "README.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
     "filesize_bytes": 2708,
@@ -9,8 +9,8 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "bb47eeb2abce56719b4a587aac3822ee2041628ef231b25691ac9ff7fac6783e",
-      "md5": "07e4e073847c70c19e62dfe72b9109de"
+      "sha256": "b9055dae5d329a758c192004f80dcc210fa95d5178ce29c764cf0d9e44267475",
+      "md5": "aab284429007b00dc5912a390cc0fe81"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -101,6 +101,21 @@
     "hashes": {
       "sha256": "5c6710b99ed1954d637ca5939f08de26018821a912d8dc1e5d7cd756bbd2ff7d",
       "md5": "e3f3cda67ba383cfb9d113bbfb724fe0"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-2E3D7120",
+    "filename": "PRESENTASI_HASIL_RISET_FORENSIK.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRESENTASI_HASIL_RISET_FORENSIK.md",
+    "filesize_bytes": 5843,
+    "source_category": "Presentation_Deck",
+    "description": "Slide Presentasi Eksekutif Hasil Riset Forensik Digital (9 Slide)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:38:50.440769+00:00",
+    "hashes": {
+      "sha256": "2e3d7120c3a23185770a2fce93ccc8303da4d1fba86f74695888767bd7f3b2aa",
+      "md5": "0e94c0af9cd1fbff9fccb2bb21d0b188"
     },
     "verification_status": "AUTHENTIC"
   }
