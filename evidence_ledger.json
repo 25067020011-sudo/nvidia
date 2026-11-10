@@ -1,6 +1,6 @@
 [
   {
-    "evidence_id": "EVD-B9055DAE",
+    "evidence_id": "EVD-85260BF4",
     "filename": "README.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
     "filesize_bytes": 2708,
@@ -9,8 +9,8 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "b9055dae5d329a758c192004f80dcc210fa95d5178ce29c764cf0d9e44267475",
-      "md5": "aab284429007b00dc5912a390cc0fe81"
+      "sha256": "85260bf482fe511e1351f85cd37de5337f79ba5cd7b85cf4a06306e6a6795242",
+      "md5": "75e55a41bdbee97d45adcea664863352"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -116,6 +116,21 @@
     "hashes": {
       "sha256": "2e3d7120c3a23185770a2fce93ccc8303da4d1fba86f74695888767bd7f3b2aa",
       "md5": "0e94c0af9cd1fbff9fccb2bb21d0b188"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-6449B36A",
+    "filename": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
+    "filesize_bytes": 7380,
+    "source_category": "Investigation_Report",
+    "description": "Laporan Resmi Penyelidikan Forensik Digital & Audit Tata Kelola Korporasi",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:40:05.787420+00:00",
+    "hashes": {
+      "sha256": "6449b36a24e8f54777d446d4dae9ade08eb7de45e8b21a7cba7e97c22a039335",
+      "md5": "4e1ce11e1e8ac190fe9e7e08b9294e39"
     },
     "verification_status": "AUTHENTIC"
   }
