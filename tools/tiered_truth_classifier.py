@@ -109,8 +109,23 @@ def run_sample_evaluations():
         ]
     )
 
+    # Kasus 3: Teori Konspirasi "Trump Dalang Penjebakan / Pengambilalihan NVIDIA"
+    c3 = ClaimEvaluation(
+        claim_id="CLM-03-TRUMP-TAKEOVER-CONSPIRACY",
+        target_subject="Jensen Huang & Donald Trump",
+        claim_statement="Donald Trump mendalangi penjebakan intelijen terhadap Jensen Huang untuk mengambil alih kendali/saham NVIDIA",
+        incident_date="2026-11-08",
+        evidence_list=[
+            EvidencePoint("The Daily Beast", "Mainstream_Press", 0.90, "Penyelidikan Alice Huang sudah berjalan sejak era Biden", "REFUTES"),
+            EvidencePoint("The Hill / NYT", "Mainstream_Press", 0.90, "Trump telah di-briefing setahun lalu tapi pasif dan tidak bertindak", "REFUTES"),
+            EvidencePoint("Crypto Briefing / ABC7", "Mainstream_Press", 0.95, "Trump secara terbuka membela Huang dan menyebutnya brilliant", "REFUTES"),
+            EvidencePoint("DNYUZ / NYT", "Mainstream_Press", 0.85, "Inisiator memo adalah Menlu Marco Rubio & faksi China hawks, bukan Trump", "REFUTES"),
+            EvidencePoint("Klaim Spekulatif Anonim Media Sosial", "Social_Media", 0.25, "Klaim analogi kasus pengambilalihan 10% saham Intel 2025", "SUPPORTS")
+        ]
+    )
+
     engine = TieredTruthEngine()
-    results = [engine.evaluate(c1), engine.evaluate(c2)]
+    results = [engine.evaluate(c1), engine.evaluate(c2), engine.evaluate(c3)]
 
     print("=" * 80)
     print("HASIL EVALUASI TIERED TRUTH CLASSIFICATION ENGINE")

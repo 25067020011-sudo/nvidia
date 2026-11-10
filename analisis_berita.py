@@ -34,8 +34,10 @@ KLAIM = {
     "Megaspeed / ekspor chip": r"megaspeed|export|smuggl|ekspor|selundup|走私|出口|수출|밀수",
     "Perselingkuhan": r"affair|unfaithful|mistress|selingkuh|婚外|外遇|不忠|불륜|외도|affäre|aventura",
     "Investigasi / Kongres / dewan": r"congress|committee|moolenaar|investigat|probe|board|senat|kongres|penyelidik|国会|调查|董事会|의회|조사|이사회|untersuch",
+    "Kubu Garis Keras / Rubio / Hawkish": r"rubio|moolenaar|hawk|hardline|select committee|national security memo",
+    "Spekulasi Politik / Dalang Trump": r"trump (?:takeover|oust|trap|plot|scheme|puppet|dalang|jebak|rebut|kuasai|ambil ?alih)",
     "Saham / pasar": r"stock|share|market|investor|saham|股价|股票|주가|aktie|acciones",
-    "Bantahan NVIDIA / Huang": r"deni|reject|push(?:es)? back|respond|statement|bantah|tanggap|否认|回应|부인|반박|dementi|niega",
+    "Bantahan NVIDIA / Huang": r"deni|reject|push(?:es)? back|respond|statement|bantah|tanggap|否认|回应|부in|반박|dementi|niega",
     "SERANGAN FISIK": r"assault|attack(?:ed)? (?:on|by)|stab|shot|physically|injur|diserang|dipukul|ditusuk|luka|袭击|遇袭|受伤|폭행|피습|angriff|agresi[oó]n",
     "Serangan siber / peretasan": r"hack|breach|cyber ?attack|ransomware|leak|retas|bocor|黑客|入侵|해킹|유출",
 }
