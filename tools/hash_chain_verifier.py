@@ -14,6 +14,24 @@ Fungsi:
 
 import os
 import sys
+
+# Deteksi otomatis eksekusi via Streamlit Cloud
+try:
+    import streamlit as st
+    if hasattr(st, "runtime") and st.runtime.exists():
+        parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        app_file = os.path.join(parent_dir, "app.py")
+        if os.path.exists(app_file):
+            os.chdir(parent_dir)
+            with open(app_file, "r", encoding="utf-8") as _f:
+                _code = compile(_f.read(), app_file, "exec")
+            exec(_code, globals())
+            sys.exit(0)
+except SystemExit:
+    raise
+except Exception:
+    pass
+
 import json
 import hashlib
 from datetime import datetime, timezone

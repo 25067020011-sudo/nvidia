@@ -362,6 +362,22 @@ with tab7:
         st.warning("Ledger bukti forensik kosong atau tidak ditemukan.")
 
     st.markdown("---")
+    st.markdown("#### 📥 Unduh Laporan Riset & Dataset Terverifikasi")
+    c_dl1, c_dl2, c_dl3 = st.columns(3)
+    with c_dl1:
+        if os.path.exists("MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md"):
+            with open("MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md", "r", encoding="utf-8") as f:
+                st.download_button("📄 Manuskrip Ilmiah (IMRaD)", data=f.read(), file_name="MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md", mime="text/markdown")
+    with c_dl2:
+        if os.path.exists("LAPORAN_HASIL_INVESTIGASI_FORENSIK.md"):
+            with open("LAPORAN_HASIL_INVESTIGASI_FORENSIK.md", "r", encoding="utf-8") as f:
+                st.download_button("🛡️ Laporan Investigasi (ISO 27037)", data=f.read(), file_name="LAPORAN_HASIL_INVESTIGASI_FORENSIK.md", mime="text/markdown")
+    with c_dl3:
+        if os.path.exists("SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md"):
+            with open("SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md", "r", encoding="utf-8") as f:
+                st.download_button("📋 Playbook SOP Insiden (NIST)", data=f.read(), file_name="SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md", mime="text/markdown")
+
+    st.markdown("---")
     st.markdown("#### ⚡ Eksekusi Master Pipeline Reproducibility (10 Tahapan)")
     st.code("python pipeline_run_all.py", language="bash")
     st.caption("Pipeline master mengeksekusi audit SHA-256, Tiered Truth Engine, SEC 20 Tahun, Event-Study, SNA, dan OSINT Manager secara sekuensial (100% reproducible).")

@@ -255,16 +255,16 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-0F7BBEF7",
+    "evidence_id": "EVD-A51DFCE8",
     "filename": "app.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/app.py",
-    "filesize_bytes": 18450,
+    "filesize_bytes": 19626,
     "source_category": "Dashboard_App",
     "description": "Aplikasi Web Dashboard Forensik Streamlit Cloud",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T16:44:09.617013+00:00",
     "hashes": {
-      "sha256": "0f7bbef736bec158f88ed508a96c3d84feec9e1501231bfed7e88f6fa2c41567",
+      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c",
       "md5": "93ae378a99235446e8095be2ca1b1b54"
     },
     "verification_status": "AUTHENTIC"
@@ -281,6 +281,21 @@
     "hashes": {
       "sha256": "44976dd76ad3341a4e2561a20fbfb2856db32fb29d4ba2abed18bb989e0f6a6a",
       "md5": "b468d6ca028ee02df483849bf117c40b"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-A51DFCE8",
+    "filename": "streamlit_app.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/streamlit_app.py",
+    "filesize_bytes": 19626,
+    "source_category": "Dashboard_App",
+    "description": "Aplikasi Web Dashboard Streamlit Cloud Entrypoint Standar",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:55:55.773646+00:00",
+    "hashes": {
+      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c",
+      "md5": "75268876b116a394f30c73d367d22373"
     },
     "verification_status": "AUTHENTIC"
   }
