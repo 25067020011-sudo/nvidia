@@ -1,45 +1,45 @@
 [
   {
-    "evidence_id": "EVD-77CC396A",
+    "evidence_id": "EVD-3090158B",
     "filename": "README.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
-    "filesize_bytes": 2708,
+    "filesize_bytes": 5523,
     "source_category": "Documentation",
     "description": "Indeks Repositori Riset Forensik",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "77cc396a11a3f1eb83d59c51f77f9f960ac11c214c1b084c0679a6158be6c4e7",
+      "sha256": "3090158b270eab96c29c471448a0548539da29678186cac6f552abdbecc3de8c",
       "md5": "b1d3b95fbac3328e716ad80a057af43e"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-626EF26D",
+    "evidence_id": "EVD-43B66268",
     "filename": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filesize_bytes": 12055,
+    "filesize_bytes": 16224,
     "source_category": "Research_Manuscript",
     "description": "Draft Manuskrip Ilmiah Lengkap Format IMRaD",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.557335+00:00",
     "hashes": {
-      "sha256": "626ef26d791f645242f3387e25d71a5778bad13e18e2a6f28de1faf341e5b337",
+      "sha256": "43b66268314d3843fe2c523ac5232764d216f459d779dea02a9412076c20c880",
       "md5": "52210d5cea85d715b2122e64aca61a87"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-0927D12E",
+    "evidence_id": "EVD-C01C8799",
     "filename": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filesize_bytes": 13596,
+    "filesize_bytes": 14911,
     "source_category": "PRD_Specification",
     "description": "PRD Master v3.0 Multi-Modal Forensics",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.578002+00:00",
     "hashes": {
-      "sha256": "0927d12e9b17be137bd17831bc1ed99c074f3403a94c48d2d71dbe86c2f5850c",
+      "sha256": "c01c879956a983c161a90adfb03c258e4e89485547f53618ab296f5c8aacaa89",
       "md5": "5aa101bf0539b07547e20def6eb1f2b9"
     },
     "verification_status": "AUTHENTIC"
@@ -120,16 +120,16 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-F68981AF",
+    "evidence_id": "EVD-59609B9B",
     "filename": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
-    "filesize_bytes": 7380,
+    "filesize_bytes": 9520,
     "source_category": "Investigation_Report",
     "description": "Laporan Resmi Penyelidikan Forensik Digital & Audit Tata Kelola Korporasi",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:40:05.787420+00:00",
     "hashes": {
-      "sha256": "f68981af07b2dd39351c85565fe6857dd7dce9ad35643802974e920de6dba61b",
+      "sha256": "59609b9b586aa3901260d173679b910240c46ea49cc7941ca2f483cb98b600ff",
       "md5": "7ed4082b2e3cda04227c120b0daf4baf"
     },
     "verification_status": "AUTHENTIC"
@@ -195,17 +195,32 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-F3495BCF",
+    "evidence_id": "EVD-275652D0",
     "filename": "pipeline_run_all.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/pipeline_run_all.py",
-    "filesize_bytes": 3544,
+    "filesize_bytes": 3725,
     "source_category": "Automation_Pipeline",
     "description": "Master Execution Pipeline: Satu Perintah untuk Menjalankan Seluruh Audit Forensik & SNA",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T16:11:15.599157+00:00",
     "hashes": {
-      "sha256": "f3495bcfe150a6695abdbe44dbb1b6144314087fc2ed6c7524b9d6c92a2700c9",
+      "sha256": "275652d004f3458eccab2401ba72a27823b73366fe38575c73b64dbc21ec41a2",
       "md5": "27d532b39a91ef0d24b269cbd8231548"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-582EE15A",
+    "filename": "08_komparasi_metode_intelijen.csv",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/08_komparasi_metode_intelijen.csv",
+    "filesize_bytes": 3355,
+    "source_category": "Forensic_Matrix",
+    "description": "Tabel Komparasi Doktrin Intelijen SIGINT vs Pegasus vs HUMINT",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:14:00.903916+00:00",
+    "hashes": {
+      "sha256": "582ee15a2f624cee4a0173f5867ea79d7b65aa006dc1ea68acf0844c256d58d4",
+      "md5": "545246dff9c2e4f19e7e09c7e7fb262e"
     },
     "verification_status": "AUTHENTIC"
   }

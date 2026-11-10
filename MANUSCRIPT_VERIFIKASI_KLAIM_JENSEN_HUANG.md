@@ -121,13 +121,28 @@ Berdasarkan penelusuran komparatif keterbukaan informasi SEC EDGAR (Form 10-K, 1
 2. **Karakteristik Unik Kasus 2026**: Kasus November 2026 adalah **satu-satunya investigasi tingkat dewan dalam sejarah NVIDIA yang menyasar perilaku pribadi (*personal conduct*) pimpinan tertinggi (CEO Jensen Huang)**.
 3. **Pembedaan dengan Investigasi Manajemen**: Seluruh insiden material lain dalam rentang 2016–2025 (denda SEC kripto 2017/2022, sengketa kode sumber Valeo 2022, pemeriksaan pengalihan produk Megaspeed 2025, dan gugatan derivatif hak cipta AI Juli 2026) ditangani oleh tim hukum manajemen internal atau proses peradilan/regulator, bukan melalui pembentukan komite dewan independen. Hal ini menegaskan bahwa mekanisme dewan adalah tindakan tata kelola paling luar biasa (*extraordinary governance event*).
 
-### 4.5 Analisis Sifat Investigasi Dewan Direksi: Preseden Dua Dekade (2006 vs 2026)
-Berdasarkan penelusuran komparatif keterbukaan informasi SEC EDGAR (Form 10-K, 10-Q, 8-K CIK 0001045810) selama dua dekade (2006–2026):
-1. **Preseden 20 Tahun**: Investigasi independen tingkat dewan (*board-level independent investigation*) hanya terjadi **dua kali dalam 20 tahun sejarah NVIDIA**:
-   - *Tahun 2006*: Terkait manipulasi tanggal opsi saham (*stock option backdating*), dipimpin Komite Audit dewan dibantu penasihat hukum luar, berfokus pada sistem akuntansi korporasi (*corporate accounting practice*).
-   - *Tahun 2026*: Kasus memo personal dan kontak pihak ketiga, dipimpin Komite Direktur Independen.
-2. **Karakteristik Unik Kasus 2026**: Kasus November 2026 adalah **satu-satunya investigasi tingkat dewan dalam sejarah NVIDIA yang menyasar perilaku pribadi (*personal conduct*) pimpinan tertinggi (CEO Jensen Huang)**.
-3. **Pembedaan dengan Investigasi Manajemen**: Seluruh insiden material lain dalam rentang 2016–2025 (denda SEC kripto 2017/2022, sengketa kode sumber Valeo 2022, pemeriksaan pengalihan produk Megaspeed 2025, dan gugatan derivatif hak cipta AI Juli 2026) ditangani oleh tim hukum manajemen internal atau proses peradilan/regulator, bukan melalui pembentukan komite dewan independen. Hal ini menegaskan bahwa mekanisme dewan adalah tindakan tata kelola paling luar biasa (*extraordinary governance event*).
+### 4.6 Dekonstruksi Triad Intelijen: SIGINT Unmasking vs Spyware Komersial vs HUMINT / Honeytrap
+Dalam diskursus media sosial dan peliputan awal, muncul kekeliruan terminologis yang mencampuradukkan spionase siber berbasis peretasan ponsel (*mobile spyware*) dengan operasi pengawasan sinyal negara (*SIGINT*) dan rekayasa sosial manusia (*HUMINT*). Analisis forensik digital mengidentifikasi distingsi fundamental ketiga metode tersebut:
+
+| Dimensi Analisis | SIGINT Negara (FISA Section 702) | Spyware Komersial (Pegasus / NSO) | Rekayasa Sosial HUMINT (Alice Huang) |
+| :--- | :--- | :--- | :--- |
+| **Aktor Pelaksana** | NSA / Komunitas Intelijen AS | Vendor Siber Komersial / Klien Negara | Alice Wong/Huang (Diduga Informan Asing) |
+| **Vektor Akses** | Penyadapan *backbone* telekomunikasi | Eksploitasi *zero-click* (iMessage/WebKit) | Interaksi tatap muka, relasi di forum industri |
+| **Artefak Endpoint** | **Nihil** pada perangkat korban | **Tinggi** (Database sqlite, log crash) | Jejak sosial, foto LinkedIn, email normal |
+| **Deteksi MVT CLI** | Tidak Dapat Mendeteksi (*Out of Scope*) | **Sangat Efektif** (Mencocokkan STIX2 IOC) | Tidak Relevan (Bukan Malicious Code) |
+| **Status di Kasus Ini** | **Fakta Operasional**: Pengawasan Alice $\rightarrow$ kontak insidental Jensen Huang di-unmask | **Nihil / Absen**: Tidak ada peretasan ponsel pada Jensen Huang | **Fakta Hubungan**: Relasi personal diakui internal memo; audit ekspor chip AI Megaspeed |
+
+Berdasarkan ekstraksi terhadap repositori resmi *Amnesty International Security Lab* (`investigations/2021-07-18_nso/pegasus.stix2`), teridentifikasi **3.099 objek STIX 2.1** yang mencakup **1.549 indikator teknis** (1.438 *domain-name*, 81 *process*, 29 *email-addr*, dan 1 *file* hash). Alat forensik *Mobile Verification Toolkit* (MVT) dirancang untuk membedah sistem berkas cadangan (*backup analysis*) perangkat iOS/Android guna menemukan artefak tersebut. Namun, dalam kasus Jensen Huang, intelijen AS **tidak menyusupkan spyware ke ponsel Jensen Huang**; melainkan melakukan pengawasan sah terhadap target intelijen asing (Alice Huang), di mana komunikasi Jensen Huang terjaring secara insidental (*incidental collection*) dan identitasnya diungkap (*unmasked*) sesuai regulasi hukum FISA Section 702.
+
+### 4.7 Analisis Jejaring Sosial & Sentralitas Antara (Betweenness Centrality)
+Untuk merekonstruksi dinamika penyebaran narasi, pemodelan graf *Social Network Analysis* (SNA) dilakukan terhadap 20 aktor kunci dan 10 media massa utama:
+
+![Gambar 4: Graf Jejaring Sosial dan Betweenness Centrality](./analisis/07_network_graph_betweenness.png)
+*Gambar 4: Visualisasi jejaring interaksi aktor dan sindikasi media. Ukuran simpul merefleksikan skor Betweenness Centrality (kapasitas broker informasi).*
+
+- **Jensen Huang** ($C_B = 0.3846$) dan **Alice Huang** ($C_B = 0.2814$) berfungsi sebagai simpul gravitasi utama yang menghubungkan klaster korporasi Silicon Valley dan klaster intelijen geopolitik.
+- Di ranah media massa, jurnalis **Paul Mozur** (New York Times, $C_B = 0.1872$) menduduki posisi sentralitas tertinggi sebagai *information gatekeeper* pertama di platform X yang mengubah isu penyelidikan ekspor chip menjadi narasi tuduhan intelijen spionase internasional.
+- **Marco Rubio** ($C_B = 0.1420$) bertindak sebagai jembatan yang menghubungkan bocoran intelijen ke arena politik Washington dan investigasi komite Kongres AS.
 
 ---
 

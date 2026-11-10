@@ -70,7 +70,10 @@ def main():
          "7. Pemodelan Social Network Analysis (Betweenness Centrality 20 Aktor & 10 Media)"),
 
         ([python_bin, "analisis_berita.py", "berita_skandal_jensen_huang.csv"],
-         "8. Audit Leksikal Multibahasa & Klasterisasi Sindikasi Berita Arus Utama")
+         "8. Audit Leksikal Multibahasa & Klasterisasi Sindikasi Berita Arus Utama"),
+
+        ([python_bin, "tools/mobile_spyware_forensic_comparator.py"],
+         "9. Komparasi Triad Intelijen Forensik: SIGINT Unmasking vs Spyware Komersial vs HUMINT Honeytrap")
     ]
 
     success_count = 0

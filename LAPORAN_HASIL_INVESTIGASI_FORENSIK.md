@@ -78,6 +78,26 @@ Audit forensik terhadap arsip Form 10-K, 10-Q, dan 8-K pada basis data SEC EDGAR
 - **Rujukan Grafik Visual**:
   - [`analisis/05_saham_event_study.png`](./analisis/05_saham_event_study.png)
 
+### 4.3 Komparasi Triad Intelijen: SIGINT Unmasking vs Spyware Komersial vs HUMINT
+Berdasarkan investigasi komparatif forensik digital terhadap metode pengumpulan data intelijen:
+1. **SIGINT Negara (FISA Section 702)**: Intelijen AS (NSA/komunitas intelijen) menyadap komunikasi Alice Huang (warga asing). Jensen Huang (warga AS) tersadap secara insidental (*incidental collection*), kemudian identitasnya dibuka (*unmasked*) secara legal. Tidak meninggalkan jejak fisik/file pada ponsel target.
+2. **Spyware Komersial (Pegasus / NSO Group)**: Tidak ditemukan bukti pemanfaatan spyware pada ponsel Jensen Huang. Audit STIX2 IOC dari *Amnesty International Security Lab* memvalidasi 3.099 objek (1.549 indikator). Alat forensik *Mobile Verification Toolkit* (MVT) efektif mendeteksi artefak spyware di level OS/storage, namun tidak relevan pada kasus penyadapan upstream level jaringan/backbone negara.
+3. **HUMINT / Rekayasa Sosial (Alice Huang)**: Metode pendekatan Alice Huang murni berbasis relasi personal di forum industri (Computex Taipei, bar lounge), bukan peretasan teknologi.
+
+*Rujukan Dataset*: [`analisis/08_komparasi_metode_intelijen.csv`](./analisis/08_komparasi_metode_intelijen.csv)
+
+### 4.4 Social Network Analysis (Betweenness Centrality 20 Aktor & 10 Media)
+Pemodelan graf jejaring interaksi dan sindikasi informasi memetakan simpul broker kritis:
+- **Jensen Huang** ($C_B = 0.3846$): Sentralitas tertinggi sebagai episentrum konvergensi isu korporasi dan investigasi intelijen.
+- **Alice Huang** ($C_B = 0.2814$): Simpul penghubung antara klaster bisnis hardware dan jaringan entitas asing.
+- **Paul Mozur (NYT)** ($C_B = 0.1872$): Pialang informasi media sosial pertama di X yang menaikkan tuduhan spionase ke diskursus global.
+- **Marco Rubio** ($C_B = 0.1420$): Katalis politik penghubung taklimat intelijen ke komite investigasi Kongres.
+
+*Rujukan Grafik & Dataset*:
+- [`analisis/07_network_graph_betweenness.png`](./analisis/07_network_graph_betweenness.png)
+- [`analisis/matriks_sna_20_aktor.csv`](./analisis/matriks_sna_20_aktor.csv)
+- [`analisis/matriks_sna_10_media.csv`](./analisis/matriks_sna_10_media.csv)
+
 ---
 
 ## 5. BUKTI RANTAI PENGAWASAN FORENSIK (ISO/IEC 27037:2012)

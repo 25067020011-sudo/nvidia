@@ -105,7 +105,8 @@ Munculnya spekulasi bahwa insiden ini merupakan "rekayasa pengalihan isu" (*fals
 2. **ExifTool**: Audit metadata EXIF, encoding profile, dan integritas kontainer video.
 3. **FotoForensics**: Error Level Analysis (ELA) untuk mendeteksi penempelan/komposisi elemen visual palsu.
 4. **Spectral Audio Analyzer (Python/Librosa)**: Visualisasi spektrogram MFCC untuk mendeteksi *neural vocoder artifacts*.
-5. **Gephi / NetworkX**: Analisis graf jaringan aktor penyebar hoaks pertama (*patient zero analysis*).
+5. **Gephi / NetworkX**: Analisis graf jaringan aktor penyebar hoaks pertama (*patient zero analysis*) dan penghitungan *Betweenness Centrality*.
+6. **Mobile Verification Toolkit (MVT) & STIX2 IOC Analyzer**: Analisis forensik sistem berkas endpoint iOS/Android dan pencocokan indikator kompromi spyware komersial (AmnestyTech STIX2 database).
 
 ---
 
@@ -121,15 +122,23 @@ flowchart TD
     subgraph Tahap 2: Verifikasi Forensik Multimodal
         B1["Uji Video Deepfake YouTube (FaceForensics++/FakeAVCeleb)"] --> B2["Analisis ELA Foto/Tangkapan Layar Klip Viral"]
         B2 --> B3["Audit Spektrum Suara Keynote Asli vs Video Kloning"]
+        B3 --> B4["Audit Endpoint Spyware (MVT STIX2) vs Upstream SIGINT"]
     end
 
     subgraph Tahap 3: Analisis Propagasi & Rekonstruksi Narasi
         C1["Query GDELT & Media Cloud (Framing Berita)"] --> C2["SNA di X/YouTube API: Pelacakan Sumber Pertama (Patient Zero)"]
-        C3["Koreksi Fakta Bertingkat (Tiered Truth Classification)"]
+        C2 --> C3["Analisis Sentralitas Antara (Betweenness Centrality)"]
+        C3 --> C4["Koreksi Fakta Bertingkat (Tiered Truth Classification)"]
     end
 
     Tahap 1 --> Tahap 2 --> Tahap 3
 ```
+
+### 5.1 Kerangka Triad Intelijen Forensik: SIGINT vs. Spyware vs. HUMINT
+Penelitian ini menetapkan distingsi metodologis tripartit untuk mencegah kesalahan atribuasi teknis dalam investigasi:
+- **SIGINT Hulu (FISA Section 702)**: Penyadapan level infrastruktur komunikasi terhadap target intelijen asing (Alice Huang); kontak insidental warga AS (Jensen Huang) di-unmask secara legal. *Artefak endpoint lokal: NIHIL*.
+- **Spyware Komersial (Pegasus / NSO)**: Eksploitasi level sistem operasi perangkat keras seluler (zero-click). *Artefak endpoint lokal: TINGGI (terdeteksi via STIX2 MVT)*. *Status dalam kasus: NIHIL*.
+- **HUMINT / Rekayasa Sosial**: Interaksi relasional langsung tatap muka pada forum industri. *Artefak: Jejak sosial & audit kepatuhan korporasi*.
 
 ---
 
