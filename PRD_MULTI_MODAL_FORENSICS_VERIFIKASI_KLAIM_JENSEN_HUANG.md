@@ -49,6 +49,15 @@ Fenomena beredarnya klaim *"Jensen Huang diserang fisik"* menunjukkan pola tipik
 
 Penelitian ini membedah **bagaimana sebuah insiden fisik minor (protes verbal) ditransformasikan menjadi narasi serangan hibrida** melalui saluran digital, serta bagaimana alat forensik digital dapat membuktikannya secara matematis dan prosedural.
 
+### 2.2 Dekomposisi Jaringan Aktor & Analisis Motif Kepentingan
+Untuk menjaga objektivitas ilmiah dan mencegah atribusi spekulatif, dinamika kasus didekonstruksi ke dalam 4 kuadran pemangku kepentingan:
+1. **Komite Direktur Independen NVIDIA**: Menjalankan mekanisme kepatuhan tata kelola (*governance audit*) didampingi penasihat hukum eksternal independen guna melindungi kepentingan pemegang saham dan korporasi menjelang rilis kinerja kuartalan. CEO tetap menjabat penuh.
+2. **Aparatur Intelijen & Pembocor Anonim**: Pengawasan terhadap perantara perdagangan luar negeri telah berlangsung lintas periode kepresidenan. Pembocoran memo kepada media investigasi dipicu oleh perbedaan pandangan kebijakan terkait penegakan batas ekspor chip canggih, bukan konspirasi pengambilalihan korporasi.
+3. **Komite Pengawasan Legislatif (Kongres AS)**: Menjalankan fungsi pengawasan keamanan nasional terkait rantai pasok dan transfer teknologi kecerdasan buatan.
+4. **Entitas Perantara Perdagangan**: Berfokus pada dinamika akses pasokan teknologi dan arah kebijakan pembatasan semikonduktor.
+
+*Pedoman Metodologis*: Aspek-aspek tanpa atribusi publik resmi (seperti identitas spesifik pembocor dokumen internal) wajib diklasifikasikan sebagai variabel anonim/tidak terverifikasi, bukan diisi dengan spekulasi konspiratif.
+
 ---
 
 ## 3. Rumusan Masalah (Research Questions) & Hipotesis

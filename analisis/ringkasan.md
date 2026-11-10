@@ -60,3 +60,4 @@
 18. **Anadolu Agency** — 3 laporan
 19. **New York Times** — 3 laporan investigasi
 20. **Block Media (Korea)** — 3 laporan
+
