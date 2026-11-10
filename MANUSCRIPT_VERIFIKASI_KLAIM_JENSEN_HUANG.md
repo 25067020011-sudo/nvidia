@@ -72,16 +72,22 @@ Mengacu pada standar verifikasi informasi ilmiah, keabsahan klaim dipetakan ke d
 ### 4.1 Dekonstruksi Klaim Serangan Fisik (Hasil Korpus Berita)
 Pengujian leksikal terhadap 300 artikel berita internasional menghasilkan distribusi klaim sebagai berikut:
 
+![Gambar 1: Sebaran Klaim Judul Berita](./analisis/04_klaim.png)
+*Gambar 1: Distribusi kategori narasi yang muncul pada judul dan tautan berita (N=300).*
+
 | Kategori Narasi | Frekuensi Kemunculan | Proporsi (%) | Status Verifikasi |
 | :--- | :---: | :---: | :--- |
-| **Spionase / Kontak Alice Huang** | 144 | 48.0% | Dilaporkan Media Investigasi |
-| **Investigasi Kongres / Audit Dewan** | 65 | 21.7% | Terkonfirmasi Prosedur Tata Kelola |
+| **Spionase / Kontak Alice Huang** | 154 | 51.3% | Dilaporkan Media Investigasi |
+| **Investigasi Kongres / Audit Dewan** | 198 | 66.0% | Terkonfirmasi Prosedur Tata Kelola |
 | **Megaspeed / Kepatuhan Ekspor Chip** | 56 | 18.7% | Dilaporkan Regulasi Perdagangan |
 | **Bantahan Resmi Korporasi** | 21 | 7.0% | Terkonfirmasi Rilis Primer |
 | **Memo Pengakuan Perselingkuhan** | 18 | 6.0% | Terkonfirmasi Memo Internal |
-| **Pasar Modal & Saham** | 7 | 2.3% | Terkonfirmasi Data Finansial |
+| **Pasar Modal & Saham** | 18 | 6.0% | Terkonfirmasi Data Finansial |
 | **SERANGAN FISIK** | **0** | **0.0%** | **PALSU / DISTORSI TOTAL** |
 | **Serangan Siber Jaringan** | **0** | **0.0%** | **Nihil di Media Berita Arus Utama** |
+
+![Gambar 2: Garis Waktu Volume Pemberitaan](./analisis/01_timeline.png)
+*Gambar 2: Dinamika volume berita harian menunjukkan lonjakan puncak pada 30 Oktober 2026 pasca-laporan awal investigasi.*
 
 *Temuan*: Klaim serangan fisik di media sosial terbukti merupakan distorsi informasi yang mengeksploitasi insiden interupsi verbal aktivis di Berlin (21 Oktober 2026). Tidak pernah terjadi kekerasan fisik.
 
@@ -93,6 +99,10 @@ Serangan digital terbukti aktif pada 28 Oktober 2026 melalui kanal YouTube bajak
 
 ### 4.3 Analisis Ekonometrika Event-Study (Saham NVDA)
 Hasil uji kuantitatif terhadap data harga saham NVDA (`nvda_skandal.csv`):
+
+![Gambar 3: Reaksi Pasar Saham NVDA](./analisis/05_saham_event_study.png)
+*Gambar 3: Pergerakan harga penutupan dan volume transaksi saham NVDA (September–November 2026) dengan pemetaan tanggal peristiwa kunci.*
+
 - **Jendela 1 (21–29 Okt 2026)**: Harga saham relatif stabil di kisaran $213 – $221, membuktikan bahwa isu protes Berlin dan awal laporan media tidak menimbulkan kepanikan sistemik.
 - **Jendela 2 (5 Nov 2026 - Paska Pemilu Sela)**: Saham anjlok -9.26% ($206.69 $\rightarrow$ $181.60) bersamaan dengan jatuhnya Nasdaq 100 akibat kekhawatiran regulasi pusat data AI paska-kemenangan Partai Demokrat.
 - **Jendela 3 (9 Nov 2026 - Reaksi Memo)**: Terjadi penurunan tambahan ke $178.67 dengan ledakan volume perdagangan rekor **459,1 Juta lembar**, merefleksikan diskon ketidakpastian kepemimpinan (*governance discount*).
@@ -102,6 +112,14 @@ Hipotesis bahwa skandal ini dirancang sebagai pengalihan isu pemilu terbantahkan
 1. Waktu kemunculan (5 hari pra-pemilu) justru memperlemah posisi politik eksekutif petahana dan berujung pada kekalahan elektoral.
 2. Penyelidikan intelijen telah berjalan sejak era pemerintahan sebelumnya, membantah klaim rekayasa dadakan.
 3. Keterlibatan dewan direksi merupakan pelaksanaan kewajiban fidusia (*fiduciary duty*) untuk melindungi nilai pemegang saham menjelang pelaporan keuangan kuartalan.
+
+### 4.5 Analisis Sifat Investigasi Dewan Direksi: Preseden Dua Dekade (2006 vs 2026)
+Berdasarkan penelusuran komparatif keterbukaan informasi SEC EDGAR (Form 10-K, 10-Q, 8-K CIK 0001045810) selama dua dekade (2006–2026):
+1. **Preseden 20 Tahun**: Investigasi independen tingkat dewan (*board-level independent investigation*) hanya terjadi **dua kali dalam 20 tahun sejarah NVIDIA**:
+   - *Tahun 2006*: Terkait manipulasi tanggal opsi saham (*stock option backdating*), dipimpin Komite Audit dewan dibantu penasihat hukum luar, berfokus pada sistem akuntansi korporasi (*corporate accounting practice*).
+   - *Tahun 2026*: Kasus memo personal dan kontak pihak ketiga, dipimpin Komite Direktur Independen.
+2. **Karakteristik Unik Kasus 2026**: Kasus November 2026 adalah **satu-satunya investigasi tingkat dewan dalam sejarah NVIDIA yang menyasar perilaku pribadi (*personal conduct*) pimpinan tertinggi (CEO Jensen Huang)**.
+3. **Pembedaan dengan Investigasi Manajemen**: Seluruh insiden material lain dalam rentang 2016–2025 (denda SEC kripto 2017/2022, sengketa kode sumber Valeo 2022, pemeriksaan pengalihan produk Megaspeed 2025, dan gugatan derivatif hak cipta AI Juli 2026) ditangani oleh tim hukum manajemen internal atau proses peradilan/regulator, bukan melalui pembentukan komite dewan independen. Hal ini menegaskan bahwa mekanisme dewan adalah tindakan tata kelola paling luar biasa (*extraordinary governance event*).
 
 ### 4.5 Analisis Sifat Investigasi Dewan Direksi: Preseden Dua Dekade (2006 vs 2026)
 Berdasarkan penelusuran komparatif keterbukaan informasi SEC EDGAR (Form 10-K, 10-Q, 8-K CIK 0001045810) selama dua dekade (2006–2026):

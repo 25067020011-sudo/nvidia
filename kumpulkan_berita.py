@@ -116,7 +116,9 @@ def kumpulkan(mulai, selesai, target):
                         "gdelt_seendate_utc": datetime.strptime(sd, "%Y%m%dT%H%M%SZ").strftime("%Y-%m-%d %H:%M") if sd else "",
                         "query": q,
                     })
-                print(f"{q[:40]:40} {s:%m-%d %H}h  +{baru:3d}  total unik {len(rows)}")
+                print(f"{q[:40]:40} {s:%m-%d %H}h  +{baru:3d}  total unik {len(rows)}", flush=True)
+                if baru > 0:
+                    pd.DataFrame(rows).to_csv("gdelt_mentah.csv", index=False, encoding="utf-8-sig")
             if len(rows) >= target * 1.15:  # cadangan 15% untuk link yang mati
                 return rows
             t += timedelta(hours=6)

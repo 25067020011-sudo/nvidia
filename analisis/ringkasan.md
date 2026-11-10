@@ -1,63 +1,53 @@
-# Ringkasan Analisis Forensik Media — Korpus Berita Skandal Jensen Huang (NVIDIA)
+# Ringkasan analisis berita — berita_skandal_jensen_huang.csv
 
-- **Total Berita Dianalisis:** 300 Berita
-- **Artikel Bertanggal Valid:** 69 (23%), rentang 2026-10-29 s.d. 2026-11-09
-- **Berita Konteks Historis (Sebelum Okt 2026):** 3 Berita
-- **Jumlah Media Unik:** 212 Media | **Sebaran Bahasa:** 15 Bahasa
-- **Salinan Sindikasi (Judul Identik/Dimuat Ulang):** 6 berita dalam 6 klaster -> **Sumber Independen Efektif:** 294 Media
-- **Puncak Volume Pemberitaan:** 30 Oktober 2026 (26 berita dalam 1 hari pasca laporan awal spionase)
+- **Total berita:** 300
+- **Bertanggal:** 69 (23%), rentang 2026-10-29 s.d. 2026-11-09
+- **Berita konteks sebelum Okt 2026 (tidak masuk timeline):** 3
+- **Media unik:** 242 | **Bahasa:** 6
+- **Salinan sindikasi (judul hampir identik):** 292 berita dalam 8 klaster -> sumber independen efektif sekitar 8
+- **Status link:** valid: 285, terkunci/paywall (403): 15
+- **Puncak pemberitaan:** 2026-10-30 (26 berita)
 
----
+## Klaim di judul/URL
 
-## 1. Distribusi Klaim pada Judul & URL Berita
+| Klaim | Jumlah | % |
+|---|---:|---:|
+| Investigasi / Kongres / dewan | 198 | 66.0% |
+| Spionase / Alice Huang | 154 | 51.3% |
+| Megaspeed / ekspor chip | 56 | 18.7% |
+| Bantahan NVIDIA / Huang | 21 | 7.0% |
+| Perselingkuhan | 18 | 6.0% |
+| Saham / pasar | 18 | 6.0% |
+| Kubu Garis Keras / Rubio / Hawkish | 0 | 0.0% |
+| Spekulasi Politik / Dalang Trump | 0 | 0.0% |
+| SERANGAN FISIK | 0 | 0.0% |
+| Serangan siber / peretasan | 0 | 0.0% |
 
-| Kategori Klaim | Jumlah Kemunculan | Persentase (%) | Implikasi Forensik & Verifikasi |
-| :--- | :---: | :---: | :--- |
-| **Spionase / Alice Huang** | **144** | **48.0%** | Narasi dominan; fokus pada dugaan kontak dengan pihak ketiga dan penyelidikan intelijen. |
-| **Investigasi / Kongres / Dewan** | **65** | **21.7%** | Audit tata kelola korporasi (*corporate governance*) dan pengawasan regulator AS. |
-| **Megaspeed / Ekspor Chip** | **56** | **18.7%** | Isu regulasi ekspor semikonduktor, jalur distribusi Singapura/Malaysia, dan kepatuhan sanksi. |
-| **Bantahan NVIDIA / Huang** | **21** | **7.0%** | Hak jawab resmi korporasi yang membantah adanya interaksi mencurigakan atau pelanggaran. |
-| **Perselingkuhan** | **18** | **6.0%** | Memo internal pengakuan hubungan personal yang memicu evaluasi etika pimpinan. |
-| **Saham / Reaksi Pasar** | **7** | **2.3%** | Dampak volatilitas harga saham NVDA (penurunan tajam ke $178 - $181). |
-| **SERANGAN FISIK** | **0** | **0.0%** | **NIHIL / PALSU.** Tidak ditemukan satu pun laporan media arus utama tentang kekerasan fisik. |
-| **Serangan Siber / Peretasan** | **0** | **0.0%** | **NIHIL di Media Berita Arus Utama.** Serangan deepfake YouTube terlokalisasi di ranah media sosial. |
+## Verifikasi klaim "Jensen Huang diserang fisik"
 
----
+Tidak ada satu pun judul yang memuat klaim serangan fisik. Narasi "diserang" yang beredar tidak didukung pemberitaan media dalam korpus ini; isu yang sebenarnya adalah dugaan spionase (Alice Huang/Megaspeed) dan perselingkuhan.
 
-## 2. Kesimpulan Verifikasi Empiris: Klaim "Jensen Huang Diserang Fisik"
+## 20 media teratas
 
-> [!IMPORTANT]
-> **TEMUAN KUNCI FORENSIK DIGITAL:**
-> **0 dari 300 berita (0.0%)** memuat klaim serangan fisik terhadap Jensen Huang.
-> Klaim viral di media sosial yang menyebutkan *"Jensen Huang diserang fisik"* terbukti sebagai **Fabrikasi / Distorsi Konteks Total (Disinformation)**.
->
-> **Akar Distorsi yang Berhasil Didekonstruksi:**
-> 1. Insiden nyata di dunia nyata hanyalah **protes verbal (*heckling*)** oleh aktivis lingkungan/perang di panggung GTC Berlin (21 Okt 2026).
-> 2. Di media sosial, narasi *"Huang diserang di Berlin"* diamplifikasi tanpa kata *"verbal"*, lalu digabungkan dengan kepanikan pasar atas **tuduhan spionase (48%)** dan **isu memo perselingkuhan (6%)**.
-> 3. Hasilnya adalah pembentukan persepsi palsu di benak publik bahwa telah terjadi serangan fisik/kekerasan terhadap CEO NVIDIA.
+1. Tech Insider — 9
+2. NewsBytes — 7
+3. Crypto Briefing — 5
+4. Implicator.ai — 5
+5. AI Weekly — 4
+6. ShiftDelete — 4
+7. Let's Data Science — 4
+8. Tom's Hardware — 4
+9. HyperAI — 3
+10. Deccan Chronicle — 3
+11. NVIDIA Newsroom — 3
+12. AI Chat Daily — 3
+13. OfficeChai — 3
+14. FourWeekMBA — 3
+15. ZeroHedge — 3
+16. NeoTeo — 3
+17. Liberty Times — 3
+18. Anadolu Agency — 3
+19. New York Times — 3
+20. Block Media — 3
 
----
-
-## 3. Profil 20 Media Paling Aktif Memberitakan
-
-1. **Tech Insider** — 9 laporan
-2. **NewsBytes** — 7 laporan
-3. **Crypto Briefing** — 5 laporan
-4. **Implicator.ai** — 5 laporan
-5. **AI Weekly** — 4 laporan
-6. **ShiftDelete** — 4 laporan
-7. **Let's Data Science** — 4 laporan
-8. **Tom's Hardware** — 4 laporan
-9. **HyperAI** — 3 laporan
-10. **Deccan Chronicle** — 3 laporan
-11. **NVIDIA Newsroom (Sumber Primer)** — 3 rilis resmi
-12. **AI Chat Daily** — 3 laporan
-13. **OfficeChai** — 3 laporan
-14. **FourWeekMBA** — 3 laporan
-15. **ZeroHedge** — 3 laporan
-16. **NeoTeo** — 3 laporan
-17. **Liberty Times (Taiwan)** — 3 laporan
-18. **Anadolu Agency** — 3 laporan
-19. **New York Times** — 3 laporan investigasi
-20. **Block Media (Korea)** — 3 laporan
-
+_Label klaim berbasis kata kunci, bukan pembacaan isi artikel. Gunakan sebagai penyaring awal, lalu validasi sampel secara manual (mis. 100 baris acak) dan laporkan presisinya._

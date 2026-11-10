@@ -29,4 +29,13 @@ Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian
 ## 🛠️ Toolkit & Korpus Verifikasi
 1. **Verifikasi Media Multimodal**: InVID-WeVerify, FotoForensics (Error Level Analysis), ExifTool.
 2. **Benchmark Deepfake**: FaceForensics++, DFDC, Celeb-DF v2, FakeAVCeleb.
-3. **Data Primer & Pelacakan Narasi**: SEC EDGAR (Form 8-K), GDELT Project, Media Cloud, Wayback Machine, X API (SNA).
+3. **Data Primer & Pelacakan Narasi**: SEC EDGAR (Form 8-K / 10-K), GDELT Project, Media Cloud, Wayback Machine, X API (SNA).
+
+---
+
+## 📊 Visualisasi Analisis Forensik Media & Ekonometrika
+- [`analisis/01_timeline.png`](./analisis/01_timeline.png): Garis waktu volume pemberitaan harian (puncak 30 Oktober 2026).
+- [`analisis/02_media_teratas.png`](./analisis/02_media_teratas.png): 20 media teratas yang mempublikasikan isu skandal.
+- [`analisis/03_bahasa.png`](./analisis/03_bahasa.png): Distribusi bahasa artikel berita internasional.
+- [`analisis/04_klaim.png`](./analisis/04_klaim.png): Sebaran kategori klaim di judul dan URL berita.
+- [`analisis/05_saham_event_study.png`](./analisis/05_saham_event_study.png): Analisis event-study fluktuasi saham NVDA vs. kalender peristiwa makro.
