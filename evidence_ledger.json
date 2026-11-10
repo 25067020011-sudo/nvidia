@@ -15,31 +15,31 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-43B66268",
+    "evidence_id": "EVD-55A9412C",
     "filename": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filesize_bytes": 16224,
+    "filesize_bytes": 19335,
     "source_category": "Research_Manuscript",
     "description": "Draft Manuskrip Ilmiah Lengkap Format IMRaD",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.557335+00:00",
     "hashes": {
-      "sha256": "43b66268314d3843fe2c523ac5232764d216f459d779dea02a9412076c20c880",
+      "sha256": "55a9412c779fb2bae1cdd545cf329ad26e074c3d355de28641ac22978d280514",
       "md5": "52210d5cea85d715b2122e64aca61a87"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-C01C8799",
+    "evidence_id": "EVD-A32DD738",
     "filename": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filesize_bytes": 14911,
+    "filesize_bytes": 20170,
     "source_category": "PRD_Specification",
     "description": "PRD Master v3.0 Multi-Modal Forensics",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.578002+00:00",
     "hashes": {
-      "sha256": "c01c879956a983c161a90adfb03c258e4e89485547f53618ab296f5c8aacaa89",
+      "sha256": "a32dd738e6c5ca31080c79772e26ecbaad498b50d815bac8d09a55ce2cb92b2b",
       "md5": "5aa101bf0539b07547e20def6eb1f2b9"
     },
     "verification_status": "AUTHENTIC"
@@ -120,16 +120,16 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-59609B9B",
+    "evidence_id": "EVD-217EE4A8",
     "filename": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
-    "filesize_bytes": 9520,
+    "filesize_bytes": 10955,
     "source_category": "Investigation_Report",
     "description": "Laporan Resmi Penyelidikan Forensik Digital & Audit Tata Kelola Korporasi",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:40:05.787420+00:00",
     "hashes": {
-      "sha256": "59609b9b586aa3901260d173679b910240c46ea49cc7941ca2f483cb98b600ff",
+      "sha256": "217ee4a8999fc46c7f40bb19929d29761f0de59bf2ae11729534e6f81ec5ef09",
       "md5": "7ed4082b2e3cda04227c120b0daf4baf"
     },
     "verification_status": "AUTHENTIC"
@@ -195,16 +195,16 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-275652D0",
+    "evidence_id": "EVD-C6F768FF",
     "filename": "pipeline_run_all.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/pipeline_run_all.py",
-    "filesize_bytes": 3725,
+    "filesize_bytes": 3858,
     "source_category": "Automation_Pipeline",
     "description": "Master Execution Pipeline: Satu Perintah untuk Menjalankan Seluruh Audit Forensik & SNA",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T16:11:15.599157+00:00",
     "hashes": {
-      "sha256": "275652d004f3458eccab2401ba72a27823b73366fe38575c73b64dbc21ec41a2",
+      "sha256": "c6f768ffb8f44b59fc6668146ca72b971825348bedef0e43d99a31ba55d55aca",
       "md5": "27d532b39a91ef0d24b269cbd8231548"
     },
     "verification_status": "AUTHENTIC"
@@ -221,6 +221,36 @@
     "hashes": {
       "sha256": "582ee15a2f624cee4a0173f5867ea79d7b65aa006dc1ea68acf0844c256d58d4",
       "md5": "545246dff9c2e4f19e7e09c7e7fb262e"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-21F5BC1F",
+    "filename": "02_status_klaim.csv",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/02_status_klaim.csv",
+    "filesize_bytes": 1743,
+    "source_category": "Forensic_Matrix",
+    "description": "Matriks Evaluasi Status 4 Klaim Kunci Tiered Truth",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:25:57.135082+00:00",
+    "hashes": {
+      "sha256": "21f5bc1fbe8829cbb9eaa683efa2a922fde736e9d8a5071278b8e9083c1a9bab",
+      "md5": "73bd2c51d8c057ec7e647aa1a6e4b48c"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-138C459B",
+    "filename": "09_osint_artefak.csv",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/09_osint_artefak.csv",
+    "filesize_bytes": 7322,
+    "source_category": "OSINT_Catalog",
+    "description": "Katalog 11 Artefak Publik OSINT dan Metodologi Forensik",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:26:02.091254+00:00",
+    "hashes": {
+      "sha256": "138c459bf7ff014e273bf7306ebb736dba39fd59ac663b92a90ba2c3f873cfc7",
+      "md5": "37e6c3713876e5863bb0fbd5e0893db3"
     },
     "verification_status": "AUTHENTIC"
   }

@@ -31,9 +31,10 @@ Penyelidikan forensik digital terpadu ini menyimpulkan:
 [ KLAIM VIRAL ]                         [ FAKTA FORENSIK TERVERIFIKASI ]         [ STATUS ]
 1. "Huang diserang fisik di Berlin"  ->  Protes verbal aktivis panggung           ->  FABRIKASI (PALSU)
 2. "NVIDIA rilis giveaway kripto"    ->  Deepfake AI YouTube Live (~100k bot)      ->  SERANGAN SIBER
-3. "Trump mendalangi penjebakan"     ->  Penyelidikan sejak era Biden, Trump pasif ->  SPEKULATIF
-4. "Investigasi dewan adalah rutin"  ->  Hanya terjadi 2 kali dalam 20 tahun       ->  TERBANTAHKAN
-5. "Skandal rekayasa pemilu sela"    ->  Merugikan petahana 5 hari pra-pemilu      ->  TIDAK RASIONAL
+3. "Trump mendalangi penjebakan"     ->  Penyelidikan sejak era Biden, Trump pasif ->  SPEKULATIF (DITOLAK)
+4. "Musk mendalangi kejatuhan Huang" ->  Musk pembeli $10B GPU, deal xAI $20B      ->  KONTRADIKTIF (DITOLAK)
+5. "Investigasi dewan adalah rutin"  ->  Hanya terjadi 2 kali dalam 20 tahun       ->  TERBANTAHKAN
+6. "Skandal rekayasa pemilu sela"    ->  Merugikan petahana 5 hari pra-pemilu      ->  TIDAK RASIONAL
 ```
 
 ---
@@ -97,6 +98,16 @@ Pemodelan graf jejaring interaksi dan sindikasi informasi memetakan simpul broke
 - [`analisis/07_network_graph_betweenness.png`](./analisis/07_network_graph_betweenness.png)
 - [`analisis/matriks_sna_20_aktor.csv`](./analisis/matriks_sna_20_aktor.csv)
 - [`analisis/matriks_sna_10_media.csv`](./analisis/matriks_sna_10_media.csv)
+
+### 4.5 Katalog Artefak Publik OSINT & Metodologi Verifikasi Lapangan (11 Artefak)
+Penyelidikan mengodifikasi 11 artefak informasi publik yang beredar ke dalam [`analisis/09_osint_artefak.csv`](./analisis/09_osint_artefak.csv):
+1. **Bukti Paling Sah & Terverifikasi Primer**:
+   - `OS07` (*Registrasi ACRA BizFile Singapura 2023*): Dokumen primer pemerintah Singapura membuktikan Megaspeed didirikan sebagai spin-off dari 7Road Holdings (bursa Hong Kong HKEX: 0797).
+   - `OS11` (*Memo Internal Jensen Huang 8 Nov 2026*): Diakui resmi oleh subjek dan juru bicara korporasi NVIDIA.
+   - `OS01` (*Foto LinkedIn NetThunder Juni 2024*): Keaslian visual diverifikasi via ELA (Error Level Analysis) dan pencocokan wajah.
+2. **Artefak Terbukti Rekayasa / Distorsi**:
+   - `OS10` (*YouTube Live Deepfake*): Terbukti rekayasa AI melalui analisis spektrum audio Librosa dan Wav2Lip visual artifacts.
+   - `OS06` (*Cuitan X Elon Musk 23 Okt 2025*): Terbukti sebagai komentar sinis warganet umum tanpa menyebut subjek dan terbit setahun sebelum insiden; klaim konspirasi Musk mendalangi kasus ini ditolak secara logis karena belanja \$10B GPU Tesla dan \$20B deal xAI Colossus 2 menempatkan Musk pada posisi yang paling dirugikan jika NVIDIA goyah. Pihak yang diuntungkan riil adalah faksi *China-hawks* pengetat ekspor chip.
 
 ---
 

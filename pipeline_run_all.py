@@ -73,7 +73,10 @@ def main():
          "8. Audit Leksikal Multibahasa & Klasterisasi Sindikasi Berita Arus Utama"),
 
         ([python_bin, "tools/mobile_spyware_forensic_comparator.py"],
-         "9. Komparasi Triad Intelijen Forensik: SIGINT Unmasking vs Spyware Komersial vs HUMINT Honeytrap")
+         "9. Komparasi Triad Intelijen Forensik: SIGINT Unmasking vs Spyware Komersial vs HUMINT Honeytrap"),
+
+        ([python_bin, "tools/osint_artifact_manager.py"],
+         "10. Pengelolaan & Verifikasi Katalog 11 Artefak Publik OSINT")
     ]
 
     success_count = 0

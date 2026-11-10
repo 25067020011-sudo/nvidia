@@ -107,11 +107,16 @@ Hasil uji kuantitatif terhadap data harga saham NVDA (`nvda_skandal.csv`):
 - **Jendela 2 (5 Nov 2026 - Paska Pemilu Sela)**: Saham anjlok -9.26% ($206.69 $\rightarrow$ $181.60) bersamaan dengan jatuhnya Nasdaq 100 akibat kekhawatiran regulasi pusat data AI paska-kemenangan Partai Demokrat.
 - **Jendela 3 (9 Nov 2026 - Reaksi Memo)**: Terjadi penurunan tambahan ke $178.67 dengan ledakan volume perdagangan rekor **459,1 Juta lembar**, merefleksikan diskon ketidakpastian kepemimpinan (*governance discount*).
 
-### 4.4 Pembantahan Hipotesis Pengalihan Isu (*Diversionary Hypothesis*)
-Hipotesis bahwa skandal ini dirancang sebagai pengalihan isu pemilu terbantahkan secara logis dan empiris:
-1. Waktu kemunculan (5 hari pra-pemilu) justru memperlemah posisi politik eksekutif petahana dan berujung pada kekalahan elektoral.
-2. Penyelidikan intelijen telah berjalan sejak era pemerintahan sebelumnya, membantah klaim rekayasa dadakan.
-3. Keterlibatan dewan direksi merupakan pelaksanaan kewajiban fidusia (*fiduciary duty*) untuk melindungi nilai pemegang saham menjelang pelaporan keuangan kuartalan.
+### 4.4 Pembantahan Hipotesis Pengalihan Isu & Teori Konspirasi Dalang Eksternal
+Di media sosial muncul narasi spekulatif bahwa skandal reputasi ini merupakan "rekayasa politik" atau didalangi oleh tokoh eksternal (Donald Trump atau Elon Musk). Pengujian berbasis data ekonomi riil, audit dokumen, dan kronologi membantah spekulasi tersebut:
+
+1. **Pembantahan Teori Pengalihan Isu Politik (False Flag)**: Waktu pembocoran (5 hari menjelang Pemilu Sela AS 3 November 2026) justru merugikan posisi koalisi eksekutif petahana dan berujung pada kekalahan elektoral besar ("Blue Wave"). Merancang pengalihan isu yang menjatuhkan kubu politik sendiri tidak memiliki rasionalitas operasional. Penyelidikan terhadap jaringan Alice Huang telah diinisiasi sejak era pemerintahan Biden.
+2. **Pembantahan Teori "Elon Musk Dalang"**: Asumsi bahwa Elon Musk merekayasa kejatuhan Jensen Huang secara logis berkebalikan dengan fakta ekonomi industri AI (*economic interdependence*):
+   - **Ketergantungan Pembelian Masif**: Entitas bisnis Musk adalah pembeli terbesar chip NVIDIA; Tesla menganggarkan belanja kumulatif mencapai **\$10 Miliar** untuk perangkat NVIDIA per 2026, sedangkan xAI menyepakati kemitraan klaster komputasi **\$20 Miliar** untuk superkomputer *Colossus 2*.
+   - **Ketiadaan Insentif Menghancurkan Pemasok**: Pelatihan model AI xAI (*Grok*) dan sistem otonom *Tesla Full Self-Driving (FSD)* bergantung 100% pada keandalan rantai pasok NVIDIA. Mengguncang NVIDIA akan melumpuhkan roadmap produk Musk sendiri.
+   - **Hubungan Kolaboratif**: Huang secara konsisten memuji Musk sebagai *"the ultimate GPU"* dan menegaskan NVIDIA ingin terlibat di setiap proyek Musk.
+   - **Komentar X 23 Okt 2025**: Cuitan sinis Musk (*"If she's a 10, you're an asset"*) tidak menyebut nama siapa pun, diunggah setahun sebelum krisis memo, dan merupakan respons budaya pop/humor, bukan instruksi konspiratif.
+3. **Pihak yang Diuntungkan Faktual**: Pelemahan posisi Jensen Huang secara geopolitik bukan menguntungkan kompetitor komersial, melainkan **faksi garis keras pengawas ekspor (*China-hawks*) di Washington (Kongres & Senator Marco Rubio)**. Huang adalah juru lobi terkuat yang gigih mempertahankan izin ekspor semikonduktor ke pasar Asia; pelemahan legitimasinya melapangkan pengetatan regulasi teknologi secara sepihak.
 
 ### 4.5 Analisis Sifat Investigasi Dewan Direksi: Preseden Dua Dekade (2006 vs 2026)
 Berdasarkan penelusuran komparatif keterbukaan informasi SEC EDGAR (Form 10-K, 10-Q, 8-K CIK 0001045810) selama dua dekade (2006–2026):
@@ -143,6 +148,13 @@ Untuk merekonstruksi dinamika penyebaran narasi, pemodelan graf *Social Network 
 - **Jensen Huang** ($C_B = 0.3846$) dan **Alice Huang** ($C_B = 0.2814$) berfungsi sebagai simpul gravitasi utama yang menghubungkan klaster korporasi Silicon Valley dan klaster intelijen geopolitik.
 - Di ranah media massa, jurnalis **Paul Mozur** (New York Times, $C_B = 0.1872$) menduduki posisi sentralitas tertinggi sebagai *information gatekeeper* pertama di platform X yang mengubah isu penyelidikan ekspor chip menjadi narasi tuduhan intelijen spionase internasional.
 - **Marco Rubio** ($C_B = 0.1420$) bertindak sebagai jembatan yang menghubungkan bocoran intelijen ke arena politik Washington dan investigasi komite Kongres AS.
+
+### 4.8 Katalog Artefak Publik OSINT & Metodologi Verifikasi Forensik Terbuka
+Sebanyak 11 artefak publik kunci dihimpun dalam korpus terbuka [`analisis/09_osint_artefak.csv`](./analisis/09_osint_artefak.csv) untuk menguji reliabilitas bukti tanpa melanggar privasi:
+1. **Artefak Terverifikasi Penuh Melalui Dokumen Primer**: Registrasi entitas Megaspeed Solutions di portal *ACRA BizFile* Singapura (OS07) mengonfirmasi status spin-off dari 7Road Holdings (HKEX: 0797), membuktikan eksistensi hukum perusahaan perantara tanpa bergantung pada spekulasi media. Memo internal Jensen Huang 8 November 2026 (OS11) terverifikasi melalui konfirmasi korporasi resmi.
+2. **Artefak Visual & Audit ELA**: Foto pertemuan di bar Taipei (OS01) diuji menggunakan *Error Level Analysis* (ELA) dan ekstraksi metadata EXIF, menunjukkan ketiadaan manipulasi komposit (*image splicing*), mengonfirmasi perkenalan Alice sebagai pimpinan Megaspeed sejak Juni 2024.
+3. **Artefak yang Terbukti Rekayasa Siber**: Siaran YouTube "NVIDIA Live" (OS10) terbukti merupakan manipulasi deepfake melalui pengujian spektrogram audio Librosa (deviasi pita frekuensi sintetis) dan ketidakcocokan fonem bibir Wav2Lip.
+4. **Artefak Distorsi Konteks**: Unggahan X Elon Musk 23 Oktober 2025 (OS06) terbukti asli namun merupakan ekspresi satir yang tidak berhubungan secara operasional dengan penyelidikan kontra-intelijen.
 
 ---
 
