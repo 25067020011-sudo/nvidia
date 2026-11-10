@@ -195,16 +195,16 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-C6F768FF",
+    "evidence_id": "EVD-AAAF1669",
     "filename": "pipeline_run_all.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/pipeline_run_all.py",
-    "filesize_bytes": 3858,
+    "filesize_bytes": 4025,
     "source_category": "Automation_Pipeline",
     "description": "Master Execution Pipeline: Satu Perintah untuk Menjalankan Seluruh Audit Forensik & SNA",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T16:11:15.599157+00:00",
     "hashes": {
-      "sha256": "c6f768ffb8f44b59fc6668146ca72b971825348bedef0e43d99a31ba55d55aca",
+      "sha256": "aaaf1669573d50dfbc6994f4e308c09ee2f8aa61f4a091a4d16f63ccfcf3dc08",
       "md5": "27d532b39a91ef0d24b269cbd8231548"
     },
     "verification_status": "AUTHENTIC"
@@ -296,6 +296,21 @@
     "hashes": {
       "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c",
       "md5": "75268876b116a394f30c73d367d22373"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-15E196E3",
+    "filename": "ela_exif_forensic_analyzer.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/ela_exif_forensic_analyzer.py",
+    "filesize_bytes": 7907,
+    "source_category": "Forensic_Tool",
+    "description": "Toolkit Error Level Analysis (ELA) dan Ekstraksi Metadata EXIF",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T17:11:42.819122+00:00",
+    "hashes": {
+      "sha256": "15e196e30434506b2c668bc40f36d73d0ef4966cd78b72ced8e7cecf3466c3a8",
+      "md5": "2b3ce25d3203ac84f96115088af3ea71"
     },
     "verification_status": "AUTHENTIC"
   }

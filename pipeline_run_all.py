@@ -76,7 +76,10 @@ def main():
          "9. Komparasi Triad Intelijen Forensik: SIGINT Unmasking vs Spyware Komersial vs HUMINT Honeytrap"),
 
         ([python_bin, "tools/osint_artifact_manager.py"],
-         "10. Pengelolaan & Verifikasi Katalog 11 Artefak Publik OSINT")
+         "10. Pengelolaan & Verifikasi Katalog 11 Artefak Publik OSINT"),
+
+        ([python_bin, "tools/ela_exif_forensic_analyzer.py", "test"],
+         "11. Validasi Forensik Visual ELA (Error Level Analysis) & Audit Metadata EXIF/IPTC")
     ]
 
     success_count = 0
