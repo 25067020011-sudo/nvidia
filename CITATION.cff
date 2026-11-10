@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this research repository, datasets, or forensic models, please cite it as below."
+title: "Multi-Modal Digital Forensics & Corporate Governance Audit: Deconstructing Public Figure Viral Claims, Deepfake Attacks, and Econometric Event Study (A Case Study of Jensen Huang / NVIDIA)"
+authors:
+  - family-names: "Huang Investigation Research Team"
+    given-names: "Digital Forensics & Econometrics Lab"
+    affiliation: "Independent Digital Forensics & Layer 8 Security Consortium"
+version: "3.0.0"
+date-released: "2026-11-10"
+license: "MIT"
+repository-code: "https://github.com/25067020011-sudo/nvidia"
+keywords:
+  - "digital forensics"
+  - "multimodal verification"
+  - "deepfake detection"
+  - "corporate governance"
+  - "event study"
+  - "betweenness centrality"
+  - "social network analysis"
+  - "ISO/IEC 27037"
+  - "NVIDIA"
+  - "Jensen Huang"
+abstract: "This repository provides an empirical, multi-modal digital forensic investigation and econometric event study deconstructing viral claims surrounding NVIDIA CEO Jensen Huang between October and November 2026. The research examines the distortion of a verbal protest at GTC Berlin into a physical attack hoax (refuted in 0/300 mainstream news articles), a hijacked YouTube live deepfake cryptocurrency scam, a 20-year SEC EDGAR historical governance audit (2006-2026), and a 5-stage patient-zero chronology with 11 OSINT public artifacts verified under ISO/IEC 27037:2012 chain of custody."
+

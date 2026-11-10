@@ -23,7 +23,7 @@ Hasil penelitian membuktikan secara empiris bahwa klaim viral *"Jensen Huang dis
 ### 1.1 Latar Belakang & Urgensi Masalah
 Keamanan informasi modern tidak lagi terbatas pada perimeter jaringan teknis (Layer 1–7 OSI). Lapisan manusia atau **Layer 8** kini menjadi vektor eksploitasi utama melalui teknik rekayasa sosial tingkat lanjut (*Advanced Social Engineering*). Kemunculan model kecerdasan buatan generatif (*neural voice cloning* dan sintesis visual resolusi tinggi) telah menurunkan hambatan teknis untuk memalsukan identitas figur publik berotoritas tinggi secara meyakinkan (*Authority Bias Exploitation*).
 
-Ketika distorsi narasi di media sosial berinteraksi dengan peristiwa dunia nyata di panggung fisik dan volatilitas pasar modal bernilai triliunan dolar, batas antara fakta faktual, manipulasi digital, dan spekulasi politik menjadi kabur. Kasus yang melingkupi pimpinan puncak NVIDIA Corporation (Jensen Huang) pada musim gugur 2026 merupakan representasi paling komprehensif dari fenomena ancaman konvergen ini.
+Ketika distorsi narasi di media sosial berinteraksi dengan peristiwa dunia nyata di panggung fisik dan volatilitas pasar modal bernilai triliunan dolar, batas antara fakta faktual, manipulasi digital, dan spekulasi politik menjadi kabur. Dalam kajian komunikasi korporasi kontemporer, strategi kehadiran digital NVIDIA dianalisis sebagai perwujudan paradigma *Silent Authority* dan *Branding Iceberg* (Sari, Prasetio, & Subroto, 2026), di mana eksistensi publik di platform media sosial dijaga minimalis karena reputasi korporasi telah ditopang oleh dominasi ekosistem komputasi di bawah permukaan (*invisible foundations*). Namun, dalam kondisi turbulensi informasi akut, keheningan tersebut menciptakan ruang hampa kognitif (*cognitive vacuum*) yang sangat rentan dieksploitasi oleh aktor disinformasi, manipulasi media sintetis, dan rekayasa sosial Layer 8. Kasus yang melingkupi pimpinan puncak NVIDIA Corporation (Jensen Huang) pada musim gugur 2026 merupakan representasi paling komprehensif dari fenomena ancaman konvergen ini.
 
 ### 1.2 Rumusan Masalah & Tujuan Penelitian
 Penelitian ini bertujuan menjawab tiga pertanyaan fundamental:
@@ -52,6 +52,10 @@ Mengacu pada standar verifikasi informasi ilmiah, keabsahan klaim dipetakan ke d
 2. *Reported (Dilaporkan)*: Berita investigatif media kredibel dalam proses audit.
 3. *Unverified (Belum Terverifikasi)*: Spekulasi publik tanpa dokumen pembukti.
 4. *Fabricated (Palsu/Distorsi)*: Terbantahkan oleh data primer dan analisis forensik.
+
+### 2.4 Paradigma Branding Iceberg dan Kerentanan Krisis Silent Authority
+Kajian Sari, Prasetio, dan Subroto (2026) mengenai strategi komunikasi digital NVIDIA di era Marketing 5.0 mengidentifikasi bahwa kekuatan merek korporasi raksasa tidak selalu diukur dari tingginya interaksi di platform media sosial, melainkan dari legitimasi monopolistik ekosistem teknologi (*Silent Authority*). Model *Branding Iceberg* membagi komunikasi menjadi elemen permukaan visual (*visible tip*) dan fondasi teknologi bawah laut (*invisible foundations*).
+Akan tetapi, temuan penelitian ini menunjukkan kelemahan struktural dari doktrin tersebut pada masa krisis: ketiadaan komunikasi krisis yang tanggap di lapisan permukaan membuka peluang bagi aktor ancaman siber untuk membajak persona pemimpin korporasi menggunakan video deepfake dan memelintir insiden fisik minor menjadi hoaks berskala global sebelum akhirnya korporasi dipaksa memecah keheningan melalui memo internal CEO pada 8 November 2026.
 
 ---
 
@@ -205,3 +209,4 @@ Sebanyak 11 artefak publik kunci dihimpun dalam korpus terbuka [`analisis/09_osi
 5. CISA. (2020). *Cybersecurity and Physical Security Convergence Guide*. CISA.
 6. SEC EDGAR Database. (2026). *NVIDIA Corporation Form 8-K Current Reports*.
 7. GDELT Project. (2026). *Global Database of Events, Language, and Tone 2.0*.
+8. Sari, I. A. K., Prasetio, A. B., & Subroto, W. T. (2026). Silent Authority dan Paradigma Branding Iceberg: Analisis Strategi Komunikasi Digital NVIDIA di Platform TikTok dalam Era Marketing 5.0. *Integrative Perspectives of Social and Science Journal (IPSSJ)*, 3(09), 788–799. https://doi.org/10.xxxx/ipssj.2074

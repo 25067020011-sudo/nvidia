@@ -15,16 +15,16 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-EDDEDDE6",
+    "evidence_id": "EVD-5F9C3E06",
     "filename": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filesize_bytes": 24676,
+    "filesize_bytes": 26605,
     "source_category": "Research_Manuscript",
     "description": "Draft Manuskrip Ilmiah Lengkap Format IMRaD",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.557335+00:00",
     "hashes": {
-      "sha256": "eddedde6e6a8c7e2da8d4ba3b590c8944c4bc929f0098583975b1c12916f5e44",
+      "sha256": "5f9c3e06f4dc850339cf3f07d997fe3937d73d0b7146d9358f2cd291815f3f70",
       "md5": "52210d5cea85d715b2122e64aca61a87"
     },
     "verification_status": "AUTHENTIC"
@@ -300,17 +300,107 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-15E196E3",
+    "evidence_id": "EVD-09C5A91D",
     "filename": "ela_exif_forensic_analyzer.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/ela_exif_forensic_analyzer.py",
-    "filesize_bytes": 7907,
+    "filesize_bytes": 7908,
     "source_category": "Forensic_Tool",
     "description": "Toolkit Error Level Analysis (ELA) dan Ekstraksi Metadata EXIF",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T17:11:42.819122+00:00",
     "hashes": {
-      "sha256": "15e196e30434506b2c668bc40f36d73d0ef4966cd78b72ced8e7cecf3466c3a8",
+      "sha256": "09c5a91d5270725b0f17768cfa34646f75314a983b71195bebce4e09bec96930",
       "md5": "2b3ce25d3203ac84f96115088af3ea71"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-F53611E2",
+    "filename": "CITATION.cff",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/CITATION.cff",
+    "filesize_bytes": 1487,
+    "source_category": "Citation_Metadata",
+    "description": "Metadata Sitasi Standar Open Science dan Zenodo",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T17:20:04.258612+00:00",
+    "hashes": {
+      "sha256": "f53611e21fb99f814340b87a8e5578ddbe81758d681a77b27b4eab8b2bf53121",
+      "md5": "43e31eb4fabf7f999f67b1dc7a3946c0"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-AAAC936B",
+    "filename": "references.bib",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/references.bib",
+    "filesize_bytes": 2255,
+    "source_category": "Academic_BibTeX",
+    "description": "Basis Data Pustaka BibTeX Termasuk Sari et al 2026 IPSSJ",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T17:20:04.473138+00:00",
+    "hashes": {
+      "sha256": "aaac936bce5716ba0d50c0cab36c822ddd5fbf73bc3f8636812c1739ad307fbd",
+      "md5": "c15b0224b2049f06019862eb0e363d1f"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-F50E7335",
+    "filename": "manuscript.tex",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/manuscript.tex",
+    "filesize_bytes": 9027,
+    "source_category": "LaTeX_Manuscript",
+    "description": "Naskah Format Standar IEEEtran / Springer",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T17:20:04.667207+00:00",
+    "hashes": {
+      "sha256": "f50e733567d4aacb1a4697a683af381385609c96f73f177183f48c2a7ea3053f",
+      "md5": "83e85efb80af37752024c09a0aa29b44"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-67DFB543",
+    "filename": "Dockerfile",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/Dockerfile",
+    "filesize_bytes": 903,
+    "source_category": "Container_Config",
+    "description": "Spesifikasi Kontainerisasi Reproducibility Docker",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T17:20:04.850157+00:00",
+    "hashes": {
+      "sha256": "67dfb54341fc3c54f98822818904a0eeaf6ac8c12b674e86b6a88842bccdfd6f",
+      "md5": "064966f52544ec00eb975d5a6f4f2e50"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-8B6DC799",
+    "filename": "docker-compose.yml",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/docker-compose.yml",
+    "filesize_bytes": 261,
+    "source_category": "Container_Config",
+    "description": "Orkestrasi Docker Compose untuk Streamlit Dashboard",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T17:20:05.034735+00:00",
+    "hashes": {
+      "sha256": "8b6dc799e95bab22534d4be8ea30596cb89247d45d1c8b1cc13e6e2382be544d",
+      "md5": "f111ec4a2e504843f85880a382b3a9ba"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-F04A77F2",
+    "filename": "forensic_audit.yml",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/.github/workflows/forensic_audit.yml",
+    "filesize_bytes": 772,
+    "source_category": "CI_CD_Workflow",
+    "description": "GitHub Actions Continuous Integration Automated Audit",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T17:20:05.218148+00:00",
+    "hashes": {
+      "sha256": "f04a77f2b15587c94abc24fa6088f7f38fe3d5f812f6ba7f5e8e30d58404db3b",
+      "md5": "dd6d73333b6294324973bdb137e354fb"
     },
     "verification_status": "AUTHENTIC"
   }
