@@ -253,5 +253,35 @@
       "md5": "37e6c3713876e5863bb0fbd5e0893db3"
     },
     "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-40F48E2B",
+    "filename": "app.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/app.py",
+    "filesize_bytes": 15843,
+    "source_category": "Dashboard_App",
+    "description": "Aplikasi Web Dashboard Forensik Streamlit Cloud",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:44:09.617013+00:00",
+    "hashes": {
+      "sha256": "40f48e2b48142a3f3a5a80461ff96b18eb66a9030df5e72d62e3e9af4b9a626a",
+      "md5": "93ae378a99235446e8095be2ca1b1b54"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-195F21A0",
+    "filename": "requirements.txt",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/requirements.txt",
+    "filesize_bytes": 126,
+    "source_category": "Config_Filing",
+    "description": "Dependensi Python untuk Streamlit Cloud Deployment",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:44:14.334743+00:00",
+    "hashes": {
+      "sha256": "195f21a041bb45ef665280ba3e5dec78f8f9726ca0b07598e44fa9daacf03437",
+      "md5": "b468d6ca028ee02df483849bf117c40b"
+    },
+    "verification_status": "AUTHENTIC"
   }
 ]

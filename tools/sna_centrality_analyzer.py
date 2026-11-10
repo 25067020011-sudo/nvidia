@@ -229,3 +229,4 @@ def run_sna_centrality_analysis():
 if __name__ == "__main__":
     generate_first_appearance_timeline()
     run_sna_centrality_analysis()
+
