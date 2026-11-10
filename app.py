@@ -200,8 +200,58 @@ with tab3:
     Menguji apakah volatilitas pasar modal dipicu oleh skandal reputasi internal atau dinamika makroekonomi regulasi AI.
     """)
     
-    if os.path.exists("analisis/05_saham_event_study.png"):
-        st.image("analisis/05_saham_event_study.png", caption="Gambar: Fluktuasi Harga Penutupan dan Volume Transaksi Saham NVDA (Sep-Nov 2026) dengan Penanda Peristiwa Kunci", use_container_width=True)
+    # Interaktif Plotly Event Study Chart
+    if os.path.exists("nvda_skandal.csv"):
+        import plotly.graph_objects as go
+        from plotly.subplots import make_subplots
+        
+        try:
+            df_stock = pd.read_csv("nvda_skandal.csv", skiprows=2)
+            df_stock.columns = ["Date", "Close", "High", "Low", "Open", "Volume"]
+            df_stock["Date"] = pd.to_datetime(df_stock["Date"])
+            df_stock = df_stock.dropna(subset=["Date", "Close"]).sort_values("Date")
+            
+            fig = make_subplots(
+                rows=2, cols=1, shared_xaxes=True, vertical_spacing=0.08, row_heights=[0.7, 0.3],
+                subplot_titles=("Harga Penutupan Saham NVDA ($USD) & Penanda Peristiwa Kunci", "Volume Transaksi Harian (Lembar Saham)")
+            )
+            
+            # Line Price
+            fig.add_trace(go.Scatter(
+                x=df_stock["Date"], y=df_stock["Close"], mode="lines+markers",
+                name="Harga Penutupan", line=dict(color="#76b900", width=2.5),
+                hovertemplate="Tanggal: %{x|%Y-%m-%d}<br>Harga: $%{y:.2f}<extra></extra>"
+            ), row=1, col=1)
+            
+            # Volume Bar
+            fig.add_trace(go.Bar(
+                x=df_stock["Date"], y=df_stock["Volume"], name="Volume",
+                marker_color="#37474f", hovertemplate="Volume: %{y:,}<extra></extra>"
+            ), row=2, col=1)
+            
+            # Event Annotations & Vertical Lines
+            events = [
+                ("2026-10-21", "Protes Verbal Berlin", "#0288d1"),
+                ("2026-10-28", "Deepfake YouTube Live", "#f57c00"),
+                ("2026-10-29", "Laporan The Info/NYT", "#7b1fa2"),
+                ("2026-11-05", "Paska Pemilu Sela (-9.26%)", "#d32f2f"),
+                ("2026-11-09", "Reaksi Memo (Volume 459M)", "#c2185b")
+            ]
+            
+            for edate, elabel, ecolor in events:
+                fig.add_vline(x=edate, line_width=1.5, line_dash="dash", line_color=ecolor, row=1, col=1)
+                fig.add_vline(x=edate, line_width=1.5, line_dash="dash", line_color=ecolor, row=2, col=1)
+            
+            fig.update_layout(
+                template="plotly_dark", height=580, margin=dict(l=40, r=40, t=50, b=40),
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+            )
+            st.plotly_chart(fig, use_container_width=True)
+        except Exception as e:
+            if os.path.exists("analisis/05_saham_event_study.png"):
+                st.image("analisis/05_saham_event_study.png", caption="Gambar: Fluktuasi Saham NVDA", use_container_width=True)
+    elif os.path.exists("analisis/05_saham_event_study.png"):
+        st.image("analisis/05_saham_event_study.png", caption="Gambar: Fluktuasi Harga Penutupan dan Volume Transaksi Saham NVDA", use_container_width=True)
 
     c_s1, c_s2 = st.columns(2)
     with c_s1:
@@ -315,3 +365,4 @@ with tab7:
     st.markdown("#### ⚡ Eksekusi Master Pipeline Reproducibility (10 Tahapan)")
     st.code("python pipeline_run_all.py", language="bash")
     st.caption("Pipeline master mengeksekusi audit SHA-256, Tiered Truth Engine, SEC 20 Tahun, Event-Study, SNA, dan OSINT Manager secara sekuensial (100% reproducible).")
+
