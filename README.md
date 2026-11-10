@@ -42,3 +42,7 @@ Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian
 - [`analisis/03_bahasa.png`](./analisis/03_bahasa.png): Distribusi bahasa artikel berita internasional.
 - [`analisis/04_klaim.png`](./analisis/04_klaim.png): Sebaran kategori klaim di judul dan URL berita.
 - [`analisis/05_saham_event_study.png`](./analisis/05_saham_event_study.png): Analisis event-study fluktuasi saham NVDA vs. kalender peristiwa makro.
+- [`analisis/07_network_graph_betweenness.png`](./analisis/07_network_graph_betweenness.png): Peta Social Network Analysis (SNA) sentralitas perantara (*Betweenness Centrality*) 20 aktor & 10 media teratas.
+- [`analisis/01_timeline_kemunculan_pertama.csv`](./analisis/01_timeline_kemunculan_pertama.csv): Matriks kronologi kemunculan pertama lintas platform (Juni 2024 - Nov 2026).
+- [`analisis/matriks_sna_20_aktor.csv`](./analisis/matriks_sna_20_aktor.csv): Skor Betweenness, In-Degree, PageRank, dan Closeness untuk 20 aktor utama.
+- [`analisis/matriks_sna_10_media.csv`](./analisis/matriks_sna_10_media.csv): Skor Betweenness Centrality untuk 10 media arus utama.

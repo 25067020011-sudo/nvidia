@@ -78,3 +78,4 @@ SOP ini mengatur tata cara penanganan terkoordinasi ketika pimpinan eksekutif ko
   1. *Forensic Timeline Reconstruction Report*.
   2. Perhitungan taksiran dampak reputasi dan finansial.
   3. Pembaruan kamus deteksi pada modul pemantauan intelijen media (*Threat Intelligence Feed*).
+

@@ -1,0 +1,21 @@
+﻿Ranking,Aktor,Betweenness_Centrality,In_Degree_Centrality,PageRank,Closeness_Centrality
+1,Jensen Huang (CEO),0.0788,0.1034,0.078,0.1397
+2,Dewan Direksi NVIDIA,0.0493,0.0345,0.0465,0.1117
+3,Alice Huang (Megaspeed),0.0135,0.0345,0.0247,0.0345
+4,Komite Audit Independen,0.0123,0.0345,0.0331,0.0985
+5,Paul Mozur (Jurnalis NYT),0.0062,0.0345,0.0382,0.0985
+6,Komite Khusus DPR AS,0.0049,0.069,0.036,0.069
+7,John Moolenaar (Ketua Komite Kongres),0.0037,0.0345,0.0439,0.0621
+8,Investor / Pemegang Saham NVDA,0.0,0.2069,0.1456,0.2483
+9,Auditor Eksternal Independen,0.0,0.0,0.0133,0.0
+10,Penasihat Hukum Luar NVIDIA,0.0,0.0345,0.0414,0.0907
+11,Departemen Perdagangan AS (BIS),0.0,0.0,0.0133,0.0
+12,Elon Musk (Komentator X),0.0,0.0,0.0133,0.0
+13,Analis Pasar Wall Street,0.0,0.0,0.0133,0.0
+14,Pengunjuk Rasa Berlin (Aktivis),0.0,0.0,0.0133,0.0
+15,Operator Kanal Deepfake (UNC-CP-01),0.0,0.0,0.0133,0.0
+16,NetThunder (Uploader LinkedIn),0.0,0.0,0.0133,0.0
+17,Kepolisian Singapura (Megaspeed Probe),0.0,0.0,0.0133,0.0
+18,Pejabat Intelijen Anonim,0.0,0.0,0.0133,0.0
+19,Marco Rubio (Menlu AS),0.0,0.0,0.0133,0.0
+20,Komisi Pemilihan Umum AS (FEC),0.0,0.0,0.0133,0.0

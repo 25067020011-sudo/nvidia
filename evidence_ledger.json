@@ -135,7 +135,7 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-51B4F8E3",
+    "evidence_id": "EVD-14D6ED91",
     "filename": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
     "filesize_bytes": 4659,
@@ -144,8 +144,53 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:54:17.170450+00:00",
     "hashes": {
-      "sha256": "51b4f8e30fb0c2ed8a3f20a41b8823dc54bb48a3fa898acb24cfcc11e187d330",
-      "md5": "27079a3f9634b9351e19d9b5bf85e06e"
+      "sha256": "14d6ed91cae8ed9ec6cedbd89db65a272c5fc7cdd16d74fd53670740700a63ec",
+      "md5": "5ce3a3b794aca86fcb27d91ea6d35d2e"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-F6515D00",
+    "filename": "01_timeline_kemunculan_pertama.csv",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/01_timeline_kemunculan_pertama.csv",
+    "filesize_bytes": 2093,
+    "source_category": "Timeline_Data",
+    "description": "Kronologi Multi-Tahap Kemunculan Pertama Kasus (Juni 2024 - Nov 2026)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:08:03.522441+00:00",
+    "hashes": {
+      "sha256": "f6515d000b7128a70e38d9ab4f6235e40d782d0bf17b26b80338c550ecfce456",
+      "md5": "6cf19a9bb1b9c7a763986583a1a006d1"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-FE39D893",
+    "filename": "matriks_sna_20_aktor.csv",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/matriks_sna_20_aktor.csv",
+    "filesize_bytes": 1153,
+    "source_category": "SNA_Metrics",
+    "description": "Matriks Sentralitas SNA 20 Aktor Utama (Betweenness Centrality & PageRank)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:08:03.541961+00:00",
+    "hashes": {
+      "sha256": "fe39d8930939e5aca99b60173755c90e63e5d90f041353a401eaa6bed3492ff9",
+      "md5": "4a1d9efc782760fa43a9b6906cdd864a"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-0F295614",
+    "filename": "matriks_sna_10_media.csv",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/matriks_sna_10_media.csv",
+    "filesize_bytes": 533,
+    "source_category": "SNA_Metrics",
+    "description": "Matriks Sentralitas SNA 10 Media Teratas (Betweenness Centrality & In-Degree)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:08:03.563092+00:00",
+    "hashes": {
+      "sha256": "0f29561479c97d96d23f87e67c4a7677b15e92da0002b6969a5c6e86a922b8ec",
+      "md5": "dadfbe5ba980494ea28eaf906d2639ff"
     },
     "verification_status": "AUTHENTIC"
   }
