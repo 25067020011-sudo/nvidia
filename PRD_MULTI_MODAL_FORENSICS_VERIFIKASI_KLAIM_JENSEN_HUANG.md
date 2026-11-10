@@ -58,6 +58,14 @@ Untuk menjaga objektivitas ilmiah dan mencegah atribusi spekulatif, dinamika kas
 
 *Pedoman Metodologis*: Aspek-aspek tanpa atribusi publik resmi (seperti identitas spesifik pembocor dokumen internal) wajib diklasifikasikan sebagai variabel anonim/tidak terverifikasi, bukan diisi dengan spekulasi konspiratif.
 
+### 2.3 Uji Hipotesis Distraksi / Pengalihan Isu (*Diversionary Hypothesis Test*)
+Munculnya spekulasi bahwa insiden ini merupakan "rekayasa pengalihan isu" (*false flag / distraction tactic*) diuji secara empiris melalui analisis garis waktu multi-faktor:
+1. **Disinsentif Elektoral**: Laporan bocor ke publik pada 29 Oktober 2026 (hanya lima hari menjelang Pemilu Sela AS 3 November). Muatan laporan justru menyorot kelemahan penanganan keamanan pihak eksekutif petahana, yang berujung pada kekalahan elektoral besar ("Blue Wave"). Merancang pengalihan isu yang merugikan posisi politik sendiri menjelang hari pemungutan suara tidak memiliki rasionalitas operasional.
+2. **Karakteristik Penurunan Pasar Modal (5 Nov vs. 9 Nov)**:
+   - *5 November 2026*: Kejatuhan saham NVDA (-9.26%) dan indeks Nasdaq 100 (kehilangan $\approx \$2.5\text{ Triliun}$) merupakan respon makro terhadap ekspektasi regulasi pembatasan pembangunan pusat data AI dan pengembangan model kecerdasan buatan pasca-kemenangan legislatif Demokrat.
+   - *9 November 2026*: Reaksi pasar pasca-pengakuan memo personal Jensen Huang ditandai lonjakan volume transaksi masif (459,1 Juta lembar) yang mencerminkan kekhawatiran atas risiko tata kelola kepemimpinan (*executive governance risk*) menjelang rilis laporan keuangan 17 November.
+3. **Kesimpulan Empiris**: Kasus ini bukan pengalihan isu rekayasa tunggal, melainkan bagian dari pertarungan strategis jangka panjang seputar kontrol ekspor teknologi semikonduktor canggih dan friksi kebijakan luar negeri.
+
 ---
 
 ## 3. Rumusan Masalah (Research Questions) & Hipotesis
