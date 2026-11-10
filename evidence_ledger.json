@@ -1,30 +1,30 @@
 [
   {
-    "evidence_id": "EVD-3090158B",
+    "evidence_id": "EVD-E17FBC4E",
     "filename": "README.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
-    "filesize_bytes": 5523,
+    "filesize_bytes": 6304,
     "source_category": "Documentation",
     "description": "Indeks Repositori Riset Forensik",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "3090158b270eab96c29c471448a0548539da29678186cac6f552abdbecc3de8c",
+      "sha256": "e17fbc4ef1dc4195ec31d9f6254162ebbff2c204b80e20a0e06482858601cc10",
       "md5": "b1d3b95fbac3328e716ad80a057af43e"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-55A9412C",
+    "evidence_id": "EVD-EDDEDDE6",
     "filename": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filesize_bytes": 19335,
+    "filesize_bytes": 24676,
     "source_category": "Research_Manuscript",
     "description": "Draft Manuskrip Ilmiah Lengkap Format IMRaD",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.557335+00:00",
     "hashes": {
-      "sha256": "55a9412c779fb2bae1cdd545cf329ad26e074c3d355de28641ac22978d280514",
+      "sha256": "eddedde6e6a8c7e2da8d4ba3b590c8944c4bc929f0098583975b1c12916f5e44",
       "md5": "52210d5cea85d715b2122e64aca61a87"
     },
     "verification_status": "AUTHENTIC"

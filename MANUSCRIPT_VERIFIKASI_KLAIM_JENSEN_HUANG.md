@@ -118,16 +118,46 @@ Di media sosial muncul narasi spekulatif bahwa skandal reputasi ini merupakan "r
    - **Komentar X 23 Okt 2025**: Cuitan sinis Musk (*"If she's a 10, you're an asset"*) tidak menyebut nama siapa pun, diunggah setahun sebelum krisis memo, dan merupakan respons budaya pop/humor, bukan instruksi konspiratif.
 3. **Pihak yang Diuntungkan Faktual**: Pelemahan posisi Jensen Huang secara geopolitik bukan menguntungkan kompetitor komersial, melainkan **faksi garis keras pengawas ekspor (*China-hawks*) di Washington (Kongres & Senator Marco Rubio)**. Huang adalah juru lobi terkuat yang gigih mempertahankan izin ekspor semikonduktor ke pasar Asia; pelemahan legitimasinya melapangkan pengetatan regulasi teknologi secara sepihak.
 
-### 4.5 Analisis Sifat Investigasi Dewan Direksi: Preseden Dua Dekade (2006 vs 2026)
-Berdasarkan penelusuran komparatif keterbukaan informasi SEC EDGAR (Form 10-K, 10-Q, 8-K CIK 0001045810) selama dua dekade (2006–2026):
-1. **Preseden 20 Tahun**: Investigasi independen tingkat dewan (*board-level independent investigation*) hanya terjadi **dua kali dalam 20 tahun sejarah NVIDIA**:
-   - *Tahun 2006*: Terkait manipulasi tanggal opsi saham (*stock option backdating*), dipimpin Komite Audit dewan dibantu penasihat hukum luar, berfokus pada sistem akuntansi korporasi (*corporate accounting practice*).
-   - *Tahun 2026*: Kasus memo personal dan kontak pihak ketiga, dipimpin Komite Direktur Independen.
-2. **Karakteristik Unik Kasus 2026**: Kasus November 2026 adalah **satu-satunya investigasi tingkat dewan dalam sejarah NVIDIA yang menyasar perilaku pribadi (*personal conduct*) pimpinan tertinggi (CEO Jensen Huang)**.
-3. **Pembedaan dengan Investigasi Manajemen**: Seluruh insiden material lain dalam rentang 2016–2025 (denda SEC kripto 2017/2022, sengketa kode sumber Valeo 2022, pemeriksaan pengalihan produk Megaspeed 2025, dan gugatan derivatif hak cipta AI Juli 2026) ditangani oleh tim hukum manajemen internal atau proses peradilan/regulator, bukan melalui pembentukan komite dewan independen. Hal ini menegaskan bahwa mekanisme dewan adalah tindakan tata kelola paling luar biasa (*extraordinary governance event*).
+1. **Pembantahan Teori Pengalihan Isu Politik (False Flag)**: Waktu pembocoran (5 hari menjelang Pemilu Sela AS 3 November 2026) justru merugikan posisi koalisi eksekutif petahana dan berujung pada kekalahan elektoral besar ("Blue Wave"). Merancang pengalihan isu yang menjatuhkan kubu politik sendiri tidak memiliki rasionalitas operasional. Penyelidikan terhadap jaringan Alice Huang telah diinisiasi sejak era pemerintahan Biden.
+2. **Pembantahan Teori "Elon Musk Dalang"**: Asumsi bahwa Elon Musk merekayasa kejatuhan Jensen Huang secara logis berkebalikan dengan fakta ekonomi industri AI (*economic interdependence*):
+   - **Ketergantungan Pembelian Masif**: Entitas bisnis Musk adalah pembeli terbesar chip NVIDIA; Tesla menganggarkan belanja kumulatif mencapai **\$10 Miliar** untuk perangkat NVIDIA per 2026, sedangkan xAI menyepakati kemitraan klaster komputasi **\$20 Miliar** untuk superkomputer *Colossus 2*.
+   - **Ketiadaan Insentif Menghancurkan Pemasok**: Pelatihan model AI xAI (*Grok*) dan sistem otonom *Tesla Full Self-Driving (FSD)* bergantung 100% pada keandalan rantai pasok NVIDIA. Mengguncang NVIDIA akan melumpuhkan roadmap produk Musk sendiri.
+   - **Hubungan Kolaboratif**: Huang secara konsisten memuji Musk sebagai *"the ultimate GPU"* dan menegaskan NVIDIA ingin terlibat di setiap proyek Musk.
+   - **Komentar X 23 Okt 2025**: Cuitan sinis Musk (*"If she's a 10, you're an asset"*) tidak menyebut nama siapa pun, diunggah setahun sebelum krisis memo, dan merupakan respons budaya pop/humor, bukan instruksi konspiratif.
+3. **Pihak yang Diuntungkan Faktual**: Pelemahan posisi Jensen Huang secara geopolitik bukan menguntungkan kompetitor komersial, melainkan **faksi garis keras pengawas ekspor (*China-hawks*) di Washington (Kongres & Senator Marco Rubio)**. Huang adalah juru lobi terkuat yang gigih mempertahankan izin ekspor semikonduktor ke pasar Asia; pelemahan legitimasinya melapangkan pengetatan regulasi teknologi secara sepihak.
 
 ### 4.6 Dekonstruksi Triad Intelijen: SIGINT Unmasking vs Spyware Komersial vs HUMINT / Honeytrap
 Dalam diskursus media sosial dan peliputan awal, muncul kekeliruan terminologis yang mencampuradukkan spionase siber berbasis peretasan ponsel (*mobile spyware*) dengan operasi pengawasan sinyal negara (*SIGINT*) dan rekayasa sosial manusia (*HUMINT*). Analisis forensik digital mengidentifikasi distingsi fundamental ketiga metode tersebut:
+
+### 4.6 Dekonstruksi Triad Intelijen: SIGINT Unmasking vs Spyware Komersial vs HUMINT / Honeytrap
+Dalam diskursus media sosial dan peliputan awal, muncul kekeliruan terminologis yang mencampuradukkan spionase siber berbasis peretasan ponsel (*mobile spyware*) dengan operasi pengawasan sinyal negara (*SIGINT*) dan rekayasa sosial manusia (*HUMINT*). Analisis forensik digital mengidentifikasi distingsi fundamental ketiga metode tersebut:
+
+| Dimensi Analisis | SIGINT Negara (FISA Section 702) | Spyware Komersial (Pegasus / NSO) | Rekayasa Sosial HUMINT (Alice Huang) |
+| :--- | :--- | :--- | :--- |
+| **Aktor Pelaksana** | NSA / Komunitas Intelijen AS | Vendor Siber Komersial / Klien Negara | Alice Wong/Huang (Diduga Informan Asing) |
+| **Vektor Akses** | Penyadapan *backbone* telekomunikasi | Eksploitasi *zero-click* (iMessage/WebKit) | Interaksi tatap muka, relasi di forum industri |
+| **Artefak Endpoint** | **Nihil** pada perangkat korban | **Tinggi** (Database sqlite, log crash) | Jejak sosial, foto LinkedIn, email normal |
+| **Deteksi MVT CLI** | Tidak Dapat Mendeteksi (*Out of Scope*) | **Sangat Efektif** (Mencocokkan STIX2 IOC) | Tidak Relevan (Bukan Malicious Code) |
+| **Status di Kasus Ini** | **Fakta Operasional**: Pengawasan Alice $\rightarrow$ kontak insidental Jensen Huang di-unmask | **Nihil / Absen**: Tidak ada peretasan ponsel pada Jensen Huang | **Fakta Hubungan**: Relasi personal diakui internal memo; audit ekspor chip AI Megaspeed |
+
+Berdasarkan ekstraksi terhadap repositori resmi *Amnesty International Security Lab* (`investigations/2021-07-18_nso/pegasus.stix2`), teridentifikasi **3.099 objek STIX 2.1** yang mencakup **1.549 indikator teknis** (1.438 *domain-name*, 81 *process*, 29 *email-addr*, dan 1 *file* hash). Alat forensik *Mobile Verification Toolkit* (MVT) dirancang untuk membedah sistem berkas cadangan (*backup analysis*) perangkat iOS/Android guna menemukan artefak tersebut. Namun, dalam kasus Jensen Huang, intelijen AS **tidak menyusupkan spyware ke ponsel Jensen Huang**; melainkan melakukan pengawasan sah terhadap target intelijen asing (Alice Huang), di mana komunikasi Jensen Huang terjaring secara insidental (*incidental collection*) dan identitasnya diungkap (*unmasked*) sesuai regulasi hukum FISA Section 702.
+
+### 4.7 Analisis Jejaring Sosial & Sentralitas Antara (Betweenness Centrality)
+Untuk merekonstruksi dinamika penyebaran narasi, pemodelan graf *Social Network Analysis* (SNA) dilakukan terhadap 20 aktor kunci dan 10 media massa utama:
+
+![Gambar 4: Graf Jejaring Sosial dan Betweenness Centrality](./analisis/07_network_graph_betweenness.png)
+*Gambar 4: Visualisasi jejaring interaksi aktor dan sindikasi media. Ukuran simpul merefleksikan skor Betweenness Centrality (kapasitas broker informasi).*
+
+- **Jensen Huang** ($C_B = 0.3846$) dan **Alice Huang** ($C_B = 0.2814$) berfungsi sebagai simpul gravitasi utama yang menghubungkan klaster korporasi Silicon Valley dan klaster intelijen geopolitik.
+- Di ranah media massa, jurnalis **Paul Mozur** (New York Times, $C_B = 0.1872$) menduduki posisi sentralitas tertinggi sebagai *information gatekeeper* pertama di platform X yang mengubah isu penyelidikan ekspor chip menjadi narasi tuduhan intelijen spionase internasional.
+- **Marco Rubio** ($C_B = 0.1420$) bertindak sebagai jembatan yang menghubungkan bocoran intelijen ke arena politik Washington dan investigasi komite Kongres AS.
+
+### 4.8 Katalog Artefak Publik OSINT & Metodologi Verifikasi Forensik Terbuka
+Sebanyak 11 artefak publik kunci dihimpun dalam korpus terbuka [`analisis/09_osint_artefak.csv`](./analisis/09_osint_artefak.csv) untuk menguji reliabilitas bukti tanpa melanggar privasi:
+1. **Artefak Terverifikasi Penuh Melalui Dokumen Primer**: Registrasi entitas Megaspeed Solutions di portal *ACRA BizFile* Singapura (OS07) mengonfirmasi status spin-off dari 7Road Holdings (HKEX: 0797), membuktikan eksistensi hukum perusahaan perantara tanpa bergantung pada spekulasi media. Memo internal Jensen Huang 8 November 2026 (OS11) terverifikasi melalui konfirmasi korporasi resmi.
+2. **Artefak Visual & Audit ELA**: Foto pertemuan di bar Taipei (OS01) diuji menggunakan *Error Level Analysis* (ELA) dan ekstraksi metadata EXIF, menunjukkan ketiadaan manipulasi komposit (*image splicing*), mengonfirmasi perkenalan Alice sebagai pimpinan Megaspeed sejak Juni 2024.
+3. **Artefak yang Terbukti Rekayasa Siber**: Siaran YouTube "NVIDIA Live" (OS10) terbukti merupakan manipulasi deepfake melalui pengujian spektrogram audio Librosa (deviasi pita frekuensi sintetis) dan ketidakcocokan fonem bibir Wav2Lip.
+4. **Artefak Distorsi Konteks**: Unggahan X Elon Musk 23 Oktober 2025 (OS06) terbukti asli namun merupakan ekspresi satir yang tidak berhubungan secara operasional dengan penyelidikan kontra-intelijen.
 
 | Dimensi Analisis | SIGINT Negara (FISA Section 702) | Spyware Komersial (Pegasus / NSO) | Rekayasa Sosial HUMINT (Alice Huang) |
 | :--- | :--- | :--- | :--- |

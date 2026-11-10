@@ -45,5 +45,9 @@ Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian
 - [`analisis/05_saham_event_study.png`](./analisis/05_saham_event_study.png): Analisis event-study fluktuasi saham NVDA vs. kalender peristiwa makro.
 - [`analisis/07_network_graph_betweenness.png`](./analisis/07_network_graph_betweenness.png): Peta Social Network Analysis (SNA) sentralitas perantara (*Betweenness Centrality*) 20 aktor & 10 media teratas.
 - [`analisis/01_timeline_kemunculan_pertama.csv`](./analisis/01_timeline_kemunculan_pertama.csv): Matriks kronologi kemunculan pertama lintas platform (Juni 2024 - Nov 2026).
+- [`analisis/02_status_klaim.csv`](./analisis/02_status_klaim.csv): Matriks evaluasi klaim kunci via Tiered Truth Engine (Serangan Fisik, Deepfake YouTube, Teori Trump Dalang, Teori Musk Dalang).
 - [`analisis/matriks_sna_20_aktor.csv`](./analisis/matriks_sna_20_aktor.csv): Skor Betweenness, In-Degree, PageRank, dan Closeness untuk 20 aktor utama.
 - [`analisis/matriks_sna_10_media.csv`](./analisis/matriks_sna_10_media.csv): Skor Betweenness Centrality untuk 10 media arus utama.
+- [`analisis/08_komparasi_metode_intelijen.csv`](./analisis/08_komparasi_metode_intelijen.csv): Komparasi 9 dimensi ontologis intelijen: SIGINT Unmasking (FISA 702) vs Spyware Komersial (Pegasus / MVT) vs HUMINT (Honeytrap/Social Engineering).
+- [`analisis/09_osint_artefak.csv`](./analisis/09_osint_artefak.csv): Katalog 11 artefak publik OSINT lengkap dengan status verifikasi, metodologi forensik, dan pemetaan tool spesifik.
+- [`evidence_ledger.json`](./evidence_ledger.json): Manifest rantai integritas bukti digital berstandar ISO/IEC 27037:2012 (17 item terverifikasi SHA-256).
