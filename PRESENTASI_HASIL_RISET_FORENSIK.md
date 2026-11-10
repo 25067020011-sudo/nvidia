@@ -80,13 +80,33 @@
 ---
 
 ## SLIDE 8: PEMBANTAHAN TEORI KONSPIRASI & PENGALIHAN ISU
-- **Teori "Trump Dalang"**: **Terbantahkan.** Penyelidikan intelijen berjalan sejak era Biden, Trump telah diberi taklimat setahun sebelumnya namun pasif, dan Trump secara terbuka membela Huang sebagai figur "brilliant".
+- **Teori "Trump Dalang"**: **Terbantahkan.** Penyelidikan intelijen telah berjalan sejak era pemerintahan Biden; Trump diberi taklimat setahun sebelumnya namun pasif, dan secara terbuka justru membela Huang sebagai figur "brilliant".
+- **Teori "Elon Musk Dalang"**: **Terbantahkan secara ekonomi.** Tesla belanja kumulatif \$10 Miliar chip NVIDIA per 2026, xAI menyepakati klaster komputasi \$20 Miliar (*Colossus 2*). Model AI Grok dan Tesla FSD bergantung 100% pada suplai GPU NVIDIA. Cuitan sinis 23 Okt 2025 (*"If she's a 10, you're an asset"*) tidak menyebut subjek dan terbit setahun sebelum insiden. Pihak yang diuntungkan riil adalah faksi *China-hawks* pengetat ekspor chip.
 - **Teori "Pengalihan Isu Pemilu"**: **Terbantahkan secara logis.** Berita muncul 5 hari sebelum pemilu sela, menyorot kelemahan mitigasi petahana, dan partainya justru kalah telak (*Blue Wave*). Tidak ada aktor politik yang merancang distraksi yang merugikan posisinya sendiri.
 
 ---
 
-## SLIDE 9: KESIMPULAN & REKOMENDASI STRATEGIS
-1. **Bagi Akademisi & Peneliti**: Wajib menggunakan sistem label kebenaran bertingkat (*Tiered Truth*) dan verifikasi dokumen primer (SEC 10-K/8-K) untuk menangkal amplifikasi disinformasi figur publik.
+## SLIDE 9: TRIAD DOKTRIN INTELIJEN & 11 ARTEFAK PUBLIK OSINT
+- **Triad Doktrin Intelijen (SIGINT vs Pegasus vs HUMINT)**:
+  - *SIGINT Hulu (FISA Section 702)*: Intelijen AS memantau Alice Huang (warga asing); Jensen Huang (warga AS) tersadap insidental lalu di-unmask secara legal. *Jejak endpoint ponsel: NIHIL*.
+  - *Spyware Komersial (Pegasus / NSO)*: MVT (Mobile Verification Toolkit) efektif mendeteksi 1.549 IOC STIX2, namun *NIHIL / Tidak Digunakan* dalam kasus ini.
+  - *HUMINT / Rekayasa Sosial*: Pendekatan Alice Huang berbasis relasi personal di forum industri (Computex Taipei, bar lounge).
+- **Katalog 11 Artefak OSINT Terbuka**:
+  - `OS07` (*ACRA BizFile Singapura*): Dokumen primer pemerintah membuktikan status badan hukum Megaspeed (spin-off 7Road HKEX: 0797).
+  - `OS01` (*Foto LinkedIn NetThunder 2024*): Diuji via ELA dan EXIF, mengonfirmasi pertemuan awal tanpa manipulasi gambar.
+  - `OS11` (*Memo Internal Jensen Huang 8 Nov 2026*): Terverifikasi dual-source dan diakui resmi korporasi.
+
+---
+
+## SLIDE 10: PLATFORM DASHBOARD STREAMLIT CLOUD & REPRODUCIBILITY
+- **Dashboard Web Interaktif**: Dapat diakses live via Streamlit Community Cloud (`app.py`) dengan 7 tab analitis dan visualisasi interaktif Plotly.
+- **Rantai Integritas ISO/IEC 27037:2012**: 19 artefak riset terdaftar dalam `evidence_ledger.json` dengan verifikasi hash ganda (SHA-256 dan MD5).
+- **Master Pipeline 10 Tahapan (`pipeline_run_all.py`)**: 100% reproducible dari ekstraksi korpus hingga audit governance 20 tahun.
+
+---
+
+## SLIDE 11: KESIMPULAN & REKOMENDASI STRATEGIS
+1. **Bagi Akademisi & Peneliti**: Wajib menggunakan sistem label kebenaran bertingkat (*Tiered Truth*) dan verifikasi dokumen primer (SEC 10-K/8-K, ACRA) untuk menangkal amplifikasi disinformasi figur publik.
 2. **Bagi Korporasi Terbuka**: Perlu membentuk *Converged Security Operations Center (CSOC)* yang memantau risiko fisik (keamanan panggung), ancaman digital (deepfake siaran langsung), dan perlindungan eksekutif secara terpadu.
 3. **Bagi Platform Digital**: Standardisasi verifikasi asal konten kriptografis (*C2PA Content Credentials*) pada siaran langsung resmi untuk memitigasi impersonasi pimpinan industri.
 

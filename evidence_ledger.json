@@ -105,16 +105,16 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-9D18A9B1",
+    "evidence_id": "EVD-0FFBC24C",
     "filename": "PRESENTASI_HASIL_RISET_FORENSIK.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRESENTASI_HASIL_RISET_FORENSIK.md",
-    "filesize_bytes": 5843,
+    "filesize_bytes": 7833,
     "source_category": "Presentation_Deck",
     "description": "Slide Presentasi Eksekutif Hasil Riset Forensik Digital (9 Slide)",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:38:50.440769+00:00",
     "hashes": {
-      "sha256": "9d18a9b1560237957e6d87f2a8dffdd77997c70c5ccd6401794274fddf91616a",
+      "sha256": "0ffbc24c48e1218f380017089a0e2acd8c9ec38919aacf2bdd637bc53ade4602",
       "md5": "977fdf1e36f04dc3b23cde1cdd6002c3"
     },
     "verification_status": "AUTHENTIC"
