@@ -1,6 +1,6 @@
 [
   {
-    "evidence_id": "EVD-155208EA",
+    "evidence_id": "EVD-CDC52D5F",
     "filename": "README.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
     "filesize_bytes": 2708,
@@ -9,8 +9,83 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "155208eaef4edfe3046073387cfa32a45be6c9967a086b398f4bc428529746ad",
-      "md5": "e09960ad40d7acd1e9edb3b0cad804c9"
+      "sha256": "cdc52d5f07b7814626f93fba01c3e22aa7f1c2d886f8f295589693a7cdd05bf5",
+      "md5": "9c86adde3c24f367ebe4e7c4941711ca"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-53340C6C",
+    "filename": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+    "filesize_bytes": 12055,
+    "source_category": "Research_Manuscript",
+    "description": "Draft Manuskrip Ilmiah Lengkap Format IMRaD",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:05:53.557335+00:00",
+    "hashes": {
+      "sha256": "53340c6c966b5d39ea878282634726217be182e4d3c8b612665dc68b9c2219dc",
+      "md5": "de30bc607b061163cb0ba170047af356"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-0927D12E",
+    "filename": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+    "filesize_bytes": 13596,
+    "source_category": "PRD_Specification",
+    "description": "PRD Master v3.0 Multi-Modal Forensics",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:05:53.578002+00:00",
+    "hashes": {
+      "sha256": "0927d12e9b17be137bd17831bc1ed99c074f3403a94c48d2d71dbe86c2f5850c",
+      "md5": "5aa101bf0539b07547e20def6eb1f2b9"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-D3A03069",
+    "filename": "nvda_skandal.csv",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/nvda_skandal.csv",
+    "filesize_bytes": 3322,
+    "source_category": "Financial_Dataset",
+    "description": "Dataset Historis Saham NVDA Periode Skandal (Sep-Nov 2026)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:05:53.597894+00:00",
+    "hashes": {
+      "sha256": "d3a030692dc6e218db0a05dd83eddb038aa28b217bdbcec8fc67c06cf90c3dd3",
+      "md5": "9aa34798df16fbdc97bda183f853131d"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-AD1134CC",
+    "filename": "audit_historis_sec_10k.json",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/audit_historis_sec_10k.json",
+    "filesize_bytes": 989,
+    "source_category": "Governance_Audit",
+    "description": "Data Audit Keterbukaan Informasi SEC 10-K 2016-2026",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:05:53.618493+00:00",
+    "hashes": {
+      "sha256": "ad1134cce487b95ed7f824e3a09c1c845ed35dc2afb17f6bfa2d88ae97c9c1c4",
+      "md5": "4800f8e0973d1faec7a3f928a3f7c1c4"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-65A6A424",
+    "filename": "audit_historis_sec_20tahun.json",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/audit_historis_sec_20tahun.json",
+    "filesize_bytes": 2586,
+    "source_category": "Governance_Audit",
+    "description": "Matriks Historis 20 Tahun Investigasi Korporasi NVIDIA (2006-2026)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:06:54.756938+00:00",
+    "hashes": {
+      "sha256": "65a6a4247c5d229a6aa2f13b08face3a57317b6ebacf4d3a8188ea2d9c8d9846",
+      "md5": "a2ad6610759e7e9f77139a9735a474be"
     },
     "verification_status": "AUTHENTIC"
   }

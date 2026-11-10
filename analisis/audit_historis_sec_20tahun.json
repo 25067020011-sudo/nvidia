@@ -1,0 +1,56 @@
+[
+  {
+    "tahun": "2006",
+    "kasus": "Manipulasi Tanggal Opsi Saham (Stock Option Backdating)",
+    "entitas_penyelidik": "Komite Audit Dewan Direksi + Penasihat Hukum Luar",
+    "tingkat_dewan": true,
+    "fokus_investigasi": "Praktik Akuntansi Korporasi (Corporate Practice)",
+    "kesimpulan": "Tidak ditemukan kekhawatiran atas integritas manajemen",
+    "sumber_arsip_sec": "Form 10-Q FY2006 / Form 8-K Nov 2006"
+  },
+  {
+    "tahun": "2017 - 2018",
+    "kasus": "Volatilitas Penjualan GPU untuk Mining Kripto",
+    "entitas_penyelidik": "SEC Enforcement Division & Litigasi Pemegang Saham",
+    "tingkat_dewan": false,
+    "fokus_investigasi": "Keterbukaan Informasi Pendapatan (Revenue Disclosure)",
+    "kesimpulan": "Penyelesaian denda perdata $5.5M pada 2022 tanpa pengakuan/bantahan",
+    "sumber_arsip_sec": "Form 10-K FY2018 - Item 3 Legal Proceedings"
+  },
+  {
+    "tahun": "2022",
+    "kasus": "Sengketa Pencurian Kode Sumber (Valeo v. NVIDIA)",
+    "entitas_penyelidik": "Manajemen & Tim Hukum Internal Korporasi",
+    "tingkat_dewan": false,
+    "fokus_investigasi": "Pelanggaran Perilaku Karyawan (Employee Conduct)",
+    "kesimpulan": "Investigasi internal internal counsel korporasi",
+    "sumber_arsip_sec": "Berkas Putusan Pengadilan Valeo v. NVIDIA"
+  },
+  {
+    "tahun": "2025",
+    "kasus": "Dugaan Pengalihan Chip melalui Megaspeed",
+    "entitas_penyelidik": "Investigasi Internal Manajemen Perusahaan",
+    "tingkat_dewan": false,
+    "fokus_investigasi": "Kepatuhan Rantai Distribusi Ekspor Produk",
+    "kesimpulan": "Manajemen tidak menemukan bukti pengalihan produk (no diversion)",
+    "sumber_arsip_sec": "Penyelidikan Kepolisian Singapura / Audit Manajemen"
+  },
+  {
+    "tahun": "Juli 2026",
+    "kasus": "Gugatan Data Pelatihan AI Diduga Bajakan (Berliner v. Huang)",
+    "entitas_penyelidik": "Pengadilan Distrik AS (Litigasi Derivatif Pemegang Saham)",
+    "tingkat_dewan": false,
+    "fokus_investigasi": "Pelanggaran Hak Cipta Korpus Data AI",
+    "kesimpulan": "Proses peradilan perdata berjalan",
+    "sumber_arsip_sec": "Gugatan Derivatif Pemegang Saham (Jul 2026)"
+  },
+  {
+    "tahun": "November 2026",
+    "kasus": "Kontak Pihak Ketiga (Alice Huang) & Memo Personal Eksekutif",
+    "entitas_penyelidik": "Komite Direktur Independen Dewan + Penasihat Hukum Luar",
+    "tingkat_dewan": true,
+    "fokus_investigasi": "Integritas & Perilaku Personal Pimpinan Tertinggi (CEO Conduct)",
+    "kesimpulan": "Proses evaluasi independen berjalan; CEO tetap menjabat",
+    "sumber_arsip_sec": "Rilis Resmi Dewan Direksi NVIDIA (8 Nov 2026)"
+  }
+]

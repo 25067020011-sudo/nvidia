@@ -51,7 +51,7 @@ Penelitian ini membedah **bagaimana sebuah insiden fisik minor (protes verbal) d
 
 ### 2.2 Dekomposisi Jaringan Aktor & Analisis Motif Kepentingan
 Untuk menjaga objektivitas ilmiah dan mencegah atribusi spekulatif, dinamika kasus didekonstruksi ke dalam 4 kuadran pemangku kepentingan:
-1. **Komite Direktur Independen NVIDIA**: Menjalankan mekanisme kepatuhan tata kelola (*governance audit*) didampingi penasihat hukum eksternal independen guna melindungi kepentingan pemegang saham dan korporasi menjelang rilis kinerja kuartalan. CEO tetap menjabat penuh.
+1. **Komite Direktur Independen NVIDIA**: Menjalankan mekanisme kepatuhan tata kelola luar biasa (*extraordinary event-driven action*) yang dibantu penasihat hukum eksternal independen. Berdasarkan audit historis SEC EDGAR 20 tahun (2006–2026), investigasi tingkat dewan hanya terjadi 2 kali (2006 terkait akuntansi opsi saham, dan 2026 terkait perilaku pribadi CEO). CEO tetap menjabat penuh selama evaluasi berlangsung.
 2. **Aparatur Intelijen & Pembocor Anonim**: Pengawasan terhadap perantara perdagangan luar negeri telah berlangsung lintas periode kepresidenan. Pembocoran memo kepada media investigasi dipicu oleh perbedaan pandangan kebijakan terkait penegakan batas ekspor chip canggih, bukan konspirasi pengambilalihan korporasi.
 3. **Komite Pengawasan Legislatif (Kongres AS)**: Menjalankan fungsi pengawasan keamanan nasional terkait rantai pasok dan transfer teknologi kecerdasan buatan.
 4. **Entitas Perantara Perdagangan**: Berfokus pada dinamika akses pasokan teknologi dan arah kebijakan pembatasan semikonduktor.

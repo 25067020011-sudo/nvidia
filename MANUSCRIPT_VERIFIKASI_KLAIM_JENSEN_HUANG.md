@@ -103,11 +103,13 @@ Hipotesis bahwa skandal ini dirancang sebagai pengalihan isu pemilu terbantahkan
 2. Penyelidikan intelijen telah berjalan sejak era pemerintahan sebelumnya, membantah klaim rekayasa dadakan.
 3. Keterlibatan dewan direksi merupakan pelaksanaan kewajiban fidusia (*fiduciary duty*) untuk melindungi nilai pemegang saham menjelang pelaporan keuangan kuartalan.
 
-### 4.5 Analisis Sifat Investigasi Dewan Direksi: Prosedur Luar Biasa (Event-Driven)
-Berdasarkan audit komparatif terhadap keterbukaan informasi SEC EDGAR (Form 10-K & 8-K CIK 0001045810) selama satu dekade (2016–2026):
-1. **Bukan Prosedur Rutin**: Investigasi independen oleh dewan direksi berbeda secara fundamental dari audit keuangan tahunan eksternal. Investigasi ini merupakan prosedur luar biasa (*extraordinary governance action*) yang hanya diaktifkan atas insiden integritas spesifik (*event-driven*).
-2. **Preseden Historis 10 Tahun**: Dalam rentang 2016 hingga 2026, krisis-krisis sebelumnya (seperti denda SEC 2022 terkait pendapatan mining kripto 2017) ditangani tanpa pembentukan komite independen publik. Kasus November 2026 merupakan **satu-satunya investigasi independen dewan NVIDIA yang diumumkan secara terbuka ke publik dalam 10 tahun terakhir**, serta satu-satunya yang menyasar kepemimpinan eksekutif secara langsung.
-3. **Pola Pembanding Industri**: Kasus serupa pada mitra industri (Supermicro / SMCI) membuktikan bahwa aktivasi komite investigasi dewan selalu berkorelasi langsung dengan krisis material (misal: pengunduran diri auditor atau tuduhan pelanggaran kontrol ekspor), bukan bagian dari kalender kepatuhan berkala.
+### 4.5 Analisis Sifat Investigasi Dewan Direksi: Preseden Dua Dekade (2006 vs 2026)
+Berdasarkan penelusuran komparatif keterbukaan informasi SEC EDGAR (Form 10-K, 10-Q, 8-K CIK 0001045810) selama dua dekade (2006–2026):
+1. **Preseden 20 Tahun**: Investigasi independen tingkat dewan (*board-level independent investigation*) hanya terjadi **dua kali dalam 20 tahun sejarah NVIDIA**:
+   - *Tahun 2006*: Terkait manipulasi tanggal opsi saham (*stock option backdating*), dipimpin Komite Audit dewan dibantu penasihat hukum luar, berfokus pada sistem akuntansi korporasi (*corporate accounting practice*).
+   - *Tahun 2026*: Kasus memo personal dan kontak pihak ketiga, dipimpin Komite Direktur Independen.
+2. **Karakteristik Unik Kasus 2026**: Kasus November 2026 adalah **satu-satunya investigasi tingkat dewan dalam sejarah NVIDIA yang menyasar perilaku pribadi (*personal conduct*) pimpinan tertinggi (CEO Jensen Huang)**.
+3. **Pembedaan dengan Investigasi Manajemen**: Seluruh insiden material lain dalam rentang 2016–2025 (denda SEC kripto 2017/2022, sengketa kode sumber Valeo 2022, pemeriksaan pengalihan produk Megaspeed 2025, dan gugatan derivatif hak cipta AI Juli 2026) ditangani oleh tim hukum manajemen internal atau proses peradilan/regulator, bukan melalui pembentukan komite dewan independen. Hal ini menegaskan bahwa mekanisme dewan adalah tindakan tata kelola paling luar biasa (*extraordinary governance event*).
 
 ---
 
