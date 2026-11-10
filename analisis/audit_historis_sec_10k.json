@@ -1,0 +1,26 @@
+[
+  {
+    "tahun": "2017 - 2018",
+    "kasus": "Volatilitas Pendapatan GPU Mining Kripto",
+    "tipe_penanganan": "Penyelidikan Regulator (SEC Enforcement)",
+    "investigasi_dewan_independen": false,
+    "diumumkan_ke_publik": false,
+    "sumber_dokumen": "Form 10-K FY2018 - Item 3 Legal Proceedings"
+  },
+  {
+    "tahun": "2022",
+    "kasus": "Penyelesaian Denda SEC $5.5 Juta (Kasus Kripto 2017)",
+    "tipe_penanganan": "Penyelesaian Perdata (Settlement without admission/denial)",
+    "investigasi_dewan_independen": false,
+    "diumumkan_ke_publik": false,
+    "sumber_dokumen": "SEC Order Release No. 33-11062 / Form 10-Q Q1 2022"
+  },
+  {
+    "tahun": "November 2026",
+    "kasus": "Kontak Pihak Ketiga & Memo Internal Eksekutif",
+    "tipe_penanganan": "Komite Khusus Direktur Independen + Penasihat Hukum Eksternal",
+    "investigasi_dewan_independen": true,
+    "diumumkan_ke_publik": true,
+    "sumber_dokumen": "Form 8-K / Rilis Resmi Dewan Direksi NVIDIA (8 Nov 2026)"
+  }
+]

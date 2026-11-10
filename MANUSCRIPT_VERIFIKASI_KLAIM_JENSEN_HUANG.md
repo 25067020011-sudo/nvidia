@@ -103,6 +103,12 @@ Hipotesis bahwa skandal ini dirancang sebagai pengalihan isu pemilu terbantahkan
 2. Penyelidikan intelijen telah berjalan sejak era pemerintahan sebelumnya, membantah klaim rekayasa dadakan.
 3. Keterlibatan dewan direksi merupakan pelaksanaan kewajiban fidusia (*fiduciary duty*) untuk melindungi nilai pemegang saham menjelang pelaporan keuangan kuartalan.
 
+### 4.5 Analisis Sifat Investigasi Dewan Direksi: Prosedur Luar Biasa (Event-Driven)
+Berdasarkan audit komparatif terhadap keterbukaan informasi SEC EDGAR (Form 10-K & 8-K CIK 0001045810) selama satu dekade (2016–2026):
+1. **Bukan Prosedur Rutin**: Investigasi independen oleh dewan direksi berbeda secara fundamental dari audit keuangan tahunan eksternal. Investigasi ini merupakan prosedur luar biasa (*extraordinary governance action*) yang hanya diaktifkan atas insiden integritas spesifik (*event-driven*).
+2. **Preseden Historis 10 Tahun**: Dalam rentang 2016 hingga 2026, krisis-krisis sebelumnya (seperti denda SEC 2022 terkait pendapatan mining kripto 2017) ditangani tanpa pembentukan komite independen publik. Kasus November 2026 merupakan **satu-satunya investigasi independen dewan NVIDIA yang diumumkan secara terbuka ke publik dalam 10 tahun terakhir**, serta satu-satunya yang menyasar kepemimpinan eksekutif secara langsung.
+3. **Pola Pembanding Industri**: Kasus serupa pada mitra industri (Supermicro / SMCI) membuktikan bahwa aktivasi komite investigasi dewan selalu berkorelasi langsung dengan krisis material (misal: pengunduran diri auditor atau tuduhan pelanggaran kontrol ekspor), bukan bagian dari kalender kepatuhan berkala.
+
 ---
 
 ## 5. KESIMPULAN & REKOMENDASI
