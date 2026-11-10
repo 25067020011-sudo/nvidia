@@ -133,3 +133,4 @@ if __name__ == "__main__":
         verify_all_evidence()
     else:
         print("[!] Parameter tidak valid. Gunakan 'ingest' atau 'verify'.")
+
