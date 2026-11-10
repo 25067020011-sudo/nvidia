@@ -1,6 +1,6 @@
 [
   {
-    "evidence_id": "EVD-85260BF4",
+    "evidence_id": "EVD-928F7CB6",
     "filename": "README.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
     "filesize_bytes": 2708,
@@ -9,8 +9,8 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "85260bf482fe511e1351f85cd37de5337f79ba5cd7b85cf4a06306e6a6795242",
-      "md5": "75e55a41bdbee97d45adcea664863352"
+      "sha256": "928f7cb649d60c41ff94ceb53d83f187bfe431c896d50778db3010506ddacfa4",
+      "md5": "ad3491d16c499c48ebb1b78398a40dd3"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -105,7 +105,7 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-2E3D7120",
+    "evidence_id": "EVD-9D18A9B1",
     "filename": "PRESENTASI_HASIL_RISET_FORENSIK.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRESENTASI_HASIL_RISET_FORENSIK.md",
     "filesize_bytes": 5843,
@@ -114,13 +114,13 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:38:50.440769+00:00",
     "hashes": {
-      "sha256": "2e3d7120c3a23185770a2fce93ccc8303da4d1fba86f74695888767bd7f3b2aa",
-      "md5": "0e94c0af9cd1fbff9fccb2bb21d0b188"
+      "sha256": "9d18a9b1560237957e6d87f2a8dffdd77997c70c5ccd6401794274fddf91616a",
+      "md5": "977fdf1e36f04dc3b23cde1cdd6002c3"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-6449B36A",
+    "evidence_id": "EVD-F68981AF",
     "filename": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
     "filesize_bytes": 7380,
@@ -129,8 +129,23 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:40:05.787420+00:00",
     "hashes": {
-      "sha256": "6449b36a24e8f54777d446d4dae9ade08eb7de45e8b21a7cba7e97c22a039335",
-      "md5": "4e1ce11e1e8ac190fe9e7e08b9294e39"
+      "sha256": "f68981af07b2dd39351c85565fe6857dd7dce9ad35643802974e920de6dba61b",
+      "md5": "7ed4082b2e3cda04227c120b0daf4baf"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-51B4F8E3",
+    "filename": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
+    "filesize_bytes": 4659,
+    "source_category": "SOP_Playbook",
+    "description": "SOP Tanggap Darurat Penanganan Insiden Layer 8, Deepfake & Disinformasi Fisik (NIST SP 800-61)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T15:54:17.170450+00:00",
+    "hashes": {
+      "sha256": "51b4f8e30fb0c2ed8a3f20a41b8823dc54bb48a3fa898acb24cfcc11e187d330",
+      "md5": "27079a3f9634b9351e19d9b5bf85e06e"
     },
     "verification_status": "AUTHENTIC"
   }

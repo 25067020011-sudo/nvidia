@@ -89,3 +89,4 @@
 1. **Bagi Akademisi & Peneliti**: Wajib menggunakan sistem label kebenaran bertingkat (*Tiered Truth*) dan verifikasi dokumen primer (SEC 10-K/8-K) untuk menangkal amplifikasi disinformasi figur publik.
 2. **Bagi Korporasi Terbuka**: Perlu membentuk *Converged Security Operations Center (CSOC)* yang memantau risiko fisik (keamanan panggung), ancaman digital (deepfake siaran langsung), dan perlindungan eksekutif secara terpadu.
 3. **Bagi Platform Digital**: Standardisasi verifikasi asal konten kriptografis (*C2PA Content Credentials*) pada siaran langsung resmi untuk memitigasi impersonasi pimpinan industri.
+

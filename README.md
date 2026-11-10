@@ -8,6 +8,7 @@ Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian
 
 | Versi Dokumen | Nama Dokumen | Fokus Utama | Tautan Berkas |
 | :--- | :--- | :--- | :--- |
+| **SOP Tanggap Insiden** | **Playbook Penanganan Insiden Layer 8 & Deepfake** | Panduan operasional standar (NIST SP 800-61 / ISO 27035) untuk CSOC, Legal, dan PR dalam menangani disinformasi fisik, deepfake siaran langsung, dan penipuan phygital. | [`SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md`](./SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md) |
 | **Laporan Investigasi** | **Laporan Resmi Penyelidikan Forensik Digital & Audit** | Laporan formal komprehensif (Executive Summary, Ground Truth Matrix, Audit Keterbukaan SEC 20 Tahun, Hasil Korpus 300 Berita, Event-Study Saham, Rekomendasi CSOC). | [`LAPORAN_HASIL_INVESTIGASI_FORENSIK.md`](./LAPORAN_HASIL_INVESTIGASI_FORENSIK.md) |
 | **Slide Eksekutif** | **Presentasi Hasil Riset Forensik (Deck)** | Ringkasan 9 slide siap saji untuk sidang skripsi/tesis, presentasi dewan, atau konferensi ilmiah (latar belakang, metodologi, temuan empiris, event study, dan rekomendasi). | [`PRESENTASI_HASIL_RISET_FORENSIK.md`](./PRESENTASI_HASIL_RISET_FORENSIK.md) |
 | **Manuskrip Ilmiah** | **Naskah Draft Artikel Jurnal (IMRaD)** | Format baku artikel ilmiah (Abstrak, Pendahuluan, Metodologi, Hasil Empiris 300 Berita, Event-Study Saham, dan Pembahasan). Siap untuk diseminasi akademis/tesis. | [`MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md`](./MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md) |
