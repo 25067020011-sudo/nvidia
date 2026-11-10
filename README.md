@@ -30,9 +30,10 @@ Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian
 ---
 
 ## 🛠️ Toolkit & Korpus Verifikasi
-1. **Verifikasi Media Multimodal**: InVID-WeVerify, FotoForensics (Error Level Analysis), ExifTool.
-2. **Benchmark Deepfake**: FaceForensics++, DFDC, Celeb-DF v2, FakeAVCeleb.
-3. **Data Primer & Pelacakan Narasi**: SEC EDGAR (Form 8-K / 10-K), GDELT Project, Media Cloud, Wayback Machine, X API (SNA).
+1. **Master Pipeline Otomatis**: Jalankan seluruh rangkaian audit & analisis dalam 1 klik via [`pipeline_run_all.py`](./pipeline_run_all.py).
+2. **Verifikasi Media Multimodal**: InVID-WeVerify, FotoForensics (Error Level Analysis), ExifTool.
+3. **Benchmark Deepfake**: FaceForensics++, DFDC, Celeb-DF v2, FakeAVCeleb.
+4. **Data Primer & Pelacakan Narasi**: SEC EDGAR (Form 8-K / 10-K), GDELT Project, Media Cloud, Wayback Machine, X API (SNA).
 
 ---
 

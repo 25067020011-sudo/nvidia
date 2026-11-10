@@ -1,6 +1,6 @@
 [
   {
-    "evidence_id": "EVD-928F7CB6",
+    "evidence_id": "EVD-77CC396A",
     "filename": "README.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
     "filesize_bytes": 2708,
@@ -9,8 +9,8 @@
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "928f7cb649d60c41ff94ceb53d83f187bfe431c896d50778db3010506ddacfa4",
-      "md5": "ad3491d16c499c48ebb1b78398a40dd3"
+      "sha256": "77cc396a11a3f1eb83d59c51f77f9f960ac11c214c1b084c0679a6158be6c4e7",
+      "md5": "b1d3b95fbac3328e716ad80a057af43e"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -191,6 +191,21 @@
     "hashes": {
       "sha256": "0f29561479c97d96d23f87e67c4a7677b15e92da0002b6969a5c6e86a922b8ec",
       "md5": "dadfbe5ba980494ea28eaf906d2639ff"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-F3495BCF",
+    "filename": "pipeline_run_all.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/pipeline_run_all.py",
+    "filesize_bytes": 3544,
+    "source_category": "Automation_Pipeline",
+    "description": "Master Execution Pipeline: Satu Perintah untuk Menjalankan Seluruh Audit Forensik & SNA",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T16:11:15.599157+00:00",
+    "hashes": {
+      "sha256": "f3495bcfe150a6695abdbe44dbb1b6144314087fc2ed6c7524b9d6c92a2700c9",
+      "md5": "27d532b39a91ef0d24b269cbd8231548"
     },
     "verification_status": "AUTHENTIC"
   }
