@@ -1,0 +1,21 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Cloned External Repositories & Heavy Media
+DeepfakeBench/
+alice-huang-review/
+voices-celebrities/
+youtube_transcripts_qa/

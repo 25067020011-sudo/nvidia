@@ -1,0 +1,17 @@
+[
+  {
+    "evidence_id": "EVD-155208EA",
+    "filename": "README.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
+    "filesize_bytes": 2708,
+    "source_category": "Documentation",
+    "description": "Indeks Repositori Riset Forensik",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
+    "hashes": {
+      "sha256": "155208eaef4edfe3046073387cfa32a45be6c9967a086b398f4bc428529746ad",
+      "md5": "e09960ad40d7acd1e9edb3b0cad804c9"
+    },
+    "verification_status": "AUTHENTIC"
+  }
+]
