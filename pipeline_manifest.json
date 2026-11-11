@@ -1,7 +1,7 @@
 {
   "pipeline_version": "4.0",
-  "execution_timestamp_utc": "2026-11-11T01:09:07.091935+00:00",
-  "total_duration_sec": 10.16,
+  "execution_timestamp_utc": "2026-11-11T01:16:01.384836+00:00",
+  "total_duration_sec": 11.53,
   "stages_planned": 13,
   "stages_executed": 13,
   "stages_successful": 13,
@@ -12,12 +12,12 @@
       "command": ".venv/bin/python tools/hash_chain_verifier.py verify",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.28,
+      "duration_sec": 0.33,
       "attempts": 1,
       "stdout_tail": [
         "--> Memeriksa EVD-D2358755 (sna_centrality_analyzer.py)... [VERIFIED / OTENTIK]",
         "--> Memeriksa EVD-859C0C39 (tiered_truth_classifier.py)... [VERIFIED / OTENTIK]",
-        "--> Memeriksa EVD-D24BC39F (reportica_intelligence_generator.py)... [VERIFIED / OTENTIK]",
+        "--> Memeriksa EVD-C1E1A8C5 (reportica_intelligence_generator.py)... [VERIFIED / OTENTIK]",
         "[+] Seluruh bukti forensik memiliki integritas SHA-256 yang valid (100% Utuh)."
       ],
       "stderr": ""
@@ -27,7 +27,7 @@
       "command": ".venv/bin/python tools/tiered_truth_classifier.py",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.02,
+      "duration_sec": 0.03,
       "attempts": 1,
       "stdout_tail": [
         "  Tingkat Keyakinan: 99%",
@@ -57,7 +57,7 @@
       "command": ".venv/bin/python tools/event_study_analyzer.py",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.44,
+      "duration_sec": 0.72,
       "attempts": 1,
       "stdout_tail": [
         "  1. 05 Nov (Regulasi Makro Pasca-Pemilu): -12.14%",
@@ -87,7 +87,7 @@
       "command": ".venv/bin/python tools/generate_corpus_and_charts.py",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 7.36,
+      "duration_sec": 8.27,
       "attempts": 1,
       "stdout_tail": [
         "[*] Berkas 'berita_skandal_jensen_huang.csv' sudah ada.",
@@ -100,7 +100,7 @@
       "command": ".venv/bin/python tools/sna_centrality_analyzer.py",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.88,
+      "duration_sec": 1.06,
       "attempts": 1,
       "stdout_tail": [
         "       7             The Next Web                  0.0012    0.0247",
@@ -115,7 +115,7 @@
       "command": ".venv/bin/python analisis_berita.py berita_skandal_jensen_huang.csv",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.72,
+      "duration_sec": 0.7,
       "attempts": 1,
       "stdout_tail": [
         "18. Anadolu Agency — 3",
@@ -160,7 +160,7 @@
       "command": ".venv/bin/python tools/ela_exif_forensic_analyzer.py test",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.1,
+      "duration_sec": 0.09,
       "attempts": 1,
       "stdout_tail": [
         "      \"Software\": \"Matplotlib version3.11.2, https://matplotlib.org/\"",
@@ -175,12 +175,12 @@
       "command": ".venv/bin/python tools/deepfake_signature_validator.py test",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.03,
+      "duration_sec": 0.02,
       "attempts": 1,
       "stdout_tail": [
         "    \"Ketiadaan tanda tangan kriptografis asal media (Missing C2PA / Content Credentials).\"",
         "  ],",
-        "  \"evaluation_timestamp_utc\": \"2026-11-11T01:09:06.868346+00:00\"",
+        "  \"evaluation_timestamp_utc\": \"2026-11-11T01:16:01.155720+00:00\"",
         "}"
       ],
       "stderr": ""
@@ -190,7 +190,7 @@
       "command": ".venv/bin/python tools/reportica_intelligence_generator.py",
       "status": "SUCCESS",
       "returncode": 0,
-      "duration_sec": 0.22,
+      "duration_sec": 0.23,
       "attempts": 1,
       "stdout_tail": [
         "[+] Laporan Reportica JSON berhasil dibuat: analisis/REPORTICA_INTELLIGENCE_BRIEF_V4.json",

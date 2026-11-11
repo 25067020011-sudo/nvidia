@@ -450,32 +450,32 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-686DB993",
+    "evidence_id": "EVD-1BFB38AE",
     "filename": "TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
-    "filesize_bytes": 4138,
+    "filesize_bytes": 4139,
     "source_category": "Incident_Response_Playbook",
     "description": "Skenario Latihan Simulasi Tabletop Drill CSOC & Krisis",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-11T00:53:27.173078+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:15:39.389359+00:00",
     "hashes": {
-      "sha256": "686db9932a611c101e06d9818b1de73ce657265dbaa7ad57d82893ae6316401c",
-      "md5": "110592734911dbe8fb066d334de2ca1b"
+      "sha256": "1bfb38ae900abd98fd97ca4bbcf1b10530b039bd8bf8932b3c88bcbddfbbc429",
+      "md5": "b65c363c6526236c410ce13ab6c46604"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-F0E73694",
+    "evidence_id": "EVD-B3C6E63F",
     "filename": "AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
-    "filesize_bytes": 3379,
+    "filesize_bytes": 3380,
     "source_category": "Ethics_Compliance",
     "description": "Audit Kepatuhan Perlindungan Data Pribadi (UU PDP No. 27/2022 & GDPR)",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-11T00:53:27.366591+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:15:39.618786+00:00",
     "hashes": {
-      "sha256": "f0e73694b6925ba679dadf1f36b2d0906ddeae5dfb101f3574b42fd07c6e7850",
-      "md5": "ca1d45b6189504d0c2a00f9d738c91cd"
+      "sha256": "b3c6e63fec597b97cc8c1aba4cd880a7ed54d6a6c01968aef7fc377979c8bbbe",
+      "md5": "ab3c10ea89ad854b52c49bde27750a6b"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -540,17 +540,17 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-D24BC39F",
+    "evidence_id": "EVD-C1E1A8C5",
     "filename": "reportica_intelligence_generator.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/reportica_intelligence_generator.py",
-    "filesize_bytes": 6804,
+    "filesize_bytes": 6805,
     "source_category": "Forensic_Tool",
     "description": "Pembangkit Laporan Intelijen Eksekutif Terpadu Reportica v4.0",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-11T01:03:44.567508+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:15:39.850706+00:00",
     "hashes": {
-      "sha256": "d24bc39f99754140b0234240928e94cc01b4d8fa2779f355d81642159a91db71",
-      "md5": "e37cf63d91da2b10410972e0825fd290"
+      "sha256": "c1e1a8c5fe2bb5596b092bfda5dec7fba32939e4a30d50d9910d76181236f588",
+      "md5": "5020df17043f8e0853a25e264f69eb79"
     },
     "verification_status": "AUTHENTIC"
   }
