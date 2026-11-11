@@ -1,0 +1,422 @@
+{
+  "audit_timestamp_utc": "2026-11-11T08:28:40Z",
+  "total_registered_items": 37,
+  "verified_authentic_count": 37,
+  "tampered_or_mismatched_count": 0,
+  "missing_files_count": 0,
+  "duplicated_evidence_ids": [
+    "EVD-F86EEA59"
+  ],
+  "duplicated_hashes": [
+    "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9"
+  ],
+  "items": [
+    {
+      "evidence_id": "EVD-E17FBC4E",
+      "filename": "README.md",
+      "resolved_path": "README.md",
+      "filesize_bytes": 6304,
+      "expected_sha256": "e17fbc4ef1dc4195ec31d9f6254162ebbff2c204b80e20a0e06482858601cc10",
+      "actual_sha256": "e17fbc4ef1dc4195ec31d9f6254162ebbff2c204b80e20a0e06482858601cc10",
+      "sha256_match": true,
+      "md5_match": false,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-5F9C3E06",
+      "filename": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "resolved_path": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "filesize_bytes": 26605,
+      "expected_sha256": "5f9c3e06f4dc850339cf3f07d997fe3937d73d0b7146d9358f2cd291815f3f70",
+      "actual_sha256": "5f9c3e06f4dc850339cf3f07d997fe3937d73d0b7146d9358f2cd291815f3f70",
+      "sha256_match": true,
+      "md5_match": false,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-A32DD738",
+      "filename": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "resolved_path": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "filesize_bytes": 20170,
+      "expected_sha256": "a32dd738e6c5ca31080c79772e26ecbaad498b50d815bac8d09a55ce2cb92b2b",
+      "actual_sha256": "a32dd738e6c5ca31080c79772e26ecbaad498b50d815bac8d09a55ce2cb92b2b",
+      "sha256_match": true,
+      "md5_match": false,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-D3A03069",
+      "filename": "nvda_skandal.csv",
+      "resolved_path": "nvda_skandal.csv",
+      "filesize_bytes": 3322,
+      "expected_sha256": "d3a030692dc6e218db0a05dd83eddb038aa28b217bdbcec8fc67c06cf90c3dd3",
+      "actual_sha256": "d3a030692dc6e218db0a05dd83eddb038aa28b217bdbcec8fc67c06cf90c3dd3",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-AD1134CC",
+      "filename": "audit_historis_sec_10k.json",
+      "resolved_path": "analisis/audit_historis_sec_10k.json",
+      "filesize_bytes": 989,
+      "expected_sha256": "ad1134cce487b95ed7f824e3a09c1c845ed35dc2afb17f6bfa2d88ae97c9c1c4",
+      "actual_sha256": "ad1134cce487b95ed7f824e3a09c1c845ed35dc2afb17f6bfa2d88ae97c9c1c4",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-65A6A424",
+      "filename": "audit_historis_sec_20tahun.json",
+      "resolved_path": "analisis/audit_historis_sec_20tahun.json",
+      "filesize_bytes": 2586,
+      "expected_sha256": "65a6a4247c5d229a6aa2f13b08face3a57317b6ebacf4d3a8188ea2d9c8d9846",
+      "actual_sha256": "65a6a4247c5d229a6aa2f13b08face3a57317b6ebacf4d3a8188ea2d9c8d9846",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-5C6710B9",
+      "filename": "berita_skandal_jensen_huang.csv",
+      "resolved_path": "berita_skandal_jensen_huang.csv",
+      "filesize_bytes": 45141,
+      "expected_sha256": "5c6710b99ed1954d637ca5939f08de26018821a912d8dc1e5d7cd756bbd2ff7d",
+      "actual_sha256": "5c6710b99ed1954d637ca5939f08de26018821a912d8dc1e5d7cd756bbd2ff7d",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-0FFBC24C",
+      "filename": "PRESENTASI_HASIL_RISET_FORENSIK.md",
+      "resolved_path": "PRESENTASI_HASIL_RISET_FORENSIK.md",
+      "filesize_bytes": 7833,
+      "expected_sha256": "0ffbc24c48e1218f380017089a0e2acd8c9ec38919aacf2bdd637bc53ade4602",
+      "actual_sha256": "0ffbc24c48e1218f380017089a0e2acd8c9ec38919aacf2bdd637bc53ade4602",
+      "sha256_match": true,
+      "md5_match": false,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-217EE4A8",
+      "filename": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
+      "resolved_path": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
+      "filesize_bytes": 10955,
+      "expected_sha256": "217ee4a8999fc46c7f40bb19929d29761f0de59bf2ae11729534e6f81ec5ef09",
+      "actual_sha256": "217ee4a8999fc46c7f40bb19929d29761f0de59bf2ae11729534e6f81ec5ef09",
+      "sha256_match": true,
+      "md5_match": false,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-14D6ED91",
+      "filename": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
+      "resolved_path": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
+      "filesize_bytes": 4660,
+      "expected_sha256": "14d6ed91cae8ed9ec6cedbd89db65a272c5fc7cdd16d74fd53670740700a63ec",
+      "actual_sha256": "14d6ed91cae8ed9ec6cedbd89db65a272c5fc7cdd16d74fd53670740700a63ec",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-F6515D00",
+      "filename": "01_timeline_kemunculan_pertama.csv",
+      "resolved_path": "analisis/01_timeline_kemunculan_pertama.csv",
+      "filesize_bytes": 2093,
+      "expected_sha256": "f6515d000b7128a70e38d9ab4f6235e40d782d0bf17b26b80338c550ecfce456",
+      "actual_sha256": "f6515d000b7128a70e38d9ab4f6235e40d782d0bf17b26b80338c550ecfce456",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-BA25CEC0",
+      "filename": "matriks_sna_20_aktor.csv",
+      "resolved_path": "analisis/matriks_sna_20_aktor.csv",
+      "filesize_bytes": 1505,
+      "expected_sha256": "ba25cec074611a4b12185dcdfcaef069d7f604d8b78296403030bb656f8e0f50",
+      "actual_sha256": "ba25cec074611a4b12185dcdfcaef069d7f604d8b78296403030bb656f8e0f50",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-E6648C60",
+      "filename": "matriks_sna_10_media.csv",
+      "resolved_path": "analisis/matriks_sna_10_media.csv",
+      "filesize_bytes": 738,
+      "expected_sha256": "e6648c60159eb149a7af705f34e8606fe86dffa46e94cc369a83276eddb01700",
+      "actual_sha256": "e6648c60159eb149a7af705f34e8606fe86dffa46e94cc369a83276eddb01700",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-24D7F330",
+      "filename": "pipeline_run_all.py",
+      "resolved_path": "pipeline_run_all.py",
+      "filesize_bytes": 9612,
+      "expected_sha256": "24d7f33049d426973cd54667c830b9d6c45acc27a675a6f00c17068c6186f698",
+      "actual_sha256": "24d7f33049d426973cd54667c830b9d6c45acc27a675a6f00c17068c6186f698",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-582EE15A",
+      "filename": "08_komparasi_metode_intelijen.csv",
+      "resolved_path": "analisis/08_komparasi_metode_intelijen.csv",
+      "filesize_bytes": 3355,
+      "expected_sha256": "582ee15a2f624cee4a0173f5867ea79d7b65aa006dc1ea68acf0844c256d58d4",
+      "actual_sha256": "582ee15a2f624cee4a0173f5867ea79d7b65aa006dc1ea68acf0844c256d58d4",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-02A9C5AD",
+      "filename": "02_status_klaim.csv",
+      "resolved_path": "analisis/02_status_klaim.csv",
+      "filesize_bytes": 1843,
+      "expected_sha256": "02a9c5ad127cf17548561b4ccb82de1e5269a64ed280e0a5de23434b7a473c25",
+      "actual_sha256": "02a9c5ad127cf17548561b4ccb82de1e5269a64ed280e0a5de23434b7a473c25",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-138C459B",
+      "filename": "09_osint_artefak.csv",
+      "resolved_path": "analisis/09_osint_artefak.csv",
+      "filesize_bytes": 7322,
+      "expected_sha256": "138c459bf7ff014e273bf7306ebb736dba39fd59ac663b92a90ba2c3f873cfc7",
+      "actual_sha256": "138c459bf7ff014e273bf7306ebb736dba39fd59ac663b92a90ba2c3f873cfc7",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-F86EEA59",
+      "filename": "app.py",
+      "resolved_path": "app.py",
+      "filesize_bytes": 18956,
+      "expected_sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
+      "actual_sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-44976DD7",
+      "filename": "requirements.txt",
+      "resolved_path": "requirements.txt",
+      "filesize_bytes": 127,
+      "expected_sha256": "44976dd76ad3341a4e2561a20fbfb2856db32fb29d4ba2abed18bb989e0f6a6a",
+      "actual_sha256": "44976dd76ad3341a4e2561a20fbfb2856db32fb29d4ba2abed18bb989e0f6a6a",
+      "sha256_match": true,
+      "md5_match": false,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-F86EEA59",
+      "filename": "streamlit_app.py",
+      "resolved_path": "streamlit_app.py",
+      "filesize_bytes": 18956,
+      "expected_sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
+      "actual_sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-09C5A91D",
+      "filename": "ela_exif_forensic_analyzer.py",
+      "resolved_path": "tools/ela_exif_forensic_analyzer.py",
+      "filesize_bytes": 7908,
+      "expected_sha256": "09c5a91d5270725b0f17768cfa34646f75314a983b71195bebce4e09bec96930",
+      "actual_sha256": "09c5a91d5270725b0f17768cfa34646f75314a983b71195bebce4e09bec96930",
+      "sha256_match": true,
+      "md5_match": false,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-F53611E2",
+      "filename": "CITATION.cff",
+      "resolved_path": "CITATION.cff",
+      "filesize_bytes": 1487,
+      "expected_sha256": "f53611e21fb99f814340b87a8e5578ddbe81758d681a77b27b4eab8b2bf53121",
+      "actual_sha256": "f53611e21fb99f814340b87a8e5578ddbe81758d681a77b27b4eab8b2bf53121",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-AAAC936B",
+      "filename": "references.bib",
+      "resolved_path": "references.bib",
+      "filesize_bytes": 2255,
+      "expected_sha256": "aaac936bce5716ba0d50c0cab36c822ddd5fbf73bc3f8636812c1739ad307fbd",
+      "actual_sha256": "aaac936bce5716ba0d50c0cab36c822ddd5fbf73bc3f8636812c1739ad307fbd",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-0DC6DF2B",
+      "filename": "manuscript.tex",
+      "resolved_path": "manuscript.tex",
+      "filesize_bytes": 9955,
+      "expected_sha256": "0dc6df2b291978ff7d0ef94deb73963764e30f2d4edfaf9c838fe85a6412824a",
+      "actual_sha256": "0dc6df2b291978ff7d0ef94deb73963764e30f2d4edfaf9c838fe85a6412824a",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-F2FC2990",
+      "filename": "Dockerfile",
+      "resolved_path": "Dockerfile",
+      "filesize_bytes": 1057,
+      "expected_sha256": "f2fc2990861ec6d8007672357c2149dffaca3cb51ce274786eee65283d28d99b",
+      "actual_sha256": "f2fc2990861ec6d8007672357c2149dffaca3cb51ce274786eee65283d28d99b",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-8B6DC799",
+      "filename": "docker-compose.yml",
+      "resolved_path": "docker-compose.yml",
+      "filesize_bytes": 261,
+      "expected_sha256": "8b6dc799e95bab22534d4be8ea30596cb89247d45d1c8b1cc13e6e2382be544d",
+      "actual_sha256": "8b6dc799e95bab22534d4be8ea30596cb89247d45d1c8b1cc13e6e2382be544d",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-90C01041",
+      "filename": "forensic_audit.yml",
+      "resolved_path": ".github/workflows/forensic_audit.yml",
+      "filesize_bytes": 884,
+      "expected_sha256": "90c010418c3025be2fe98e697dd7cdf35765d583fb374d5d5092aff5c5e68ee8",
+      "actual_sha256": "90c010418c3025be2fe98e697dd7cdf35765d583fb374d5d5092aff5c5e68ee8",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-1D29E250",
+      "filename": "codemeta.json",
+      "resolved_path": "codemeta.json",
+      "filesize_bytes": 1191,
+      "expected_sha256": "1d29e2506d2c5f697efcae79c5360fb38ffcfa4acdb316fc9ad7ee73bf734256",
+      "actual_sha256": "1d29e2506d2c5f697efcae79c5360fb38ffcfa4acdb316fc9ad7ee73bf734256",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-184F278C",
+      "filename": "EXECUTIVE_POLICY_BRIEF_CSUITE.md",
+      "resolved_path": "EXECUTIVE_POLICY_BRIEF_CSUITE.md",
+      "filesize_bytes": 4094,
+      "expected_sha256": "184f278c761bbe6ba40b186fe832ec4b1ceac9bdc23a2d4d86bbc6e5a76c5e5e",
+      "actual_sha256": "184f278c761bbe6ba40b186fe832ec4b1ceac9bdc23a2d4d86bbc6e5a76c5e5e",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-7E580694",
+      "filename": "PEER_REVIEW_SUBMISSION_CHECKLIST.md",
+      "resolved_path": "PEER_REVIEW_SUBMISSION_CHECKLIST.md",
+      "filesize_bytes": 2650,
+      "expected_sha256": "7e580694c59e681e5f4ba15b7ca7e09991beeb23ef2d4fb869031dc00eeab825",
+      "actual_sha256": "7e580694c59e681e5f4ba15b7ca7e09991beeb23ef2d4fb869031dc00eeab825",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-1BFB38AE",
+      "filename": "TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
+      "resolved_path": "TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
+      "filesize_bytes": 4139,
+      "expected_sha256": "1bfb38ae900abd98fd97ca4bbcf1b10530b039bd8bf8932b3c88bcbddfbbc429",
+      "actual_sha256": "1bfb38ae900abd98fd97ca4bbcf1b10530b039bd8bf8932b3c88bcbddfbbc429",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-B3C6E63F",
+      "filename": "AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
+      "resolved_path": "AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
+      "filesize_bytes": 3380,
+      "expected_sha256": "b3c6e63fec597b97cc8c1aba4cd880a7ed54d6a6c01968aef7fc377979c8bbbe",
+      "actual_sha256": "b3c6e63fec597b97cc8c1aba4cd880a7ed54d6a6c01968aef7fc377979c8bbbe",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-6125C08C",
+      "filename": "deepfake_signature_validator.py",
+      "resolved_path": "tools/deepfake_signature_validator.py",
+      "filesize_bytes": 4533,
+      "expected_sha256": "6125c08cebd2ce4fc3ae00766c779ce957ddfb3fee5cce6020f41aa80c69394b",
+      "actual_sha256": "6125c08cebd2ce4fc3ae00766c779ce957ddfb3fee5cce6020f41aa80c69394b",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-B5D63A71",
+      "filename": "event_study_analyzer.py",
+      "resolved_path": "tools/event_study_analyzer.py",
+      "filesize_bytes": 9316,
+      "expected_sha256": "b5d63a717b2a354aefd568fc899110170caec8491aaabd9ad0927ddde734eb3f",
+      "actual_sha256": "b5d63a717b2a354aefd568fc899110170caec8491aaabd9ad0927ddde734eb3f",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-D2358755",
+      "filename": "sna_centrality_analyzer.py",
+      "resolved_path": "tools/sna_centrality_analyzer.py",
+      "filesize_bytes": 13786,
+      "expected_sha256": "d23587550ed564e2d258482a3f022d5e86d91fd7fec1bd3c50b3ae9b1476153f",
+      "actual_sha256": "d23587550ed564e2d258482a3f022d5e86d91fd7fec1bd3c50b3ae9b1476153f",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-859C0C39",
+      "filename": "tiered_truth_classifier.py",
+      "resolved_path": "tools/tiered_truth_classifier.py",
+      "filesize_bytes": 10943,
+      "expected_sha256": "859c0c395f439b2720aef0a6fa929616031f5473c9f241a9d938c38cbb77ef9a",
+      "actual_sha256": "859c0c395f439b2720aef0a6fa929616031f5473c9f241a9d938c38cbb77ef9a",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    },
+    {
+      "evidence_id": "EVD-C1E1A8C5",
+      "filename": "reportica_intelligence_generator.py",
+      "resolved_path": "tools/reportica_intelligence_generator.py",
+      "filesize_bytes": 6805,
+      "expected_sha256": "c1e1a8c5fe2bb5596b092bfda5dec7fba32939e4a30d50d9910d76181236f588",
+      "actual_sha256": "c1e1a8c5fe2bb5596b092bfda5dec7fba32939e4a30d50d9910d76181236f588",
+      "sha256_match": true,
+      "md5_match": true,
+      "status": "AUTHENTIC"
+    }
+  ]
+}

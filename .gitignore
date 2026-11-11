@@ -28,3 +28,8 @@ analisis/*_ela_test.jpg
 
 # Avoid nested clones
 nvidia/
+
+# Environment and secrets
+.env
+*.env
+!.env.example
