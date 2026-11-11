@@ -21,3 +21,7 @@ voices-celebrities/
 youtube_transcripts_qa/
 investigations/
 mvt/
+
+# Forensic generated test artifacts
+*_ela_test.jpg
+analisis/*_ela_test.jpg

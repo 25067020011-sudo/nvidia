@@ -79,7 +79,10 @@ def main():
          "10. Pengelolaan & Verifikasi Katalog 11 Artefak Publik OSINT"),
 
         ([python_bin, "tools/ela_exif_forensic_analyzer.py", "test"],
-         "11. Validasi Forensik Visual ELA (Error Level Analysis) & Audit Metadata EXIF/IPTC")
+         "11. Validasi Forensik Visual ELA (Error Level Analysis) & Audit Metadata EXIF/IPTC"),
+
+        ([python_bin, "tools/deepfake_signature_validator.py", "test"],
+         "12. Pengujian Tanda Tangan Media Sintetis Deepfake & Provenansi C2PA")
     ]
 
     success_count = 0

@@ -85,17 +85,26 @@ def ingest_evidence(filepath: str, source_category: str, description: str, colle
         except Exception:
             ledger = []
 
-    # Cek duplikasi hash
-    for item in ledger:
-        if item.get("hashes", {}).get("sha256") == hashes["sha256"]:
-            print(f"[*] Berkas sudah terdaftar dengan ID: {item['evidence_id']}")
-            return True
+    # Cek apakah berkas sudah ada dalam ledger (update jika berubah)
+    found_idx = -1
+    for idx, item in enumerate(ledger):
+        if item.get("filepath") == os.path.abspath(filepath) or item.get("filename") == os.path.basename(filepath):
+            found_idx = idx
+            break
 
-    ledger.append(record)
+    if found_idx != -1:
+        if ledger[found_idx].get("hashes", {}).get("sha256") == hashes["sha256"]:
+            print(f"[*] Berkas sudah terdaftar dengan ID identik: {ledger[found_idx]['evidence_id']}")
+            return True
+        else:
+            ledger[found_idx] = record
+            print(f"[+] Memperbarui integritas bukti yang dimodifikasi:")
+    else:
+        ledger.append(record)
+        print(f"[+] Berhasil mendaftarkan bukti forensik baru:")
     with open(LEDGER_PATH, "w", encoding="utf-8") as f:
         json.dump(ledger, f, indent=2, ensure_ascii=False)
 
-    print(f"[+] Berhasil mendaftarkan bukti forensik:")
     print(f"    - ID       : {record['evidence_id']}")
     print(f"    - File     : {record['filename']}")
     print(f"    - SHA-256  : {record['hashes']['sha256']}")
@@ -132,8 +141,10 @@ def verify_all_evidence():
 
     if tampered_count == 0:
         print("[+] Seluruh bukti forensik memiliki integritas SHA-256 yang valid (100% Utuh).")
+        return 0
     else:
         print(f"[!] PERINGATAN: Ditemukan {tampered_count} berkas yang rusak/hilang dari rantai bukti!")
+        sys.exit(1)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

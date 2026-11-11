@@ -195,17 +195,17 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-AAAF1669",
+    "evidence_id": "EVD-A24BDA63",
     "filename": "pipeline_run_all.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/pipeline_run_all.py",
-    "filesize_bytes": 4025,
-    "source_category": "Automation_Pipeline",
-    "description": "Master Execution Pipeline: Satu Perintah untuk Menjalankan Seluruh Audit Forensik & SNA",
+    "filesize_bytes": 4180,
+    "source_category": "Master_Pipeline",
+    "description": "Pipeline Otomatis Master Verifikasi Multi-Modal Forensik",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T16:11:15.599157+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T00:53:26.448282+00:00",
     "hashes": {
-      "sha256": "aaaf1669573d50dfbc6994f4e308c09ee2f8aa61f4a091a4d16f63ccfcf3dc08",
-      "md5": "27d532b39a91ef0d24b269cbd8231548"
+      "sha256": "a24bda63465d67b928b86900afcb21a5d9a2e21b616ee8bc756819ee9e90aaad",
+      "md5": "036d7d9e771b8f0f64a60e4876cdcd56"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -401,6 +401,96 @@
     "hashes": {
       "sha256": "f04a77f2b15587c94abc24fa6088f7f38fe3d5f812f6ba7f5e8e30d58404db3b",
       "md5": "dd6d73333b6294324973bdb137e354fb"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-1D29E250",
+    "filename": "codemeta.json",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/codemeta.json",
+    "filesize_bytes": 1191,
+    "source_category": "Open_Science_Metadata",
+    "description": "Metadata Standar CodeMeta v2.0 untuk Pengarsipan DOI Akademik",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T00:53:26.630409+00:00",
+    "hashes": {
+      "sha256": "1d29e2506d2c5f697efcae79c5360fb38ffcfa4acdb316fc9ad7ee73bf734256",
+      "md5": "5f3e7643eb9624cda8ea561939300fc7"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-184F278C",
+    "filename": "EXECUTIVE_POLICY_BRIEF_CSUITE.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/EXECUTIVE_POLICY_BRIEF_CSUITE.md",
+    "filesize_bytes": 4094,
+    "source_category": "Policy_Brief",
+    "description": "Executive Policy Brief untuk Dewan Direksi & CISO",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T00:53:26.810806+00:00",
+    "hashes": {
+      "sha256": "184f278c761bbe6ba40b186fe832ec4b1ceac9bdc23a2d4d86bbc6e5a76c5e5e",
+      "md5": "7eb569c88f7b9f521e5932eb21a1d34c"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-7E580694",
+    "filename": "PEER_REVIEW_SUBMISSION_CHECKLIST.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PEER_REVIEW_SUBMISSION_CHECKLIST.md",
+    "filesize_bytes": 2650,
+    "source_category": "Peer_Review_Checklist",
+    "description": "Daftar Periksa Kepatuhan Pengajuan Jurnal Q1 / IEEE",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T00:53:26.991874+00:00",
+    "hashes": {
+      "sha256": "7e580694c59e681e5f4ba15b7ca7e09991beeb23ef2d4fb869031dc00eeab825",
+      "md5": "6c7a766d3c99f201e2b0c9db8c1dfe5e"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-686DB993",
+    "filename": "TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
+    "filesize_bytes": 4138,
+    "source_category": "Incident_Response_Playbook",
+    "description": "Skenario Latihan Simulasi Tabletop Drill CSOC & Krisis",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T00:53:27.173078+00:00",
+    "hashes": {
+      "sha256": "686db9932a611c101e06d9818b1de73ce657265dbaa7ad57d82893ae6316401c",
+      "md5": "110592734911dbe8fb066d334de2ca1b"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-F0E73694",
+    "filename": "AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
+    "filesize_bytes": 3379,
+    "source_category": "Ethics_Compliance",
+    "description": "Audit Kepatuhan Perlindungan Data Pribadi (UU PDP No. 27/2022 & GDPR)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T00:53:27.366591+00:00",
+    "hashes": {
+      "sha256": "f0e73694b6925ba679dadf1f36b2d0906ddeae5dfb101f3574b42fd07c6e7850",
+      "md5": "ca1d45b6189504d0c2a00f9d738c91cd"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-6125C08C",
+    "filename": "deepfake_signature_validator.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/deepfake_signature_validator.py",
+    "filesize_bytes": 4533,
+    "source_category": "Forensic_Tool",
+    "description": "Validator Heuristik Tanda Tangan Deepfake C2PA dan Audio-Visual",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T00:53:27.547325+00:00",
+    "hashes": {
+      "sha256": "6125c08cebd2ce4fc3ae00766c779ce957ddfb3fee5cce6020f41aa80c69394b",
+      "md5": "f9173aca9deead8b986626288b70028f"
     },
     "verification_status": "AUTHENTIC"
   }
