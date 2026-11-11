@@ -40,3 +40,4 @@ Penyelidikan forensik digital ini dirancang dengan prinsip **keterbukaan ilmiah 
 
 ### KESIMPULAN AUDITOR ETIKA
 Penelitian ini memenuhi 100% kaidah etika penelitian akademis internasional dan regulasi pelindungan data pribadi. Repositori ini aman, sah secara hukum, dan layak untuk diseminasi akademis di tingkat nasional maupun internasional.
+

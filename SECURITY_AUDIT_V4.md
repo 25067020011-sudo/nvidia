@@ -54,3 +54,4 @@ Pemindaian regex otomatis terhadap 831 berkas teks mengidentifikasi 8 penanda ka
 
 ## 7. Kesimpulan & Rekomendasi
 Status keamanan repositori adalah **SECURE & HARDENED**. Tidak ditemukan kerentanan berisiko tinggi (*High/Critical Vulnerability*). Disarankan untuk menjalankan pemindaian dependensi berkala menggunakan Dependabot atau Trivy pada lingkungan CI/CD.
+

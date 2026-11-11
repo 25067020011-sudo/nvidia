@@ -91,3 +91,4 @@ docker compose up --build
 ## ⚖️ Etika & Lisensi
 Riset ini diselenggarakan untuk tujuan verifikasi kebenaran informasi publik, riset keamanan siber, dan analisis tata kelola korporasi dengan mematuhi prinsip etika riset akademis, UU Perlindungan Data Pribadi (UU PDP No. 27/2022), dan GDPR.  
 Didistribusikan di bawah Lisensi **MIT**.
+

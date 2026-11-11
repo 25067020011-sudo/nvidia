@@ -62,3 +62,4 @@ Eksekusi 13 tahap sekuensial dengan structured logging:
 ```
 
 Seluruh artefak hasil eksekusi tercatat dalam `pipeline_manifest.json` dan tervalidasi secara kriptografis.
+

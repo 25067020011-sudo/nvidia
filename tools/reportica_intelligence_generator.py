@@ -138,3 +138,4 @@ def generate_reportica_brief():
 
 if __name__ == "__main__":
     generate_reportica_brief()
+

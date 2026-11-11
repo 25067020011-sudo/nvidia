@@ -71,3 +71,4 @@ Aplikasi dashboard akan berjalan pada kontainer terisolasi non-root di port `850
 1. **Prinsip Minimisasi Data**: Riset ini hanya memanfaatkan data publik terbuka (*Open Source Intelligence*) dan dokumen keterbukaan informasi wajib pasar modal (SEC Form 8-K, 10-K, ACRA).
 2. **Ketiadaan Akses Ilegal**: Tidak ada penyadapan, eksploitasi malware, atau penembusan batas sistem internal yang dilakukan dalam riset ini.
 3. **Kepatuhan Regulasi**: Memenuhi standar UU Perlindungan Data Pribadi (UU PDP No. 27/2022) dan EU GDPR Article 6(1)(f) untuk tujuan riset ilmiah dan verifikasi kepentingan publik.
+

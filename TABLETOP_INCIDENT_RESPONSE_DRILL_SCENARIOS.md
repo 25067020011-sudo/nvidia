@@ -51,3 +51,4 @@ Menguji koordinasi lintas fungsi antara **Converged Security Operations Center (
 1. **Mean Time to Detect (MTTD)**: Deteksi siaran palsu $< 15$ menit.
 2. **Mean Time to Takedown (MTTT)**: Pemutusan siaran jahat $< 45$ menit.
 3. **Truth Pre-emption Ratio**: Keberhasilan merilis klarifikasi fakta sebelum rumor masuk ke sindikasi media arus utama.
+
