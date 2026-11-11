@@ -63,10 +63,15 @@ def ingest_evidence(filepath: str, source_category: str, description: str, colle
     hashes = calculate_hashes(filepath)
     utc_now = datetime.now(timezone.utc).isoformat()
 
+    try:
+        rel_path = os.path.relpath(filepath, os.getcwd())
+    except Exception:
+        rel_path = os.path.basename(filepath)
+
     record = {
         "evidence_id": f"EVD-{hashes['sha256'][:8].upper()}",
         "filename": os.path.basename(filepath),
-        "filepath": os.path.abspath(filepath),
+        "filepath": rel_path,
         "filesize_bytes": stat.st_size,
         "source_category": source_category,  # e.g., 'Primary_Official', 'Social_Media', 'Media_Artifact'
         "description": description,
@@ -124,7 +129,22 @@ def verify_all_evidence():
     tampered_count = 0
 
     for item in ledger:
-        fpath = item["filepath"]
+        fpath = item.get("filepath", "")
+        # Resolusi path portabel (lintas Linux GitHub Actions, Docker, dan macOS)
+        if not os.path.exists(fpath):
+            fname = item.get("filename", "")
+            candidates = [
+                fname,
+                os.path.join("analisis", fname),
+                os.path.join("tools", fname),
+                os.path.join(".github", "workflows", fname),
+                os.path.basename(fpath)
+            ]
+            for cand in candidates:
+                if os.path.exists(cand):
+                    fpath = cand
+                    break
+
         print(f"--> Memeriksa {item['evidence_id']} ({item['filename']})...", end=" ")
         
         if not os.path.exists(fpath):

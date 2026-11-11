@@ -24,7 +24,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Execute 11-Step Master Forensic Pipeline
+      - name: Execute Automated Test Suite
+        run: |
+          PYTHONPATH=. python tests/test_v4_suite.py
+
+      - name: Execute 13-Step Master Forensic Pipeline
         run: |
           python pipeline_run_all.py
 

@@ -69,7 +69,14 @@ class TestNvidiaForensicPlatformV4(unittest.TestCase):
         self.assertGreaterEqual(len(ledger), 30, "Jumlah bukti terdaftar minimal 30 item")
         tampered = []
         for item in ledger:
-            fpath = Path(item["filepath"])
+            rel = item.get("filepath", "")
+            fpath = Path(rel) if Path(rel).is_absolute() else (REPO_ROOT / rel)
+            if not fpath.exists():
+                fpath = REPO_ROOT / item.get("filename", "")
+            if not fpath.exists():
+                fpath = REPO_ROOT / "analisis" / item.get("filename", "")
+            if not fpath.exists():
+                fpath = REPO_ROOT / "tools" / item.get("filename", "")
             if not fpath.exists():
                 tampered.append(f"{item['filename']} (FILE MISSING)")
                 continue

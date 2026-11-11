@@ -2,7 +2,7 @@
   {
     "evidence_id": "EVD-E17FBC4E",
     "filename": "README.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/README.md",
+    "filepath": "README.md",
     "filesize_bytes": 6304,
     "source_category": "Documentation",
     "description": "Indeks Repositori Riset Forensik",
@@ -17,7 +17,7 @@
   {
     "evidence_id": "EVD-5F9C3E06",
     "filename": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+    "filepath": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filesize_bytes": 26605,
     "source_category": "Research_Manuscript",
     "description": "Draft Manuskrip Ilmiah Lengkap Format IMRaD",
@@ -32,7 +32,7 @@
   {
     "evidence_id": "EVD-A32DD738",
     "filename": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+    "filepath": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
     "filesize_bytes": 20170,
     "source_category": "PRD_Specification",
     "description": "PRD Master v3.0 Multi-Modal Forensics",
@@ -47,7 +47,7 @@
   {
     "evidence_id": "EVD-D3A03069",
     "filename": "nvda_skandal.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/nvda_skandal.csv",
+    "filepath": "nvda_skandal.csv",
     "filesize_bytes": 3322,
     "source_category": "Financial_Dataset",
     "description": "Dataset Historis Saham NVDA Periode Skandal (Sep-Nov 2026)",
@@ -62,7 +62,7 @@
   {
     "evidence_id": "EVD-AD1134CC",
     "filename": "audit_historis_sec_10k.json",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/audit_historis_sec_10k.json",
+    "filepath": "analisis/audit_historis_sec_10k.json",
     "filesize_bytes": 989,
     "source_category": "Governance_Audit",
     "description": "Data Audit Keterbukaan Informasi SEC 10-K 2016-2026",
@@ -77,7 +77,7 @@
   {
     "evidence_id": "EVD-65A6A424",
     "filename": "audit_historis_sec_20tahun.json",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/audit_historis_sec_20tahun.json",
+    "filepath": "analisis/audit_historis_sec_20tahun.json",
     "filesize_bytes": 2586,
     "source_category": "Governance_Audit",
     "description": "Matriks Historis 20 Tahun Investigasi Korporasi NVIDIA (2006-2026)",
@@ -92,7 +92,7 @@
   {
     "evidence_id": "EVD-5C6710B9",
     "filename": "berita_skandal_jensen_huang.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/berita_skandal_jensen_huang.csv",
+    "filepath": "berita_skandal_jensen_huang.csv",
     "filesize_bytes": 45141,
     "source_category": "News_Corpus",
     "description": "Korpus 300 Berita Skandal Jensen Huang (Ground Truth)",
@@ -107,7 +107,7 @@
   {
     "evidence_id": "EVD-0FFBC24C",
     "filename": "PRESENTASI_HASIL_RISET_FORENSIK.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PRESENTASI_HASIL_RISET_FORENSIK.md",
+    "filepath": "PRESENTASI_HASIL_RISET_FORENSIK.md",
     "filesize_bytes": 7833,
     "source_category": "Presentation_Deck",
     "description": "Slide Presentasi Eksekutif Hasil Riset Forensik Digital (9 Slide)",
@@ -122,7 +122,7 @@
   {
     "evidence_id": "EVD-217EE4A8",
     "filename": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
+    "filepath": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
     "filesize_bytes": 10955,
     "source_category": "Investigation_Report",
     "description": "Laporan Resmi Penyelidikan Forensik Digital & Audit Tata Kelola Korporasi",
@@ -137,7 +137,7 @@
   {
     "evidence_id": "EVD-14D6ED91",
     "filename": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
+    "filepath": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
     "filesize_bytes": 4659,
     "source_category": "SOP_Playbook",
     "description": "SOP Tanggap Darurat Penanganan Insiden Layer 8, Deepfake & Disinformasi Fisik (NIST SP 800-61)",
@@ -152,7 +152,7 @@
   {
     "evidence_id": "EVD-F6515D00",
     "filename": "01_timeline_kemunculan_pertama.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/01_timeline_kemunculan_pertama.csv",
+    "filepath": "analisis/01_timeline_kemunculan_pertama.csv",
     "filesize_bytes": 2093,
     "source_category": "Timeline_Data",
     "description": "Kronologi Multi-Tahap Kemunculan Pertama Kasus (Juni 2024 - Nov 2026)",
@@ -167,7 +167,7 @@
   {
     "evidence_id": "EVD-BA25CEC0",
     "filename": "matriks_sna_20_aktor.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/matriks_sna_20_aktor.csv",
+    "filepath": "analisis/matriks_sna_20_aktor.csv",
     "filesize_bytes": 1505,
     "source_category": "SNA_Matrix",
     "description": "Matriks SNA 20 Aktor dengan Louvain Community Cluster & Centrality v4.0",
@@ -182,7 +182,7 @@
   {
     "evidence_id": "EVD-E6648C60",
     "filename": "matriks_sna_10_media.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/matriks_sna_10_media.csv",
+    "filepath": "analisis/matriks_sna_10_media.csv",
     "filesize_bytes": 738,
     "source_category": "SNA_Matrix",
     "description": "Matriks SNA 10 Media Teratas dengan Louvain Community Cluster & Centrality v4.0",
@@ -197,7 +197,7 @@
   {
     "evidence_id": "EVD-24D7F330",
     "filename": "pipeline_run_all.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/pipeline_run_all.py",
+    "filepath": "pipeline_run_all.py",
     "filesize_bytes": 9612,
     "source_category": "Master_Pipeline",
     "description": "Pipeline Otomatis Master v4.0 dengan Structured Logging & Manifest",
@@ -212,7 +212,7 @@
   {
     "evidence_id": "EVD-582EE15A",
     "filename": "08_komparasi_metode_intelijen.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/08_komparasi_metode_intelijen.csv",
+    "filepath": "analisis/08_komparasi_metode_intelijen.csv",
     "filesize_bytes": 3355,
     "source_category": "Forensic_Matrix",
     "description": "Tabel Komparasi Doktrin Intelijen SIGINT vs Pegasus vs HUMINT",
@@ -227,7 +227,7 @@
   {
     "evidence_id": "EVD-02A9C5AD",
     "filename": "02_status_klaim.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/02_status_klaim.csv",
+    "filepath": "analisis/02_status_klaim.csv",
     "filesize_bytes": 1843,
     "source_category": "Truth_Classification",
     "description": "Hasil Evaluasi Kebenaran Bertingkat 5-Tier (VERIFIED, PARTIALLY_VERIFIED, HYPOTHESIS)",
@@ -242,7 +242,7 @@
   {
     "evidence_id": "EVD-138C459B",
     "filename": "09_osint_artefak.csv",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/09_osint_artefak.csv",
+    "filepath": "analisis/09_osint_artefak.csv",
     "filesize_bytes": 7322,
     "source_category": "OSINT_Catalog",
     "description": "Katalog 11 Artefak Publik OSINT dan Metodologi Forensik",
@@ -257,7 +257,7 @@
   {
     "evidence_id": "EVD-F86EEA59",
     "filename": "app.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/app.py",
+    "filepath": "app.py",
     "filesize_bytes": 18956,
     "source_category": "Dashboard_App",
     "description": "Aplikasi Utama Streamlit v4.0 Multi-Modal Forensic Intelligence",
@@ -272,7 +272,7 @@
   {
     "evidence_id": "EVD-44976DD7",
     "filename": "requirements.txt",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/requirements.txt",
+    "filepath": "requirements.txt",
     "filesize_bytes": 127,
     "source_category": "Config_Filing",
     "description": "Dependensi Python untuk Streamlit Cloud Deployment",
@@ -287,7 +287,7 @@
   {
     "evidence_id": "EVD-F86EEA59",
     "filename": "streamlit_app.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/streamlit_app.py",
+    "filepath": "streamlit_app.py",
     "filesize_bytes": 18956,
     "source_category": "Dashboard_App",
     "description": "Alias Dashboard Streamlit Cloud v4.0",
@@ -302,7 +302,7 @@
   {
     "evidence_id": "EVD-09C5A91D",
     "filename": "ela_exif_forensic_analyzer.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/ela_exif_forensic_analyzer.py",
+    "filepath": "tools/ela_exif_forensic_analyzer.py",
     "filesize_bytes": 7908,
     "source_category": "Forensic_Tool",
     "description": "Toolkit Error Level Analysis (ELA) dan Ekstraksi Metadata EXIF",
@@ -317,7 +317,7 @@
   {
     "evidence_id": "EVD-F53611E2",
     "filename": "CITATION.cff",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/CITATION.cff",
+    "filepath": "CITATION.cff",
     "filesize_bytes": 1487,
     "source_category": "Citation_Metadata",
     "description": "Metadata Sitasi Standar Open Science dan Zenodo",
@@ -332,7 +332,7 @@
   {
     "evidence_id": "EVD-AAAC936B",
     "filename": "references.bib",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/references.bib",
+    "filepath": "references.bib",
     "filesize_bytes": 2255,
     "source_category": "Academic_BibTeX",
     "description": "Basis Data Pustaka BibTeX Termasuk Sari et al 2026 IPSSJ",
@@ -347,7 +347,7 @@
   {
     "evidence_id": "EVD-0DC6DF2B",
     "filename": "manuscript.tex",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/manuscript.tex",
+    "filepath": "manuscript.tex",
     "filesize_bytes": 9955,
     "source_category": "Scientific_Manuscript",
     "description": "Formal IEEEtran LaTeX Manuscript with Econometric & SNA Findings v4.0",
@@ -362,7 +362,7 @@
   {
     "evidence_id": "EVD-F2FC2990",
     "filename": "Dockerfile",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/Dockerfile",
+    "filepath": "Dockerfile",
     "filesize_bytes": 1057,
     "source_category": "Container_Config",
     "description": "Konfigurasi Dockerfile dengan Pengguna Terbatas Non-Root (appuser)",
@@ -377,7 +377,7 @@
   {
     "evidence_id": "EVD-8B6DC799",
     "filename": "docker-compose.yml",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/docker-compose.yml",
+    "filepath": "docker-compose.yml",
     "filesize_bytes": 261,
     "source_category": "Container_Config",
     "description": "Orkestrasi Docker Compose untuk Streamlit Dashboard",
@@ -390,24 +390,24 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-F04A77F2",
+    "evidence_id": "EVD-90C01041",
     "filename": "forensic_audit.yml",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/.github/workflows/forensic_audit.yml",
-    "filesize_bytes": 772,
-    "source_category": "CI_CD_Workflow",
-    "description": "GitHub Actions Continuous Integration Automated Audit",
+    "filepath": ".github/workflows/forensic_audit.yml",
+    "filesize_bytes": 884,
+    "source_category": "CI_Workflow",
+    "description": "GitHub Actions CI/CD Pipeline Otomatis v4.0",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T17:20:05.218148+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:26:28.255893+00:00",
     "hashes": {
-      "sha256": "f04a77f2b15587c94abc24fa6088f7f38fe3d5f812f6ba7f5e8e30d58404db3b",
-      "md5": "dd6d73333b6294324973bdb137e354fb"
+      "sha256": "90c010418c3025be2fe98e697dd7cdf35765d583fb374d5d5092aff5c5e68ee8",
+      "md5": "d77efda362b0c79eec52b1025bb244f8"
     },
     "verification_status": "AUTHENTIC"
   },
   {
     "evidence_id": "EVD-1D29E250",
     "filename": "codemeta.json",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/codemeta.json",
+    "filepath": "codemeta.json",
     "filesize_bytes": 1191,
     "source_category": "Open_Science_Metadata",
     "description": "Metadata Standar CodeMeta v2.0 untuk Pengarsipan DOI Akademik",
@@ -422,7 +422,7 @@
   {
     "evidence_id": "EVD-184F278C",
     "filename": "EXECUTIVE_POLICY_BRIEF_CSUITE.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/EXECUTIVE_POLICY_BRIEF_CSUITE.md",
+    "filepath": "EXECUTIVE_POLICY_BRIEF_CSUITE.md",
     "filesize_bytes": 4094,
     "source_category": "Policy_Brief",
     "description": "Executive Policy Brief untuk Dewan Direksi & CISO",
@@ -437,7 +437,7 @@
   {
     "evidence_id": "EVD-7E580694",
     "filename": "PEER_REVIEW_SUBMISSION_CHECKLIST.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/PEER_REVIEW_SUBMISSION_CHECKLIST.md",
+    "filepath": "PEER_REVIEW_SUBMISSION_CHECKLIST.md",
     "filesize_bytes": 2650,
     "source_category": "Peer_Review_Checklist",
     "description": "Daftar Periksa Kepatuhan Pengajuan Jurnal Q1 / IEEE",
@@ -452,7 +452,7 @@
   {
     "evidence_id": "EVD-1BFB38AE",
     "filename": "TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
+    "filepath": "TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
     "filesize_bytes": 4139,
     "source_category": "Incident_Response_Playbook",
     "description": "Skenario Latihan Simulasi Tabletop Drill CSOC & Krisis",
@@ -467,7 +467,7 @@
   {
     "evidence_id": "EVD-B3C6E63F",
     "filename": "AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
+    "filepath": "AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
     "filesize_bytes": 3380,
     "source_category": "Ethics_Compliance",
     "description": "Audit Kepatuhan Perlindungan Data Pribadi (UU PDP No. 27/2022 & GDPR)",
@@ -482,7 +482,7 @@
   {
     "evidence_id": "EVD-6125C08C",
     "filename": "deepfake_signature_validator.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/deepfake_signature_validator.py",
+    "filepath": "tools/deepfake_signature_validator.py",
     "filesize_bytes": 4533,
     "source_category": "Forensic_Tool",
     "description": "Validator Heuristik Tanda Tangan Deepfake C2PA dan Audio-Visual",
@@ -497,7 +497,7 @@
   {
     "evidence_id": "EVD-B5D63A71",
     "filename": "event_study_analyzer.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/event_study_analyzer.py",
+    "filepath": "tools/event_study_analyzer.py",
     "filesize_bytes": 9316,
     "source_category": "Forensic_Tool",
     "description": "Penganalisis Ekonometrika Event-Study (AR/CAR & Uji Signifikansi)",
@@ -512,7 +512,7 @@
   {
     "evidence_id": "EVD-D2358755",
     "filename": "sna_centrality_analyzer.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/sna_centrality_analyzer.py",
+    "filepath": "tools/sna_centrality_analyzer.py",
     "filesize_bytes": 13786,
     "source_category": "Forensic_Tool",
     "description": "Penganalisis Sentralitas Jejaring SNA (Betweenness, PageRank, Louvain)",
@@ -527,7 +527,7 @@
   {
     "evidence_id": "EVD-859C0C39",
     "filename": "tiered_truth_classifier.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/tiered_truth_classifier.py",
+    "filepath": "tools/tiered_truth_classifier.py",
     "filesize_bytes": 10943,
     "source_category": "Forensic_Tool",
     "description": "Mesin Klasifikasi Kebenaran 5-Tier Bertingkat",
@@ -542,7 +542,7 @@
   {
     "evidence_id": "EVD-C1E1A8C5",
     "filename": "reportica_intelligence_generator.py",
-    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/reportica_intelligence_generator.py",
+    "filepath": "tools/reportica_intelligence_generator.py",
     "filesize_bytes": 6805,
     "source_category": "Forensic_Tool",
     "description": "Pembangkit Laporan Intelijen Eksekutif Terpadu Reportica v4.0",
