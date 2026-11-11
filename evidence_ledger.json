@@ -513,14 +513,14 @@
     "evidence_id": "EVD-D2358755",
     "filename": "sna_centrality_analyzer.py",
     "filepath": "tools/sna_centrality_analyzer.py",
-    "filesize_bytes": 13786,
+    "filesize_bytes": 13870,
     "source_category": "Forensic_Tool",
     "description": "Penganalisis Sentralitas Jejaring SNA (Betweenness, PageRank, Louvain)",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-11T01:03:44.202341+00:00",
     "hashes": {
-      "sha256": "d23587550ed564e2d258482a3f022d5e86d91fd7fec1bd3c50b3ae9b1476153f",
-      "md5": "ec591503c18d97c4cf7332852b23ce86"
+      "sha256": "63cd52574a0413ae7874573a278a62031f4a2b0173e49f49b3ba4eedd5f288f6",
+      "md5": "644c63d10420bc19bc83ce9af41e75da"
     },
     "verification_status": "AUTHENTIC"
   },

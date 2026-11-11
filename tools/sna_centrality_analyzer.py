@@ -213,7 +213,8 @@ def run_sna_centrality_analysis():
     df_actors = pd.DataFrame(actor_data).sort_values("Betweenness_Centrality", ascending=False).reset_index(drop=True)
     df_actors.insert(0, "Ranking", range(1, len(df_actors) + 1))
     actor_csv = os.path.join(OUT_DIR, "matriks_sna_20_aktor.csv")
-    df_actors.to_csv(actor_csv, index=False, encoding="utf-8-sig")
+    if not os.path.exists(actor_csv):
+        df_actors.to_csv(actor_csv, index=False, encoding="utf-8-sig")
 
     # 2. Matriks 10 Media Teratas
     media_data = []
@@ -231,7 +232,8 @@ def run_sna_centrality_analysis():
     df_media = pd.DataFrame(media_data).sort_values("Betweenness_Centrality", ascending=False).reset_index(drop=True)
     df_media.insert(0, "Ranking", range(1, len(df_media) + 1))
     media_csv = os.path.join(OUT_DIR, "matriks_sna_10_media.csv")
-    df_media.to_csv(media_csv, index=False, encoding="utf-8-sig")
+    if not os.path.exists(media_csv):
+        df_media.to_csv(media_csv, index=False, encoding="utf-8-sig")
 
     # Ringkasan Topologi Graf
     topology_summary = {
