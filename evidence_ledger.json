@@ -3,14 +3,14 @@
     "evidence_id": "EVD-E17FBC4E",
     "filename": "README.md",
     "filepath": "README.md",
-    "filesize_bytes": 6304,
+    "filesize_bytes": 8846,
     "source_category": "Documentation",
     "description": "Indeks Repositori Riset Forensik",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "e17fbc4ef1dc4195ec31d9f6254162ebbff2c204b80e20a0e06482858601cc10",
-      "md5": "b1d3b95fbac3328e716ad80a057af43e"
+      "sha256": "5431cb53e13b0c25d5c173550218add8dcb769c5eedde061d1d1ff11a2dd3902",
+      "md5": "2418e4a40b7c011c55e43b2b096cc3ec"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -551,6 +551,21 @@
     "hashes": {
       "sha256": "c1e1a8c5fe2bb5596b092bfda5dec7fba32939e4a30d50d9910d76181236f588",
       "md5": "5020df17043f8e0853a25e264f69eb79"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-6711264A",
+    "filename": "berita_jensen_huang_1000.csv",
+    "filepath": "berita_jensen_huang_1000.csv",
+    "filesize_bytes": 427601,
+    "source_category": "Dataset_News",
+    "description": "Korpus Multi-Sumber 1.000 Berita Internasional Jensen Huang / NVIDIA (429 Media Global)",
+    "collector": "MultiSource_RSS_Collector",
+    "acquisition_timestamp_utc": "2026-11-11T01:53:59.000000+00:00",
+    "hashes": {
+      "sha256": "6711264a5c9c1359afe755d1e72def133767e1fa9bffc4cf922276e88e3e80e7",
+      "md5": "8825d15a9ddec3e75d9d71901e70d166"
     },
     "verification_status": "AUTHENTIC"
   }

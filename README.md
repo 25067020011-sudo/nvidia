@@ -1,13 +1,39 @@
 # Riset Forensik Digital & Verifikasi Klaim: Kasus Ekosistem Narasi Jensen Huang (NVIDIA)
 
-Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian, korpus dataset, serta instrumen forensik digital untuk memverifikasi klaim viral seputar **serangan fisik vs. serangan digital (deepfake & disinformasi)** yang menargetkan figur publik pimpinan teknologi global (Jensen Huang / NVIDIA).
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=25067020011-sudo/nvidia&branch=main&mainModule=app.py)
+[![Forensic Audit CI](https://github.com/25067020011-sudo/nvidia/actions/workflows/forensic_audit.yml/badge.svg)](https://github.com/25067020011-sudo/nvidia/actions/workflows/forensic_audit.yml)
+[![ISO/IEC 27037](https://img.shields.io/badge/Standard-ISO%2FIEC%2027037%3A2012-blue.svg)](./evidence_ledger.json)
+[![Tests Passing](https://img.shields.io/badge/Tests-7%2F7%20Passed-brightgreen.svg)](./test_results.md)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](./requirements.txt)
+
+Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian, korpus dataset, instrumen forensik digital multimodal, serta platform dashboard analitik interaktif untuk memverifikasi klaim viral seputar **serangan fisik vs. serangan digital (deepfake & disinformasi)** yang menargetkan figur publik pimpinan teknologi global (Jensen Huang / NVIDIA).
 
 ---
 
-## 📌 Dokumen Penelitian Utama
+## 🚀 Live Demo & Deployment
+
+Aplikasi ini dapat diakses dan dideploy langsung di **Streamlit Community Cloud**:
+- **Tautan Peluncuran 1-Klik**: [![Deploy on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=25067020011-sudo/nvidia&branch=main&mainModule=app.py)
+- **Modul Utama**: `app.py` atau `streamlit_app.py`
+- **Konfigurasi Tema**: Tersedia di `.streamlit/config.toml` (Dark Mode Cybersecurity Theme)
+
+Jalankan secara lokal via terminal:
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📌 Dokumen Penelitian & Laporan Audit v4.0
 
 | Versi Dokumen | Nama Dokumen | Fokus Utama | Tautan Berkas |
 | :--- | :--- | :--- | :--- |
+| **Laporan Audit v4.0** | **Laporan Audit Repositori & Kualitas Ilmiah** | Hasil audit struktural, verifikasi integritas 37 bukti, validasi leksikal, dan kriteria publikasi. | [`audit_report.md`](./audit_report.md) |
+| **Hasil Pengujian** | **Laporan Uji Otomatis & Pipeline** | Ringkasan 7/7 unit test suite dan 13/13 tahap master forensic pipeline. | [`test_results.md`](./test_results.md) |
+| **Audit Keamanan** | **Laporan Postur Keamanan & Hardening** | Pemindaian zero secrets, isolasi non-root container NIST SP 800-190, dan sanitasi input. | [`security_audit_report.md`](./security_audit_report.md) |
+| **Rantai Bukti (Manifest)** | **Digital Evidence Integrity Manifest** | Verifikasi kriptografis SHA-256 untuk 37 bukti digital ISO/IEC 27037:2012. | [`evidence_integrity_report.json`](./evidence_integrity_report.json) |
+| **Investigasi CI/CD** | **Laporan Diagnostik Error GitHub Actions** | Analisis akar masalah kegagalan runner Ubuntu Linux dan dokumentasi perbaikan path. | [`forensic_error_report.md`](./forensic_error_report.md) |
+| **Log Perubahan** | **Rekayasa & Patch Log v4.0** | Riwayat kronologis pembaruan kode, normalisasi data, dan perbaikan platform. | [`change_log.md`](./change_log.md) |
 | **SOP Tanggap Insiden** | **Playbook Penanganan Insiden Layer 8 & Deepfake** | Panduan operasional standar (NIST SP 800-61 / ISO 27035) untuk CSOC, Legal, dan PR dalam menangani disinformasi fisik, deepfake siaran langsung, dan penipuan phygital. | [`SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md`](./SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md) |
 | **Laporan Investigasi** | **Laporan Resmi Penyelidikan Forensik Digital & Audit** | Laporan formal komprehensif (Executive Summary, Ground Truth Matrix, Audit Keterbukaan SEC 20 Tahun, Hasil Korpus 300 Berita, Event-Study Saham, Rekomendasi CSOC). | [`LAPORAN_HASIL_INVESTIGASI_FORENSIK.md`](./LAPORAN_HASIL_INVESTIGASI_FORENSIK.md) |
 | **Slide Eksekutif** | **Presentasi Hasil Riset Forensik (Deck)** | Ringkasan 9 slide siap saji untuk sidang skripsi/tesis, presentasi dewan, atau konferensi ilmiah (latar belakang, metodologi, temuan empiris, event study, dan rekomendasi). | [`PRESENTASI_HASIL_RISET_FORENSIK.md`](./PRESENTASI_HASIL_RISET_FORENSIK.md) |
@@ -50,4 +76,4 @@ Repositori ini memuat kerangka penelitian (*Research PRD*), metodologi pengujian
 - [`analisis/matriks_sna_10_media.csv`](./analisis/matriks_sna_10_media.csv): Skor Betweenness Centrality untuk 10 media arus utama.
 - [`analisis/08_komparasi_metode_intelijen.csv`](./analisis/08_komparasi_metode_intelijen.csv): Komparasi 9 dimensi ontologis intelijen: SIGINT Unmasking (FISA 702) vs Spyware Komersial (Pegasus / MVT) vs HUMINT (Honeytrap/Social Engineering).
 - [`analisis/09_osint_artefak.csv`](./analisis/09_osint_artefak.csv): Katalog 11 artefak publik OSINT lengkap dengan status verifikasi, metodologi forensik, dan pemetaan tool spesifik.
-- [`evidence_ledger.json`](./evidence_ledger.json): Manifest rantai integritas bukti digital berstandar ISO/IEC 27037:2012 (17 item terverifikasi SHA-256).
+- [`evidence_ledger.json`](./evidence_ledger.json): Manifest rantai integritas bukti digital berstandar ISO/IEC 27037:2012 (37 item terverifikasi SHA-256).
