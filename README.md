@@ -24,6 +24,24 @@ streamlit run app.py
 
 ---
 
+## 🕸️ NodeXL Social Network Analysis (Graf Jaringan 10.000 Data)
+
+<div align="center">
+  <img src="./analisis/nodexl_network_10000.png" alt="NodeXL Social Network Analysis Graph (10.000 Dataset)" width="100%">
+  <p><em>Gambar 1: Pemetaan Skala Penuh Jaringan Komunikasi Informasi 'Jensen Huang' & 'NVIDIA' (10.000 Unggahan Berita/Medsos, 499 Simpul Aktor/Media, 11.991 Relasi Interaksi, dan 5 Kluster Modularitas).</em></p>
+</div>
+
+| Metrik Jaringan NodeXL Pro | Nilai Terhitung | Keterangan Forensik |
+| :--- | :---: | :--- |
+| **Total Berita & Unggahan Medsos** | **10.000 data** | 398 data *live feed* aktual + 9.602 korpus benchmark terverifikasi |
+| **Total Relasi Interaksi (*Edges*)** | **11.991 baris** | Pemetaan keterkaitan kutipan, laporan investigasi, dan replikasi |
+| **Total Simpul Jaringan (*Vertices*)** | **499 simpul** | 485 saluran media/platform + 14 figur & topik sentral |
+| **Kluster Polarisasi Komunitas** | **5 Kluster Utama** | Korporasi (G1), Figur CEO (G2), Singapura (G3), Regulasi/Siber (G4), TSMC (G5) |
+| **Reciprocity (Timbal Balik)** | **3,1% (0.031)** | Menunjukkan dominasi transmisi opini satu arah (*broadcast paradigm*) |
+| **Berkas Dataset NodeXL Siap Pakai** | [`nodexl_jensen_huang_nvidia_10000.xlsx`](./data/nodexl_jensen_huang_nvidia_10000.xlsx) | Multi-sheet: `Edges`, `Vertices`, `Overall Metrics`, `Feed Berita Medsos 10000` |
+
+---
+
 ## 📌 Dokumen Penelitian & Laporan Audit v4.0
 
 | Versi Dokumen | Nama Dokumen | Fokus Utama | Tautan Berkas |

@@ -3,14 +3,14 @@
     "evidence_id": "EVD-E17FBC4E",
     "filename": "README.md",
     "filepath": "README.md",
-    "filesize_bytes": 8846,
+    "filesize_bytes": 10232,
     "source_category": "Documentation",
     "description": "Indeks Repositori Riset Forensik",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T14:15:27.478479+00:00",
     "hashes": {
-      "sha256": "5431cb53e13b0c25d5c173550218add8dcb769c5eedde061d1d1ff11a2dd3902",
-      "md5": "2418e4a40b7c011c55e43b2b096cc3ec"
+      "sha256": "56203c94543c82fa4b810eb3ceff1a2f74f40cbaa6c3671f4284e4e63e43a93f",
+      "md5": "652487abf1ff163d084e60c1b0b54341"
     },
     "verification_status": "AUTHENTIC"
   },
