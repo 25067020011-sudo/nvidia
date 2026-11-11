@@ -1,0 +1,75 @@
+{
+  "dataset_name": "berita_jensen_huang_10000.csv",
+  "analysis_timestamp_utc": "2026-11-11T08:39:32.501341Z",
+  "total_records": 10000,
+  "unique_media_outlets": 321,
+  "media_diversity_hhi_score": 119.1,
+  "media_diversity_interpretation": "Ekosistem media sangat kompetitif dan terdesentralisasi (HHI < 1500)",
+  "crisis_temporal_analysis": {
+    "period": "2026-10-01 s.d. 2026-11-11",
+    "peak_date": "2026-10-29",
+    "peak_daily_volume": 390,
+    "crisis_window_total_records": 6729,
+    "baseline_historical_records": 3271
+  },
+  "topic_category_distribution": {
+    "Crisis_Allegation": 2193,
+    "Geopolitics_Export": 2000,
+    "Market_EventStudy": 1989,
+    "AI_Hardware_SupplyChain": 1970,
+    "Disinformation_CyberPhysical": 1848
+  },
+  "truth_taxonomy_distribution": {
+    "VERIFIED": 5959,
+    "PARTIALLY_VERIFIED": 2193,
+    "HYPOTHESIS": 1848
+  },
+  "language_distribution": {
+    "en": 3853,
+    "zh": 1292,
+    "id": 982,
+    "de": 937,
+    "fr": 763,
+    "ko": 744,
+    "ja": 732,
+    "es": 697
+  },
+  "language_percentage": {
+    "en": 38.53,
+    "zh": 12.92,
+    "id": 9.82,
+    "de": 9.37,
+    "fr": 7.63,
+    "ko": 7.44,
+    "ja": 7.32,
+    "es": 6.97
+  },
+  "top_20_media_outlets": {
+    "财新网 (Caixin)": 155,
+    "Financial Times": 149,
+    "第一财经 (Yicai)": 143,
+    "Kompas": 143,
+    "Wall Street Journal": 142,
+    "ダイヤモンド・オンライン": 141,
+    "Les Echos": 141,
+    "BBC News": 140,
+    "Le Monde": 139,
+    "매일경제 (Maeil Business)": 137,
+    "Detik Finance": 135,
+    "中央社 (CNA)": 135,
+    "Frankfurter Allgemeine Zeitung": 135,
+    "日本経済新聞 (Nikkei)": 134,
+    "Handelsblatt": 134,
+    "L'Usine Nouvelle": 134,
+    "Heise Online": 133,
+    "Associated Press": 131,
+    "朝日新聞 (Asahi Shimbun)": 130,
+    "CNN": 129
+  },
+  "econometric_market_cross_correlation": {
+    "correlation_news_vs_trading_volume": 0.0708,
+    "correlation_news_vs_closing_price": -0.2899,
+    "trading_volume_peak_date": "2026-11-09",
+    "trading_volume_peak_shares": "459M shares"
+  }
+}

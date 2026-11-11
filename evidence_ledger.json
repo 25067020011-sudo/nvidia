@@ -603,14 +603,14 @@
     "evidence_id": "EVD-68354A31",
     "filename": "1_verifikasi_osint.py",
     "filepath": "1_verifikasi_osint.py",
-    "filesize_bytes": 6088,
+    "filesize_bytes": 6089,
     "source_category": "Forensic_Tool",
     "description": "Mesin Verifikasi OSINT ACRA & Perceptual Hashing Gambar",
     "collector": "Forensic_Engineering_Team",
     "acquisition_timestamp_utc": "2026-11-11T08:32:00.000000+00:00",
     "hashes": {
-      "sha256": "68354a3178419d13314b657064e9872d1a029ebb66782a300b36441fdd3228f2",
-      "md5": "6078fb1c4d89028a424f4f4b141afce0"
+      "sha256": "a9100b42405e88dfcdc51ba19864a0feecdc25d44ab02b25145df2e9d033487e",
+      "md5": "145b88f7d9a8233cfc7a1a6106bdd613"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -633,14 +633,29 @@
     "evidence_id": "EVD-30EBF320",
     "filename": "3_lengkapi_tanggal.py",
     "filepath": "3_lengkapi_tanggal.py",
-    "filesize_bytes": 3267,
+    "filesize_bytes": 3268,
     "source_category": "Forensic_Tool",
     "description": "Mesin Audit & Penyempurnaan Tanggal Publikasi Dataset Berita",
     "collector": "Forensic_Engineering_Team",
     "acquisition_timestamp_utc": "2026-11-11T08:32:00.000000+00:00",
     "hashes": {
-      "sha256": "30ebf32013027c6953a0547bc4730e197925cea6da07ef9dfdd388e9802cc9a4",
-      "md5": "40ed40bfc85c70f3a0412fea8332d8b5"
+      "sha256": "9767cc6dfbd26667c550924c0c28d568712cfde49ae7632e398832cfc9b52ef2",
+      "md5": "50503ae25b5aa5898d1da9b874423976"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-656A09AE",
+    "filename": "deep_analysis_10000.py",
+    "filepath": "tools/deep_analysis_10000.py",
+    "filesize_bytes": 15173,
+    "source_category": "Forensic_Tool",
+    "description": "Mesin Analisis Forensik Digital Multimodal Korpus 10.000 Data",
+    "collector": "Forensic_Engineering_Team",
+    "acquisition_timestamp_utc": "2026-11-11T08:38:00.000000+00:00",
+    "hashes": {
+      "sha256": "688a0d9e1fe71c3fe3ec445e6a1055d55f7abf1dd069cb0cf5d97d20c1dab83c",
+      "md5": "a35c56c3f8fc3521d683dd70f1cc1d97"
     },
     "verification_status": "AUTHENTIC"
   }
