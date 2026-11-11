@@ -16,6 +16,7 @@ import json
 from pathlib import Path
 import pandas as pd
 from PIL import Image
+from PIL.ExifTags import TAGS, GPSTAGS
 
 try:
     import imagehash
@@ -72,6 +73,72 @@ def verifikasi_acra():
     print(f"[+] Hasil verifikasi ACRA berhasil diekspor ke: {out_path.name}")
     print("=" * 80)
 
+def ekstrak_exif_gambar(img_path):
+    """Mengekstrak metadata EXIF dan chunk penanda software."""
+    try:
+        with Image.open(img_path) as im:
+            info = im._getexif() if hasattr(im, "_getexif") else None
+            exif_dict = {}
+            software = "N/A"
+            if info:
+                for tag_id, val in info.items():
+                    tag_name = TAGS.get(tag_id, str(tag_id))
+                    if isinstance(val, bytes):
+                        try:
+                            val = val.decode("utf-8", errors="ignore").strip()
+                        except Exception:
+                            val = str(val)
+                    exif_dict[tag_name] = val
+                software = exif_dict.get("Software", exif_dict.get("Make", "EXIF Ada (Tanpa tag Software)"))
+            elif hasattr(im, "text") and im.text:
+                software = im.text.get("Software", "PNG Text Chunk Ada")
+            return {
+                "has_exif": info is not None,
+                "software": software,
+                "tags": exif_dict
+            }
+    except Exception as e:
+        return {"has_exif": False, "software": f"Error: {e}", "tags": {}}
+
+def verifikasi_exif(target):
+    print("=" * 80)
+    print(f"📷 AUDIT METADATA EXIF & PROVENANCE OSINT ({target})")
+    print("Standard: ISO/IEC 27037:2012 / C2PA / ExifTool Standard Extraction")
+    print("=" * 80)
+    
+    target_path = Path(target)
+    img_extensions = {".png", ".jpg", ".jpeg", ".webp", ".bmp"}
+    
+    if target_path.is_file():
+        files = [target_path]
+    elif target_path.is_dir():
+        files = sorted([p for p in target_path.glob("*") if p.suffix.lower() in img_extensions])
+    else:
+        print(f"[!] Path '{target}' tidak ditemukan.")
+        return
+
+    records = []
+    for p in files:
+        exif_info = ekstrak_exif_gambar(p)
+        print(f"\n[Berkas]: {p.name}")
+        print(f"  • Format & Ukuran : {p.stat().st_size:,} bytes")
+        print(f"  • Memiliki EXIF   : {'YA' if exif_info['has_exif'] else 'TIDAK (Stripped/Cleaned)'}")
+        print(f"  • Software/Kamera : {exif_info['software']}")
+        if exif_info['tags']:
+            print(f"  • Detail Tag EXIF : {json.dumps(exif_info['tags'], indent=4)[:300]}...")
+        records.append({
+            "filename": p.name,
+            "has_exif": exif_info["has_exif"],
+            "software_or_signature": exif_info["software"],
+            "tag_count": len(exif_info["tags"])
+        })
+
+    out_path = REPO_ROOT / "analisis" / "osint_exif_audit.csv"
+    pd.DataFrame(records).to_csv(out_path, index=False, encoding="utf-8-sig")
+    print("\n" + "=" * 80)
+    print(f"[+] Laporan Audit EXIF diekspor ke: {out_path.name}")
+    print("=" * 80)
+
 def verifikasi_gambar(direktori_gambar):
     print("=" * 80)
     print(f"🖼️ VERIFIKASI PERCEPTUAL HASHING & INTEGRITAS GAMBAR ARTEFAK ({direktori_gambar})")
@@ -96,6 +163,7 @@ def verifikasi_gambar(direktori_gambar):
         try:
             raw_bytes = img_path.read_bytes()
             sha256 = hashlib.sha256(raw_bytes).hexdigest()
+            exif_res = ekstrak_exif_gambar(img_path)
             
             with Image.open(img_path) as im:
                 width, height = im.size
@@ -109,13 +177,15 @@ def verifikasi_gambar(direktori_gambar):
                 else:
                     ahash = phash = dhash = whash = "N/A (imagehash missing)"
                     
-            print(f"[+] {img_path.name:<32} | {width}x{height} {im_format} | pHash: {phash} | aHash: {ahash}")
+            print(f"[+] {img_path.name:<32} | {width}x{height} {im_format} | pHash: {phash} | Software: {exif_res['software']}")
             records.append({
                 "filename": img_path.name,
                 "resolution": f"{width}x{height}",
                 "format": im_format,
                 "filesize_bytes": len(raw_bytes),
                 "sha256": sha256,
+                "has_exif": exif_res["has_exif"],
+                "software_signature": exif_res["software"],
                 "phash": phash,
                 "ahash": ahash,
                 "dhash": dhash,
@@ -134,12 +204,13 @@ def verifikasi_gambar(direktori_gambar):
     print("=" * 80)
 
 def main():
-    parser = argparse.ArgumentParser(description="Forensic OSINT & Image Hash Verifier")
+    parser = argparse.ArgumentParser(description="Forensic OSINT, EXIF & Image Hash Verifier")
     parser.add_argument("--acra", action="store_true", help="Jalankan verifikasi data registrasi bisnis ACRA Singapura")
     parser.add_argument("--gambar", type=str, default=None, help="Jalankan verifikasi perceptual hash pada direktori gambar")
+    parser.add_argument("--exif", type=str, default=None, help="Jalankan ekstraksi metadata EXIF/IPTC dan deteksi software/kamera")
     args = parser.parse_args()
     
-    if not args.acra and not args.gambar:
+    if not args.acra and not args.gambar and not args.exif:
         parser.print_help()
         sys.exit(0)
         
@@ -147,6 +218,8 @@ def main():
         verifikasi_acra()
     if args.gambar:
         verifikasi_gambar(args.gambar)
+    if args.exif:
+        verifikasi_exif(args.exif)
 
 if __name__ == "__main__":
     main()

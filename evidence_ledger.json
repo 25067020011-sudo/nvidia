@@ -273,14 +273,14 @@
     "evidence_id": "EVD-44976DD7",
     "filename": "requirements.txt",
     "filepath": "requirements.txt",
-    "filesize_bytes": 127,
+    "filesize_bytes": 157,
     "source_category": "Config_Filing",
     "description": "Dependensi Python untuk Streamlit Cloud Deployment",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T16:44:14.334743+00:00",
     "hashes": {
-      "sha256": "44976dd76ad3341a4e2561a20fbfb2856db32fb29d4ba2abed18bb989e0f6a6a",
-      "md5": "366167069a1e1a262c290b15ad1465d2"
+      "sha256": "b9677adee0b2a68dfb98e5eb0e4bf5d82c9d9bd9dc663f6c3f112efaf97bed81",
+      "md5": "fcc8a5b724828d10c5706a1c1a5ea130"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -603,14 +603,14 @@
     "evidence_id": "EVD-68354A31",
     "filename": "1_verifikasi_osint.py",
     "filepath": "1_verifikasi_osint.py",
-    "filesize_bytes": 6089,
+    "filesize_bytes": 9255,
     "source_category": "Forensic_Tool",
-    "description": "Mesin Verifikasi OSINT ACRA & Perceptual Hashing Gambar",
+    "description": "Mesin Verifikasi OSINT ACRA, EXIF Audit & Perceptual Hashing Gambar",
     "collector": "Forensic_Engineering_Team",
     "acquisition_timestamp_utc": "2026-11-11T08:32:00.000000+00:00",
     "hashes": {
-      "sha256": "a9100b42405e88dfcdc51ba19864a0feecdc25d44ab02b25145df2e9d033487e",
-      "md5": "145b88f7d9a8233cfc7a1a6106bdd613"
+      "sha256": "328602150c44144f367e6427391c87c49975c16f9ffd63fb3e5ab6deda803c95",
+      "md5": "d9343145702738762e4e41929b72ab15"
     },
     "verification_status": "AUTHENTIC"
   },

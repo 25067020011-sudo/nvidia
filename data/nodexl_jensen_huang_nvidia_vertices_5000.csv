@@ -1,0 +1,387 @@
+﻿Vertex,Cluster,In-Degree,Out-Degree,Degree,Betweenness Centrality,PageRank,Vertex Type
+@NVIDIA,G1,296,0,296,0.0,0.210574,Central Entity / Topic
+@JensenHuang,G2,186,0,186,0.0,0.097975,Central Entity / Topic
+@AliceHuang,G1,112,0,112,0.0,0.047727,Central Entity / Topic
+@MegaspeedSolutions,G4,84,0,84,0.0,0.028506,Central Entity / Topic
+#Blackwell_Architecture,G3,82,0,82,0.0,0.00869,Central Entity / Topic
+China_Regulators,G3,74,0,74,0.0,0.019856,Central Entity / Topic
+Deepfake_Actor_Bot,G3,61,0,61,0.0,0.007097,Central Entity / Topic
+@TSMC_Official,G5,52,0,52,0.0,0.008482,Central Entity / Topic
+@SEC_Enforcement,G3,50,0,50,0.0,0.010251,Central Entity / Topic
+Taiwan_Gov,G3,39,0,39,0.0,0.007251,Central Entity / Topic
+@CommerceGov_BIS,G3,34,0,34,0.0,0.003968,Central Entity / Topic
+Crypto_Fraud_Ring,G3,30,0,30,0.0,0.003444,Central Entity / Topic
+WallStreet_Analysts,G3,29,0,29,0.0,0.003329,Central Entity / Topic
+NVIDIA_Employees,G3,25,0,25,0.0,0.004401,Central Entity / Topic
+@ElonMusk,G2,17,0,17,0.0,0.007235,Central Entity / Topic
+Yahoo Finance,G3,0,14,14,0.0,0.001428,Media Outlet
+ABC News,G3,0,13,13,0.0,0.001428,Media Outlet
+Associated Press,G3,0,13,13,0.0,0.001428,Media Outlet
+The New York Times,G3,0,13,13,0.0,0.001428,Media Outlet
+Tom's Hardware,G3,0,13,13,0.0,0.001428,Media Outlet
+Reuters,G3,0,13,13,0.0,0.001428,Media Outlet
+South China Morning Post,G3,0,13,13,0.0,0.001428,Media Outlet
+EE Times,G3,0,13,13,0.0,0.001428,Media Outlet
+The Guardian,G3,0,12,12,0.0,0.001428,Media Outlet
+The Information,G3,0,12,12,0.0,0.001428,Media Outlet
+Bloomberg,G3,0,12,12,0.0,0.001428,Media Outlet
+Forbes,G3,0,12,12,0.0,0.001428,Media Outlet
+CNBC,G3,0,12,12,0.0,0.001428,Media Outlet
+CNN,G3,0,12,12,0.0,0.001428,Media Outlet
+Wired,G3,0,11,11,0.0,0.001428,Media Outlet
+Barron's,G3,0,11,11,0.0,0.001428,Media Outlet
+SemiAnalysis,G3,0,11,11,0.0,0.001428,Media Outlet
+VentureBeat,G3,0,11,11,0.0,0.001428,Media Outlet
+Financial Times,G3,0,11,11,0.0,0.001428,Media Outlet
+The Washington Post,G3,0,11,11,0.0,0.001428,Media Outlet
+Investor's Business Daily,G3,0,11,11,0.0,0.001428,Media Outlet
+Wall Street Journal,G3,0,11,11,0.0,0.001428,Media Outlet
+TechCrunch,G3,0,11,11,0.0,0.001428,Media Outlet
+BBC News,G3,0,11,11,0.0,0.001428,Media Outlet
+Ars Technica,G3,0,11,11,0.0,0.001428,Media Outlet
+The Verge,G3,0,10,10,0.0,0.001428,Media Outlet
+MarketWatch,G3,0,10,10,0.0,0.001428,Media Outlet
+AnandTech,G3,0,10,10,0.0,0.001428,Media Outlet
+Fox Business,G3,0,10,10,0.0,0.001428,Media Outlet
+The Straits Times,G3,0,10,10,0.0,0.001428,Media Outlet
+Le Monde,G3,0,7,7,0.0,0.001428,Media Outlet
+Le Figaro Economie,G3,0,7,7,0.0,0.001428,Media Outlet
+BFM Business,G3,0,7,7,0.0,0.001428,Media Outlet
+Les Echos,G3,0,7,7,0.0,0.001428,Media Outlet
+L'Usine Nouvelle,G3,0,7,7,0.0,0.001428,Media Outlet
+Firstpost,G2,0,7,7,0.0,0.001428,Media Outlet
+BigGo Finance,G4,0,6,6,0.0,0.001428,Media Outlet
+Manager Magazin,G4,0,6,6,0.0,0.001428,Media Outlet
+Detik Finance,G5,0,6,6,0.0,0.001428,Media Outlet
+Süddeutsche Zeitung,G5,0,6,6,0.0,0.001428,Media Outlet
+Tempo,G4,0,6,6,0.0,0.001428,Media Outlet
+Kompas,G4,0,6,6,0.0,0.001428,Media Outlet
+La Tribune,G3,0,6,6,0.0,0.001428,Media Outlet
+Frankfurter Allgemeine Zeitung,G5,0,6,6,0.0,0.001428,Media Outlet
+Der Spiegel,G5,0,6,6,0.0,0.001428,Media Outlet
+Expansion,G3,0,6,6,0.0,0.001428,Media Outlet
+Cinco Días,G3,0,6,6,0.0,0.001428,Media Outlet
+Xataka,G3,0,6,6,0.0,0.001428,Media Outlet
+CNN Indonesia,G5,0,6,6,0.0,0.001428,Media Outlet
+CNBC Indonesia,G5,0,6,6,0.0,0.001428,Media Outlet
+El Mundo,G3,0,6,6,0.0,0.001428,Media Outlet
+Golem.de,G5,0,6,6,0.0,0.001428,Media Outlet
+Bisnis Indonesia,G5,0,6,6,0.0,0.001428,Media Outlet
+Handelsblatt,G5,0,6,6,0.0,0.001428,Media Outlet
+Kontan,G5,0,6,6,0.0,0.001428,Media Outlet
+El Economista,G3,0,6,6,0.0,0.001428,Media Outlet
+#ComputexTaipei,G2,6,0,6,0.0,0.00294,Central Entity / Topic
+The Times of India,G2,0,6,6,0.0,0.001428,Media Outlet
+Bloomberg.com,G4,0,6,6,0.0,0.001428,Media Outlet
+Katadata,G5,0,6,6,0.0,0.001428,Media Outlet
+Heise Online,G4,0,6,6,0.0,0.001428,Media Outlet
+Fortune,G2,0,5,5,0.0,0.001428,Media Outlet
+24/7 Wall St.,G2,0,5,5,0.0,0.001428,Media Outlet
+Die Welt,G5,0,5,5,0.0,0.001428,Media Outlet
+Tech Times,G2,0,5,5,0.0,0.001428,Media Outlet
+El País,G5,0,5,5,0.0,0.001428,Media Outlet
+TweakTown,G5,0,4,4,0.0,0.001428,Media Outlet
+Cybernews,G3,0,4,4,0.0,0.001428,Media Outlet
+Focus Taiwan,G5,0,4,4,0.0,0.001428,Media Outlet
+매일경제,G2,0,4,4,0.0,0.001428,Media Outlet
+Taiwan News,G2,0,4,4,0.0,0.001428,Media Outlet
+The Federal,G1,0,4,4,0.0,0.001428,Media Outlet
+Chosunbiz,G5,0,4,4,0.0,0.001428,Media Outlet
+Politico,G3,0,4,4,0.0,0.001428,Media Outlet
+BBC,G3,0,4,4,0.0,0.001428,Media Outlet
+The Japan Times,G3,0,4,4,0.0,0.001428,Media Outlet
+The Business Standard,G1,0,4,4,0.0,0.001428,Media Outlet
+www.techtimes.co.uk,G1,0,4,4,0.0,0.001428,Media Outlet
+The Week,G4,0,4,4,0.0,0.001428,Media Outlet
+New York Post,G1,0,4,4,0.0,0.001428,Media Outlet
+Axios,G3,0,4,4,0.0,0.001428,Media Outlet
+MLQ.ai,G1,0,4,4,0.0,0.001428,Media Outlet
+DW.com,G4,0,4,4,0.0,0.001428,Media Outlet
+The Indian Express,G1,0,4,4,0.0,0.001428,Media Outlet
+Crypto Briefing,G1,0,4,4,0.0,0.001428,Media Outlet
+Wccftech,G1,0,4,4,0.0,0.001428,Media Outlet
+Taipei Times,G5,0,4,4,0.0,0.001428,Media Outlet
+NDTV,G4,0,4,4,0.0,0.001428,Media Outlet
+UA.NEWS,G4,0,3,3,0.0,0.001428,Media Outlet
+澎湃新闻 (The Paper),G4,0,3,3,0.0,0.001428,Media Outlet
+TradingKey,G2,0,3,3,0.0,0.001428,Media Outlet
+财新网 (Caixin),G4,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 167,G1,0,3,3,0.0,0.001428,Media Outlet
+finance.biggo.com,G5,0,3,3,0.0,0.001428,Media Outlet
+아시아경제,G5,0,3,3,0.0,0.001428,Media Outlet
+朝日新聞 (Asahi Shimbun),G5,0,3,3,0.0,0.001428,Media Outlet
+ExtremeTech,G2,0,3,3,0.0,0.001428,Media Outlet
+第一财经 (Yicai),G4,0,3,3,0.0,0.001428,Media Outlet
+OECD AI Policy Observatory,G3,0,3,3,0.0,0.001428,Media Outlet
+한국경제 (Korea Economic Daily),G5,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 174,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 172,G1,0,3,3,0.0,0.001428,Media Outlet
+PC Watch,G5,0,3,3,0.0,0.001428,Media Outlet
+東洋経済 (Toyo Keizai),G5,0,3,3,0.0,0.001428,Media Outlet
+Teslarati,G2,0,3,3,0.0,0.001428,Media Outlet
+디지털데일리 (DDaily),G5,0,3,3,0.0,0.001428,Media Outlet
+The Economic Times,G4,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 191,G2,0,3,3,0.0,0.001428,Media Outlet
+Livemint,G2,0,3,3,0.0,0.001428,Media Outlet
+Tekedia,G2,0,3,3,0.0,0.001428,Media Outlet
+日本経済新聞 (Nikkei),G5,0,3,3,0.0,0.001428,Media Outlet
+Breitbart News,G2,0,3,3,0.0,0.001428,Media Outlet
+연합뉴스 (Yonhap News),G5,0,3,3,0.0,0.001428,Media Outlet
+moneywise.com,G2,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 176,G3,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 180,G3,0,3,3,0.0,0.001428,Media Outlet
+TechNews 科技新报,G4,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 159,G1,0,3,3,0.0,0.001428,Media Outlet
+조선일보 (Chosun Ilbo),G5,0,3,3,0.0,0.001428,Media Outlet
+Stocktwits,G3,0,3,3,0.0,0.001428,Media Outlet
+中央社 (CNA),G4,0,3,3,0.0,0.001428,Media Outlet
+PCWorld,G3,0,3,3,0.0,0.001428,Media Outlet
+digitimes,G1,0,3,3,0.0,0.001428,Media Outlet
+IDNFinancials,G2,0,3,3,0.0,0.001428,Media Outlet
+ダイヤモンド・オンライン,G5,0,3,3,0.0,0.001428,Media Outlet
+전자신문 (ETNews),G5,0,3,3,0.0,0.001428,Media Outlet
+The American Bazaar,G2,0,3,3,0.0,0.001428,Media Outlet
+端传媒 (Initium Media),G4,0,3,3,0.0,0.001428,Media Outlet
+Al Jazeera,G2,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 173,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 193,G2,0,3,3,0.0,0.001428,Media Outlet
+Euronews.com,G1,0,3,3,0.0,0.001428,Media Outlet
+TrendForce,G5,0,3,3,0.0,0.001428,Media Outlet
+Anadolu Ajansı,G3,0,3,3,0.0,0.001428,Media Outlet
+BeInCrypto,G2,0,3,3,0.0,0.001428,Media Outlet
+Ynetnews,G2,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 163,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 164,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 166,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 165,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 179,G3,0,3,3,0.0,0.001428,Media Outlet
+Facebook,G1,0,3,3,0.0,0.001428,Media Outlet
+The Hill,G2,0,3,3,0.0,0.001428,Media Outlet
+Business Insider,G1,0,3,3,0.0,0.001428,Media Outlet
+WSJ,G2,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 175,G1,0,3,3,0.0,0.001428,Media Outlet
+Oxygen Official Site,G1,0,3,3,0.0,0.001428,Media Outlet
+Yahoo,G2,0,3,3,0.0,0.001428,Media Outlet
+조선일보,G1,0,3,3,0.0,0.001428,Media Outlet
+Security Boulevard,G2,0,3,3,0.0,0.001428,Media Outlet
+Betabeat,G2,0,3,3,0.0,0.001428,Media Outlet
+工商时报 (Commercial Times),G4,0,3,3,0.0,0.001428,Media Outlet
+Observer,G2,0,3,3,0.0,0.001428,Media Outlet
+ITmedia,G5,0,3,3,0.0,0.001428,Media Outlet
+Digitimes 电子时报,G4,0,3,3,0.0,0.001428,Media Outlet
+新浪财经 (Sina Finance),G4,0,3,3,0.0,0.001428,Media Outlet
+AI Magazine,G3,0,3,3,0.0,0.001428,Media Outlet
+经济日报 (Economic Daily),G4,0,3,3,0.0,0.001428,Media Outlet
+Organiser,G3,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 171,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 183,G2,0,3,3,0.0,0.001428,Media Outlet
+NVIDIA Blog,G5,0,3,3,0.0,0.001428,Media Outlet
+Shacknews,G5,0,3,3,0.0,0.001428,Media Outlet
+Newsweek,G2,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 162,G1,0,3,3,0.0,0.001428,Media Outlet
+Global Tech Media 5,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 32,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 45,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 18,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 14,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 7,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 31,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 206,G1,0,2,2,0.0,0.001428,Media Outlet
+Let's Data Science,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 207,G1,0,2,2,0.0,0.001428,Media Outlet
+Anadolu Agency,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 53,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 15,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 42,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 34,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 3,G1,0,2,2,0.0,0.001428,Media Outlet
+Liberty Times,G1,0,2,2,0.0,0.001428,Media Outlet
+ZeroHedge,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 24,G1,0,2,2,0.0,0.001428,Media Outlet
+Tech Insider,G1,0,2,2,0.0,0.001428,Media Outlet
+Implicator.ai,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 26,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 25,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 41,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 40,G1,0,2,2,0.0,0.001428,Media Outlet
+AI Chat Daily,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 194,G4,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 9,G1,0,2,2,0.0,0.001428,Media Outlet
+HyperAI,G1,0,2,2,0.0,0.001428,Media Outlet
+NewsBytes,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 205,G1,0,2,2,0.0,0.001428,Media Outlet
+Block Media,G1,0,2,2,0.0,0.001428,Media Outlet
+AI Weekly,G1,0,2,2,0.0,0.001428,Media Outlet
+New York Times,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 30,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 12,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 28,G1,0,2,2,0.0,0.001428,Media Outlet
+TradingView,G2,0,2,2,0.0,0.001428,Media Outlet
+매일경제 (Maeil Business),G5,0,2,2,0.0,0.001428,Media Outlet
+Deccan Chronicle,G1,0,2,2,0.0,0.001428,Media Outlet
+The Standard (HK),G1,0,2,2,0.0,0.001428,Media Outlet
+www.israelhayom.com,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 203,G4,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 211,G1,0,2,2,0.0,0.001428,Media Outlet
+Benzinga,G1,0,2,2,0.0,0.001428,Media Outlet
+U.S. News & World Report,G1,0,2,2,0.0,0.001428,Media Outlet
+Modern Diplomacy,G1,0,2,2,0.0,0.001428,Media Outlet
+Businesskorea,G1,0,2,2,0.0,0.001428,Media Outlet
+The Korea Times,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 46,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 204,G4,0,2,2,0.0,0.001428,Media Outlet
+IraqiNews,G1,0,2,2,0.0,0.001428,Media Outlet
+AFR,G2,0,2,2,0.0,0.001428,Media Outlet
+Seeking Alpha,G1,0,2,2,0.0,0.001428,Media Outlet
+Hankyoreh : English Edition,G1,0,2,2,0.0,0.001428,Media Outlet
+Korea JoongAng Daily,G2,0,2,2,0.0,0.001428,Media Outlet
+The Killeen Daily Herald,G1,0,2,2,0.0,0.001428,Media Outlet
+AFP.com,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 23,G1,0,2,2,0.0,0.001428,Media Outlet
+NBC News,G2,0,2,2,0.0,0.001428,Media Outlet
+AP News,G2,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 39,G1,0,2,2,0.0,0.001428,Media Outlet
+Gizmodo,G2,0,2,2,0.0,0.001428,Media Outlet
+NVIDIA Newsroom,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 10,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 29,G1,0,2,2,0.0,0.001428,Media Outlet
+Clinton Herald,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 22,G1,0,2,2,0.0,0.001428,Media Outlet
+News-Times,G1,0,2,2,0.0,0.001428,Media Outlet
+CBC,G1,0,2,2,0.0,0.001428,Media Outlet
+The Cut,G2,0,2,2,0.0,0.001428,Media Outlet
+WION,G2,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 52,G1,0,2,2,0.0,0.001428,Media Outlet
+bloomingbit,G2,0,2,2,0.0,0.001428,Media Outlet
+The Arab Weekly,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 21,G1,0,2,2,0.0,0.001428,Media Outlet
+The Singju Post,G2,0,2,2,0.0,0.001428,Media Outlet
+深潮TechFlow,G5,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 43,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 36,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 209,G1,0,2,2,0.0,0.001428,Media Outlet
+شبكة تواصل الإخبارية,G4,0,2,2,0.0,0.001428,Media Outlet
+Internazionale,G1,0,2,2,0.0,0.001428,Media Outlet
+The Business Times,G4,0,2,2,0.0,0.001428,Media Outlet
+India Today,G4,0,2,2,0.0,0.001428,Media Outlet
+CNA,G4,0,2,2,0.0,0.001428,Media Outlet
+Investing.com,G4,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 51,G1,0,2,2,0.0,0.001428,Media Outlet
+International Business Times Australia,G2,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 54,G1,0,2,2,0.0,0.001428,Media Outlet
+TechRadar,G1,0,2,2,0.0,0.001428,Media Outlet
+PCMag,G1,0,2,2,0.0,0.001428,Media Outlet
+NeoTeo,G1,0,2,2,0.0,0.001428,Media Outlet
+Global Tech Media 58,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 79,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 74,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 97,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 218,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 82,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 105,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 116,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 113,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 138,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 68,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 124,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 60,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 95,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 76,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 63,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 144,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 146,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 94,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 56,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 99,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 127,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 65,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 86,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 215,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 117,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 61,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 222,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 64,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 151,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 106,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 213,G1,0,1,1,0.0,0.001428,Media Outlet
+news.sbs.co.kr,G2,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 152,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 216,G1,0,1,1,0.0,0.001428,Media Outlet
+Asociación Almendrón,G2,0,1,1,0.0,0.001428,Media Outlet
+The Dispatch,G2,0,1,1,0.0,0.001428,Media Outlet
+Foundation for Defense of Democracies,G1,0,1,1,0.0,0.001428,Media Outlet
+Open Magazine,G2,0,1,1,0.0,0.001428,Media Outlet
+Ticker News,G2,0,1,1,0.0,0.001428,Media Outlet
+The Conversation,G2,0,1,1,0.0,0.001428,Media Outlet
+The Ringer,G2,0,1,1,0.0,0.001428,Media Outlet
+www.tokenpost.com,G1,0,1,1,0.0,0.001428,Media Outlet
+THE WEEK,G1,0,1,1,0.0,0.001428,Media Outlet
+Basic Tutorials,G2,0,1,1,0.0,0.001428,Media Outlet
+TechCentral,G2,0,1,1,0.0,0.001428,Media Outlet
+Revolving Door Project,G2,0,1,1,0.0,0.001428,Media Outlet
+I/O Fund,G1,0,1,1,0.0,0.001428,Media Outlet
+techi.com,G2,0,1,1,0.0,0.001428,Media Outlet
+Help Net Security,G3,0,1,1,0.0,0.001428,Media Outlet
+Lowy Institute,G3,0,1,1,0.0,0.001428,Media Outlet
+www.trendingtopics.eu,G2,0,1,1,0.0,0.001428,Media Outlet
+The Daily Upside,G2,0,1,1,0.0,0.001428,Media Outlet
+Council on Foreign Relations,G1,0,1,1,0.0,0.001428,Media Outlet
+The National Herald,G2,0,1,1,0.0,0.001428,Media Outlet
+The Motley Fool,G2,0,1,1,0.0,0.001428,Media Outlet
+Harvard Business Review,G2,0,1,1,0.0,0.001428,Media Outlet
+"ABC News - Breaking News, Latest News and Videos",G2,0,1,1,0.0,0.001428,Media Outlet
+USA Today,G2,0,1,1,0.0,0.001428,Media Outlet
+The Atlantic,G2,0,1,1,0.0,0.001428,Media Outlet
+CBS News,G2,0,1,1,0.0,0.001428,Media Outlet
+PBS,G2,0,1,1,0.0,0.001428,Media Outlet
+MS NOW,G2,0,1,1,0.0,0.001428,Media Outlet
+Sky News,G2,0,1,1,0.0,0.001428,Media Outlet
+WIRED,G2,0,1,1,0.0,0.001428,Media Outlet
+SFGATE,G2,0,1,1,0.0,0.001428,Media Outlet
+Fast Company,G2,0,1,1,0.0,0.001428,Media Outlet
+The Hindu,G2,0,1,1,0.0,0.001428,Media Outlet
+NewsNation,G2,0,1,1,0.0,0.001428,Media Outlet
+The Times,G1,0,1,1,0.0,0.001428,Media Outlet
+The Stanford Daily,G2,0,1,1,0.0,0.001428,Media Outlet
+People.com,G1,0,1,1,0.0,0.001428,Media Outlet
+Asia News Network,G1,0,1,1,0.0,0.001428,Media Outlet
+ABC News & Headlines – Australian Broadcasting Corporation,G1,0,1,1,0.0,0.001428,Media Outlet
+The Edge Malaysia,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 71,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 114,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 101,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 75,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 87,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 83,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 103,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 96,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 130,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 102,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 139,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 126,G4,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 98,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 88,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 90,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 217,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 212,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 91,G1,0,1,1,0.0,0.001428,Media Outlet
+BollywoodShaadis,G2,0,1,1,0.0,0.001428,Media Outlet
+AI: Reset to Zero,G2,0,1,1,0.0,0.001428,Media Outlet
+semivision,G1,0,1,1,0.0,0.001428,Media Outlet
+Global Data Center Hub,G2,0,1,1,0.0,0.001428,Media Outlet
+The Tech Buzz,G2,0,1,1,0.0,0.001428,Media Outlet
+HPCwire,G1,0,1,1,0.0,0.001428,Media Outlet
+LMSYS Org,G1,0,1,1,0.0,0.001428,Media Outlet
+Techloy,G2,0,1,1,0.0,0.001428,Media Outlet
+SiliconANGLE,G2,0,1,1,0.0,0.001428,Media Outlet
+Manufacturing Dive,G1,0,1,1,0.0,0.001428,Media Outlet
+Automotive News,G2,0,1,1,0.0,0.001428,Media Outlet
+Cultura Colectiva,G1,0,1,1,0.0,0.001428,Media Outlet
+TMZ,G2,0,1,1,0.0,0.001428,Media Outlet
+News18,G2,0,1,1,0.0,0.001428,Media Outlet
+KuCoin,G2,0,1,1,0.0,0.001428,Media Outlet
+Instagram,G2,0,1,1,0.0,0.001428,Media Outlet
+VnExpress International,G2,0,1,1,0.0,0.001428,Media Outlet
+Adgully,G2,0,1,1,0.0,0.001428,Media Outlet
+헬스조선,G2,0,1,1,0.0,0.001428,Media Outlet
+Global Tech Media 70,G1,0,1,1,0.0,0.001428,Media Outlet

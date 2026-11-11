@@ -1,12 +1,12 @@
 {
-  "report_id": "REP-V4-202611110132",
+  "report_id": "REP-V4-202611111422",
   "platform_version": "NVIDIA Forensic Intelligence Platform v4.0",
-  "generated_at_utc": "2026-11-11T01:32:40.307233+00:00",
+  "generated_at_utc": "2026-11-11T14:22:05.191252+00:00",
   "classification": "CONFIDENTIAL // FORENSIC INTELLIGENCE // RESEARCH GRADE",
   "executive_summary": {
     "primary_subject": "Jensen Huang (President & CEO, NVIDIA Corporation)",
     "investigation_scope": "Multi-Modal Forensic Audit, Cyber-Physical Verification, and Governance Analysis",
-    "evidence_ledger_integrity": "100% Verified (37 Registered Items under ISO/IEC 27037)",
+    "evidence_ledger_integrity": "100% Verified (44 Registered Items under ISO/IEC 27037)",
     "osint_artifacts_cataloged": 11,
     "claims_evaluated_count": 4,
     "market_impact_assessment": {
