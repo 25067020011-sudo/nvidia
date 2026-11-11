@@ -345,17 +345,17 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-F50E7335",
+    "evidence_id": "EVD-0DC6DF2B",
     "filename": "manuscript.tex",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/manuscript.tex",
-    "filesize_bytes": 9027,
-    "source_category": "LaTeX_Manuscript",
-    "description": "Naskah Format Standar IEEEtran / Springer",
+    "filesize_bytes": 9955,
+    "source_category": "Scientific_Manuscript",
+    "description": "Formal IEEEtran LaTeX Manuscript with Econometric & SNA Findings v4.0",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T17:20:04.667207+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:23:59.665143+00:00",
     "hashes": {
-      "sha256": "f50e733567d4aacb1a4697a683af381385609c96f73f177183f48c2a7ea3053f",
-      "md5": "83e85efb80af37752024c09a0aa29b44"
+      "sha256": "0dc6df2b291978ff7d0ef94deb73963764e30f2d4edfaf9c838fe85a6412824a",
+      "md5": "93b48c1c070a344e7f09f151d1d10ed5"
     },
     "verification_status": "AUTHENTIC"
   },
