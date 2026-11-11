@@ -179,13 +179,17 @@ with tab3:
         dataset_choice = st.selectbox(
             "Pilih Korpus Dataset:",
             [
+                "Korpus 10.000 Berita Benchmark (321 Media & 8 Bahasa)",
                 "Korpus 2.000 Berita Internasional (809 Media & 8 Bahasa)",
                 "Korpus 1.000 Berita Internasional (429 Media & 6 Bahasa)",
                 "Korpus 300 Berita Skandal (Kurasi Awal Riset)"
             ]
         )
     
-    if "2.000" in dataset_choice:
+    if "10.000" in dataset_choice:
+        news_file = "berita_jensen_huang_10000.csv"
+        st.caption("Korpus benchmarking terstruktur skala besar (10.000 artikel) mencakup analisis krisis, geopolitik ekspor chip, arsitektur AI, dan event study.")
+    elif "2.000" in dataset_choice:
         news_file = "berita_jensen_huang_2000.csv"
         st.caption("Data riil terverifikasi dari 809 portal media global independen lintas 8 bahasa (Inggris, Mandarin, Spanyol, Prancis, Jerman, Indonesia, Korea, Jepang).")
     elif "1.000" in dataset_choice:
@@ -420,6 +424,9 @@ with tab10:
             with open("berita_jensen_huang_1000.csv", "r", encoding="utf-8") as f:
                 st.download_button("📰 Korpus 1.000 Berita (CSV)", f.read(), file_name="berita_jensen_huang_1000.csv", mime="text/csv")
     with col_d3:
+        if os.path.exists("berita_jensen_huang_10000.csv"):
+            with open("berita_jensen_huang_10000.csv", "r", encoding="utf-8") as f:
+                st.download_button("📰 Korpus 10.000 Berita (CSV)", f.read(), file_name="berita_jensen_huang_10000.csv", mime="text/csv")
         if os.path.exists("codemeta.json"):
             with open("codemeta.json", "r", encoding="utf-8") as f:
                 st.download_button("🏷️ Metadata CodeMeta v2.0 (DOI)", f.read(), file_name="codemeta.json", mime="application/json")
