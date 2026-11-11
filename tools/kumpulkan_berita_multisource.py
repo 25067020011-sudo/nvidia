@@ -39,28 +39,69 @@ QUERIES = [
     ('Jensen Huang deepfake YouTube livestream', "en-US", "US", "en"),
     ('Jensen Huang AI clone scam QR code', "en-US", "US", "en"),
     ('Jensen Huang GTC Berlin protest speech', "en-US", "US", "en"),
+    ('Jensen Huang AI impersonation fraud', "en-US", "US", "en"),
+    ('Nvidia CEO deepfake crypto giveaway scam', "en-US", "US", "en"),
     
     # Market & Regulatory Impact
     ('Nvidia stock drops CEO investigation Jensen Huang', "en-US", "US", "en"),
     ('Nvidia internal memo CEO Jensen Huang', "en-US", "US", "en"),
     ('Jensen Huang Blackwell chip China regulations', "en-US", "US", "en"),
     ('Elon Musk Tesla xAI Nvidia GPU purchase', "en-US", "US", "en"),
+    ('Nvidia antitrust investigation DOJ FTC', "en-US", "US", "en"),
+    ('Nvidia data center Blackwell supply shortage', "en-US", "US", "en"),
+    ('Jensen Huang AI bubble valuation debate', "en-US", "US", "en"),
+    ('Nvidia market cap 3 trillion Jensen Huang', "en-US", "US", "en"),
+    ('Nvidia AI chip smuggling Southeast Asia', "en-US", "US", "en"),
+    ('Commerce Department BIS Nvidia export license', "en-US", "US", "en"),
+    ('Jensen Huang Taiwan visit TSMC Morris Chang', "en-US", "US", "en"),
+    ('Nvidia Foxconn AI server partnership Jensen', "en-US", "US", "en"),
+    ('Jensen Huang robot humanoid keynote CES', "en-US", "US", "en"),
+    ('Nvidia sovereign AI national security', "en-US", "US", "en"),
     
-    # Multi-Regional & International Editions (UK, Singapore, Taiwan, Germany, Indonesia)
+    # Multi-Regional English (UK, Singapore, Canada, Australia, India)
     ('"Jensen Huang" "Alice Huang"', "en-GB", "GB", "en"),
     ('Nvidia CEO Jensen Huang spy investigation', "en-GB", "GB", "en"),
     ('"Jensen Huang" Megaspeed Singapore Malaysia', "en-SG", "SG", "en"),
     ('Nvidia CEO Jensen Huang scandal', "en-AU", "AU", "en"),
+    ('Jensen Huang Nvidia AI chips India', "en-IN", "IN", "en"),
+    ('Jensen Huang Nvidia Canada AI supercomputer', "en-CA", "CA", "en"),
+    
+    # Chinese (Simplified & Traditional)
     ('黄仁勋 间谍 调查', "zh-CN", "CN", "zh"),
     ('黄仁勋 Alice Huang 调查', "zh-TW", "TW", "zh"),
     ('輝達 黃仁勳 內部調查 董事會', "zh-TW", "TW", "zh"),
+    ('黄仁勋 华尔街 芯片 出口 管制', "zh-CN", "CN", "zh"),
+    ('辉达 股价 暴跌 内部备忘录', "zh-CN", "CN", "zh"),
+    ('黃仁勳 台積電 晶片 禁令', "zh-TW", "TW", "zh"),
+    ('輝達 伺服器 走私 新加坡', "zh-TW", "TW", "zh"),
+    
+    # German (DACH Region)
     ('Jensen Huang Spionage Untersuchung Nvidia', "de-DE", "DE", "de"),
     ('Jensen Huang GTC Berlin Protest', "de-DE", "DE", "de"),
+    ('Nvidia Aktie Kurssturz Jensen Huang Skandal', "de-DE", "DE", "de"),
+    ('Jensen Huang KI Chip Exportbeschränkungen', "de-DE", "DE", "de"),
+    
+    # French
     ('Jensen Huang enquête espionnage Nvidia', "fr-FR", "FR", "fr"),
+    ('Nvidia chute action PDG Jensen Huang', "fr-FR", "FR", "fr"),
+    ('Jensen Huang puces IA Chine restrictions', "fr-FR", "FR", "fr"),
+    
+    # Spanish
+    ('Jensen Huang investigacion espionaje Nvidia', "es-ES", "ES", "es"),
+    ('Nvidia acciones caida CEO Jensen Huang escandalo', "es-ES", "ES", "es"),
+    ('Jensen Huang chips inteligencia artificial China', "es-ES", "ES", "es"),
+    
+    # Japanese & Korean
+    ('ジェンスン・フアン Nvidia スキャンダル 調査', "ja-JP", "JP", "ja"),
+    ('エヌビディア ジェンスン・ファン AI 半導体 規制', "ja-JP", "JP", "ja"),
+    ('젠슨 황 엔비디아 조사 스캔들', "ko-KR", "KR", "ko"),
+    ('엔비디아 젠슨 황 AI 칩 대중 수출 규제', "ko-KR", "KR", "ko"),
+    
+    # Indonesian
     ('Jensen Huang skandal investigasi Nvidia', "id-ID", "ID", "id"),
     ('CEO Nvidia Jensen Huang isu spionase', "id-ID", "ID", "id"),
-    ('ジェンスン・フアン Nvidia スキャンダル 調査', "ja-JP", "JP", "ja"),
-    ('젠슨 황 엔비디아 조사 스캔들', "ko-KR", "KR", "ko"),
+    ('Saham Nvidia anjlok Jensen Huang memo dewan', "id-ID", "ID", "id"),
+    ('Nvidia penyelidikan independen direksi Huang', "id-ID", "ID", "id")
 ]
 
 def clean_title(title: str) -> str:
@@ -177,17 +218,29 @@ def main():
     
     # 3. Jika target belum tercapai, tambahkan pencarian relasi industri AI/semikonduktor
     additional_terms = [
-        "Nvidia US-China export controls", "Jensen Huang Computex keynote AI",
-        "Nvidia AI enterprise server demand", "Huang Le Alice Huang investigation",
-        "Nvidia SEC Form 8-K audit committee", "Taiwan Semiconductor TSMC Nvidia Huang",
-        "Jensen Huang White House AI meeting", "Nvidia quantum computing AI chips"
+        ("Nvidia US-China export controls", "en-US", "US", "en"),
+        ("Jensen Huang Computex keynote AI", "en-US", "US", "en"),
+        ("Nvidia AI enterprise server demand", "en-US", "US", "en"),
+        ("Huang Le Alice Huang investigation", "en-US", "US", "en"),
+        ("Nvidia SEC Form 8-K audit committee", "en-US", "US", "en"),
+        ("Taiwan Semiconductor TSMC Nvidia Huang", "en-US", "US", "en"),
+        ("Jensen Huang White House AI meeting", "en-US", "US", "en"),
+        ("Nvidia quantum computing AI chips", "en-US", "US", "en"),
+        ("Nvidia Blackwell GPU thermal design issue", "en-US", "US", "en"),
+        ("Jensen Huang keynote Siggraph AI simulation", "en-US", "US", "en"),
+        ("Nvidia market capitalization all time high", "en-US", "US", "en"),
+        ("Nvidia Rubin architecture next gen GPU", "en-US", "US", "en"),
+        ("Jensen Huang Leather Jacket brand symbol", "en-US", "US", "en"),
+        ("Nvidia AI PC RTX workstation Jensen", "en-US", "US", "en"),
+        ("Nvidia cloud partners AWS Azure Google Cloud", "en-US", "US", "en"),
+        ("Jensen Huang Stanford graduate school speech", "en-US", "US", "en")
     ]
     if len(collected) < target:
-        for term in additional_terms:
+        for term, hl, gl, lang in additional_terms:
             if len(collected) >= target:
                 break
-            print(f"--> [Ekspansi] Mencari: '{term}'...", flush=True)
-            items = parse_rss_feed(term, "en-US", "US", "en")
+            print(f"--> [Ekspansi] Mencari: '{term}' ({hl})...", flush=True)
+            items = parse_rss_feed(term, hl, gl, lang)
             for it in items:
                 k = normalize_key(it["judul"], it["url"])
                 if k and k not in seen:

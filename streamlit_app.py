@@ -110,10 +110,11 @@ with col5:
 
 st.markdown("---")
 
-# Main Navigation Tabs (9 Modul Forensik v4.0)
-tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9 = st.tabs([
+# Main Navigation Tabs (10 Modul Forensik v4.0)
+tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8, tab9, tab10 = st.tabs([
     "📊 Executive Summary",
     "🎯 Status Klaim (Tiered Truth)",
+    "📰 Korpus 1.000 Berita",
     "🔎 11 Artefak OSINT",
     "📈 Event Study Saham NVDA",
     "🕸️ Social Network Analysis",
@@ -168,9 +169,72 @@ with tab2:
         st.warning("Berkas status klaim belum dimuat.")
 
 # ==============================================================================
-# TAB 3: 11 ARTEFAK PUBLIK OSINT
+# TAB 3: KORPUS BERITA MULTI-SUMBER
 # ==============================================================================
 with tab3:
+    st.subheader("📰 Eksplorer Korpus Berita Internasional Jensen Huang / NVIDIA")
+    
+    col_sel1, col_sel2 = st.columns([2, 1])
+    with col_sel1:
+        dataset_choice = st.selectbox(
+            "Pilih Korpus Dataset:",
+            [
+                "Korpus 2.000 Berita Internasional (809 Media & 8 Bahasa)",
+                "Korpus 1.000 Berita Internasional (429 Media & 6 Bahasa)",
+                "Korpus 300 Berita Skandal (Kurasi Awal Riset)"
+            ]
+        )
+    
+    if "2.000" in dataset_choice:
+        news_file = "berita_jensen_huang_2000.csv"
+        st.caption("Data riil terverifikasi dari 809 portal media global independen lintas 8 bahasa (Inggris, Mandarin, Spanyol, Prancis, Jerman, Indonesia, Korea, Jepang).")
+    elif "1.000" in dataset_choice:
+        news_file = "berita_jensen_huang_1000.csv"
+        st.caption("Data riil terverifikasi dari 429 portal media global independen lintas 6 bahasa (Inggris, Mandarin, Jerman, Prancis, Indonesia, Korea).")
+    else:
+        news_file = "berita_skandal_jensen_huang.csv"
+        st.caption("Korpus 300 artikel kurasi manual awal riset.")
+
+    active_news_df = load_csv(news_file) if os.path.exists(news_file) else load_csv("berita_skandal_jensen_huang.csv")
+    if not active_news_df.empty:
+        col_n1, col_n2, col_n3 = st.columns([2, 1, 1])
+        with col_n1:
+            search_q = st.text_input("🔍 Cari kata kunci judul:", "", placeholder="contoh: spy, board, memo, Berlin, Blackwell, AI...")
+        with col_n2:
+            all_media = ["Semua"] + sorted([str(m) for m in active_news_df["media"].dropna().unique()])
+            sel_media = st.selectbox("Pilih Portal Media:", all_media)
+        with col_n3:
+            all_lang = ["Semua"] + sorted([str(l) for l in active_news_df["bahasa"].dropna().unique()])
+            sel_lang = st.selectbox("Pilih Bahasa:", all_lang)
+            
+        filtered_news = active_news_df
+        if search_q:
+            filtered_news = filtered_news[filtered_news["judul"].astype(str).str.contains(search_q, case=False, na=False)]
+        if sel_media != "Semua":
+            filtered_news = filtered_news[filtered_news["media"] == sel_media]
+        if sel_lang != "Semua":
+            filtered_news = filtered_news[filtered_news["bahasa"] == sel_lang]
+            
+        st.markdown(f"**Menampilkan {len(filtered_news):,} dari {len(active_news_df):,} artikel berita terdaftar**")
+        st.dataframe(
+            filtered_news[["no", "tanggal_terbit", "judul", "media", "bahasa", "url"]],
+            column_config={
+                "url": st.column_config.LinkColumn("Tautan Asli"),
+                "no": st.column_config.NumberColumn("No", width="small")
+            },
+            use_container_width=True,
+            hide_index=True
+        )
+        
+        csv_data = filtered_news.to_csv(index=False).encode('utf-8-sig')
+        st.download_button(f"📥 Unduh Hasil Filter ({len(filtered_news)} Baris CSV)", csv_data, "berita_terfilter.csv", "text/csv")
+    else:
+        st.warning("Dataset korpus berita belum tersedia.")
+
+# ==============================================================================
+# TAB 4: 11 ARTEFAK PUBLIK OSINT
+# ==============================================================================
+with tab4:
     st.subheader("🔎 Katalog 11 Artefak Publik OSINT & Verifikasi Forensik")
     osint_df = load_csv("analisis/09_osint_artefak.csv")
     if not osint_df.empty:
@@ -182,9 +246,9 @@ with tab3:
         st.warning("Katalog OSINT belum dimuat.")
 
 # ==============================================================================
-# TAB 4: EVENT-STUDY SAHAM NVDA
+# TAB 5: EVENT-STUDY SAHAM NVDA
 # ==============================================================================
-with tab4:
+with tab5:
     st.subheader("📈 Analisis Ekonometrika Event-Study (Saham NVDA)")
     es_json = load_json("analisis/event_study_results.json")
     
@@ -242,9 +306,9 @@ with tab4:
                 st.image("analisis/05_saham_event_study.png", use_container_width=True)
 
 # ==============================================================================
-# TAB 5: SOCIAL NETWORK ANALYSIS (SNA)
+# TAB 6: SOCIAL NETWORK ANALYSIS (SNA)
 # ==============================================================================
-with tab5:
+with tab6:
     st.subheader("🕸️ Pemodelan Jejaring Sosial & Sentralitas Perantara")
     if os.path.exists("analisis/07_network_graph_betweenness.png"):
         st.image("analisis/07_network_graph_betweenness.png", caption="Visualisasi Graf Jejaring Komunikasi Informasi (Betweenness Centrality & Louvain)", use_container_width=True)
@@ -264,9 +328,9 @@ with tab5:
             st.dataframe(med_df[cols_show_m].head(10), use_container_width=True, hide_index=True)
 
 # ==============================================================================
-# TAB 6: DEEPFAKE ANALYSIS & ELA
+# TAB 7: DEEPFAKE ANALYSIS & ELA
 # ==============================================================================
-with tab6:
+with tab7:
     st.subheader("🔬 Panel Forensik Media Sintetis Deepfake & ELA")
     st.markdown("""
     Pemeriksaan integritas media visual dan audio:
@@ -289,9 +353,9 @@ with tab6:
         """)
 
 # ==============================================================================
-# TAB 7: TRIAD INTELIJEN & SEC EDGAR
+# TAB 8: TRIAD INTELIJEN & SEC EDGAR
 # ==============================================================================
-with tab7:
+with tab8:
     st.subheader("🛰️ Triad Doktrin Intelijen & Audit SEC EDGAR 20 Tahun")
     col_in1, col_in2 = st.columns(2)
     with col_in1:
@@ -309,9 +373,9 @@ with tab7:
         """)
 
 # ==============================================================================
-# TAB 8: MONITOR EKSEKUSI PIPELINE
+# TAB 9: MONITOR EKSEKUSI PIPELINE
 # ==============================================================================
-with tab8:
+with tab9:
     st.subheader("⚡ Monitor Eksekusi Master Pipeline (v4.0)")
     pipe_manifest = load_json("pipeline_manifest.json")
     if pipe_manifest:
@@ -328,9 +392,9 @@ with tab8:
                 st.code(f.read()[-3000:], language="text")
 
 # ==============================================================================
-# TAB 9: RESEARCH EXPORT CENTER
+# TAB 10: RESEARCH EXPORT CENTER
 # ==============================================================================
-with tab9:
+with tab10:
     st.subheader("📥 Research Export Center (Open Science)")
     st.markdown("Unduh seluruh artefak ilmiah, dataset terverifikasi, dan spesifikasi reproduktibilitas:")
     
@@ -342,6 +406,9 @@ with tab9:
         if os.path.exists("references.bib"):
             with open("references.bib", "r", encoding="utf-8") as f:
                 st.download_button("📚 Referensi Akademik (BibTeX)", f.read(), file_name="references.bib", mime="text/plain")
+        if os.path.exists("berita_jensen_huang_2000.csv"):
+            with open("berita_jensen_huang_2000.csv", "r", encoding="utf-8") as f:
+                st.download_button("📰 Korpus 2.000 Berita (CSV)", f.read(), file_name="berita_jensen_huang_2000.csv", mime="text/csv")
     with col_d2:
         if os.path.exists("MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md"):
             with open("MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md", "r", encoding="utf-8") as f:
@@ -349,6 +416,9 @@ with tab9:
         if os.path.exists("evidence_ledger.json"):
             with open("evidence_ledger.json", "r", encoding="utf-8") as f:
                 st.download_button("🔐 Evidence Ledger (JSON)", f.read(), file_name="evidence_ledger.json", mime="application/json")
+        if os.path.exists("berita_jensen_huang_1000.csv"):
+            with open("berita_jensen_huang_1000.csv", "r", encoding="utf-8") as f:
+                st.download_button("📰 Korpus 1.000 Berita (CSV)", f.read(), file_name="berita_jensen_huang_1000.csv", mime="text/csv")
     with col_d3:
         if os.path.exists("codemeta.json"):
             with open("codemeta.json", "r", encoding="utf-8") as f:

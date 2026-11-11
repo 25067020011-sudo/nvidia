@@ -258,14 +258,14 @@
     "evidence_id": "EVD-F86EEA59",
     "filename": "app.py",
     "filepath": "app.py",
-    "filesize_bytes": 18956,
+    "filesize_bytes": 22847,
     "source_category": "Dashboard_App",
     "description": "Aplikasi Utama Streamlit v4.0 Multi-Modal Forensic Intelligence",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-11T01:06:03.778266+00:00",
     "hashes": {
-      "sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
-      "md5": "2b1eeaeff233420b9f19f7af2c95e417"
+      "sha256": "194e6935f31b0f67431760319eb59febb701c234bf6da5ebd5f7df891fb8677f",
+      "md5": "e2ee8173407cfc1e8092109c3950de81"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -288,14 +288,14 @@
     "evidence_id": "EVD-F86EEA59",
     "filename": "streamlit_app.py",
     "filepath": "streamlit_app.py",
-    "filesize_bytes": 18956,
+    "filesize_bytes": 22847,
     "source_category": "Dashboard_App",
     "description": "Alias Dashboard Streamlit Cloud v4.0",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-11T01:06:03.960645+00:00",
     "hashes": {
-      "sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
-      "md5": "2b1eeaeff233420b9f19f7af2c95e417"
+      "sha256": "194e6935f31b0f67431760319eb59febb701c234bf6da5ebd5f7df891fb8677f",
+      "md5": "e2ee8173407cfc1e8092109c3950de81"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -566,6 +566,21 @@
     "hashes": {
       "sha256": "6711264a5c9c1359afe755d1e72def133767e1fa9bffc4cf922276e88e3e80e7",
       "md5": "8825d15a9ddec3e75d9d71901e70d166"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-2F4C52C3",
+    "filename": "berita_jensen_huang_2000.csv",
+    "filepath": "berita_jensen_huang_2000.csv",
+    "filesize_bytes": 905146,
+    "source_category": "Dataset_News",
+    "description": "Korpus Multi-Sumber 2.000 Berita Internasional Jensen Huang / NVIDIA (809 Media Global & 8 Bahasa)",
+    "collector": "MultiSource_RSS_Collector",
+    "acquisition_timestamp_utc": "2026-11-11T08:19:31.000000+00:00",
+    "hashes": {
+      "sha256": "2f4c52c39724c2f5f2eb9a3a4bdc504f015f17a611c49646530c7c330384ece9",
+      "md5": "9d197bb217a861f78c7e0ae787874b10"
     },
     "verification_status": "AUTHENTIC"
   }
