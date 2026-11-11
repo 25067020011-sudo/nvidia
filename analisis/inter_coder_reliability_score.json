@@ -1,0 +1,10 @@
+{
+  "sample_size": 100,
+  "exact_matches": 94,
+  "percentage_agreement": 94.0,
+  "cohens_kappa": 0.9061,
+  "cohens_kappa_status": "Hampir Sempurna / Almost Perfect Agreement (Landis & Koch, 1977)",
+  "krippendorff_alpha": 0.9065,
+  "krippendorff_alpha_status": "Sangat Kuat / Reliabel untuk Kesimpulan Ilmiah Definitif (Krippendorff, 2004: α ≥ 0.800)",
+  "evaluation_standard": "Krippendorff (2004) & Landis & Koch (1977)"
+}

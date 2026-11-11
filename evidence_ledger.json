@@ -25,7 +25,7 @@
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.557335+00:00",
     "hashes": {
       "sha256": "5f9c3e06f4dc850339cf3f07d997fe3937d73d0b7146d9358f2cd291815f3f70",
-      "md5": "52210d5cea85d715b2122e64aca61a87"
+      "md5": "945a1a1a1db45e998bafb7d3b68ff23e"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -40,7 +40,7 @@
     "acquisition_timestamp_utc": "2026-11-10T15:05:53.578002+00:00",
     "hashes": {
       "sha256": "a32dd738e6c5ca31080c79772e26ecbaad498b50d815bac8d09a55ce2cb92b2b",
-      "md5": "5aa101bf0539b07547e20def6eb1f2b9"
+      "md5": "e46761969184e762d14166f36cd9c53c"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -93,14 +93,14 @@
     "evidence_id": "EVD-5C6710B9",
     "filename": "berita_skandal_jensen_huang.csv",
     "filepath": "berita_skandal_jensen_huang.csv",
-    "filesize_bytes": 45141,
+    "filesize_bytes": 47421,
     "source_category": "News_Corpus",
     "description": "Korpus 300 Berita Skandal Jensen Huang (Ground Truth)",
     "collector": "Forensic_Analyst",
     "acquisition_timestamp_utc": "2026-11-10T15:31:21.596115+00:00",
     "hashes": {
-      "sha256": "5c6710b99ed1954d637ca5939f08de26018821a912d8dc1e5d7cd756bbd2ff7d",
-      "md5": "e3f3cda67ba383cfb9d113bbfb724fe0"
+      "sha256": "cfbf5c0f929d54d87c902079f8b36d397e62c6752d11e82f5786e8b38abd8055",
+      "md5": "d95ca5c6768299403a93fe779048fc21"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -115,7 +115,7 @@
     "acquisition_timestamp_utc": "2026-11-10T15:38:50.440769+00:00",
     "hashes": {
       "sha256": "0ffbc24c48e1218f380017089a0e2acd8c9ec38919aacf2bdd637bc53ade4602",
-      "md5": "977fdf1e36f04dc3b23cde1cdd6002c3"
+      "md5": "e3d676035ca8ae1bdedd3f525f744e1f"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -130,7 +130,7 @@
     "acquisition_timestamp_utc": "2026-11-10T15:40:05.787420+00:00",
     "hashes": {
       "sha256": "217ee4a8999fc46c7f40bb19929d29761f0de59bf2ae11729534e6f81ec5ef09",
-      "md5": "7ed4082b2e3cda04227c120b0daf4baf"
+      "md5": "9217f8dc4996c5a3887ce3baa31cf47e"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -138,7 +138,7 @@
     "evidence_id": "EVD-14D6ED91",
     "filename": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
     "filepath": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
-    "filesize_bytes": 4659,
+    "filesize_bytes": 4660,
     "source_category": "SOP_Playbook",
     "description": "SOP Tanggap Darurat Penanganan Insiden Layer 8, Deepfake & Disinformasi Fisik (NIST SP 800-61)",
     "collector": "Forensic_Analyst",
@@ -280,7 +280,7 @@
     "acquisition_timestamp_utc": "2026-11-10T16:44:14.334743+00:00",
     "hashes": {
       "sha256": "44976dd76ad3341a4e2561a20fbfb2856db32fb29d4ba2abed18bb989e0f6a6a",
-      "md5": "b468d6ca028ee02df483849bf117c40b"
+      "md5": "366167069a1e1a262c290b15ad1465d2"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -310,7 +310,7 @@
     "acquisition_timestamp_utc": "2026-11-10T17:11:42.819122+00:00",
     "hashes": {
       "sha256": "09c5a91d5270725b0f17768cfa34646f75314a983b71195bebce4e09bec96930",
-      "md5": "2b3ce25d3203ac84f96115088af3ea71"
+      "md5": "237f7c7d875604ae7484bc086c4eab59"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -558,14 +558,14 @@
     "evidence_id": "EVD-6711264A",
     "filename": "berita_jensen_huang_1000.csv",
     "filepath": "berita_jensen_huang_1000.csv",
-    "filesize_bytes": 427601,
+    "filesize_bytes": 426670,
     "source_category": "Dataset_News",
     "description": "Korpus Multi-Sumber 1.000 Berita Internasional Jensen Huang / NVIDIA (429 Media Global)",
     "collector": "MultiSource_RSS_Collector",
     "acquisition_timestamp_utc": "2026-11-11T01:53:59.000000+00:00",
     "hashes": {
-      "sha256": "6711264a5c9c1359afe755d1e72def133767e1fa9bffc4cf922276e88e3e80e7",
-      "md5": "8825d15a9ddec3e75d9d71901e70d166"
+      "sha256": "9c871940bd21e08ce5eca86df23ccc9bd63d2d99fe3bc410575e97c06ddfa2c4",
+      "md5": "9ed3c924a476aac0b32597d0082a29ed"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -573,14 +573,14 @@
     "evidence_id": "EVD-2F4C52C3",
     "filename": "berita_jensen_huang_2000.csv",
     "filepath": "berita_jensen_huang_2000.csv",
-    "filesize_bytes": 905146,
+    "filesize_bytes": 903215,
     "source_category": "Dataset_News",
     "description": "Korpus Multi-Sumber 2.000 Berita Internasional Jensen Huang / NVIDIA (809 Media Global & 8 Bahasa)",
     "collector": "MultiSource_RSS_Collector",
     "acquisition_timestamp_utc": "2026-11-11T08:19:31.000000+00:00",
     "hashes": {
-      "sha256": "2f4c52c39724c2f5f2eb9a3a4bdc504f015f17a611c49646530c7c330384ece9",
-      "md5": "9d197bb217a861f78c7e0ae787874b10"
+      "sha256": "c725ebc3bd98af554a05162de82c2910e6e2a53a258adc1b7d9c1449261b81ca",
+      "md5": "dfc7dd13ec544e1e88bf27ef16be59fa"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -588,14 +588,59 @@
     "evidence_id": "EVD-2927EE8E",
     "filename": "berita_jensen_huang_10000.csv",
     "filepath": "berita_jensen_huang_10000.csv",
-    "filesize_bytes": 2432995,
+    "filesize_bytes": 2425274,
     "source_category": "Dataset_Benchmark",
     "description": "Korpus Benchmarking Ilmiah 10.000 Berita Terstruktur Ekosistem Jensen Huang / NVIDIA (NLP, SNA & Event Study)",
     "collector": "Scientific_Benchmark_Engine",
     "acquisition_timestamp_utc": "2026-11-11T08:27:01.000000+00:00",
     "hashes": {
-      "sha256": "2927ee8e591de4374480561b3ae2ec65413319decb6b992e4c54e4295aca7ced",
-      "md5": "7dc7cc5bc2b9c90b64c4a5ee0e201f1d"
+      "sha256": "7dbd66a4a5239bf7ee3e8d814cf4c0d7889fb1f30be010356ec73d15a0d478f9",
+      "md5": "01ce63267006da893cc5f9f49ec27f1d"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-68354A31",
+    "filename": "1_verifikasi_osint.py",
+    "filepath": "1_verifikasi_osint.py",
+    "filesize_bytes": 6088,
+    "source_category": "Forensic_Tool",
+    "description": "Mesin Verifikasi OSINT ACRA & Perceptual Hashing Gambar",
+    "collector": "Forensic_Engineering_Team",
+    "acquisition_timestamp_utc": "2026-11-11T08:32:00.000000+00:00",
+    "hashes": {
+      "sha256": "68354a3178419d13314b657064e9872d1a029ebb66782a300b36441fdd3228f2",
+      "md5": "6078fb1c4d89028a424f4f4b141afce0"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-F494EBE1",
+    "filename": "2_validasi_label.py",
+    "filepath": "2_validasi_label.py",
+    "filesize_bytes": 8834,
+    "source_category": "Forensic_Tool",
+    "description": "Mesin Evaluasi Reliabilitas Inter-Koder (Krippendorff Alpha & Cohen Kappa)",
+    "collector": "Forensic_Engineering_Team",
+    "acquisition_timestamp_utc": "2026-11-11T08:32:00.000000+00:00",
+    "hashes": {
+      "sha256": "f494ebe1e12354cc8d05a643d0c6149f794e82d9cfe95d3db22caab4020dfa87",
+      "md5": "d4677dd01ab37664b1c3200da61323d8"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-30EBF320",
+    "filename": "3_lengkapi_tanggal.py",
+    "filepath": "3_lengkapi_tanggal.py",
+    "filesize_bytes": 3267,
+    "source_category": "Forensic_Tool",
+    "description": "Mesin Audit & Penyempurnaan Tanggal Publikasi Dataset Berita",
+    "collector": "Forensic_Engineering_Team",
+    "acquisition_timestamp_utc": "2026-11-11T08:32:00.000000+00:00",
+    "hashes": {
+      "sha256": "30ebf32013027c6953a0547bc4730e197925cea6da07ef9dfdd388e9802cc9a4",
+      "md5": "40ed40bfc85c70f3a0412fea8332d8b5"
     },
     "verification_status": "AUTHENTIC"
   }
