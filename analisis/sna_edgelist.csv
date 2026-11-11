@@ -1,0 +1,29 @@
+﻿source,target,source_type,target_type,relation
+Jensen Huang (CEO),Dewan Direksi NVIDIA,Aktor,Aktor,Information_Flow
+Jensen Huang (CEO),Axios,Aktor,Media,Information_Flow
+Alice Huang (Megaspeed),Jensen Huang (CEO),Aktor,Aktor,Information_Flow
+Dewan Direksi NVIDIA,NVIDIA Newsroom (Primer),Aktor,Media,Information_Flow
+Dewan Direksi NVIDIA,Komite Audit Independen,Aktor,Aktor,Information_Flow
+Komite Audit Independen,Penasihat Hukum Luar NVIDIA,Aktor,Aktor,Information_Flow
+Paul Mozur (Jurnalis NYT),Investor / Pemegang Saham NVDA,Aktor,Aktor,Information_Flow
+Marco Rubio (Menlu AS),Komite Khusus DPR AS,Aktor,Aktor,Information_Flow
+John Moolenaar (Ketua Komite Kongres),Business Standard,Aktor,Media,Information_Flow
+Pejabat Intelijen Anonim,The New York Times,Aktor,Media,Information_Flow
+Pejabat Intelijen Anonim,The Information,Aktor,Media,Information_Flow
+Komite Khusus DPR AS,John Moolenaar (Ketua Komite Kongres),Aktor,Aktor,Information_Flow
+Kepolisian Singapura (Megaspeed Probe),The New York Times,Aktor,Media,Information_Flow
+Pengunjuk Rasa Berlin (Aktivis),The Next Web,Aktor,Media,Information_Flow
+NetThunder (Uploader LinkedIn),Alice Huang (Megaspeed),Aktor,Aktor,Information_Flow
+Operator Kanal Deepfake (UNC-CP-01),Investor / Pemegang Saham NVDA,Aktor,Aktor,Information_Flow
+Analis Pasar Wall Street,Investor / Pemegang Saham NVDA,Aktor,Aktor,Information_Flow
+Elon Musk (Komentator X),Investor / Pemegang Saham NVDA,Aktor,Aktor,Information_Flow
+Departemen Perdagangan AS (BIS),Komite Khusus DPR AS,Aktor,Aktor,Information_Flow
+The New York Times,Paul Mozur (Jurnalis NYT),Media,Aktor,Information_Flow
+The New York Times,Financial Times,Media,Media,Information_Flow
+The Information,Tech Insider,Media,Media,Information_Flow
+Financial Times,Jensen Huang (CEO),Media,Aktor,Information_Flow
+Crypto Briefing,Investor / Pemegang Saham NVDA,Media,Aktor,Information_Flow
+Axios,Crypto Briefing,Media,Media,Information_Flow
+NVIDIA Newsroom (Primer),The New York Times,Media,Media,Information_Flow
+The Daily Beast,Jensen Huang (CEO),Media,Aktor,Information_Flow
+The Next Web,Investor / Pemegang Saham NVDA,Media,Aktor,Information_Flow

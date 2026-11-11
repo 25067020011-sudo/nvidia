@@ -58,24 +58,33 @@ class TieredTruthEngine:
 
         total_weight = support_score + refute_score
 
-        # Logika Penentuan Label Kebenaran Bertingkat
+        # Logika Penentuan Label Kebenaran Bertingkat (5-Tier Academic Taxonomy)
+        # 1. VERIFIED: Klaim didukung penuh oleh dokumen primer resmi / data hukum / verifikasi visual
+        # 2. PARTIALLY_VERIFIED: Dilaporkan jurnalisme investigatif kredibel namun investigasi resmi masih berlangsung
+        # 3. UNVERIFIED: Minim bukti / spekulasi anonim
+        # 4. DISPUTED: Terdapat kontradiksi aktif antara pernyataan pihak terkait
+        # 5. HYPOTHESIS: Asumsi spekulatif / teori konspirasi tanpa dasar faktual / terbantahkan total
         if has_official_refutation or (has_forensic_debunk and refute_score > support_score) or (refute_score >= 2.0 and support_score <= 0.5):
-            status = "FABRICATED / DISINFORMATION (Palsu/Distorsi)"
+            status = "HYPOTHESIS (Terbantahkan Secara Definitif / Teori Tanpa Dasar)"
             confidence = min(0.99, 0.75 + (refute_score * 0.08))
             rationale = (
-                "Klaim terbantahkan secara definitif oleh data primer resmi, data ekonomi riil, "
+                "Klaim telah terbantahkan secara definitif oleh data primer resmi, rekor ekonomi riil, "
                 "dan/atau analisis laboratorium forensik (terbukti distorsi konteks, rekayasa, atau spekulasi tanpa dasar)."
             )
         elif support_score >= 1.5 and any(e.source_type == 'Official_Filing' for e in claim.evidence_list if e.claim_support == 'SUPPORTS'):
-            status = "CONFIRMED (Terkonfirmasi Dokumen Resmi)"
+            status = "VERIFIED (Terkonfirmasi Dokumen Primer Resmi)"
             confidence = min(0.99, 0.80 + (support_score * 0.1))
             rationale = "Klaim didukung penuh oleh dokumen hukum/korporasi primer resmi."
         elif support_score >= 1.0 and any(e.source_type == 'Mainstream_Press' for e in claim.evidence_list if e.claim_support == 'SUPPORTS'):
-            status = "REPORTED (Dilaporkan Media Kredibel)"
+            status = "PARTIALLY_VERIFIED (Dilaporkan Jurnalisme Investigatif Kredibel)"
             confidence = 0.75
             rationale = "Klaim dilaporkan oleh jurnalisme investigatif kredibel, namun masih dalam proses audit/penyelidikan dewan."
+        elif support_score > 0.5 and refute_score > 0.5:
+            status = "DISPUTED (Dipertentangkan / Klaim Kontradiktif)"
+            confidence = 0.60
+            rationale = "Terdapat pertentangan antara narasi media dan pernyataan resmi yang memerlukan verifikasi yudisial."
         else:
-            status = "UNVERIFIED / SPECULATIVE (Belum Terverifikasi)"
+            status = "UNVERIFIED (Belum Terverifikasi / Spekulasi Anonim)"
             confidence = 0.40
             rationale = "Tidak ditemukan bukti primer atau liputan kredibel yang dapat memverifikasi klaim."
 

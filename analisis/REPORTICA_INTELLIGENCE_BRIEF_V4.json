@@ -1,0 +1,70 @@
+{
+  "report_id": "REP-V4-202611110109",
+  "platform_version": "NVIDIA Forensic Intelligence Platform v4.0",
+  "generated_at_utc": "2026-11-11T01:09:07.047495+00:00",
+  "classification": "CONFIDENTIAL // FORENSIC INTELLIGENCE // RESEARCH GRADE",
+  "executive_summary": {
+    "primary_subject": "Jensen Huang (President & CEO, NVIDIA Corporation)",
+    "investigation_scope": "Multi-Modal Forensic Audit, Cyber-Physical Verification, and Governance Analysis",
+    "evidence_ledger_integrity": "100% Verified (37 Registered Items under ISO/IEC 27037)",
+    "osint_artifacts_cataloged": 11,
+    "claims_evaluated_count": 4,
+    "market_impact_assessment": {
+      "car_pct": -14.502,
+      "car_significance": "p < 0.01 (Statistically Significant)",
+      "primary_drop_cause": "Macro Regulatory Shock (US Midterms / Data Center Permitting) & Governance Uncertainty"
+    },
+    "network_topology": {
+      "nodes": 30,
+      "edges": 28,
+      "top_gatekeeper": "Jensen Huang (CEO)"
+    }
+  },
+  "claims_audit": [
+    {
+      "claim_id": "CLM-01-BERLIN-PHYSICAL",
+      "target_subject": "Jensen Huang",
+      "claim_statement": "Jensen Huang diserang secara fisik oleh pengunjuk rasa di panggung Keynote GTC Berlin",
+      "incident_date": "2026-10-21",
+      "status_label": "HYPOTHESIS (Terbantahkan Secara Definitif / Teori Tanpa Dasar)",
+      "confidence_score": 0.9,
+      "forensic_rationale": "Klaim telah terbantahkan secara definitif oleh data primer resmi, rekor ekonomi riil, dan/atau analisis laboratorium forensik (terbukti distorsi konteks, rekayasa, atau spekulasi tanpa dasar).",
+      "total_evidence_sources": 3
+    },
+    {
+      "claim_id": "CLM-02-YOUTUBE-DEEPFAKE",
+      "target_subject": "Jensen Huang",
+      "claim_statement": "Siaran YouTube mengumumkan program giveaway kripto resmi yang dibawakan langsung oleh Jensen Huang",
+      "incident_date": "2026-10-28",
+      "status_label": "HYPOTHESIS (Terbantahkan Secara Definitif / Teori Tanpa Dasar)",
+      "confidence_score": 0.97,
+      "forensic_rationale": "Klaim telah terbantahkan secara definitif oleh data primer resmi, rekor ekonomi riil, dan/atau analisis laboratorium forensik (terbukti distorsi konteks, rekayasa, atau spekulasi tanpa dasar).",
+      "total_evidence_sources": 3
+    },
+    {
+      "claim_id": "CLM-03-TRUMP-TAKEOVER-CONSPIRACY",
+      "target_subject": "Jensen Huang & Donald Trump",
+      "claim_statement": "Donald Trump mendalangi penjebakan intelijen terhadap Jensen Huang untuk mengambil alih kendali/saham NVIDIA",
+      "incident_date": "2026-11-08",
+      "status_label": "HYPOTHESIS (Terbantahkan Secara Definitif / Teori Tanpa Dasar)",
+      "confidence_score": 0.99,
+      "forensic_rationale": "Klaim telah terbantahkan secara definitif oleh data primer resmi, rekor ekonomi riil, dan/atau analisis laboratorium forensik (terbukti distorsi konteks, rekayasa, atau spekulasi tanpa dasar).",
+      "total_evidence_sources": 5
+    },
+    {
+      "claim_id": "CLM-04-MUSK-MASTERMIND-CONSPIRACY",
+      "target_subject": "Jensen Huang & Elon Musk",
+      "claim_statement": "Elon Musk mendalangi atau menggerakkan skandal intelijen untuk menjatuhkan Jensen Huang demi keuntungan pribadi xAI/Tesla",
+      "incident_date": "2026-11-08",
+      "status_label": "HYPOTHESIS (Terbantahkan Secara Definitif / Teori Tanpa Dasar)",
+      "confidence_score": 0.99,
+      "forensic_rationale": "Klaim telah terbantahkan secara definitif oleh data primer resmi, rekor ekonomi riil, dan/atau analisis laboratorium forensik (terbukti distorsi konteks, rekayasa, atau spekulasi tanpa dasar).",
+      "total_evidence_sources": 5
+    }
+  ],
+  "recommendations_for_leadership": [
+    "Mempertahankan transparansi aktif dengan dewan dan regulator kepatuhan ekspor (BIS & ACRA).",
+    "Menerapkan mekanisme deteksi deepfake real-time berstandar C2PA Content Credentials untuk seluruh siaran publik korporasi.",
+    "Membedakan secara tegas antara risiko geopolitik makro (kebijakan energi/chip) dan risiko tata kelola kepemimpinan dalam komunikasi pasar."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "method": "pattern-based static scan; results require manual triage",
+  "finding_count": 8,
+  "findings": [
+    {
+      "file": "mvt/tests/common/test_plugin_config.py",
+      "line": 111,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    },
+    {
+      "file": "mvt/tests/common/test_plugin_config.py",
+      "line": 119,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    },
+    {
+      "file": "mvt/tests/common/test_plugin_config.py",
+      "line": 143,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    },
+    {
+      "file": "mvt/tests/common/test_plugin_config.py",
+      "line": 214,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    },
+    {
+      "file": "mvt/tests/common/test_plugin_config.py",
+      "line": 223,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    },
+    {
+      "file": "mvt/tests/android/test_backup_module.py",
+      "line": 52,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    },
+    {
+      "file": "mvt/tests/android/test_backup_parser.py",
+      "line": 34,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    },
+    {
+      "file": "mvt/tests/android/test_backup_parser.py",
+      "line": 59,
+      "finding": "Hardcoded credential assignment",
+      "snippet_redacted": "[REDACTED: potential sensitive value]"
+    }
+  ]
+}

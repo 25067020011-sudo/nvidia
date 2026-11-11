@@ -1,0 +1,202 @@
+{
+  "pipeline_version": "4.0",
+  "execution_timestamp_utc": "2026-11-11T01:09:07.091935+00:00",
+  "total_duration_sec": 10.16,
+  "stages_planned": 13,
+  "stages_executed": 13,
+  "stages_successful": 13,
+  "overall_status": "SUCCESS",
+  "stages": [
+    {
+      "stage_name": "1. Audit Kriptografis Integritas Rantai Bukti (ISO/IEC 27037 SHA-256)",
+      "command": ".venv/bin/python tools/hash_chain_verifier.py verify",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.28,
+      "attempts": 1,
+      "stdout_tail": [
+        "--> Memeriksa EVD-D2358755 (sna_centrality_analyzer.py)... [VERIFIED / OTENTIK]",
+        "--> Memeriksa EVD-859C0C39 (tiered_truth_classifier.py)... [VERIFIED / OTENTIK]",
+        "--> Memeriksa EVD-D24BC39F (reportica_intelligence_generator.py)... [VERIFIED / OTENTIK]",
+        "[+] Seluruh bukti forensik memiliki integritas SHA-256 yang valid (100% Utuh)."
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "2. Mesin Klasifikasi Kebenaran Bertingkat (5-Tier Truth Engine)",
+      "command": ".venv/bin/python tools/tiered_truth_classifier.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.02,
+      "attempts": 1,
+      "stdout_tail": [
+        "  Tingkat Keyakinan: 99%",
+        "  Alasan Forensik  : Klaim telah terbantahkan secara definitif oleh data primer resmi, rekor ekonomi riil, dan/atau analisis laboratorium forensik (terbukti distorsi konteks, rekayasa, atau spekulasi tanpa dasar).",
+        "[+] Berhasil mengekspor 4 evaluasi klaim ke: analisis/02_status_klaim.csv",
+        "====================================================================================="
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "3. Audit Keterbukaan Informasi SEC EDGAR 20 Tahun (2006–2026)",
+      "command": ".venv/bin/python tools/sec_edgar_10k_scanner.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.02,
+      "attempts": 1,
+      "stdout_tail": [
+        "4. Investigasi lain di periode 2007-2025 diselesaikan oleh manajemen internal atau regulator,",
+        "   menegaskan bahwa investigasi dewan adalah instrumen pengawasan paling luar biasa (extraordinary).",
+        "=========================================================================================================",
+        "[+] Laporan 20 tahun tersimpan di: analisis/audit_historis_sec_20tahun.json"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "4. Analisis Ekonometrika Event-Study (AR & CAR Saham NVDA)",
+      "command": ".venv/bin/python tools/event_study_analyzer.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.44,
+      "attempts": 1,
+      "stdout_tail": [
+        "  1. 05 Nov (Regulasi Makro Pasca-Pemilu): -12.14%",
+        "  2. 09 Nov (Pengumuman Audit Dewan):      -1.61%",
+        "[+] Laporan terstruktur diekspor ke: analisis/event_study_results.json",
+        "==============================================================================================="
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "5. Dekomposisi Jaringan Aktor & Matriks Motif Pemangku Kepentingan",
+      "command": ".venv/bin/python tools/stakeholder_actor_mapper.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.03,
+      "attempts": 1,
+      "stdout_tail": [
+        "[Aktor]: Entitas Perantara Perdagangan (Megaspeed / Pihak Ketiga) (Foreign_Entity)",
+        "  - Tindakan Terverifikasi : Menjalin interaksi bisnis dan komunikasi terkait rantai pasok perangkat keras; Menjadi subjek pemeriksaan aparat pengawas kepatuhan ekspor lintas batas",
+        "  - Motif yang Dilaporkan  : Memperoleh wawasan arah lobi regulasi dan akses pasokan komputasi canggih",
+        "  - Dugaan Tanpa Bukti     : Perencanaan sabotase fisik terhadap eksekutif korporasi"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "6. Rekonstruksi Korpus Berita & Pembangkitan Grafik Visualisasi Pasar",
+      "command": ".venv/bin/python tools/generate_corpus_and_charts.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 7.36,
+      "attempts": 1,
+      "stdout_tail": [
+        "[*] Berkas 'berita_skandal_jensen_huang.csv' sudah ada.",
+        "[+] Grafik event study saham tersimpan di: analisis/05_saham_event_study.png"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "7. Pemodelan SNA (Betweenness, PageRank, Louvain Cluster, Density)",
+      "command": ".venv/bin/python tools/sna_centrality_analyzer.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.88,
+      "attempts": 1,
+      "stdout_tail": [
+        "       7             The Next Web                  0.0012    0.0247",
+        "       8             Tech Insider                  0.0000    0.0295",
+        "       9        Business Standard                  0.0000    0.0506",
+        "      10          The Daily Beast                  0.0000    0.0133"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "8. Audit Leksikal Multibahasa & Klasterisasi Sindikasi Berita Arus Utama",
+      "command": ".venv/bin/python analisis_berita.py berita_skandal_jensen_huang.csv",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.72,
+      "attempts": 1,
+      "stdout_tail": [
+        "18. Anadolu Agency — 3",
+        "19. New York Times — 3",
+        "20. Block Media — 3",
+        "_Label klaim berbasis kata kunci, bukan pembacaan isi artikel. Gunakan sebagai penyaring awal, lalu validasi sampel secara manual (mis. 100 baris acak) dan laporkan presisinya._"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "9. Komparasi Triad Intelijen Forensik: SIGINT vs Spyware vs HUMINT",
+      "command": ".venv/bin/python tools/mobile_spyware_forensic_comparator.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.03,
+      "attempts": 1,
+      "stdout_tail": [
+        "    Distribusi Tipe Indikator: {'domain-name': 1438, 'process': 81, 'file': 1, 'email-addr': 29}",
+        "    Contoh IOC Patterns    : [\"[domain-name:value='weather4free.com']\", \"[domain-name:value='smscentro.com']\", \"[domain-name:value='tookcheckout.com']\"]",
+        "[+] Berhasil membangkitkan 9 dimensi komparasi ke: analisis/08_komparasi_metode_intelijen.csv",
+        "======================================================================"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "10. Pengelolaan & Verifikasi Katalog 11 Artefak Publik OSINT",
+      "command": ".venv/bin/python tools/osint_artifact_manager.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.02,
+      "attempts": 1,
+      "stdout_tail": [
+        "Investigasi Komparatif Multimodal Kasus Jensen Huang / Alice Huang",
+        "================================================================================",
+        "[+] Berhasil mengekspor 11 artefak publik OSINT ke: analisis/09_osint_artefak.csv",
+        "================================================================================"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "11. Validasi Forensik Visual ELA (Error Level Analysis) & Metadata EXIF",
+      "command": ".venv/bin/python tools/ela_exif_forensic_analyzer.py test",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.1,
+      "attempts": 1,
+      "stdout_tail": [
+        "      \"Software\": \"Matplotlib version3.11.2, https://matplotlib.org/\"",
+        "    }",
+        "  }",
+        "}"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "12. Pengujian Tanda Tangan Media Sintetis Deepfake & Provenansi C2PA",
+      "command": ".venv/bin/python tools/deepfake_signature_validator.py test",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.03,
+      "attempts": 1,
+      "stdout_tail": [
+        "    \"Ketiadaan tanda tangan kriptografis asal media (Missing C2PA / Content Credentials).\"",
+        "  ],",
+        "  \"evaluation_timestamp_utc\": \"2026-11-11T01:09:06.868346+00:00\"",
+        "}"
+      ],
+      "stderr": ""
+    },
+    {
+      "stage_name": "13. Pembangkitan Laporan Intelijen Terpadu (Reportica Executive Brief v4.0)",
+      "command": ".venv/bin/python tools/reportica_intelligence_generator.py",
+      "status": "SUCCESS",
+      "returncode": 0,
+      "duration_sec": 0.22,
+      "attempts": 1,
+      "stdout_tail": [
+        "[+] Laporan Reportica JSON berhasil dibuat: analisis/REPORTICA_INTELLIGENCE_BRIEF_V4.json",
+        "[+] Ringkasan Reportica Markdown berhasil dibuat: analisis/REPORTICA_EXECUTIVE_SUMMARY_V4.md"
+      ],
+      "stderr": ""
+    }
+  ]
+}

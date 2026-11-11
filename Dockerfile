@@ -23,6 +23,12 @@ RUN pip install --no-cache-dir --upgrade pip && \
 # Copy all repository artifacts
 COPY . .
 
+# Create non-root user for principle of least privilege
+RUN useradd -u 1001 -m -s /bin/bash appuser && \
+    chown -R appuser:appuser /app
+
+USER appuser
+
 # Expose Streamlit port
 EXPOSE 8501
 

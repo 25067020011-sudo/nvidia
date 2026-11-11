@@ -1,11 +1,11 @@
-﻿Ranking,Media,Betweenness_Centrality,In_Degree_Centrality,PageRank,Closeness_Centrality
-1,The New York Times,0.0542,0.1034,0.0584,0.1117
-2,Financial Times,0.0369,0.0345,0.0382,0.0931
-3,NVIDIA Newsroom (Primer),0.0259,0.0345,0.0331,0.0931
-4,Axios,0.0185,0.0345,0.0465,0.1149
-5,Crypto Briefing,0.0074,0.0345,0.0528,0.1018
-6,The Information,0.0012,0.0345,0.019,0.0345
-7,The Next Web,0.0012,0.0345,0.0247,0.0345
-8,Tech Insider,0.0,0.0345,0.0295,0.046
-9,Business Standard,0.0,0.0345,0.0506,0.0613
-10,The Daily Beast,0.0,0.0,0.0133,0.0
+﻿Ranking,Media,Betweenness_Centrality,Degree_Centrality,In_Degree_Centrality,Out_Degree_Centrality,PageRank,Closeness_Centrality,Community_Cluster
+1,The New York Times,0.0542,0.1724,0.1034,0.069,0.0584,0.1117,7
+2,Financial Times,0.0369,0.069,0.0345,0.0345,0.0382,0.0931,1
+3,NVIDIA Newsroom (Primer),0.0259,0.069,0.0345,0.0345,0.0331,0.0931,2
+4,Axios,0.0185,0.069,0.0345,0.0345,0.0465,0.1149,1
+5,Crypto Briefing,0.0074,0.069,0.0345,0.0345,0.0528,0.1018,1
+6,The Information,0.0012,0.069,0.0345,0.0345,0.019,0.0345,7
+7,The Next Web,0.0012,0.069,0.0345,0.0345,0.0247,0.0345,4
+8,Tech Insider,0.0,0.0345,0.0345,0.0,0.0295,0.046,7
+9,Business Standard,0.0,0.0345,0.0345,0.0,0.0506,0.0613,3
+10,The Daily Beast,0.0,0.0345,0.0,0.0345,0.0133,0.0,1

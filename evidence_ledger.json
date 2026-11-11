@@ -165,47 +165,47 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-FE39D893",
+    "evidence_id": "EVD-BA25CEC0",
     "filename": "matriks_sna_20_aktor.csv",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/matriks_sna_20_aktor.csv",
-    "filesize_bytes": 1153,
-    "source_category": "SNA_Metrics",
-    "description": "Matriks Sentralitas SNA 20 Aktor Utama (Betweenness Centrality & PageRank)",
+    "filesize_bytes": 1505,
+    "source_category": "SNA_Matrix",
+    "description": "Matriks SNA 20 Aktor dengan Louvain Community Cluster & Centrality v4.0",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T16:08:03.541961+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:58.996662+00:00",
     "hashes": {
-      "sha256": "fe39d8930939e5aca99b60173755c90e63e5d90f041353a401eaa6bed3492ff9",
-      "md5": "4a1d9efc782760fa43a9b6906cdd864a"
+      "sha256": "ba25cec074611a4b12185dcdfcaef069d7f604d8b78296403030bb656f8e0f50",
+      "md5": "30abaa3c5d464bf977b7ec6d31017c28"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-0F295614",
+    "evidence_id": "EVD-E6648C60",
     "filename": "matriks_sna_10_media.csv",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/matriks_sna_10_media.csv",
-    "filesize_bytes": 533,
-    "source_category": "SNA_Metrics",
-    "description": "Matriks Sentralitas SNA 10 Media Teratas (Betweenness Centrality & In-Degree)",
+    "filesize_bytes": 738,
+    "source_category": "SNA_Matrix",
+    "description": "Matriks SNA 10 Media Teratas dengan Louvain Community Cluster & Centrality v4.0",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T16:08:03.563092+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:59.204436+00:00",
     "hashes": {
-      "sha256": "0f29561479c97d96d23f87e67c4a7677b15e92da0002b6969a5c6e86a922b8ec",
-      "md5": "dadfbe5ba980494ea28eaf906d2639ff"
+      "sha256": "e6648c60159eb149a7af705f34e8606fe86dffa46e94cc369a83276eddb01700",
+      "md5": "ae445b85f37898c5b3c8e2a239db2a93"
     },
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-A24BDA63",
+    "evidence_id": "EVD-24D7F330",
     "filename": "pipeline_run_all.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/pipeline_run_all.py",
-    "filesize_bytes": 4180,
+    "filesize_bytes": 9612,
     "source_category": "Master_Pipeline",
-    "description": "Pipeline Otomatis Master Verifikasi Multi-Modal Forensik",
+    "description": "Pipeline Otomatis Master v4.0 dengan Structured Logging & Manifest",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-11T00:53:26.448282+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:43.832233+00:00",
     "hashes": {
-      "sha256": "a24bda63465d67b928b86900afcb21a5d9a2e21b616ee8bc756819ee9e90aaad",
-      "md5": "036d7d9e771b8f0f64a60e4876cdcd56"
+      "sha256": "24d7f33049d426973cd54667c830b9d6c45acc27a675a6f00c17068c6186f698",
+      "md5": "c934e397fedf87b66f3b1f112777024a"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -225,17 +225,17 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-21F5BC1F",
+    "evidence_id": "EVD-02A9C5AD",
     "filename": "02_status_klaim.csv",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/analisis/02_status_klaim.csv",
-    "filesize_bytes": 1743,
-    "source_category": "Forensic_Matrix",
-    "description": "Matriks Evaluasi Status 4 Klaim Kunci Tiered Truth",
+    "filesize_bytes": 1843,
+    "source_category": "Truth_Classification",
+    "description": "Hasil Evaluasi Kebenaran Bertingkat 5-Tier (VERIFIED, PARTIALLY_VERIFIED, HYPOTHESIS)",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T16:25:57.135082+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:59.398543+00:00",
     "hashes": {
-      "sha256": "21f5bc1fbe8829cbb9eaa683efa2a922fde736e9d8a5071278b8e9083c1a9bab",
-      "md5": "73bd2c51d8c057ec7e647aa1a6e4b48c"
+      "sha256": "02a9c5ad127cf17548561b4ccb82de1e5269a64ed280e0a5de23434b7a473c25",
+      "md5": "92aa7e42816925e329179c01ae4eced3"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -255,17 +255,17 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-A51DFCE8",
+    "evidence_id": "EVD-F86EEA59",
     "filename": "app.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/app.py",
-    "filesize_bytes": 19626,
+    "filesize_bytes": 18956,
     "source_category": "Dashboard_App",
-    "description": "Aplikasi Web Dashboard Forensik Streamlit Cloud",
+    "description": "Aplikasi Utama Streamlit v4.0 Multi-Modal Forensic Intelligence",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T16:44:09.617013+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:06:03.778266+00:00",
     "hashes": {
-      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c",
-      "md5": "93ae378a99235446e8095be2ca1b1b54"
+      "sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
+      "md5": "2b1eeaeff233420b9f19f7af2c95e417"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -285,17 +285,17 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-A51DFCE8",
+    "evidence_id": "EVD-F86EEA59",
     "filename": "streamlit_app.py",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/streamlit_app.py",
-    "filesize_bytes": 19626,
+    "filesize_bytes": 18956,
     "source_category": "Dashboard_App",
-    "description": "Aplikasi Web Dashboard Streamlit Cloud Entrypoint Standar",
+    "description": "Alias Dashboard Streamlit Cloud v4.0",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T16:55:55.773646+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:06:03.960645+00:00",
     "hashes": {
-      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c",
-      "md5": "75268876b116a394f30c73d367d22373"
+      "sha256": "f86eea59e1457ca7f3b7717a2fec1660c74e80960eaff2d3a42417047dbde0a9",
+      "md5": "2b1eeaeff233420b9f19f7af2c95e417"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -360,17 +360,17 @@
     "verification_status": "AUTHENTIC"
   },
   {
-    "evidence_id": "EVD-67DFB543",
+    "evidence_id": "EVD-F2FC2990",
     "filename": "Dockerfile",
     "filepath": "/Users/jevin/Downloads/nvidia/nvidia/Dockerfile",
-    "filesize_bytes": 903,
+    "filesize_bytes": 1057,
     "source_category": "Container_Config",
-    "description": "Spesifikasi Kontainerisasi Reproducibility Docker",
+    "description": "Konfigurasi Dockerfile dengan Pengguna Terbatas Non-Root (appuser)",
     "collector": "Forensic_Analyst",
-    "acquisition_timestamp_utc": "2026-11-10T17:20:04.850157+00:00",
+    "acquisition_timestamp_utc": "2026-11-11T01:08:48.467810+00:00",
     "hashes": {
-      "sha256": "67dfb54341fc3c54f98822818904a0eeaf6ac8c12b674e86b6a88842bccdfd6f",
-      "md5": "064966f52544ec00eb975d5a6f4f2e50"
+      "sha256": "f2fc2990861ec6d8007672357c2149dffaca3cb51ce274786eee65283d28d99b",
+      "md5": "fb5f22f23d93d140a89d9cb2e898567b"
     },
     "verification_status": "AUTHENTIC"
   },
@@ -491,6 +491,66 @@
     "hashes": {
       "sha256": "6125c08cebd2ce4fc3ae00766c779ce957ddfb3fee5cce6020f41aa80c69394b",
       "md5": "f9173aca9deead8b986626288b70028f"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-B5D63A71",
+    "filename": "event_study_analyzer.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/event_study_analyzer.py",
+    "filesize_bytes": 9316,
+    "source_category": "Forensic_Tool",
+    "description": "Penganalisis Ekonometrika Event-Study (AR/CAR & Uji Signifikansi)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:44.023251+00:00",
+    "hashes": {
+      "sha256": "b5d63a717b2a354aefd568fc899110170caec8491aaabd9ad0927ddde734eb3f",
+      "md5": "7e632ebc7d8ec07c20e66651fb382d98"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-D2358755",
+    "filename": "sna_centrality_analyzer.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/sna_centrality_analyzer.py",
+    "filesize_bytes": 13786,
+    "source_category": "Forensic_Tool",
+    "description": "Penganalisis Sentralitas Jejaring SNA (Betweenness, PageRank, Louvain)",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:44.202341+00:00",
+    "hashes": {
+      "sha256": "d23587550ed564e2d258482a3f022d5e86d91fd7fec1bd3c50b3ae9b1476153f",
+      "md5": "ec591503c18d97c4cf7332852b23ce86"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-859C0C39",
+    "filename": "tiered_truth_classifier.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/tiered_truth_classifier.py",
+    "filesize_bytes": 10943,
+    "source_category": "Forensic_Tool",
+    "description": "Mesin Klasifikasi Kebenaran 5-Tier Bertingkat",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:44.385353+00:00",
+    "hashes": {
+      "sha256": "859c0c395f439b2720aef0a6fa929616031f5473c9f241a9d938c38cbb77ef9a",
+      "md5": "bb18dcf297882e1971860b312839612a"
+    },
+    "verification_status": "AUTHENTIC"
+  },
+  {
+    "evidence_id": "EVD-D24BC39F",
+    "filename": "reportica_intelligence_generator.py",
+    "filepath": "/Users/jevin/Downloads/nvidia/nvidia/tools/reportica_intelligence_generator.py",
+    "filesize_bytes": 6804,
+    "source_category": "Forensic_Tool",
+    "description": "Pembangkit Laporan Intelijen Eksekutif Terpadu Reportica v4.0",
+    "collector": "Forensic_Analyst",
+    "acquisition_timestamp_utc": "2026-11-11T01:03:44.567508+00:00",
+    "hashes": {
+      "sha256": "d24bc39f99754140b0234240928e94cc01b4d8fa2779f355d81642159a91db71",
+      "md5": "e37cf63d91da2b10410972e0825fd290"
     },
     "verification_status": "AUTHENTIC"
   }

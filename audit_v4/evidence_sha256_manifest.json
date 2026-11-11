@@ -1,0 +1,4162 @@
+{
+  "generated_at": "2026-11-11T00:59:55.465429+00:00",
+  "algorithm": "SHA-256",
+  "note": "Hashes identify file bytes at audit time; they do not prove source authenticity or chain of custody.",
+  "entries": [
+    {
+      "path": "MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "size_bytes": 26605,
+      "sha256": "5f9c3e06f4dc850339cf3f07d997fe3937d73d0b7146d9358f2cd291815f3f70"
+    },
+    {
+      "path": "TABLETOP_INCIDENT_RESPONSE_DRILL_SCENARIOS.md",
+      "size_bytes": 4138,
+      "sha256": "686db9932a611c101e06d9818b1de73ce657265dbaa7ad57d82893ae6316401c"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 127,
+      "sha256": "44976dd76ad3341a4e2561a20fbfb2856db32fb29d4ba2abed18bb989e0f6a6a"
+    },
+    {
+      "path": "PEER_REVIEW_SUBMISSION_CHECKLIST.md",
+      "size_bytes": 2650,
+      "sha256": "7e580694c59e681e5f4ba15b7ca7e09991beeb23ef2d4fb869031dc00eeab825"
+    },
+    {
+      "path": "references.bib",
+      "size_bytes": 2255,
+      "sha256": "aaac936bce5716ba0d50c0cab36c822ddd5fbf73bc3f8636812c1739ad307fbd"
+    },
+    {
+      "path": "Dockerfile",
+      "size_bytes": 903,
+      "sha256": "67dfb54341fc3c54f98822818904a0eeaf6ac8c12b674e86b6a88842bccdfd6f"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 1487,
+      "sha256": "f53611e21fb99f814340b87a8e5578ddbe81758d681a77b27b4eab8b2bf53121"
+    },
+    {
+      "path": "PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "size_bytes": 20170,
+      "sha256": "a32dd738e6c5ca31080c79772e26ecbaad498b50d815bac8d09a55ce2cb92b2b"
+    },
+    {
+      "path": "PRD_CYBER_PHYSICAL_BEHAVIORAL_FORENSICS.md",
+      "size_bytes": 23613,
+      "sha256": "e402a7b7ed9a96c7d5f709420e6ebc82e9f43db237c4300f909d56ff79282521"
+    },
+    {
+      "path": "PRD_BEHAVIORAL_DIGITAL_FORENSICS_LAYER8_NVIDIA.md",
+      "size_bytes": 27490,
+      "sha256": "dcfc770e92c19d7a8c563d4668809a95d442964bd22af7b219066d48c722aebb"
+    },
+    {
+      "path": "streamlit_app.py",
+      "size_bytes": 19626,
+      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c"
+    },
+    {
+      "path": "PRESENTASI_HASIL_RISET_FORENSIK.md",
+      "size_bytes": 7833,
+      "sha256": "0ffbc24c48e1218f380017089a0e2acd8c9ec38919aacf2bdd637bc53ade4602"
+    },
+    {
+      "path": "berita_skandal_jensen_huang.csv",
+      "size_bytes": 45141,
+      "sha256": "5c6710b99ed1954d637ca5939f08de26018821a912d8dc1e5d7cd756bbd2ff7d"
+    },
+    {
+      "path": "nvidia_forensic_v4.py",
+      "size_bytes": 17792,
+      "sha256": "b699fa3798e4c52cc560d5d44b2065a6ee112693c3991a1c16c2580a6b7fc761"
+    },
+    {
+      "path": "LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
+      "size_bytes": 10955,
+      "sha256": "217ee4a8999fc46c7f40bb19929d29761f0de59bf2ae11729534e6f81ec5ef09"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6304,
+      "sha256": "e17fbc4ef1dc4195ec31d9f6254162ebbff2c204b80e20a0e06482858601cc10"
+    },
+    {
+      "path": "AUDIT_KEPATUHAN_ETIKA_DAN_PDP.md",
+      "size_bytes": 3379,
+      "sha256": "f0e73694b6925ba679dadf1f36b2d0906ddeae5dfb101f3574b42fd07c6e7850"
+    },
+    {
+      "path": "evidence_ledger.json",
+      "size_bytes": 20634,
+      "sha256": "0bda2db5ccb7a975e28106aa3b8420d0d0cb3f462d7dbf19d3d45fddaf503107"
+    },
+    {
+      "path": "manuscript.tex",
+      "size_bytes": 9027,
+      "sha256": "f50e733567d4aacb1a4697a683af381385609c96f73f177183f48c2a7ea3053f"
+    },
+    {
+      "path": "kumpulkan_berita.py",
+      "size_bytes": 9196,
+      "sha256": "fb624bd537f402dd525abd811a4cb8e9315d141dc60092ab4dd3303559a849ff"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 358,
+      "sha256": "80f7aa99b629ba4b49a10f99700c8615584471b893e65dad9bf7dc4973dbcec7"
+    },
+    {
+      "path": "analisis_berita.py",
+      "size_bytes": 9096,
+      "sha256": "45e7b7a12b7e92c687196b9dc576f355dff4308493cf40630e2465eeedc11196"
+    },
+    {
+      "path": "codemeta.json",
+      "size_bytes": 1191,
+      "sha256": "1d29e2506d2c5f697efcae79c5360fb38ffcfa4acdb316fc9ad7ee73bf734256"
+    },
+    {
+      "path": "app.py",
+      "size_bytes": 19626,
+      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c"
+    },
+    {
+      "path": "nvidia-historical-stock-data.zip",
+      "size_bytes": 721137,
+      "sha256": "907b6494e17dbe3a1fd3fa027104d1d23a25cf4b6209746957cbb5a4d9e82df3"
+    },
+    {
+      "path": "docker-compose.yml",
+      "size_bytes": 261,
+      "sha256": "8b6dc799e95bab22534d4be8ea30596cb89247d45d1c8b1cc13e6e2382be544d"
+    },
+    {
+      "path": "pipeline_run_all.py",
+      "size_bytes": 4180,
+      "sha256": "a24bda63465d67b928b86900afcb21a5d9a2e21b616ee8bc756819ee9e90aaad"
+    },
+    {
+      "path": "nvda_skandal.csv",
+      "size_bytes": 3322,
+      "sha256": "d3a030692dc6e218db0a05dd83eddb038aa28b217bdbcec8fc67c06cf90c3dd3"
+    },
+    {
+      "path": "SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
+      "size_bytes": 4660,
+      "sha256": "14d6ed91cae8ed9ec6cedbd89db65a272c5fc7cdd16d74fd53670740700a63ec"
+    },
+    {
+      "path": "EXECUTIVE_POLICY_BRIEF_CSUITE.md",
+      "size_bytes": 4094,
+      "sha256": "184f278c761bbe6ba40b186fe832ec4b1ceac9bdc23a2d4d86bbc6e5a76c5e5e"
+    },
+    {
+      "path": "DeepfakeBench/train.sh",
+      "size_bytes": 189,
+      "sha256": "c0306cc161981fb76cf9b27628eb2b0b866d1bbdc94736a6177f78cbe0f9fc13"
+    },
+    {
+      "path": "DeepfakeBench/LICENSE",
+      "size_bytes": 43107,
+      "sha256": "44ac394fae2ed10bbbe021936425043e6b7bc9f91014d42f3dd9f1c0803d31d1"
+    },
+    {
+      "path": "DeepfakeBench/Dockerfile",
+      "size_bytes": 1528,
+      "sha256": "9e1ff56bd48707e3809a223f02d4834f0602fb3e402ea3dd6ae3bf791a31ac57"
+    },
+    {
+      "path": "DeepfakeBench/install.sh",
+      "size_bytes": 1000,
+      "sha256": "b37e791f514b28f09f64ad84b689d5a9deaff2c3abb688350aae7cbb0711c7fd"
+    },
+    {
+      "path": "DeepfakeBench/README.md",
+      "size_bytes": 39936,
+      "sha256": "d9d2497cee0014777962020b0c32b3457fd7cc7636a9038f1c85246027ce61e6"
+    },
+    {
+      "path": "DeepfakeBench/.gitignore",
+      "size_bytes": 56,
+      "sha256": "9716c0032f4a0f0fff3ef0c7fff44c92ac81473beb829104f914404fd1fa3c14"
+    },
+    {
+      "path": "DeepfakeBench/analysis/frequency.py",
+      "size_bytes": 6671,
+      "sha256": "306bd197ba7d3d4114e562a98c527f16917848a2ffddbe3e51b191bb6c7c3914"
+    },
+    {
+      "path": "DeepfakeBench/analysis/explore_pretrained.py",
+      "size_bytes": 3447,
+      "sha256": "a6ec063dcccfe99cf79ab31f13a38c9582bed274118f96b364694e2b4e272f04"
+    },
+    {
+      "path": "DeepfakeBench/analysis/number_frames.py",
+      "size_bytes": 2020,
+      "sha256": "b5bd539db39f0fe535ef3e36d43fdf7b06ce1c58e8923291a0303d5563b35923"
+    },
+    {
+      "path": "DeepfakeBench/analysis/curve_draw.py",
+      "size_bytes": 4214,
+      "sha256": "a0746e8e9b3440c776d6e5277e0612925e7ea9293d7e7618d3b8f8e2e6259ed2"
+    },
+    {
+      "path": "DeepfakeBench/analysis/heatmap_tab2.py",
+      "size_bytes": 6808,
+      "sha256": "8e5ffa18283ff2e1f1769c0e5a873acdf2f429b53e1a4c6e1dd8c54a74603245"
+    },
+    {
+      "path": "DeepfakeBench/analysis/model_archi.py",
+      "size_bytes": 7047,
+      "sha256": "c03e1156eea365562bdea20816504f8f893a2841e26d406096cc9c2498b01bb0"
+    },
+    {
+      "path": "DeepfakeBench/analysis/auc_table1_fromrecord.py",
+      "size_bytes": 2238,
+      "sha256": "e12c07623f6f76bee5b478c395ccc410748815e746785f1946417ecdfb889382"
+    },
+    {
+      "path": "DeepfakeBench/analysis/.gitignore",
+      "size_bytes": 331,
+      "sha256": "9d4da37022e2f2ade9070a3ef3754aebf40299ea3772f14feba2c3a9b794a707"
+    },
+    {
+      "path": "DeepfakeBench/analysis/auc_fromaug.py",
+      "size_bytes": 4822,
+      "sha256": "2ebfde55368abb2411e8700038f200df0a18dc8ec8894e1fcdb2a634efca638b"
+    },
+    {
+      "path": "DeepfakeBench/analysis/auc_table2_fromrecord.py",
+      "size_bytes": 1623,
+      "sha256": "2a6b02302a29529f66fc5a40681641b0a7247ee685e553ef5c7f60c4aeeab771"
+    },
+    {
+      "path": "DeepfakeBench/analysis/plot_curve.py",
+      "size_bytes": 1965,
+      "sha256": "5af882d241d6dd55e3f9eb88dcc83496ec26b33682734852036cfe2812337ba7"
+    },
+    {
+      "path": "DeepfakeBench/analysis/tsne.py",
+      "size_bytes": 2880,
+      "sha256": "ee4ef87314fff24fc7d45b4ea903dd047dec86b174ffcfa9fa9baf2e5d970efa"
+    },
+    {
+      "path": "DeepfakeBench/training/test.py",
+      "size_bytes": 6771,
+      "sha256": "09b22598c5e6849419487045795dad3ce16f6f9f32457c64b30d8581ec8660fd"
+    },
+    {
+      "path": "DeepfakeBench/training/logger.py",
+      "size_bytes": 1000,
+      "sha256": "dd2f0040b6ac8a845aca0d063b12238ea9ea48386470f92b8cb15df6a2aa857f"
+    },
+    {
+      "path": "DeepfakeBench/training/train.py",
+      "size_bytes": 12168,
+      "sha256": "1af7e18be35fe3e4b55167d1a6d26de25d32830c9712a524a324c7aaf90c6fcd"
+    },
+    {
+      "path": "DeepfakeBench/training/metrics/registry.py",
+      "size_bytes": 498,
+      "sha256": "fa2f82246dfe39e49076096fe4db8f1b6cd6a2f553a5e3ba78a72d815007b76f"
+    },
+    {
+      "path": "DeepfakeBench/training/metrics/base_metrics_class.py",
+      "size_bytes": 6228,
+      "sha256": "a8db36521bd1b4ffcb42f92e331a0e683035a0d659c0ff68704863745b458268"
+    },
+    {
+      "path": "DeepfakeBench/training/metrics/__init__.py",
+      "size_bytes": 241,
+      "sha256": "1e3b05057fbef99b10e6b271679ac220b763ccd2e0b14c44debb468f22a0833c"
+    },
+    {
+      "path": "DeepfakeBench/training/metrics/utils.py",
+      "size_bytes": 3446,
+      "sha256": "561913e4739cafbb8542fd1255667fe9afa4a2e31e7dafbaedbd7f7bf2a943a8"
+    },
+    {
+      "path": "DeepfakeBench/training/optimizor/LinearLR.py",
+      "size_bytes": 667,
+      "sha256": "25c2e8a206f55cb2b19beaf969911ddec7d7bde42f534d9c350b2ee78fafc212"
+    },
+    {
+      "path": "DeepfakeBench/training/optimizor/__init__.py",
+      "size_bytes": 241,
+      "sha256": "1e3b05057fbef99b10e6b271679ac220b763ccd2e0b14c44debb468f22a0833c"
+    },
+    {
+      "path": "DeepfakeBench/training/optimizor/SAM.py",
+      "size_bytes": 2697,
+      "sha256": "ae8f749182518d5d0a2b43de7011e37ec28116268d4782fb50e3764ad2bc520a"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/patch_consistency_loss.py",
+      "size_bytes": 3384,
+      "sha256": "df496d181c99cb96aac4b1067ae13933b33eb9eb8134eeda827f9c3f8f0f5b88"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/capsule_loss.py",
+      "size_bytes": 956,
+      "sha256": "4a52af31e51e289116b8e1ac642c72bc289d41db23c2a6171e2dd7e4c51eec65"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/consistency_loss.py",
+      "size_bytes": 1835,
+      "sha256": "83c3cf5f976c24650dde1f19747bd54dfc7a20b89e777e7f03469bc23f4ef8d5"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/bce_loss.py",
+      "size_bytes": 772,
+      "sha256": "2a670c053c375466ae3d9aacbef6ce555e9af83bed98e1eadc35c29e430f5192"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/id_loss.py",
+      "size_bytes": 554,
+      "sha256": "8c8b902a96672fe83e91f23f1b52cacc50a3eb0116b5b9f06e309bb02087458c"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/region_independent_loss.py",
+      "size_bytes": 2802,
+      "sha256": "073e23673a690b9b7f7b276e3f2cc7b1c2f0538d3165944819bc74f5b6c0e40a"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/am_softmax.py",
+      "size_bytes": 5866,
+      "sha256": "051b17d8660f44a432e4232133fa92ca4d08dda05a42fa7a2548ea8b1f046c72"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/__init__.py",
+      "size_bytes": 850,
+      "sha256": "cc871af93a15445d9a43da63ce8a1d4535e605e78b0314c8e813c71be88165a8"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/contrastive_regularization.py",
+      "size_bytes": 3024,
+      "sha256": "80995dab32be749e6319f294a6c00176f555e80c5e3e2740f11f8c328565878f"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/l1_loss.py",
+      "size_bytes": 469,
+      "sha256": "966c43854cbc88889fab4bd85be4e6661aec34ec8683c0dc370d2b31761742b8"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/js_loss.py",
+      "size_bytes": 1026,
+      "sha256": "0c75d915764d5c0f7325a04228f4dc7857f370e7db83450b118d9b6c21c7a000"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/supercontrast_loss.py",
+      "size_bytes": 4248,
+      "sha256": "f9bd5f6ab69ceb81f67d921d6abef5cc75febd84a1525863847b1ad2052a30ad"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/vgg_loss.py",
+      "size_bytes": 6318,
+      "sha256": "c8b1e26c68e9634f56dd1614d8afcb39f4ef82602d3a1a1f143addb89ae2e0cd"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/cross_entropy_loss.py",
+      "size_bytes": 822,
+      "sha256": "50e7c5e52ccaa07d7d2777ca0ad6333a4e8b3ebe0eec2d9c2926539f03e8095b"
+    },
+    {
+      "path": "DeepfakeBench/training/loss/abstract_loss_func.py",
+      "size_bytes": 479,
+      "sha256": "03173af6a19e61c8461956d23889aa95e05aa05a87f070bca366de8bcd2e0b00"
+    },
+    {
+      "path": "DeepfakeBench/training/config/test_config.yaml",
+      "size_bytes": 653,
+      "sha256": "5018ff0fbb9ec4758db1dfb32d9476ecefd5d8dde7dacad5a0af0420369ebb29"
+    },
+    {
+      "path": "DeepfakeBench/training/config/__init__.py",
+      "size_bytes": 241,
+      "sha256": "1e3b05057fbef99b10e6b271679ac220b763ccd2e0b14c44debb468f22a0833c"
+    },
+    {
+      "path": "DeepfakeBench/training/config/train_config.yaml",
+      "size_bytes": 743,
+      "sha256": "ec1c90d32cc88b470711ff306c1ffd5f866e5edc7cc117fd6847931c1828697a"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/recce.yaml",
+      "size_bytes": 2842,
+      "sha256": "98a50fcd4eab00a15e6eb172f562526fe49f8c47f888542a60baeeb5ca1eca11"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/clip.yaml",
+      "size_bytes": 2795,
+      "sha256": "64e67a4924caca14dd37fa71e625613f11e159f2cb4a5d1f9c82dba2d8a09610"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/pcl_xception.yaml",
+      "size_bytes": 3172,
+      "sha256": "26104e407a80be2b752e4da3207432f647c38e9cb39886d8e5bb7f518d99d58b"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/lrl.yaml",
+      "size_bytes": 3427,
+      "sha256": "f42603493b10ebb57b7e5d01dab4e58e57488165b11c31159be0834f3c66a31f"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/efficientnetb4.yaml",
+      "size_bytes": 2954,
+      "sha256": "66c6c924ce9ffc59e1203998713d9efd794c9fe771b64551d11dc7c905511c8f"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/multi_attention.yaml",
+      "size_bytes": 3384,
+      "sha256": "5da608d470f81ec894fc001bd78218f51f85ca2e2dfb91e3158e9c4f36febf47"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/ucf.yaml",
+      "size_bytes": 3604,
+      "sha256": "cf3fe6e589b55c865cc450262b59f89cfb754b4c44139ff74cf11c69e2d85427"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/sladd_detector.yaml",
+      "size_bytes": 3181,
+      "sha256": "c6ae90032c5b10652ebe15f6b64d15a4d12b85c4c7c40370e845b5692902b5ed"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/i3d.yaml",
+      "size_bytes": 2812,
+      "sha256": "cf68d1b0fdd08f7aa73e6d4c825edab9fe36f2c073c878fcf9ffade589b31536"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/tall.yaml",
+      "size_bytes": 3547,
+      "sha256": "68d8d6719eae858b7e93cedcec91f69055d2546c071946d09f0a26ecd8406e16"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/fwa.yaml",
+      "size_bytes": 2848,
+      "sha256": "342048fdc7e01fb38f745c219d8891919aea7846f12b5f1e8a96af836c97993a"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/facexray.yaml",
+      "size_bytes": 2807,
+      "sha256": "bb659f41bb0063c251a19c977756bb41f2e585a4731c438c53352b03c74385e4"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/ffd.yaml",
+      "size_bytes": 2863,
+      "sha256": "33a22ae18cf62f76a05b263fd275ec5fafcaa4a2bb3918e1096705085af82443"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/ftcn.yaml",
+      "size_bytes": 2863,
+      "sha256": "a66d3bbb24266372179180017fe6f76021df96a4760ce77613b7d236a8dfd0c7"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/videomae.yaml",
+      "size_bytes": 2883,
+      "sha256": "515a17d70386b176914a1a76c059863168d09ae4f4c54857081a931db81fd175"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/lsda.yaml",
+      "size_bytes": 3444,
+      "sha256": "2a091770ea50288e20d6d4194fb88102c6357c0822c5d7b6b01630be1f2c2c0a"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/stil.yaml",
+      "size_bytes": 2788,
+      "sha256": "73bda1677947bc6e778c588f117526b93cb5c112255021ad3976537cfc362a07"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/iid.yaml",
+      "size_bytes": 3225,
+      "sha256": "45ac6cced930cdffa8436d93a2d13e74315ed7363858d618c0b0b470ec50f807"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/effort.yaml",
+      "size_bytes": 2808,
+      "sha256": "1fd1398cf245b3a5c13cb130d7c6e209057ae6b56b561eca5f3c032283c5527b"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/spsl.yaml",
+      "size_bytes": 2953,
+      "sha256": "7cc75c7b3014bdda47531fde4c0284ea245fc39f7ba8001e604212bce11e2307"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/meso4Inception.yaml",
+      "size_bytes": 2938,
+      "sha256": "07cc28bf1b4633995e1b85c151542f9c560d28ced0d3b45363c828659b64e504"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/altfreezing.yaml",
+      "size_bytes": 2832,
+      "sha256": "a8719718db9b452a1863df772e86af6f9661a4d23f404cfd892b327dfc795986"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/f3net.yaml",
+      "size_bytes": 2899,
+      "sha256": "2d2c48ea400e99be56157066cf2e8113f9d5f57359a8f96a41d30031ff52d24f"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/core.yaml",
+      "size_bytes": 2907,
+      "sha256": "967880628251ad127862aca9764a24949d315cbfd34ba6a21c3a28905ded6954"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/sia.yaml",
+      "size_bytes": 3377,
+      "sha256": "6940aa10d3b9f576d31f8cbacfe5d030cd75b2ff092ffae24a7daaf11e6ada07"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/sbi.yaml",
+      "size_bytes": 3034,
+      "sha256": "fea4ceacb6f28fe3e2d96598f5e9394dc4e9ff8ecf54625f1ec330073c3c15dd"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/xclip.yaml",
+      "size_bytes": 2915,
+      "sha256": "e918d370fe298d4866defd4a02e62f490887926170f0ee8d1522d3515152a3fd"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/xception.yaml",
+      "size_bytes": 2773,
+      "sha256": "88cdc2ccaa68da891bf39e611f97a65e7cda0af4b21e636de207fcd2df6216a1"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/srm.yaml",
+      "size_bytes": 2830,
+      "sha256": "26ffbfbf3d61f310d68229b545e3e893d471efa22f4633fbc2d04af0aab80fdc"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/uia_vit.yaml",
+      "size_bytes": 2744,
+      "sha256": "16565b242992f41b1b8d1e923b17bb62251373898bb949e52d27b0346000554d"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/timetransformer.yaml",
+      "size_bytes": 2908,
+      "sha256": "d2bb65da78a3d577c3f059250a8fc48fdfe835cb9e094b518640b1ae68407b76"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/resnet34.yaml",
+      "size_bytes": 2876,
+      "sha256": "8df3ada8603dfc07c262ea302bbbefa784b7dd94a53892d934246a74c34f2848"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/capsule_net.yaml",
+      "size_bytes": 2833,
+      "sha256": "47cd3cda683f58f4fcc381dcf79d5c615252b9314de7d88d8fcc5c4f4facc365"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/meso4.yaml",
+      "size_bytes": 2755,
+      "sha256": "647ad80ee180d1838893621999d57a19bb564416fe7c98a5cbd041a984f44c5a"
+    },
+    {
+      "path": "DeepfakeBench/training/config/detector/rfm.yaml",
+      "size_bytes": 2734,
+      "sha256": "46901137a497661e70ed9c9d33885aa6b7fac6b1b598b3f82269da0330e4bfa8"
+    },
+    {
+      "path": "DeepfakeBench/training/config/backbone/cls_hrnet_w48.yaml",
+      "size_bytes": 1615,
+      "sha256": "287ac650ed51b40be67efc3e3da82c4d12fc52ebf4623711370b593eb81bbdd8"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/face_utils.py",
+      "size_bytes": 7419,
+      "sha256": "1f645942d6b47f403f8cc53d0002cb4501fccb5662669a30075b2eb4c1d12f59"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/ff_blend.py",
+      "size_bytes": 22348,
+      "sha256": "f87cbb4224c22595a3d2bbe4cf00c5df86f046decaa2b7845656519004645794"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/lrl_dataset.py",
+      "size_bytes": 4584,
+      "sha256": "92dc2d53f0270ae90971b4103c13fded679066e5a903712ca4838045ce9f9ac8"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/albu.py",
+      "size_bytes": 4055,
+      "sha256": "53629f75cce5c77656bb17c163f0692610d1aafb6e9431dfb8ec6393d99a92d0"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/lsda_dataset.py",
+      "size_bytes": 14554,
+      "sha256": "dde78070e6a4cee78b1eb28b8fb99661d53bd91825f1e96cf82a81a7fe098101"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/iid_dataset.py",
+      "size_bytes": 4020,
+      "sha256": "ecf8d3da5798e7cd14dcf3e64380048dfa25241b88126d354712d523334845e2"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/__init__.py",
+      "size_bytes": 654,
+      "sha256": "f302df36cbeb9e4115cca2a7ec7ff965088a3757d2a933a0c9cb1506735be8f5"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/generate_xray_nearest.py",
+      "size_bytes": 5046,
+      "sha256": "39f1fdf17d596a67e51d58bd31853cbbe12bd9859ed6328bee56e885d44f7851"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/sbi_dataset.py",
+      "size_bytes": 5588,
+      "sha256": "8080bd0e58bed073496093c16ec58c2498c78e2d22f316d4365ebcb023982c9a"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/pair_dataset.py",
+      "size_bytes": 6642,
+      "sha256": "52e7ae5bd7de7309efd1af62736fce328ca944c959116680e96055fa72ca5caa"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/sbi_api.py",
+      "size_bytes": 11120,
+      "sha256": "2e79f715438da6a9dc717a3f6efcca27b6153beb572a551a17be2c3c444fb65a"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/tall_dataset.py",
+      "size_bytes": 7274,
+      "sha256": "b9032de3ebc059b314d4358a1f9748240ddcc6292bc61868bc74f2a014f31699"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/fwa_blend.py",
+      "size_bytes": 19336,
+      "sha256": "348d24086b707eeecae14a603b75ed3bf0a54ebf3406078405cddbd21ab1d6b2"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/generate_parsing_mask.py",
+      "size_bytes": 4822,
+      "sha256": "f746281229fb656535e23e20ceb00fed1b9d4d8f1b5a94e374da446dee4be0e7"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/I2G_dataset.py",
+      "size_bytes": 14905,
+      "sha256": "a7426742f95c504404e22411a5103760ba0b87860d12de28081df959c3e9c8c6"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/abstract_dataset.py",
+      "size_bytes": 27429,
+      "sha256": "51e137937bfd1f31c4504945ed3cc8fa50d39f5d0e16950ac2dbc64dc24494a3"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/LICENSE",
+      "size_bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/DeepFakeMask.py",
+      "size_bytes": 6638,
+      "sha256": "5c0cd119709fe147895cfc306c158531e6bdc8feb3e84c6405b2c59205db7efb"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/all_in_one.jpg",
+      "size_bytes": 566955,
+      "sha256": "74144f932c135e622153bf35272f6f0befa97d17579ccad182c52c8d65ecf7a7"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/README.md",
+      "size_bytes": 577,
+      "sha256": "cb2f75a228b751ee0e7ea213a411ac2b45689da78206f61ea3142f2d4ea5d8c9"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/bi_online_generation.py",
+      "size_bytes": 9143,
+      "sha256": "5bbaf518000207ccca3a41a01872f12cd9e7c4bd485fe5ee8f8a1815b3fb3b01"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/001_0000.png",
+      "size_bytes": 148360,
+      "sha256": "b70a59cc69da15d89bff33c6cb483d03e5fec85a31b76661d3833b982b9e88f5"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/000_0000.png",
+      "size_bytes": 144216,
+      "sha256": "2ea0b4b02a9a031f8f7a63f1bb8a171d6810d42629d8b5c97b9714f5c2bac594"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/library/precomuted_landmarks.json",
+      "size_bytes": 1650,
+      "sha256": "5772307690f8d05f62bb8e3d2e90f645ada908e44535a2c8444f0f66e0a71b25"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/face_aug.py",
+      "size_bytes": 4151,
+      "sha256": "9e3862aeeb838935e4b944810be11fcc0ffc50c8983c21c02451e7696240ad66"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/umeyama.py",
+      "size_bytes": 3552,
+      "sha256": "6f00cc92342bc941637ee66355ac8ae47f6dc4507d94a6de00294b14fabfe868"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/faceswap_utils.py",
+      "size_bytes": 2484,
+      "sha256": "21d3778cab913017d20c2bc51fe04e9d47e1d0b4d27208af249cdee7fc568ade"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/color_transfer.py",
+      "size_bytes": 18141,
+      "sha256": "c58246e98a0bfa448f9037f52c1b5fc01900ee31cf38f47bc15ccca1b7a7ec51"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/bi_online_generation_yzy.py",
+      "size_bytes": 10257,
+      "sha256": "5d65e0d4f13ecfc195dd8b4e3188040dba78f926f5f7a90bfc1c6acae6362055"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/DeepFakeMask.py",
+      "size_bytes": 13667,
+      "sha256": "7bd38ea8ffb63e5166a71c86e521ab83c917250796c29945bffd807330823ae7"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/faceswap.py",
+      "size_bytes": 8252,
+      "sha256": "7b9f90f24e399a0716ff6b3dfeb93aa62fdcfcba21b14f32766448f4f2d54b42"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/bi_online_generation.py",
+      "size_bytes": 11125,
+      "sha256": "49782d687544f677217e8bb42712cdbba7fdfe8b86c83d06a231635171595b45"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/face_blend.py",
+      "size_bytes": 14501,
+      "sha256": "e3e749189d31fefb286cb328d1b91f02de0906998ac1a739d3f96f341eb77d01"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/SLADD.py",
+      "size_bytes": 4763,
+      "sha256": "045f833828fb85c795f3ac298cadf3e5bf930a016d8c262f2e553ddc10698e8c"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/face_align.py",
+      "size_bytes": 7141,
+      "sha256": "a8664acb4eba607cbab7cd97e89f7024b6cd28b62be3fc1263d3e452da25abbb"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/image_ae.py",
+      "size_bytes": 4101,
+      "sha256": "cf08301aab444efab4d01a0a081c113de887bf86848a9926e546ff474a6da2e4"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/attribution_mask.py",
+      "size_bytes": 2002,
+      "sha256": "3d9afe014fb22693f0696315804b790434be8f71dd2e408c7ba211c0ddc8ca63"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/warp.py",
+      "size_bytes": 3962,
+      "sha256": "6eb9d2f79d76979e4adbe741202fe784e85958bb2b8c94ae8d1892434eb4bb7d"
+    },
+    {
+      "path": "DeepfakeBench/training/dataset/utils/faceswap_utils_sladd.py",
+      "size_bytes": 2467,
+      "sha256": "611b88f9acce6d6d6f39ebc4ea7bd6a7fed88d77210e356041134db187a3d494"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/time_transformer.py",
+      "size_bytes": 8591,
+      "sha256": "fc526a5b1af04350fe3638d0149e91b4742b7a9c2c1290b773adb543f1968320"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/vgg.py",
+      "size_bytes": 6035,
+      "sha256": "5376694e741d7eee20be143d78bf234213f6d26e7309a1611eeb3bff6da47460"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/mesonet.py",
+      "size_bytes": 5564,
+      "sha256": "b893d24c8c967d271330512e1962bbf62825528d8029ca60213fd7ad44b81fcd"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/xception_sladd.py",
+      "size_bytes": 8147,
+      "sha256": "fe1a1f32cdb981dd186c374495b52acd53df758d429f35a5f7f411f05e5c6883"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/base_backbone.py",
+      "size_bytes": 873,
+      "sha256": "339bdc1733f15258bc2644480a96a35e32be78c8373bddd64799387028930830"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/__init__.py",
+      "size_bytes": 472,
+      "sha256": "84b29264a96a9e4573dcc5ca5176dfaec153713ceae0e074f6a39d0012f5d1de"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/cls_hrnet.py",
+      "size_bytes": 21362,
+      "sha256": "1decf89719bd63e0a49f9e404c66206edaa8be7ffac9c55c689e9bf1c268235d"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/xception_ffd.py",
+      "size_bytes": 8311,
+      "sha256": "92746ea79a30c5989b11072a2859d7ec15836e14812c9cbca9fa1a1176ffb51e"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/resnet.py",
+      "size_bytes": 15255,
+      "sha256": "cb210e7f431283b2627fe52b02e6453dc17757b1ee928255de945d17a6917b46"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/adaface.py",
+      "size_bytes": 12787,
+      "sha256": "b4db4eb0174a385fd29e5f616391b50d443f455990c8b88dcab1f8021af8ba4c"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/iresnet.py",
+      "size_bytes": 7357,
+      "sha256": "3086a538fa62fefd9121230a75560514250600dbc8ee903397607dfb31594cc4"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/iresnet_iid.py",
+      "size_bytes": 7654,
+      "sha256": "37d3eacbf2c3122af9527c9f0d8d75fb13c4097d40c7c5055c6375d1f23a35d3"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/resnet34.py",
+      "size_bytes": 1727,
+      "sha256": "4b19eda352a26a72390bc882db6355a663fe28254c82e760bf4bfea925394cec"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/xception.py",
+      "size_bytes": 8486,
+      "sha256": "282eb312a3544a2740a481b5ec1b68b525bc75570f9dbf42be464e65fa49dfd7"
+    },
+    {
+      "path": "DeepfakeBench/training/networks/efficientnetb4.py",
+      "size_bytes": 4435,
+      "sha256": "60abb36673c885a37c6bfff06bcc14be0e7ce4137728a29fe5f0cb562a8c7db0"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/attention.py",
+      "size_bytes": 13150,
+      "sha256": "4ebb18e04ae004517c0a00ddbe5a3fafb9789d9978f615fe4917e5498e6eb2ae"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/__init__.py",
+      "size_bytes": 241,
+      "sha256": "1e3b05057fbef99b10e6b271679ac220b763ccd2e0b14c44debb468f22a0833c"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/SRM_Kernels.npy",
+      "size_bytes": 3080,
+      "sha256": "c53ad3a849fa64db1244152a3030c80a4d3b11fec0af81b4196d8e6dfb3db4b9"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/gaussian_ops.py",
+      "size_bytes": 3888,
+      "sha256": "2a79382c0855c2262d7ce8504b57ed7e748da2465186642efbcafb1f04fcb4a5"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/srm_conv.py",
+      "size_bytes": 6591,
+      "sha256": "28daa0f84e473b4b9d687a6ed3d7bf70b028cbb74b2baca0e28cb9da031cc2a6"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template5.png",
+      "size_bytes": 150,
+      "sha256": "efe59f2662320530f4f77126f60a400842e5c6cf90ba9935d32a22309e89d03f"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template4.png",
+      "size_bytes": 154,
+      "sha256": "f0944454f0e7117dab1fe79f266785638df270e5a15f659eea525caade7eee24"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template6.png",
+      "size_bytes": 143,
+      "sha256": "97fd7c73efbf7309c714614b908e9aa34d0eeda02143b51858683444f439588d"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template7.png",
+      "size_bytes": 129,
+      "sha256": "1aa0e860abb5b8640c6800b7f16858a7403f8322106d9f38ad262bd1bec4db52"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template3.png",
+      "size_bytes": 120,
+      "sha256": "2d04000904fa3ce570ab69114baae53db8fa3d9a522cb8d5868fe0cba023381c"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template2.png",
+      "size_bytes": 120,
+      "sha256": "cfbf0a8e0796415842689d8fdb23897c60ac81e15b6a4166556cb4314431d15b"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template0.png",
+      "size_bytes": 96,
+      "sha256": "3dedc4019a2434a2aeb576a73aecb7eec3ce4185975ef36c9df28d3d131c48b2"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template1.png",
+      "size_bytes": 106,
+      "sha256": "36e9afa90d6394af7849c5b5df60e70a80a25181575ac6467eb4c69bcebb7fd4"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template9.png",
+      "size_bytes": 140,
+      "sha256": "9582a8f45423328c94bd0fab0ea2849b6829896548dfd981b935c6a9f19008e5"
+    },
+    {
+      "path": "DeepfakeBench/training/lib/component/MCT/template8.png",
+      "size_bytes": 114,
+      "sha256": "81c43095c771b53ce540e38142e70544e4aae03ba7cf8dfbf44d369302977c3b"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/ucf_detector.py",
+      "size_bytes": 17232,
+      "sha256": "f4523e43fb9658261e93a97d6dcff20d72867004ad9eb1c78e76f9b683195e49"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/sladd_detector.py",
+      "size_bytes": 12443,
+      "sha256": "58dc33327509898667ea510844948c7bf34d42835c705f6f3d4dc263277a4495"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/rfm_detector.py",
+      "size_bytes": 6104,
+      "sha256": "1c42450548a5fa4b0018922252b688b0dae88de17d65e1a61a8df3dced83551d"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/multi_attention_detector.py",
+      "size_bytes": 23286,
+      "sha256": "0af193acc2b3b84d96690ffe88e843601fca53cd708d1bd9881ab5fa5af2f3f3"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/lsda_detector.py",
+      "size_bytes": 22490,
+      "sha256": "8e2915350fe5733863d8ec78d4b0c1a96a3db5687b7d56f439e262fa0ca69e9f"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/base_detector.py",
+      "size_bytes": 1946,
+      "sha256": "45bd507c5bac3a7e78991420fe7b829c45e6413694cbe907f255cee76bcf9085"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/ftcn_detector.py",
+      "size_bytes": 16487,
+      "sha256": "84ce982b437b23dda325ce225cdf24da2a0413f99c32edde795332e3692e453c"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/recce_detector.py",
+      "size_bytes": 13838,
+      "sha256": "24211082fb109824c005ed278dbe545f737593f932383060008fc3ccb2eddf79"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/stil_detector.py",
+      "size_bytes": 29735,
+      "sha256": "751d9fecd194218952143a0d79cee822ff38b8a4f20fd94c968c770f43120f08"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/core_detector.py",
+      "size_bytes": 4499,
+      "sha256": "8d99f09b3a70c80e31e2def811879f2743f983480ef05916cbcde03df7ddf55b"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/timesformer_detector.py",
+      "size_bytes": 4008,
+      "sha256": "f652c303b620d884b930a8becfc06f28622a353a4c503263fcdd55ca3679488e"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/sia_detector.py",
+      "size_bytes": 11430,
+      "sha256": "2cb823409288ad33bc4d4ca65df7559bec09d71287da91cc71116df57658fc34"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/f3net_detector.py",
+      "size_bytes": 7525,
+      "sha256": "e5277c3bf219d568dc0eb9b1aeffa2ce9142baf08b46231332e4e9b1dd891702"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/altfreezing_detector.py",
+      "size_bytes": 7809,
+      "sha256": "20faf302c2304b60757376d5cef0243a8740a365f36c90590a62b871800d5df1"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/effort_detector.py",
+      "size_bytes": 12070,
+      "sha256": "cbd91d9f97caa86c9619ce8d92b15db32494c77e3c099e258012ac883653e7d5"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/__init__.py",
+      "size_bytes": 1904,
+      "sha256": "af0ad9d454414ee9360b7369bc8a46312c87916d726f5b5bce0f78bc4462f49e"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/meso4_detector.py",
+      "size_bytes": 3644,
+      "sha256": "b1c80e03a90284f0f4410b5e8afebadb677061b4ec206ea7af7cc1730b6c610e"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/efficientnetb4_detector.py",
+      "size_bytes": 3826,
+      "sha256": "943fe96b86ca218be5ad0b61e8418b55dce786e4a7d54d22c5140300909a96c5"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/xclip_detector.py",
+      "size_bytes": 4064,
+      "sha256": "96ea977031115f6e404999a09143e4c42cd8f0f786bbe685e96dfbdf254881cd"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/uia_vit_detector.py",
+      "size_bytes": 18713,
+      "sha256": "14297528968a52025e615dce8d2f8702ff30b9b7823b850715bc05db1bcadffd"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/lrl_detector.py",
+      "size_bytes": 12796,
+      "sha256": "1f54945e1a9ea93aa80e2d18ee3e368b311c7f36311bfb5b9ecce8bab4bde3d5"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/fwa_detector.py",
+      "size_bytes": 4019,
+      "sha256": "682b54f31e246a6ccb89164f4b2372c60d71e54174df02d4216617e3c754ff73"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/videomae_detector.py",
+      "size_bytes": 4336,
+      "sha256": "f651dbdd84c08196e4ec0d70602eac0e475af2182f34688417a840725948413e"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/capsule_net_detector.py",
+      "size_bytes": 9752,
+      "sha256": "93ea501157105a59e1335a0d6032a60983de69d70a9a8f5f4f38e9eff858418d"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/facexray_detector.py",
+      "size_bytes": 6071,
+      "sha256": "b6293ca53fac0ecbe003f49a8489415e8accf1e8c4850a25ca58dc16a2789fef"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/sbi_detector.py",
+      "size_bytes": 4186,
+      "sha256": "c5b41fdd50e58b03e4a319eb5ec52fd878b87ffa6e615b3d14bf63a5faa7f03c"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/srm_detector.py",
+      "size_bytes": 23943,
+      "sha256": "a1f4d964e22140ece38ea7e0ad6362a6f80a43833ce3ab36857d8b8669e90ac2"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/tall_detector.py",
+      "size_bytes": 37277,
+      "sha256": "1b4fd70134af09af06ca610b975e70e95e1092267c81c129b408c1b36011000a"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/sta_detector.py",
+      "size_bytes": 20436,
+      "sha256": "af66041d671f8ec838d5abeec2390fe2297a3aad198eb87f3e5961ea7ebfcdef"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/pcl_xception_detector.py",
+      "size_bytes": 10933,
+      "sha256": "0d40ad3996c871753b5006672b4625eeee3d161aededb1c9dfcba7fdbba36d9f"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/spsl_detector.py",
+      "size_bytes": 5912,
+      "sha256": "09385b2e309eb63fe4a4c6b7f1c4b3aa20b58df1bb8d9bcdc41cc1c73163a935"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/resnet34_detector.py",
+      "size_bytes": 4265,
+      "sha256": "19e804d1ce393c7ace6d55aed530dfeb090386fe517cbe6a571f825b8eb5fc16"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/clip_detector.py",
+      "size_bytes": 3996,
+      "sha256": "32a876160d96ca5762699417579218a7d93bf6499e84a6140497edea16fcfcb3"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/meso4Inception_detector.py",
+      "size_bytes": 3675,
+      "sha256": "c508f1be94826fd3191d2c46fed2fa76a08f197636b63ca38a67167950bdbf55"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/ffd_detector.py",
+      "size_bytes": 8258,
+      "sha256": "81e71c4aff49480cba91ecadbcd3408911362398cb5aab79ee03249ff9b50b97"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/i3d_detector.py",
+      "size_bytes": 5241,
+      "sha256": "1843aa85bb9ba53c939e917bfffda64620495783aa0de27311b9ca3f3e5f282f"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/iid_detector.py",
+      "size_bytes": 9049,
+      "sha256": "41258ca3c5b287cf97d2301705c56a963b92b00dbebbe96003bd313c2882f115"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/xception_detector.py",
+      "size_bytes": 4364,
+      "sha256": "c3d685c308c5d56a881bb7c38f7456db8d8c21755f65d5836d789563542e43b7"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/iid_api.py",
+      "size_bytes": 10872,
+      "sha256": "a0ca04e666135eafae5362bd6b57d9fc50f0995ceedffd437221e5ddfadca8db"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/lsad_api.py",
+      "size_bytes": 3419,
+      "sha256": "5c9a126fed575072705526d2469507ecdd89bd0e690eb1f4475dbee3ce91cc7b"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/sladd_api.py",
+      "size_bytes": 24556,
+      "sha256": "b0d966b54d846fae863ec7fb963a19aa4e97fcfb44decece3b4a20410725c84d"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/__init__.py",
+      "size_bytes": 407,
+      "sha256": "a28c1fed052dd5f02b1d8688ce0e8748d7110029c05033acfeb7c549030521ef"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/config/defaults(1).py",
+      "size_bytes": 26188,
+      "sha256": "f3a6ed41129a8dfc1a6a01e9d21684af512b52cecd2c62a21140fc4d7e7cc0a6"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/config/__init__.py",
+      "size_bytes": 95,
+      "sha256": "c308660c9bf24083ac82d0cb29c395cc6c824d2a17f04e92e9ff4fb67021dba4"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/config/defaults.py",
+      "size_bytes": 26188,
+      "sha256": "f3a6ed41129a8dfc1a6a01e9d21684af512b52cecd2c62a21140fc4d7e7cc0a6"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/config/custom_config.py",
+      "size_bytes": 217,
+      "sha256": "1773a8f6c26611a482b2213019097d901f946d913465109f7c193271be51c135"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/logging.py",
+      "size_bytes": 2589,
+      "sha256": "014c8879274d1781a2b1d2b36db78a94af0e0f704b02695e88ad837b2fab95ef"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/metrics.py",
+      "size_bytes": 2404,
+      "sha256": "9a4ca8e984f275303ac0b256ae20e19e57cc4ddd421ef0d196f494603bc33d09"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/misc.py",
+      "size_bytes": 11740,
+      "sha256": "bb3775c9b4a0c94ea942cb64be5158df915c2dba874f7e1dae4145ada71df198"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/ava_eval_helper.py",
+      "size_bytes": 9877,
+      "sha256": "b072838a6bb5d3d3039dc956b522562eeb45e51adad5f390f3cf3feac110b6ff"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/meters.py",
+      "size_bytes": 27377,
+      "sha256": "10345215cfe33c77ee8d9e24e17f0352ddd60ee966240f26f0fc74dfbd7e45d1"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/env.py",
+      "size_bytes": 309,
+      "sha256": "0808d89f80e703f639c96a5cdf85250ea539c3eb509a2fe9c396420a6b90aaec"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/benchmark.py",
+      "size_bytes": 3290,
+      "sha256": "56c45a4e17c52a1771123542da05d209c677900b7753d7efa6927995fba72049"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/checkpoint.py",
+      "size_bytes": 19180,
+      "sha256": "dbfe3a43de79646c2e0e86dbc80f6e43dfd4d16129acce7a02d7e019e3ac782e"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/lr_policy.py",
+      "size_bytes": 3258,
+      "sha256": "e87f391a768440762e149ab663104b24f1c0ece18f63e968210154f661f068d1"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/c2_model_loading.py",
+      "size_bytes": 4656,
+      "sha256": "cba38c28e82f1d32f2ef98478528196f3acd0856aa27de575727dddbcd610074"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/weight_init_helper.py",
+      "size_bytes": 1524,
+      "sha256": "b33f753a04d4172f9cfbca710a81fec5b70674d47b1b27ec88481e4f319e2421"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/__init__.py",
+      "size_bytes": 95,
+      "sha256": "c308660c9bf24083ac82d0cb29c395cc6c824d2a17f04e92e9ff4fb67021dba4"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/parser.py",
+      "size_bytes": 3025,
+      "sha256": "9f4aa931ca9c85c02ec32639ea86d6bc6b7cf680494fbdde64b16885023acbf9"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/distributed.py",
+      "size_bytes": 8673,
+      "sha256": "8857dcb319bdff24e9ee916ee27fd602e0398fc597d91cd025aa8167a526b144"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/bn_helper.py",
+      "size_bytes": 2858,
+      "sha256": "ddd28ac9c35df26ea97bca7b5fa3b43ba17e565f6377e63f2f78b3316bd5f352"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/multigrid.py",
+      "size_bytes": 8754,
+      "sha256": "0b0508cdb94af388a8343777800011518c32183b4809447b436a0720fe7b2c12"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/utils/multiprocessing.py",
+      "size_bytes": 1857,
+      "sha256": "e21cc5f46b8d5ba5744e31686afdb34a675e7f92ac161a86dc0d15653b065600"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/build.py",
+      "size_bytes": 1753,
+      "sha256": "991ac96e42c007ddbfdcf54397fa99e34d88c4cd3be24bb0246d9cf26d7e1ea3"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/resnet_helper.py",
+      "size_bytes": 22117,
+      "sha256": "a6857967022bc59f0df0279c8e6ad9c820b8f1c85ac93725f54e52caa28554ef"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/batchnorm_helper.py",
+      "size_bytes": 7424,
+      "sha256": "99b344c3fd49c59904085cdae914a71ca782d8ac3556746bdace35d254c16d69"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/__init__.py",
+      "size_bytes": 258,
+      "sha256": "43d99b807c095a9d6d46a44f0f39f36549bbc3c2b32876065252b30b2eaa5c4a"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/custom_video_model_builder.py",
+      "size_bytes": 133,
+      "sha256": "8648950cfc1bae5dec65c7f894031c34dd94791020793a21fb9c3b1c59c9490e"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/head_helper.py",
+      "size_bytes": 3580,
+      "sha256": "8bb3f0d62cc51152f92ad7b1a8da4e7ebca724e9770fae9851596850c6a4a61f"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/video_model_builder.py",
+      "size_bytes": 103192,
+      "sha256": "d6fcbaa03ac09814b4f0c42991204bd1ff937af9c314fa120d6442d06e50f7e3"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/stem_helper.py",
+      "size_bytes": 6292,
+      "sha256": "ce19deb70129394e9c9abd285ba2eae343e81bbf141140dda9bd297a516b4160"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/nonlocal_helper.py",
+      "size_bytes": 5418,
+      "sha256": "bdba7589d3ef50880736ba52001a0c99990255941915d970ab5ffc51ea1bd382"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/optimizer.py",
+      "size_bytes": 3565,
+      "sha256": "c398317a6cce75a94f567d8b07c57816ae6085b6d055e7d9753c79505311bdd5"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/losses.py",
+      "size_bytes": 565,
+      "sha256": "579535dbb18869595c271f7e4cca49c9e640eaccc905e09368031a7707c1a93d"
+    },
+    {
+      "path": "DeepfakeBench/training/detectors/utils/slowfast/models/unet_helper.py",
+      "size_bytes": 3974,
+      "sha256": "648c6e190ff317c6e2bd0c5b67090959853b6c2137a9617d085b605682e4c9b6"
+    },
+    {
+      "path": "DeepfakeBench/training/pretrained/readme.md",
+      "size_bytes": 32,
+      "sha256": "68b38307844333e2ee7f9235de67f76e5177021b5bb879d2d75300effce17faf"
+    },
+    {
+      "path": "DeepfakeBench/training/trainer/base_trainer.py",
+      "size_bytes": 1115,
+      "sha256": "3434de6d2e5c2314567c029bbf2fe03a54c06092e7f2f69abaf93f74a61a72b0"
+    },
+    {
+      "path": "DeepfakeBench/training/trainer/__init__.py",
+      "size_bytes": 278,
+      "sha256": "550975229881c601d9baabc4228ed09e0f615d3979e71f7fd8dd07a57db63ba3"
+    },
+    {
+      "path": "DeepfakeBench/training/trainer/trainer.py",
+      "size_bytes": 20283,
+      "sha256": "d06d54331242b055b0654ae22e2333436ec0ec802eae7d69caa8a844145cc194"
+    },
+    {
+      "path": "DeepfakeBench/datasets/readme.md",
+      "size_bytes": 23,
+      "sha256": "4c4d963f87e7766a681e33989cb9c9e927895c690ebd0ca3587323bec71daf74"
+    },
+    {
+      "path": "DeepfakeBench/figures/archi.png",
+      "size_bytes": 480439,
+      "sha256": "efe83b6327f2efcb20c4b2fcf9f7752378394c86a56781155a372aab15fa5396"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/preprocess.py",
+      "size_bytes": 19516,
+      "sha256": "d85eae2ee2e3e6d05d1393e5d3f837333446539e2c728e0d67f456928770d4d5"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/dataset2lmdb_test.py",
+      "size_bytes": 3302,
+      "sha256": "8a99878d7fd1f7d70f96bc2349f558f341d20133cab78ddb80a646de5c922b11"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/config.yaml",
+      "size_bytes": 2450,
+      "sha256": "8cfc20af8fc52ba4f1d4a6020c326b3456581ca1fd8300c61f081580344596ca"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/rearrange.py",
+      "size_bytes": 29641,
+      "sha256": "4a631f07273b978121e865d9f89cc1fe572ad085ce248bcdf7de6b7a93417f9e"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/dlib_tools/readme.md",
+      "size_bytes": 32,
+      "sha256": "50a91ab4bf6e69c8b0cffcd554af9996b95b4ac102f2b9a60a45ad840cf2b2f2"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/dataset_json/readme.md",
+      "size_bytes": 32,
+      "sha256": "25dd1c35fabc11d089dcc406f10d09ab211c3134c748c2d68fd39f1d157cb239"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/dataset_json/.gitignore",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "DeepfakeBench/preprocessing/logs/readme.md",
+      "size_bytes": 59,
+      "sha256": "4d14a6e5b182aece48e379a717bc79351b0f8f8b71760f5199bf3bf88a1a1ab6"
+    },
+    {
+      "path": ".gemini/rules/forensic_research_rules.md",
+      "size_bytes": 3204,
+      "sha256": "62b4c8c8e5e934c74b051efaa13ab6138b6108ccc971eceea4b41d196eca499e"
+    },
+    {
+      "path": "investigations/README.md",
+      "size_bytes": 294,
+      "sha256": "ad9ee020484457308f2861b72a3969d35d728113dc4a5c1505cf037f214ab9ff"
+    },
+    {
+      "path": "investigations/2021-12-16_cytrox/domains.txt",
+      "size_bytes": 4913,
+      "sha256": "c230fdf2d279d437931008a2ada94e1515aa212aa9f7fe16df5b6ca952315739"
+    },
+    {
+      "path": "investigations/2021-12-16_cytrox/README.md",
+      "size_bytes": 1346,
+      "sha256": "4c085486cada072f85f0a136f5a444ef505e0bd0e54679aa77a40741c341608f"
+    },
+    {
+      "path": "investigations/2021-12-16_cytrox/generate_stix.py",
+      "size_bytes": 1512,
+      "sha256": "6616306370fe96ba341a16ef44a7a97a60639c1453d6cc0a32f8edce5bc29e53"
+    },
+    {
+      "path": "investigations/2021-12-16_cytrox/file_paths.txt",
+      "size_bytes": 173,
+      "sha256": "ea3968cd9d1ff2b03bef993af62157176ac0eb9e0fa91f8db4e318bb72ca1656"
+    },
+    {
+      "path": "investigations/2021-12-16_cytrox/cytrox.stix2",
+      "size_bytes": 348375,
+      "sha256": "6fe92193d9e17c21a16eb7abe93a418a2e40c0176dcb56fb30539f84136391bb"
+    },
+    {
+      "path": "investigations/2021-12-16_cytrox/config_profiles.txt",
+      "size_bytes": 37,
+      "sha256": "d6b1c39948ba7f4093c61a7d9d468172b4381af68e67fa0a9a89e8a2dff084c4"
+    },
+    {
+      "path": "investigations/2018-12-19_best_practice/domains.txt",
+      "size_bytes": 4320,
+      "sha256": "d058acf786f31fcf57c423ec6f60cb1f128418485c733336bdbab2025194fd73"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/sha256.txt",
+      "size_bytes": 259,
+      "sha256": "4396e642e0a8f8649ec6f3a6a69f4761d2337e440c9793bf5e77ef5be966a599"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/domains.txt",
+      "size_bytes": 104,
+      "sha256": "573c7666ebed3f795f7a1e21aa050ff7d2feda5d5e56ecc1d3871e8d9e6066f9"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/README.md",
+      "size_bytes": 1555,
+      "sha256": "2008a17ca8f327bb1b5f84e4f777715abd281300beddc1ab0970a956e6c3066a"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/generate_stix.py",
+      "size_bytes": 2754,
+      "sha256": "b9349f4e32dc6d13339ba6193c85d405d464d4cb717ad7484e2d42b3f948468f"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/package_names.txt",
+      "size_bytes": 73,
+      "sha256": "0a4e50629e2015ec7efa381656420a4ee0dbfcebfa991b04376de0fc7f9b1223"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/novispy.stix2",
+      "size_bytes": 19068,
+      "sha256": "02bfceea5a2c32b159f11569736448398e35e7f0fc7d137385b943ec60697360"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/package_cert_hashes.txt",
+      "size_bytes": 194,
+      "sha256": "5dbc8600b8df295dcd84b2742f856c14e74cd022743f2a6850b52673cb3d974c"
+    },
+    {
+      "path": "investigations/2024-12-16_serbia_novispy/novispy.yara",
+      "size_bytes": 5873,
+      "sha256": "410b49850892a1781326cd6fe6d387ee341a7f28ac83e020f5062d8d00a331e8"
+    },
+    {
+      "path": "investigations/2021-10-07_donot/sha256.txt",
+      "size_bytes": 14820,
+      "sha256": "3ad279565f2e77f7680239e39df2d6643ae9e62c42bf2213f0d212bd4018285e"
+    },
+    {
+      "path": "investigations/2021-10-07_donot/domains.txt",
+      "size_bytes": 498,
+      "sha256": "699932857dbe4ede1e48375e894ec03073e15f67b41a9413f5deb92ce46952ac"
+    },
+    {
+      "path": "investigations/2021-10-07_donot/README.md",
+      "size_bytes": 419,
+      "sha256": "cc7969e5971f7fea068c63a72a8523a64deee9df2b575644d8d34693ae09dc75"
+    },
+    {
+      "path": "investigations/2019-10-10_nso_morocco/domains.txt",
+      "size_bytes": 157,
+      "sha256": "29c183256cee9c04147e09bd50d29094f85a8b40dec500aa00ffcf02b368f63e"
+    },
+    {
+      "path": "investigations/2020-06-15_india/sha256.txt",
+      "size_bytes": 780,
+      "sha256": "0f0184cfb231b29e79017ef1f8f9515629a5a16e85a525a5b070f7b1432446ca"
+    },
+    {
+      "path": "investigations/2020-06-15_india/domains.txt",
+      "size_bytes": 78,
+      "sha256": "2a7906ff22d5e43a3162a02f5644240cca25c67647626c4af3b9fa766e5f94b9"
+    },
+    {
+      "path": "investigations/2020-06-15_india/README.md",
+      "size_bytes": 304,
+      "sha256": "09a04a0290cf6f07c3ad2e3c82108e57dcd6ab0fdcae9d6f505541e7a6e08526"
+    },
+    {
+      "path": "investigations/2020-06-15_india/emails.txt",
+      "size_bytes": 132,
+      "sha256": "c55e181d455740cb18b829921fced9a992e4e23a5dd6e403aee8cd9205ae93cc"
+    },
+    {
+      "path": "investigations/2020-06-15_india/ips.txt",
+      "size_bytes": 72,
+      "sha256": "f0d80e9aa0b92bf980ecac77a475efa21b0b9b5828c99b8b3de28a3f2aeb5bb0"
+    },
+    {
+      "path": "investigations/2018-08-01_nso/indicators.csv",
+      "size_bytes": 21768,
+      "sha256": "4e450de9219a6cb9a6888c352abb5e8b62fa33ebadd70238e5f69a5a08329579"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/files.txt",
+      "size_bytes": 19,
+      "sha256": "15107ef6807cdfd2ea7f3b938d8944e126501e1b0598095d357fa05d987f8a11"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/v3_domains.txt",
+      "size_bytes": 10750,
+      "sha256": "a6798a472a38cd3aba7e72c9a88b8cc9239b1fd81c076d72c3955db9a1a4097e"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/pegasus.stix2",
+      "size_bytes": 1138053,
+      "sha256": "df1bcaa78abc7b85781b1ebc2daa3cc225371e2024d9ef96e84f80f927256586"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/domains.txt",
+      "size_bytes": 25176,
+      "sha256": "780f16136724fbd6f6b1029aed545be7ff84ef4baa4a3238be5acf158f1c48ca"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/README.md",
+      "size_bytes": 1904,
+      "sha256": "4f52b14b02600d16fcd8842762c27f4f6c1cb57089e70db8d8ec9cebaeaf2ed0"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/generate_stix.py",
+      "size_bytes": 1803,
+      "sha256": "5e58c0d9f31c47b2d8f490df03ad5e1643513b1ed79620d673df7ef3a7280ca5"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/v2_domains.txt",
+      "size_bytes": 1625,
+      "sha256": "b34d0c3a2343198b906a274b43ff84f77faa392c9e0e09a27990bbe7a2963140"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/processes.txt",
+      "size_bytes": 875,
+      "sha256": "d34cc8448314f4af67c72c1d660d455a93059301bfc65adacec48b3e814b21ca"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/emails.txt",
+      "size_bytes": 711,
+      "sha256": "3a35612e2c147951189181f338e6463f4747e2126efb91a8477a8ebe7e67982f"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/v4_validation_domains.txt",
+      "size_bytes": 450,
+      "sha256": "ffdb7d1c090d01a034e392c17317b02efda50956956a2d58ac6f3d49898ccf19"
+    },
+    {
+      "path": "investigations/2021-07-18_nso/v4_domains.txt",
+      "size_bytes": 12071,
+      "sha256": "1a1726f5224aad7c7e9545eb1c7e38233d37af9b98819612d9f66eb936a580cb"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/domains.txt",
+      "size_bytes": 112,
+      "sha256": "cc5d59d5f868984bae06df93989d95f49670d808dafbbefadd4bc0df0573b6de"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/README.md",
+      "size_bytes": 1259,
+      "sha256": "2a09899f96628b67891c00b34f3abd082d4fddfc3caa99f019635933818c8a11"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/sha256.csv",
+      "size_bytes": 1071,
+      "sha256": "86d2eb4df9d1e9e155ae29bf709d370803e88247f98bc408848815efa700986e"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/ips.txt",
+      "size_bytes": 88,
+      "sha256": "488dded8199f58dbf49e84d0386a97a4405d42ebfa33db061266e5af5b47acba"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/android_tlv_list.csv",
+      "size_bytes": 56772,
+      "sha256": "483fc883d04a2f12d30d075612f2c7c675789de287f0fdab93116d2229a314f7"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/rules.yar",
+      "size_bytes": 5961,
+      "sha256": "51f6794256fb72978337de74119ec93706df70e682dc1a6c44d02b5034c39b24"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/decode_modules.py",
+      "size_bytes": 1598,
+      "sha256": "e068ef5a42a4227f24ba91b8c845794241ca8482b3de6ef2b48e2611ca5bfe79"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/_aplib.so",
+      "size_bytes": 8286,
+      "sha256": "3eeb3198fa51f3d3ea21f157ed19d109fe813ef1514a46fad7cf99e8701e64a4"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/read_config.py",
+      "size_bytes": 37652,
+      "sha256": "28747e102e611221244f29851ea685d9b1e3dfb4656eb03e614f79a74976da36"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/cobaltstrike/cobaltstrike_decode.py",
+      "size_bytes": 1287,
+      "sha256": "2272484869d91e425043a205ac48a7ba9e543074771fcfbc7c1ec7c55539278c"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/cobaltstrike/cobaltstrike_config.py",
+      "size_bytes": 3252,
+      "sha256": "871233bedefde3fc12bb9c1e44ab31ec8e66ea3187a50eae7f48af5634b6de48"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/linux/extract_config.py",
+      "size_bytes": 1193,
+      "sha256": "48ac276d96a92d3c7f29ad159348584f48d40c9e8fd25a756e75e0e317b1a7f3"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/android/readable_strings",
+      "size_bytes": 131142,
+      "sha256": "a488b4fa998b4fda206c268b5705cd699a694b3e795b1e899e0f9695946e9bab"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/android/strings_db.tpl",
+      "size_bytes": 317,
+      "sha256": "792674b635afb7edd591c4c858678b7033afe4e59502c1a3a391f3eeae9db1e9"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/android/requirements.txt",
+      "size_bytes": 72,
+      "sha256": "f9c924dd39b1122f9c06f0fcb84e624889f750c1d22c3c0bc04fed956b56580a"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/android/java_parser.py",
+      "size_bytes": 2436,
+      "sha256": "d186bf11773ff89f9175e574abcf33a9646f6d5d8f9ecd6a6a2ccf9e73485a54"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/android/string_decoder.py",
+      "size_bytes": 2365,
+      "sha256": "e0b2d4b72e8c0060ab2f411bca5c57deb1b2ba247485591f4fdc11ec69f7e9c5"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/android/extract_config.py",
+      "size_bytes": 3688,
+      "sha256": "aee99d6eb534930b3dfd31980919eba773f49bd1d24b297e9aa99a7ed573b821"
+    },
+    {
+      "path": "investigations/2020-09-25_finfisher/scripts/android/strings.py",
+      "size_bytes": 211922,
+      "sha256": "b17a572ca319f0103cbd4cd44d0c096b38c441f05851b07a625e5e6e07a48ae0"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/README.md",
+      "size_bytes": 13300,
+      "sha256": "509fd8e74cd19c30d2600b35cf285dbc12a3e0a0b7c843f8ff5d33bd40c3b736"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/indicators/sha256.txt",
+      "size_bytes": 975,
+      "sha256": "4fb172ca7bd0d15223b9d3804a7c78ff6679e0bbeef3e3ae5ca1f0e9e69a2c46"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/indicators/domains.txt",
+      "size_bytes": 205,
+      "sha256": "721d20afc87bbe58793e0153e82d34432fdf9cc15037232866a7cb54585f023c"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/indicators/README.md",
+      "size_bytes": 417,
+      "sha256": "658e4a299cda6cd18059053e68b3946c9509bfc9f0a0dabbeedf3c5894e9f466"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/indicators/ips.txt",
+      "size_bytes": 87,
+      "sha256": "edf9e6522be73652f7f301529c21ee9568fcb4869cc12550b15de9c4de30947f"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/indicators/rules.yar",
+      "size_bytes": 2010,
+      "sha256": "c1dda77df9e5664a3cee885355c3377070cd0d44e003f80a491f7ed494351845"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/img/2.png",
+      "size_bytes": 72479,
+      "sha256": "764f0c8780a13350d1cb0d9deee0f4d3ff20d2ddbf40bdc05d4affc7e39cd171"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/img/3.png",
+      "size_bytes": 61773,
+      "sha256": "aa30105f345098a1f20e575f4f1ddf120f7b6ce933bb111d6b3be1f7c135fb91"
+    },
+    {
+      "path": "investigations/2021-02-24_vietnam/img/1.png",
+      "size_bytes": 63161,
+      "sha256": "5bbdc72b40977fdc9d357260bddf1c5c9f007689f83293d7c12548dfb61fe8fb"
+    },
+    {
+      "path": "investigations/2021-05-28_qatar/tweet.png",
+      "size_bytes": 267096,
+      "sha256": "2f5d47bca67e7e88f8c42f854dfd2f712625ee624670ff74ae963ca6aa7fe06b"
+    },
+    {
+      "path": "investigations/2021-05-28_qatar/domains.txt",
+      "size_bytes": 34,
+      "sha256": "c383a427d496d27171905f49360acd743b2e364ed0d2b8aa332503080952a612"
+    },
+    {
+      "path": "investigations/2021-05-28_qatar/README.md",
+      "size_bytes": 3750,
+      "sha256": "6fe798b2060b7a1f7da85cb2f33774ad1bbd469a15e76e3a1555530011ca59c3"
+    },
+    {
+      "path": "investigations/2021-05-28_qatar/youltube.png",
+      "size_bytes": 1679999,
+      "sha256": "92bf9c5e873e3cb5f13c62974ae77e5b712aab7b0476e4950c6dfe3d3f8fe9d3"
+    },
+    {
+      "path": "investigations/2021-05-28_qatar/ips.txt",
+      "size_bytes": 47,
+      "sha256": "4a340ed785f2700fbb3344b2177c6abb93f7ac317037747e27bfbb79fa64e3ef"
+    },
+    {
+      "path": "investigations/2019-03-06_egypt_oauth/domains.txt",
+      "size_bytes": 585,
+      "sha256": "ee56cb3599f4510a32739428c2f3cb2e6ee9316b2e717677c30ffb0c8d95500c"
+    },
+    {
+      "path": "investigations/2019-03-06_egypt_oauth/emails.txt",
+      "size_bytes": 191,
+      "sha256": "179eb4203405a7426728beb593da3ce0fe154979658690aec6c34c83ba45118c"
+    },
+    {
+      "path": "investigations/2020-03-12_uzbekistan/domains.txt",
+      "size_bytes": 1197,
+      "sha256": "c4c4e5541d18896aeca417697c1eda3862f23b0c102106fcaadb631cb2bbbbc5"
+    },
+    {
+      "path": "investigations/2020-03-12_uzbekistan/ips.txt",
+      "size_bytes": 310,
+      "sha256": "e66d689a116f00c3d8b11125579976246a784f40b0dde503fffaf9184ec5104c"
+    },
+    {
+      "path": "investigations/2020-03-12_uzbekistan/samples.txt",
+      "size_bytes": 195,
+      "sha256": "28950598928593e561518227d1d5c290055f5d772c3725631ecde5dcbadb747b"
+    },
+    {
+      "path": "investigations/2024-05-02_wintego_helios/wintego_helios.stix2",
+      "size_bytes": 178614,
+      "sha256": "d0d546c388207e8a162eb3901259ee20c0ddd03efeff145d3cc9b3a0a02a5419"
+    },
+    {
+      "path": "investigations/2024-05-02_wintego_helios/domains.txt",
+      "size_bytes": 2765,
+      "sha256": "05fdac3247b0f5962e7262fa95890f1899fd9907055c9ac2732ac6244b338bb6"
+    },
+    {
+      "path": "investigations/2024-05-02_wintego_helios/README.md",
+      "size_bytes": 1311,
+      "sha256": "a6bc3ee5bf35906ac44be66c7946d5079f8c6ec6ce6a7e469f5556a7c6c71498"
+    },
+    {
+      "path": "investigations/2024-05-02_wintego_helios/generate_stix.py",
+      "size_bytes": 883,
+      "sha256": "3cc887ef70a3afc0fcb7965a54efa0fc2ac64905d97d0cd20cf20d1c956d81f7"
+    },
+    {
+      "path": "investigations/2019-08-16_evolving_phishing/domains.txt",
+      "size_bytes": 58,
+      "sha256": "bfd208d6f24e42308dd2d5832b01e1f2a477795e1c6dbef0cf6099e998f40439"
+    },
+    {
+      "path": "investigations/2019-08-16_evolving_phishing/emails.txt",
+      "size_bytes": 397,
+      "sha256": "7f85c2521ceb008fdffe1f38fc04b4e581d92203ae75a8dfae30e428e8dbde7e"
+    },
+    {
+      "path": "investigations/2023-03-29_android_campaign/malware.stix2",
+      "size_bytes": 2226365,
+      "sha256": "28da50042006281d56c17dff08f06bba3ba310bc18cc23040780850131b2efdb"
+    },
+    {
+      "path": "investigations/2023-03-29_android_campaign/android_properties.txt",
+      "size_bytes": 45,
+      "sha256": "9dae1f2fb62355b2557ae46f9b11dc62a3237355b30777dd746be3590d2b8bd9"
+    },
+    {
+      "path": "investigations/2023-03-29_android_campaign/domains.txt",
+      "size_bytes": 40138,
+      "sha256": "0d70787520147111803731c4a32661bb715b6b6f3541fee4983c0acac15b035a"
+    },
+    {
+      "path": "investigations/2023-03-29_android_campaign/README.md",
+      "size_bytes": 298,
+      "sha256": "c18da8fe91ef30f8ae9ef787568552d422360bf7f3e43c98e11129735e3a1bc2"
+    },
+    {
+      "path": "investigations/2023-03-29_android_campaign/generate_stix.py",
+      "size_bytes": 1561,
+      "sha256": "c671d4f7418ff17332aebe4146d78bc808d3ae837ce598806e9777fc311175a9"
+    },
+    {
+      "path": "investigations/2023-03-29_android_campaign/file_paths.txt",
+      "size_bytes": 24,
+      "sha256": "799b54bc3577cf11a1fb1dfe11cb2371d0d7a012df671139299b486f6aa0d915"
+    },
+    {
+      "path": "tools/deepfake_signature_validator.py",
+      "size_bytes": 4533,
+      "sha256": "6125c08cebd2ce4fc3ae00766c779ce957ddfb3fee5cce6020f41aa80c69394b"
+    },
+    {
+      "path": "tools/stakeholder_actor_mapper.py",
+      "size_bytes": 5082,
+      "sha256": "de7dea376b963fd6c72b021f70678dc7eca2a457f6aebbf1702997c4367250e0"
+    },
+    {
+      "path": "tools/mobile_spyware_forensic_comparator.py",
+      "size_bytes": 8433,
+      "sha256": "64bcbb8b497832293dcb5b618ec0676e3afd29f1050af559b066708899dee0f9"
+    },
+    {
+      "path": "tools/osint_artifact_manager.py",
+      "size_bytes": 12380,
+      "sha256": "96002a1519a70ddc02952bbbec57fe47600db49ceba717584e3eab920c16e3da"
+    },
+    {
+      "path": "tools/generate_corpus_and_charts.py",
+      "size_bytes": 7703,
+      "sha256": "9e87fe4bf1d9d6cc537c02c10565da0387c45959b5edac7251102719f4114b9b"
+    },
+    {
+      "path": "tools/social_media_sn_simulator.py",
+      "size_bytes": 6193,
+      "sha256": "e94850586a773e68665686d0a9880ac0802da55aa9b19a3213c153243a77ddf1"
+    },
+    {
+      "path": "tools/hash_chain_verifier.py",
+      "size_bytes": 5935,
+      "sha256": "a01e5a45c1105f134a8eae5cb84452752e89dce98cc45a6410b022043f264518"
+    },
+    {
+      "path": "tools/sec_edgar_10k_scanner.py",
+      "size_bytes": 5496,
+      "sha256": "f3c1920800eb45c8120ec753335f803dc88d261bd2ccc2f2c5bcf8e810c2df44"
+    },
+    {
+      "path": "tools/tiered_truth_classifier.py",
+      "size_bytes": 10105,
+      "sha256": "6b45cc6a883ca923b3905e4241e8f339b2694ddf3ab4a8626766632d3e3db50e"
+    },
+    {
+      "path": "tools/sna_centrality_analyzer.py",
+      "size_bytes": 11399,
+      "sha256": "ad727a900ca5655b56b625ab41236fba594cd85e812f50cb27194176dbdbf37a"
+    },
+    {
+      "path": "tools/event_study_analyzer.py",
+      "size_bytes": 4835,
+      "sha256": "7259d56614a5abb0b67c868db7c26cbc2dbb4449bf2d8be4ebfe17c679276dba"
+    },
+    {
+      "path": "tools/ela_exif_forensic_analyzer.py",
+      "size_bytes": 7908,
+      "sha256": "09c5a91d5270725b0f17768cfa34646f75314a983b71195bebce4e09bec96930"
+    },
+    {
+      "path": "nvidia/MANUSCRIPT_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "size_bytes": 26605,
+      "sha256": "5f9c3e06f4dc850339cf3f07d997fe3937d73d0b7146d9358f2cd291815f3f70"
+    },
+    {
+      "path": "nvidia/requirements.txt",
+      "size_bytes": 126,
+      "sha256": "195f21a041bb45ef665280ba3e5dec78f8f9726ca0b07598e44fa9daacf03437"
+    },
+    {
+      "path": "nvidia/references.bib",
+      "size_bytes": 2255,
+      "sha256": "aaac936bce5716ba0d50c0cab36c822ddd5fbf73bc3f8636812c1739ad307fbd"
+    },
+    {
+      "path": "nvidia/Dockerfile",
+      "size_bytes": 903,
+      "sha256": "67dfb54341fc3c54f98822818904a0eeaf6ac8c12b674e86b6a88842bccdfd6f"
+    },
+    {
+      "path": "nvidia/CITATION.cff",
+      "size_bytes": 1487,
+      "sha256": "f53611e21fb99f814340b87a8e5578ddbe81758d681a77b27b4eab8b2bf53121"
+    },
+    {
+      "path": "nvidia/PRD_MULTI_MODAL_FORENSICS_VERIFIKASI_KLAIM_JENSEN_HUANG.md",
+      "size_bytes": 20170,
+      "sha256": "a32dd738e6c5ca31080c79772e26ecbaad498b50d815bac8d09a55ce2cb92b2b"
+    },
+    {
+      "path": "nvidia/PRD_CYBER_PHYSICAL_BEHAVIORAL_FORENSICS.md",
+      "size_bytes": 23613,
+      "sha256": "e402a7b7ed9a96c7d5f709420e6ebc82e9f43db237c4300f909d56ff79282521"
+    },
+    {
+      "path": "nvidia/PRD_BEHAVIORAL_DIGITAL_FORENSICS_LAYER8_NVIDIA.md",
+      "size_bytes": 27490,
+      "sha256": "dcfc770e92c19d7a8c563d4668809a95d442964bd22af7b219066d48c722aebb"
+    },
+    {
+      "path": "nvidia/streamlit_app.py",
+      "size_bytes": 19626,
+      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c"
+    },
+    {
+      "path": "nvidia/PRESENTASI_HASIL_RISET_FORENSIK.md",
+      "size_bytes": 7833,
+      "sha256": "0ffbc24c48e1218f380017089a0e2acd8c9ec38919aacf2bdd637bc53ade4602"
+    },
+    {
+      "path": "nvidia/berita_skandal_jensen_huang.csv",
+      "size_bytes": 45141,
+      "sha256": "5c6710b99ed1954d637ca5939f08de26018821a912d8dc1e5d7cd756bbd2ff7d"
+    },
+    {
+      "path": "nvidia/LAPORAN_HASIL_INVESTIGASI_FORENSIK.md",
+      "size_bytes": 10955,
+      "sha256": "217ee4a8999fc46c7f40bb19929d29761f0de59bf2ae11729534e6f81ec5ef09"
+    },
+    {
+      "path": "nvidia/README.md",
+      "size_bytes": 6304,
+      "sha256": "e17fbc4ef1dc4195ec31d9f6254162ebbff2c204b80e20a0e06482858601cc10"
+    },
+    {
+      "path": "nvidia/evidence_ledger.json",
+      "size_bytes": 16836,
+      "sha256": "bb29dd077774bcc86b094671c3233266e102f65384c9946463c408f55f4fa2cd"
+    },
+    {
+      "path": "nvidia/manuscript.tex",
+      "size_bytes": 9027,
+      "sha256": "f50e733567d4aacb1a4697a683af381385609c96f73f177183f48c2a7ea3053f"
+    },
+    {
+      "path": "nvidia/kumpulkan_berita.py",
+      "size_bytes": 9196,
+      "sha256": "fb624bd537f402dd525abd811a4cb8e9315d141dc60092ab4dd3303559a849ff"
+    },
+    {
+      "path": "nvidia/.gitignore",
+      "size_bytes": 282,
+      "sha256": "1ec6f3f031788746d4936e06cf0d06cdd09609a3089e02b3b11ae832ca317414"
+    },
+    {
+      "path": "nvidia/analisis_berita.py",
+      "size_bytes": 9096,
+      "sha256": "45e7b7a12b7e92c687196b9dc576f355dff4308493cf40630e2465eeedc11196"
+    },
+    {
+      "path": "nvidia/app.py",
+      "size_bytes": 19626,
+      "sha256": "a51dfce807e47fcc711ff4d4c1ae123ea7e952a4d49a9313e4d6ff8090d1845c"
+    },
+    {
+      "path": "nvidia/nvidia-historical-stock-data.zip",
+      "size_bytes": 721137,
+      "sha256": "907b6494e17dbe3a1fd3fa027104d1d23a25cf4b6209746957cbb5a4d9e82df3"
+    },
+    {
+      "path": "nvidia/docker-compose.yml",
+      "size_bytes": 261,
+      "sha256": "8b6dc799e95bab22534d4be8ea30596cb89247d45d1c8b1cc13e6e2382be544d"
+    },
+    {
+      "path": "nvidia/pipeline_run_all.py",
+      "size_bytes": 4025,
+      "sha256": "aaaf1669573d50dfbc6994f4e308c09ee2f8aa61f4a091a4d16f63ccfcf3dc08"
+    },
+    {
+      "path": "nvidia/nvda_skandal.csv",
+      "size_bytes": 3322,
+      "sha256": "d3a030692dc6e218db0a05dd83eddb038aa28b217bdbcec8fc67c06cf90c3dd3"
+    },
+    {
+      "path": "nvidia/SOP_PENANGANAN_INSIDEN_LAYER8_DEEPFAKE.md",
+      "size_bytes": 4660,
+      "sha256": "14d6ed91cae8ed9ec6cedbd89db65a272c5fc7cdd16d74fd53670740700a63ec"
+    },
+    {
+      "path": "nvidia/.gemini/rules/forensic_research_rules.md",
+      "size_bytes": 3204,
+      "sha256": "62b4c8c8e5e934c74b051efaa13ab6138b6108ccc971eceea4b41d196eca499e"
+    },
+    {
+      "path": "nvidia/tools/stakeholder_actor_mapper.py",
+      "size_bytes": 5082,
+      "sha256": "de7dea376b963fd6c72b021f70678dc7eca2a457f6aebbf1702997c4367250e0"
+    },
+    {
+      "path": "nvidia/tools/mobile_spyware_forensic_comparator.py",
+      "size_bytes": 8433,
+      "sha256": "64bcbb8b497832293dcb5b618ec0676e3afd29f1050af559b066708899dee0f9"
+    },
+    {
+      "path": "nvidia/tools/osint_artifact_manager.py",
+      "size_bytes": 12380,
+      "sha256": "96002a1519a70ddc02952bbbec57fe47600db49ceba717584e3eab920c16e3da"
+    },
+    {
+      "path": "nvidia/tools/generate_corpus_and_charts.py",
+      "size_bytes": 7703,
+      "sha256": "9e87fe4bf1d9d6cc537c02c10565da0387c45959b5edac7251102719f4114b9b"
+    },
+    {
+      "path": "nvidia/tools/social_media_sn_simulator.py",
+      "size_bytes": 6193,
+      "sha256": "e94850586a773e68665686d0a9880ac0802da55aa9b19a3213c153243a77ddf1"
+    },
+    {
+      "path": "nvidia/tools/hash_chain_verifier.py",
+      "size_bytes": 5449,
+      "sha256": "2485630492b4f13f643a4c6c7b0e3da94b587fa814015d76646f19e4607c9164"
+    },
+    {
+      "path": "nvidia/tools/sec_edgar_10k_scanner.py",
+      "size_bytes": 5496,
+      "sha256": "f3c1920800eb45c8120ec753335f803dc88d261bd2ccc2f2c5bcf8e810c2df44"
+    },
+    {
+      "path": "nvidia/tools/tiered_truth_classifier.py",
+      "size_bytes": 10105,
+      "sha256": "6b45cc6a883ca923b3905e4241e8f339b2694ddf3ab4a8626766632d3e3db50e"
+    },
+    {
+      "path": "nvidia/tools/sna_centrality_analyzer.py",
+      "size_bytes": 11399,
+      "sha256": "ad727a900ca5655b56b625ab41236fba594cd85e812f50cb27194176dbdbf37a"
+    },
+    {
+      "path": "nvidia/tools/event_study_analyzer.py",
+      "size_bytes": 4835,
+      "sha256": "7259d56614a5abb0b67c868db7c26cbc2dbb4449bf2d8be4ebfe17c679276dba"
+    },
+    {
+      "path": "nvidia/tools/ela_exif_forensic_analyzer.py",
+      "size_bytes": 7907,
+      "sha256": "15e196e30434506b2c668bc40f36d73d0ef4966cd78b72ced8e7cecf3466c3a8"
+    },
+    {
+      "path": "nvidia/.github/workflows/forensic_audit.yml",
+      "size_bytes": 772,
+      "sha256": "f04a77f2b15587c94abc24fa6088f7f38fe3d5f812f6ba7f5e8e30d58404db3b"
+    },
+    {
+      "path": "nvidia/analisis/02_media_teratas.png",
+      "size_bytes": 66604,
+      "sha256": "aea947f9ffcefa8e161fe9f3641c1fda38426f7ff46bd35978a809e3200b70fe"
+    },
+    {
+      "path": "nvidia/analisis/matriks_sna_10_media.csv",
+      "size_bytes": 533,
+      "sha256": "0f29561479c97d96d23f87e67c4a7677b15e92da0002b6969a5c6e86a922b8ec"
+    },
+    {
+      "path": "nvidia/analisis/07_network_graph_betweenness.png",
+      "size_bytes": 384793,
+      "sha256": "32017d7d2c0e4be1a19f8c4341f2f4a4693a0b8b7691c336cf66d76d5f058719"
+    },
+    {
+      "path": "nvidia/analisis/klaim_per_berita.csv",
+      "size_bytes": 58847,
+      "sha256": "81b986bbe4c61746a76c3b273aa747c45b389a27cf0856f3a439b197439ee070"
+    },
+    {
+      "path": "nvidia/analisis/audit_historis_sec_10k.json",
+      "size_bytes": 989,
+      "sha256": "ad1134cce487b95ed7f824e3a09c1c845ed35dc2afb17f6bfa2d88ae97c9c1c4"
+    },
+    {
+      "path": "nvidia/analisis/09_osint_artefak.csv",
+      "size_bytes": 7322,
+      "sha256": "138c459bf7ff014e273bf7306ebb736dba39fd59ac663b92a90ba2c3f873cfc7"
+    },
+    {
+      "path": "nvidia/analisis/01_timeline_kemunculan_pertama.csv",
+      "size_bytes": 2093,
+      "sha256": "f6515d000b7128a70e38d9ab4f6235e40d782d0bf17b26b80338c550ecfce456"
+    },
+    {
+      "path": "nvidia/analisis/01_timeline.png",
+      "size_bytes": 48077,
+      "sha256": "31e9f93df3343eb0226d68a8b370295ebdf229f422c5b2bd5427ca709daad3ce"
+    },
+    {
+      "path": "nvidia/analisis/audit_historis_sec_20tahun.json",
+      "size_bytes": 2586,
+      "sha256": "65a6a4247c5d229a6aa2f13b08face3a57317b6ebacf4d3a8188ea2d9c8d9846"
+    },
+    {
+      "path": "nvidia/analisis/08_komparasi_metode_intelijen.csv",
+      "size_bytes": 3355,
+      "sha256": "582ee15a2f624cee4a0173f5867ea79d7b65aa006dc1ea68acf0844c256d58d4"
+    },
+    {
+      "path": "nvidia/analisis/03_bahasa.png",
+      "size_bytes": 18205,
+      "sha256": "5d5b053a844d169e055fe7ce85e199714039b60b9fb229ffc1b553c62e2ad9d4"
+    },
+    {
+      "path": "nvidia/analisis/matriks_pemetaan_aktor.json",
+      "size_bytes": 3141,
+      "sha256": "65dc401cba3ea76242ae78b9a5429b886d0d706573ab10542e86823361ec5441"
+    },
+    {
+      "path": "nvidia/analisis/04_klaim.png",
+      "size_bytes": 53268,
+      "sha256": "76215c3340c9c993e43a70f994066cf6ac6aba6fa1aa1fe0b7d4786c88d1c795"
+    },
+    {
+      "path": "nvidia/analisis/02_status_klaim.csv",
+      "size_bytes": 1743,
+      "sha256": "21f5bc1fbe8829cbb9eaa683efa2a922fde736e9d8a5071278b8e9083c1a9bab"
+    },
+    {
+      "path": "nvidia/analisis/ringkasan.md",
+      "size_bytes": 1870,
+      "sha256": "8eeb887043b152c3b13bf70c9aa1d8c7c15ea31405f94bb921b9ae659570e26a"
+    },
+    {
+      "path": "nvidia/analisis/matriks_sna_20_aktor.csv",
+      "size_bytes": 1153,
+      "sha256": "fe39d8930939e5aca99b60173755c90e63e5d90f041353a401eaa6bed3492ff9"
+    },
+    {
+      "path": "nvidia/analisis/05_saham_event_study.png",
+      "size_bytes": 174471,
+      "sha256": "36cba88200efb11c09ed93bd9bd14f20fd91614effca14e869885d35ca8549f2"
+    },
+    {
+      "path": "nvidia/analisis/klaster_sindikasi.csv",
+      "size_bytes": 41678,
+      "sha256": "454a53ba55abaa005abfa3955545d4755d58c9033369e649ac009b8c5da26bde"
+    },
+    {
+      "path": "voices-celebrities/README.md",
+      "size_bytes": 2782,
+      "sha256": "f1187723b5734fd929d77dec685e3be6fa59d0b7d409e3e6b5c9f3c7bb991ebc"
+    },
+    {
+      "path": "voices-celebrities/.gitattributes",
+      "size_bytes": 2461,
+      "sha256": "e7a120ab07b1bc5b486be249e9fc6c83d59448d0093e1dfebe95d1566d9cafc0"
+    },
+    {
+      "path": "voices-celebrities/metadata.csv",
+      "size_bytes": 1710,
+      "sha256": "2bb7f2f3e6a49894bffd37fff829192ef6a554a975cb79b1301dfd3939fbf25d"
+    },
+    {
+      "path": "voices-celebrities/build_dataset.py",
+      "size_bytes": 1513,
+      "sha256": "5eefcfeb18cab02c5a94213a4e596034b731d2a74c8a8063a7d6caed9708ac4d"
+    },
+    {
+      "path": "voices-celebrities/audio/andrew-tate.wav",
+      "size_bytes": 7864398,
+      "sha256": "41fad5f1a1a63e6fafaf34c5368c45f7ac3bcd2ecf229a2466da5a47c2d34025"
+    },
+    {
+      "path": "voices-celebrities/audio/barack-obama.wav",
+      "size_bytes": 8454222,
+      "sha256": "42ba473919a79233690b60b3de56bb3eb0e6587173908a4b83841d30c18cdfc8"
+    },
+    {
+      "path": "voices-celebrities/audio/elon-musk.wav",
+      "size_bytes": 24199246,
+      "sha256": "b589d835fc42525cb352bc11a228f796e92e9848af1245b1d9407b8eb1270637"
+    },
+    {
+      "path": "voices-celebrities/audio/donald-trump.wav",
+      "size_bytes": 4210766,
+      "sha256": "9d8b44d73192e9c04dd241f16177e4c5753bcefadde69e6e24b45e278b821f8c"
+    },
+    {
+      "path": "voices-celebrities/audio/.DS_Store",
+      "size_bytes": 6148,
+      "sha256": "58e5c8b7f667fdb929e914d983412a4630260d1354d3845c93776e1ff9b3239f"
+    },
+    {
+      "path": "voices-celebrities/audio/j_k_rowling.wav",
+      "size_bytes": 16121934,
+      "sha256": "7f55242ae560bf4b5dcf05b2ea8629188315c47c420a95deec1ffa7fe07a3b57"
+    },
+    {
+      "path": "voices-celebrities/audio/greta_thunberg.wav",
+      "size_bytes": 8454222,
+      "sha256": "97ef868d3962520afbcc9e1c355672f133b116b3f7cdad0c06c4dd99b45a244f"
+    },
+    {
+      "path": "voices-celebrities/audio/joe-biden.wav",
+      "size_bytes": 4030542,
+      "sha256": "a9fc49ce69a8fb2dfc83a7dad1f8de67738aa65c3d1cb02956e38873d11d4d3a"
+    },
+    {
+      "path": "voices-celebrities/audio/kamala_harris.wav",
+      "size_bytes": 7487566,
+      "sha256": "5dbec60bd5be09cb31436ca6652241aa97a05c8187efbfd02df0c45f5c7aa7ea"
+    },
+    {
+      "path": "voices-celebrities/audio/oprah_winfrey.wav",
+      "size_bytes": 16891982,
+      "sha256": "7c9125a51042f3703b8456ad97e4ab2a25d1af5ba445a325ebe3d9e28156e06d"
+    },
+    {
+      "path": "voices-celebrities/audio/jensen-huang.wav",
+      "size_bytes": 20168782,
+      "sha256": "045dd1bd68ad341a2df5d0990c8a3143c6ed5f4a2322e97dcfa40e8559dbd5fa"
+    },
+    {
+      "path": "voices-celebrities/audio/mark-zuckerberg.wav",
+      "size_bytes": 63357006,
+      "sha256": "fb167c71774a4986b0505c908c29ae010cce5841cf954e9e92bb5dbdfe8b4b64"
+    },
+    {
+      "path": "voices-celebrities/audio/bill_gates.wav",
+      "size_bytes": 6520910,
+      "sha256": "b2602bec3edeb2a8169714192391a1997581efea2bff4c07eab7233d617c5b2d"
+    },
+    {
+      "path": "voices-celebrities/audio/hillary_clinton.wav",
+      "size_bytes": 9011278,
+      "sha256": "942a270a80e7ca7dd288e2b20c48b082457139e5476bf46966a231125b20dffb"
+    },
+    {
+      "path": "mvt/mkdocs.yml",
+      "size_bytes": 2772,
+      "sha256": "6242c1c85a1a66de3d46a7b308dc0a8237d2daccaaa82e5ae7cebd9ad6691998"
+    },
+    {
+      "path": "mvt/LICENSE",
+      "size_bytes": 17791,
+      "sha256": "ac67bba0ee27326139cf2aeea625f1e4cf6d3e88e751bc0ccede09dda509b460"
+    },
+    {
+      "path": "mvt/uv.lock",
+      "size_bytes": 388429,
+      "sha256": "491dfdefb2bab6adbca0f69abd2578a07135df7787fbd8e987155431ad8cf2d6"
+    },
+    {
+      "path": "mvt/Dockerfile",
+      "size_bytes": 2778,
+      "sha256": "0e0e70cb717c01f3926ebabab45365521a206b79247df61cc0570f498bacec6f"
+    },
+    {
+      "path": "mvt/Dockerfile.ios",
+      "size_bytes": 1529,
+      "sha256": "6f110fd0149dae5f84ec7b09584685aad0a73248e97c5180c1e201208ec27b5d"
+    },
+    {
+      "path": "mvt/Makefile",
+      "size_bytes": 574,
+      "sha256": "1d22a68e8ef3f71ba258611bda5d4f76478b5d563f634faafef251a9c69434b4"
+    },
+    {
+      "path": "mvt/pyproject.toml",
+      "size_bytes": 3331,
+      "sha256": "7459a9c2079b86b1278094590751b8299ae9d962aadb59e97324d59f19d5ddf7"
+    },
+    {
+      "path": "mvt/.safety-policy.yml",
+      "size_bytes": 864,
+      "sha256": "afbbd483e77c45af6429641ccbd964aae436caa28c92388e0297898aca9de288"
+    },
+    {
+      "path": "mvt/MANIFEST.in",
+      "size_bytes": 149,
+      "sha256": "9fea5a5f04564935f319c3fc0c06a03d342d601d15e200fa99408d77bb33f317"
+    },
+    {
+      "path": "mvt/README.md",
+      "size_bytes": 5725,
+      "sha256": "1a7fd73ce5d4dce4ec0b5eca65f7f9074377960f306c34ad78f62350598caefd"
+    },
+    {
+      "path": "mvt/.gitignore",
+      "size_bytes": 1974,
+      "sha256": "492b1c2bda59c5296097feb77fda57009b460861d1da496b30c30e36ca05753b"
+    },
+    {
+      "path": "mvt/CONTRIBUTING.md",
+      "size_bytes": 3671,
+      "sha256": "51ecfa9cdb627360f2e20c173712423b89a2f82dc12501b122373772c552b81d"
+    },
+    {
+      "path": "mvt/Dockerfile.android",
+      "size_bytes": 1516,
+      "sha256": "86fe81e9a723e05eb68ec3b85c18ca89d7f1ab87deb28c48f2a700dc2f0643a5"
+    },
+    {
+      "path": "mvt/.python-version",
+      "size_bytes": 5,
+      "sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93"
+    },
+    {
+      "path": "mvt/.readthedocs.yaml",
+      "size_bytes": 334,
+      "sha256": "3d3b6d7a0b24b6260d6b3f12692037d529e6445454be83ea00276fe75af9d421"
+    },
+    {
+      "path": "mvt/SECURITY.md",
+      "size_bytes": 3728,
+      "sha256": "1653a4e242e46943059bc28f4ef9f258b126f5af466cd92fb81dc3f549ad2f23"
+    },
+    {
+      "path": "mvt/tests/test_check_android_androidqf.py",
+      "size_bytes": 6853,
+      "sha256": "76945086b9001f648a00e1b03b7f2f21d877b2445ea376cba40f4001e6b0ac4b"
+    },
+    {
+      "path": "mvt/tests/conftest.py",
+      "size_bytes": 3775,
+      "sha256": "7c8c86919585f85fb5d7971237eb22b276dc17fe63fff30e83bd89eba061eb35"
+    },
+    {
+      "path": "mvt/tests/test_check_android_adb_removed.py",
+      "size_bytes": 462,
+      "sha256": "4824179f0cc131af3206d881d6cac45906710cf1e0cbb55437f5df8d7fdd36cb"
+    },
+    {
+      "path": "mvt/tests/test_cmd_check_sysdiagnose.py",
+      "size_bytes": 4215,
+      "sha256": "3f448881e4fde9202daa145635ba15eccaa39f1714bb33e78edf3fd99afd4549"
+    },
+    {
+      "path": "mvt/tests/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/tests/test_ios_versions.py",
+      "size_bytes": 481,
+      "sha256": "0a4f3871e95ced10286b6d7b3d1e6cf88a1ffd298265b77b29a2106fbc429124"
+    },
+    {
+      "path": "mvt/tests/test_cli_entry_points.py",
+      "size_bytes": 8789,
+      "sha256": "d5c98b092bd9e8b5867e1f3e2cf7649d8bc50f7c11291f7f8348278184a10ded"
+    },
+    {
+      "path": "mvt/tests/test_check_ios_sysdiagnose.py",
+      "size_bytes": 2946,
+      "sha256": "4c1bac49d298f4e3e74e7f9258ce59b0fcc5084320dd13c94ebe4251d58572f4"
+    },
+    {
+      "path": "mvt/tests/plugin_fixtures.py",
+      "size_bytes": 3082,
+      "sha256": "5553b32afc913782da75576d9d433aec4992d53fd7d4da3ff88f1350dd8bc284"
+    },
+    {
+      "path": "mvt/tests/utils.py",
+      "size_bytes": 2259,
+      "sha256": "f7ffd4b8d016f82880e17d922d5cd9aea571a638fda4888eda467f6cd147cc09"
+    },
+    {
+      "path": "mvt/tests/test_check_ios_backup.py",
+      "size_bytes": 1674,
+      "sha256": "711ffd64116ca2f181a068c86d81b9e41d0e39af50d6d165439ca201c1c328ca"
+    },
+    {
+      "path": "mvt/tests/test_cli_startup.py",
+      "size_bytes": 1226,
+      "sha256": "9e6b9f158ac5480515146660fcb0a6a44d2962202cd2698ef8c95b69e1802cd6"
+    },
+    {
+      "path": "mvt/tests/test_cli_verbose.py",
+      "size_bytes": 3730,
+      "sha256": "92a54d532155c8b4144acebdd8d718ada3a7e9a4bf7cacc9a4b3e3036b9bdd67"
+    },
+    {
+      "path": "mvt/tests/test_cli.py",
+      "size_bytes": 1706,
+      "sha256": "b5828d8243aebca0880ca4b68d1ee3c72c6d4279f17847602feb9e9104240feb"
+    },
+    {
+      "path": "mvt/tests/test_check_android_backup.py",
+      "size_bytes": 5248,
+      "sha256": "5b0905bb8d9cde9de1920f4eb664ee92985f62c26ebdd2452f066cd54b35e6fa"
+    },
+    {
+      "path": "mvt/tests/test_completion.py",
+      "size_bytes": 4294,
+      "sha256": "26767f7b10f293a3509b6a9619163f7f08f66bee604a7bfea0bd1ae236044736"
+    },
+    {
+      "path": "mvt/tests/test_check_android_bugreport.py",
+      "size_bytes": 4437,
+      "sha256": "af4693b85ddf08bec4ab74233685463d4ea16d05597285c358dfc20786bd9884"
+    },
+    {
+      "path": "mvt/tests/test_custom_modules.py",
+      "size_bytes": 10063,
+      "sha256": "73b7dccb13af0e83f9aaf70f1e794a57ddabc44350abb56585057a3250fa316e"
+    },
+    {
+      "path": "mvt/tests/artifacts/generate_stix.py",
+      "size_bytes": 3619,
+      "sha256": "35dc5ed4b9ae49f9e9e782a053020900f5d73b34a987608ae68e0b898615e3c7"
+    },
+    {
+      "path": "mvt/tests/artifacts/.gitignore",
+      "size_bytes": 11,
+      "sha256": "26cc63e6d0e3fdd6ea546442d9da9fd6442f34f16b62c00d77e86d7e7bdcb6d6"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf.zip",
+      "size_bytes": 492,
+      "sha256": "0d18b76d43b930b30308aa80150b4704cf136828ffb515a6ca84904718e1e664"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_battery.txt",
+      "size_bytes": 3658,
+      "sha256": "e75c2b19b20778c79159b7ab5b17c0cd10bf8d47c2d86634205c4ebd897737d9"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_accessibility_v14_or_later.txt",
+      "size_bytes": 3764,
+      "sha256": "72054d42a2bc221abb983508fe59304ac0827048bd5b1b3b7a35f0629ecdea0a"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_packages.txt",
+      "size_bytes": 9482,
+      "sha256": "06bd08dd553985f22c034fa6a9aac42688b4f385cde0de0acdab284894ff2bc5"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_appops.txt",
+      "size_bytes": 4957,
+      "sha256": "d4d801dc11d4b14f15a833aa1c959323484438cf8b8704eb0f8242cf81246b9d"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_platform_compat.txt",
+      "size_bytes": 1312,
+      "sha256": "f5ebc9ce48950104c72d15eafc1998772c5005ce01db52bf16f176cfe2fea4b2"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/tombstone_process.txt",
+      "size_bytes": 112680,
+      "sha256": "597c9416311a72565052c21bdedefb64ba15099295a9b3e55338d17e350dc26e"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_adb_xml.txt",
+      "size_bytes": 573,
+      "sha256": "14847a50dc2ee67dd9a72b22542871df07a172b8b0264e9428ad280a287af056"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_accessibility.txt",
+      "size_bytes": 1380,
+      "sha256": "f50b18ff4d3768cc9b8a2914daa9eb8cb6dc6d1ca5b26a7509f124ad5d2e00ce"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_dbinfo.txt",
+      "size_bytes": 1637,
+      "sha256": "20a07b6f979ea622dd81285f805713fedf1ba0620c42c6e179e23cbd858466a6"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/getprop.txt",
+      "size_bytes": 487,
+      "sha256": "2f4a73de0c8dd5706ce27cbf86589749d59aa86f64d14040827fb22da887c56d"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_adb_wifi.txt",
+      "size_bytes": 2037,
+      "sha256": "0b258973a715059a3fa2e95fa3cde6b9821024bb5620279c89c10ade4a3de757"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/ps.txt",
+      "size_bytes": 1361,
+      "sha256": "baf63a90a399ab26fe0d5b591658959afc89b180b9541cea50aff2ee66a25907"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/tombstone_process.pb",
+      "size_bytes": 70793,
+      "sha256": "e3f5bb8c37fbd8e837a25caedcc72c29673b2fc3a70f6a0b9d6415a5eaecf461"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/dumpsys_adb.txt",
+      "size_bytes": 1907,
+      "sha256": "43bd27a82cdb45698c0db100296eb41ade4be0217344e8b304aaa5d6c4ec3c66"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/bugreport/dumpstate.txt",
+      "size_bytes": 16332,
+      "sha256": "08f64c158ddb88eec837af23e6821fc6cf1e052164af32ce32845c0c6ce2e7f3"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/bugreport/main_entry.txt",
+      "size_bytes": 14,
+      "sha256": "c958528d0d0bbb3773783d17b2e739841a045e4f4c8abc8abbd1554105b7ba75"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/bugreport/FS/data/tombstones/tombstone_01",
+      "size_bytes": 2241,
+      "sha256": "52baac19dda0356596754b4a4d7352d76a62198c104dcb75849ff01d38cd15d2"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_data/bugreport/FS/data/tombstones/tombstone_00",
+      "size_bytes": 2160,
+      "sha256": "8e27d45abc3be64d8b46ca4ac930871d6f457fb54acb926ecd3f977fc8e7bfaf"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf_encrypted/backup.ab",
+      "size_bytes": 5653,
+      "sha256": "45e5388690011709cb004222e2570384005d88996095e66e174b8def3ba1fc5d"
+    },
+    {
+      "path": "mvt/tests/artifacts/stix2/638cd3ee5e5f019f84f9e0ea.json",
+      "size_bytes": 49759,
+      "sha256": "b7b5216f463e65561b32ed65ffd1741e1f0b110e4065de25d67062f3063b4820"
+    },
+    {
+      "path": "mvt/tests/artifacts/stix2/cytrox.stix2",
+      "size_bytes": 348375,
+      "sha256": "6fe92193d9e17c21a16eb7abe93a418a2e40c0176dcb56fb30539f84136391bb"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/backup.ab",
+      "size_bytes": 679,
+      "sha256": "f0e32fe8a7fd5ac0e2de19636d123c0072e979396986139ba2bc49ec385dc325"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/settings_random.txt",
+      "size_bytes": 279,
+      "sha256": "4deb7a79428173d5183efce97b8874a4c4cea13b4ef54d1ca60db260a38ad4f0"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/files.json",
+      "size_bytes": 935,
+      "sha256": "b836db0ad06a535df2908ec77c9cf312438aadbb84bdf431cd256c0cd7cc9e19"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/packages.json",
+      "size_bytes": 11359,
+      "sha256": "db4ed8e2eef4367be97adba27998266a95824765613187847d5a3f3f79a96be8"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/getprop.txt",
+      "size_bytes": 377,
+      "sha256": "fc3aa6a3e5c6df8f6f3d17dfaf302246aea2d0ff143a397c8c0916f94739d1b6"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/ps.txt",
+      "size_bytes": 1229,
+      "sha256": "78412e9f2ed122e77a582d437e3a116d893ecc6d897631688954bd08deda0f76"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/dumpsys.txt",
+      "size_bytes": 21246,
+      "sha256": "9fb6396b64cfff30e2a459a64496d3c1386926d09edd68be2d878de45fa7b3a9"
+    },
+    {
+      "path": "mvt/tests/artifacts/androidqf/root_binaries.json",
+      "size_bytes": 113,
+      "sha256": "a6b1a72de6117dab5fd1cb4bf997d2cc843db6fa4f1e06466f091bb96612de4e"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_backup/backup.ab",
+      "size_bytes": 679,
+      "sha256": "f0e32fe8a7fd5ac0e2de19636d123c0072e979396986139ba2bc49ec385dc325"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_backup/backup2.ab",
+      "size_bytes": 5653,
+      "sha256": "45e5388690011709cb004222e2570384005d88996095e66e174b8def3ba1fc5d"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_backup/backup3.ab",
+      "size_bytes": 1393,
+      "sha256": "c964857eced6b7eb2fcdb2a68845ea6e070240e02e014e9b0885b3bde37d2489"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_backup/apps/com.android.providers.telephony/d_f/000001_mms_backup",
+      "size_bytes": 226,
+      "sha256": "a28a1c58e11140fe95fe49d8898140bbb51a2f18dacd64be7c7355b6f851ae4d"
+    },
+    {
+      "path": "mvt/tests/artifacts/android_backup/apps/com.android.providers.telephony/d_f/000000_sms_backup",
+      "size_bytes": 143,
+      "sha256": "67f17b86ff5787169b799cd50283b65ffc06f8b6b0b1fc1b55e210a6e9dd247d"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/Manifest.db",
+      "size_bytes": 3285008,
+      "sha256": "7876f1034a5082d2aaef9f6df2f90ca72168616bb724efd8bd856e0c9d7ecd96"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/Info.plist",
+      "size_bytes": 686,
+      "sha256": "01a1b7a5176a575e13686fc0190ed881297324ad3e9345d7bc240bebf277be4a"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/0d/0d609c54856a9bb2d56729df1d68f2958a88426b",
+      "size_bytes": 90112,
+      "sha256": "37db93a97e9cafcbb7d7d02ad29c8d995b1322fecf38d23d66fc2468714834e9"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/0d/0dc926a1810f7aee4e8f38793ed788701f93bf9d",
+      "size_bytes": 727,
+      "sha256": "f570f75b4693bcac962257909ae2e493c28191dc3b8089a9c85a5b1cfe7efbf1"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28",
+      "size_bytes": 28672,
+      "sha256": "2d7c6e9a504cd54ea8a389ebf27285d06d4a3043c35ec06e458c5a571eaf48d0"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/20/2041457d5fe04d39d0ab481178355df6781e6858",
+      "size_bytes": 16384,
+      "sha256": "e1dff4d8350272e24101685d5299338a531b84aed289d3e8ae6a7bef5c7d7df7"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/7c/7c7fba66680ef796b916b067077cc246adacf01d",
+      "size_bytes": 24576,
+      "sha256": "e30d9669074b3158b20f413735ea614da205ca11e66b8b0e366af1d2e17894f5"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee",
+      "size_bytes": 24576,
+      "sha256": "ab0a743b74101a5b8c6dae0b2e5d65ac015a1e624b7288d400c8328647afaeca"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/6e/6e9d0cb750a70e7fa10943c134a5f021dab327e7",
+      "size_bytes": 110592,
+      "sha256": "39a1660b9d470a6ae2d19b581b55e026c32c2c308260d260cd92b8e01141d282"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/3a/3a47b0981ed7c10f3e2800aa66bac96a3b5db28e",
+      "size_bytes": 40960,
+      "sha256": "6e777afea087f4c2a7ea295b02935b6b52c44d8877f37d420bd466673bb68678"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347",
+      "size_bytes": 57344,
+      "sha256": "8852a5a04c3aa2793878342abeeaf0d12e31219d25f8289b3e5c7d15d35cbce9"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/b8/b8548dc30aa1030df0ce18ef08b882cf7ab5212f",
+      "size_bytes": 8192,
+      "sha256": "4ef63cf563feedc262715967d6bf6a68d7e12ed995122d3d89086efba46890a0"
+    },
+    {
+      "path": "mvt/tests/artifacts/ios_backup/e7/e794f6ffcc3c222535f47684a63d5178da3c4500",
+      "size_bytes": 8192,
+      "sha256": "50ffb3b23d87ca51a060b4d85ad75381ddba37634884decf3d46dc437b64442a"
+    },
+    {
+      "path": "mvt/tests/ios_sysdiagnose/test_sysdiagnose_info.py",
+      "size_bytes": 5877,
+      "sha256": "483a3c5e1efe689d0c277bd9aa27cf0246afeffddf412bb7df71257fdc08d4a1"
+    },
+    {
+      "path": "mvt/tests/ios_sysdiagnose/__init__.py",
+      "size_bytes": 190,
+      "sha256": "aa4984626473f870355e8f3726c1704f1de48407a99a084611814cba5c6fcee6"
+    },
+    {
+      "path": "mvt/tests/android_bugreport/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mvt/tests/android_bugreport/test_bugreport.py",
+      "size_bytes": 4614,
+      "sha256": "beecfa48d96b8606386a72e3539d144bcb47e30a2a2750af0555b19a149fe8af"
+    },
+    {
+      "path": "mvt/tests/ios_fs/test_cache_files.py",
+      "size_bytes": 1282,
+      "sha256": "6c59e7892dd99f9529776dcd7b9a4d0a67224327383db58acec48c599927c890"
+    },
+    {
+      "path": "mvt/tests/ios_fs/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/tests/ios_fs/test_filesystem.py",
+      "size_bytes": 2097,
+      "sha256": "40b65193779fab00c5421c3339e0e6f9c75775b588117e1409d9f0a2f1714874"
+    },
+    {
+      "path": "mvt/tests/ios_fs/test_shutdownlog.py",
+      "size_bytes": 2049,
+      "sha256": "f9c2c3f90afca0dc4a5a918ce476ae9e308c7b12f502b2d8d6383be094a25a6b"
+    },
+    {
+      "path": "mvt/tests/android_adb/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mvt/tests/common/test_command.py",
+      "size_bytes": 29673,
+      "sha256": "2204fb1730d647fd3f3bcaa1564a5e66407b2bb5bc8997a8b0859723784a3fdd"
+    },
+    {
+      "path": "mvt/tests/common/test_utils.py",
+      "size_bytes": 5256,
+      "sha256": "40ffb81035b9c3876a86a34e67b1673985b33ce85fbfbe354ca01168d97de555"
+    },
+    {
+      "path": "mvt/tests/common/test_plugin.py",
+      "size_bytes": 1229,
+      "sha256": "cb999431487e051f8f2a013e3e16456ab51bc5046d9a26e4311e782f152ab363"
+    },
+    {
+      "path": "mvt/tests/common/test_cmd_check_iocs.py",
+      "size_bytes": 6818,
+      "sha256": "39b9d09727ac597cccb10ea729b4c25ce1ccc4dea3ccec66da1a3e5bafedf94c"
+    },
+    {
+      "path": "mvt/tests/common/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/tests/common/test_command_modules.py",
+      "size_bytes": 1336,
+      "sha256": "6abc8e2c094415f9a2f098a32097a487fb2f535cd9433948b977d7edebe6cd3f"
+    },
+    {
+      "path": "mvt/tests/common/test_cmd_plugins.py",
+      "size_bytes": 7325,
+      "sha256": "f643aa7182aadaabeceafcff18a20000a085fcef45c27b484c83fd5316f9bf38"
+    },
+    {
+      "path": "mvt/tests/common/test_alerts.py",
+      "size_bytes": 1613,
+      "sha256": "78308e4897af8b833c5e6c1c46a845fab9fead152c0e1557dc4537928042ce10"
+    },
+    {
+      "path": "mvt/tests/common/test_plugin_updates.py",
+      "size_bytes": 22127,
+      "sha256": "e73032e65da080012a897a3982f75694fb12e7e212acf92d2c7dbe517b5a433a"
+    },
+    {
+      "path": "mvt/tests/common/test_password.py",
+      "size_bytes": 788,
+      "sha256": "f8c5a34ee8bc3819957cf543f929a53acf1b96fbe8ef84cc0e1fa9d3591b69c1"
+    },
+    {
+      "path": "mvt/tests/common/test_plugin_config.py",
+      "size_bytes": 12666,
+      "sha256": "aca435b39f453233a433103edda5231098630f08ec71e9a13fa1ed05bd618bfa"
+    },
+    {
+      "path": "mvt/tests/common/test_config.py",
+      "size_bytes": 1095,
+      "sha256": "736c3bd9855a9c28d58d211e910b9b98cf5ae33338545ce099ab23469ab46f08"
+    },
+    {
+      "path": "mvt/tests/common/test_indicators.py",
+      "size_bytes": 13346,
+      "sha256": "43abd35941bdeaf40a75fdb234326f13603030893542f4ef10443f57364c33f9"
+    },
+    {
+      "path": "mvt/tests/common/test_url.py",
+      "size_bytes": 1322,
+      "sha256": "bb51b1c4f991cb3cb5acd1169564ec27cea3dad985d60c05949004d3bcb2ef73"
+    },
+    {
+      "path": "mvt/tests/common/test_cli_plugins.py",
+      "size_bytes": 17072,
+      "sha256": "8c2b09bb20b0bdd87c3df4861b602757bafe94354cc15f52b7951ca69d2d8bb0"
+    },
+    {
+      "path": "mvt/tests/common/test_module_loader.py",
+      "size_bytes": 6730,
+      "sha256": "23efbab42dabb7f8764ff5f4fe29fe71d967eced039752b4d5afdb8d69dfd924"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_adb.py",
+      "size_bytes": 14997,
+      "sha256": "9c368e0207742e2ce92515eb5ac9d6e76e28bd8a585021b8ab868c2ff8943087"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_accessibility.py",
+      "size_bytes": 4093,
+      "sha256": "c6869e8acfffa462e7a04beb2bcf9e4c3db1c382c1bc8176ff2ce3e9a2829b01"
+    },
+    {
+      "path": "mvt/tests/android/test_backup_module.py",
+      "size_bytes": 2714,
+      "sha256": "34f57a57591a764faeaa4be052387f2a0af383e524f5217210fb402ef55a388a"
+    },
+    {
+      "path": "mvt/tests/android/test_check_bugreport_wrapper.py",
+      "size_bytes": 2303,
+      "sha256": "fc671ab00b7367c66eee70406c39d6a717a2d8247612b79750d67cf77356dd9e"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_getprop.py",
+      "size_bytes": 2116,
+      "sha256": "12466014470547f4615242421f4adebe17d26b8671bf66d80d4ec42f4c2db332"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_dbinfo.py",
+      "size_bytes": 3021,
+      "sha256": "87a5efbf37224438a57c923762b4ca6ebc4f95d1980ebb23fd9f5b92b98bb247"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact.py",
+      "size_bytes": 658,
+      "sha256": "cea2e832f0a65bcc7661a27211dfc63f5c140145ba1f64ecf7e0fa10e7ebd58d"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_battery_daily.py",
+      "size_bytes": 6014,
+      "sha256": "1f0118fc1bb2f3ff89b0031d65dc654bc931cd61b4ad9b605acc7b9144995256"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_platform_compat.py",
+      "size_bytes": 1697,
+      "sha256": "09cd32187d1036d652d83be1757516d33407c01a6f1492f1a517e444e6f40929"
+    },
+    {
+      "path": "mvt/tests/android/test_intrusion_logs.py",
+      "size_bytes": 10401,
+      "sha256": "c58b7ec11e4c33bae3f86588c6eaf8a958739ab7bffb946749d59fc57d8302b0"
+    },
+    {
+      "path": "mvt/tests/android/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/tests/android/test_backup_parser.py",
+      "size_bytes": 2760,
+      "sha256": "78a0ca2d421da8592e7528ac9009a5cb98abe5f6971f59514da41846a1453d52"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_processes.py",
+      "size_bytes": 1592,
+      "sha256": "c8c5dedd454f0bbe84165a2a8cdebf11a8fb6479d99d5a541f3d59885a4e373d"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_accessibility_state.py",
+      "size_bytes": 6174,
+      "sha256": "cf2e51c582f61e32bf66072a7de2be2b0bb34101eecfeac25949209eb1a360bc"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_accessibility_count.py",
+      "size_bytes": 5736,
+      "sha256": "eef5be7101f02093d1f88e20cf315f2c5d7e80e50002ca500a75982be9d0190d"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_battery_history.py",
+      "size_bytes": 3324,
+      "sha256": "ae49cee33f5ffd7ccff4fc9b3be0195cd8b520096ca6868183407c807ae46ecc"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_tombstone_caused_by.py",
+      "size_bytes": 2174,
+      "sha256": "d8c9a925e5cb2d8398c5926555d8e5303d829a9e523f08cd5d59c23b4aee805d"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_settings.py",
+      "size_bytes": 7861,
+      "sha256": "7a001df9fffd40eff20f14fdfc311cb8745df0aac9261bfd4d429fb908fa9fb9"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_tombstones.py",
+      "size_bytes": 5007,
+      "sha256": "b31fbb41f2f2f20384ca669025b78f4db60fe3cf8be0c41e096f369f5b874126"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_package_activities.py",
+      "size_bytes": 1658,
+      "sha256": "6b8cb10bc7599073b5672f207fe49ff4f5c7e9d1d4a99ce11f95c7ce222204b9"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_appops.py",
+      "size_bytes": 3271,
+      "sha256": "bd1db93b5a311599d171fc8185cf6bbeaaad5b4810bdc34af6640e16a16107b0"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_mounts.py",
+      "size_bytes": 1571,
+      "sha256": "cf5c58903d4a6612891368abd00f2e5260f94ba45203a6bc1fb6e56604fc1e6b"
+    },
+    {
+      "path": "mvt/tests/android/test_bugreport_section_extraction.py",
+      "size_bytes": 1626,
+      "sha256": "517358a7e9f1d41b536fc568775c986b4fa40bf7446f5ba1c814f3a02105b6d1"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_packages.py",
+      "size_bytes": 3184,
+      "sha256": "ec416bc9661cf5e938d0e2986d3222a15850e71ed72f653e432d159119eaab0d"
+    },
+    {
+      "path": "mvt/tests/android/test_check_backup_optional_failure.py",
+      "size_bytes": 1621,
+      "sha256": "f2e750e8596fa2e740a1cafae73c7867d4202a81095f307dbb135ad8b1913eec"
+    },
+    {
+      "path": "mvt/tests/android/test_artifact_dumpsys_receivers.py",
+      "size_bytes": 2648,
+      "sha256": "ffcb6a3d0ae46da35364804c002bd919a77792ff4bebe2a342e1bdbf6533468f"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_backup_info.py",
+      "size_bytes": 568,
+      "sha256": "9d7abdf3594cb24286a7d196891afccffd51d8ede73fc73eb47c4d4025a2f51a"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_global_preferences.py",
+      "size_bytes": 974,
+      "sha256": "19e61e27d8d08c45963eb549c4d06969cc8c6db81cff80b19a4434e9e6e5ff00"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_decrypt.py",
+      "size_bytes": 7014,
+      "sha256": "7a475490c63c712a5f8d650d1a21d44ef7043510b977388b1d00e0450bc978b4"
+    },
+    {
+      "path": "mvt/tests/ios_backup/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_manifest.py",
+      "size_bytes": 7859,
+      "sha256": "8711dd2a74b810a03a5e6ed9c06d7c5dc55604ce0429370948f9917c3a906c01"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_whatsapp.py",
+      "size_bytes": 3997,
+      "sha256": "8a517ab897b0481eec43356a4974c9bcc517b19b7d44dd15790f3c532770c833"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_interactionc.py",
+      "size_bytes": 4035,
+      "sha256": "8bcc682b548c690e786e11783f4496cb6d91b89f05fe72c97515cf0193195c2f"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_whatsapp_contacts.py",
+      "size_bytes": 3298,
+      "sha256": "3269ed34845eab8c5d7c832815a0d5d770abb5c8e25daefa38e27be2030a5b69"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_webkit_resource_load_statistics.py",
+      "size_bytes": 2621,
+      "sha256": "42bd692514224702b5a1e8f818e51315b8e5f034a39818618b7b4c0a03a0762c"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_sms.py",
+      "size_bytes": 2151,
+      "sha256": "105e105ce640af96a496e324546cc00723a510b318bfbcf8411cd84475421195"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_datausage.py",
+      "size_bytes": 1806,
+      "sha256": "f56a2406a3681d268c175c305ae44e8807fa1634846fbb385ace942070045126"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_tcc.py",
+      "size_bytes": 1310,
+      "sha256": "78e16114365df7e63c88a24e1ca6edd9f1c7c7cac803137fa0e93da88484b57f"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_calendar.py",
+      "size_bytes": 1555,
+      "sha256": "67fc6ed1a74a1740ccacdd00d00415b668642dca99b8e8a8f4a22c90a12d78f1"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_sqlite_handling.py",
+      "size_bytes": 3117,
+      "sha256": "50c3ea1fb28d1b96bc5d022a83c37f38174889c6c6ac5f6dd19a6b73fa0605ee"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_safari_history.py",
+      "size_bytes": 6006,
+      "sha256": "c7d3a6645eed153c3e161ee91ee3d0dc5b8ec03565b5e0f21d8e57954c3c3599"
+    },
+    {
+      "path": "mvt/tests/ios_backup/test_safari_browserstate.py",
+      "size_bytes": 2776,
+      "sha256": "758ffe410c714c46e85b50e43a85ce2e69a77a6a509bf3489a1ccff9188648bb"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_packages.py",
+      "size_bytes": 6472,
+      "sha256": "9c0846e4957c860312581fd5847dab60d23fcfbaca878965ad4c17645dd271c8"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_processes.py",
+      "size_bytes": 865,
+      "sha256": "d8046564312b63ed6177cf21a65febe437852560be3cf3c235cba30dfecfcfed"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_files.py",
+      "size_bytes": 844,
+      "sha256": "dbdcb8da35a7a274e3cb2e081c9bca599585de8ff71e0517aba2d817044b5497"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_tcc.py",
+      "size_bytes": 1310,
+      "sha256": "78e16114365df7e63c88a24e1ca6edd9f1c7c7cac803137fa0e93da88484b57f"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_root_binaries.py",
+      "size_bytes": 3972,
+      "sha256": "1a7a2b78e979a9f99bfe8fa7ae5e9cc083ebb0af75a0b2d9f864bea2ba90ff76"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_mounts.py",
+      "size_bytes": 5489,
+      "sha256": "ef603b70bf112be4b7bdcdd7342f06996ffc6bc1aa6ffe58022955d2ac8ef290"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_settings.py",
+      "size_bytes": 1098,
+      "sha256": "af7949a0f3878691eafd338c1feb72124e42be16f597890701281fafcc121da8"
+    },
+    {
+      "path": "mvt/tests/android_androidqf/test_getprop.py",
+      "size_bytes": 2223,
+      "sha256": "f9e390c50dd70d39df3ae0d8a3a77c14e8ab3e905cd4ad60b62a47417d20aeb8"
+    },
+    {
+      "path": "mvt/docs/license.md",
+      "size_bytes": 1523,
+      "sha256": "323deeac22bc95e86fa53d947da551aab32604d298a4b8192e5f11b494a26a92"
+    },
+    {
+      "path": "mvt/docs/iocs.md",
+      "size_bytes": 4608,
+      "sha256": "41f5616cf3aa97129a7c6ba286f7530f9f5ceb8722fd5cbd24e97cdf8f10920a"
+    },
+    {
+      "path": "mvt/docs/install.md",
+      "size_bytes": 3774,
+      "sha256": "7a5444cc309cc029b15179c48fe77bda94c38c59b6132f91588e32c6b64dcf46"
+    },
+    {
+      "path": "mvt/docs/introduction.md",
+      "size_bytes": 2912,
+      "sha256": "442bc148a1d7ed4508b014b02e516c869c873b9e6f77cbcb3bbf23463da4d77a"
+    },
+    {
+      "path": "mvt/docs/favicon.png",
+      "size_bytes": 26009,
+      "sha256": "c943ef78f37ffed8dbf52a92aadc0dfd494ea187632d2517505e30fe2bdd0039"
+    },
+    {
+      "path": "mvt/docs/index.md",
+      "size_bytes": 1166,
+      "sha256": "8d47e787fa848ef74f455a10e38c80374fc386856d37150d5ae9f1a4f41e7adb"
+    },
+    {
+      "path": "mvt/docs/mvt.png",
+      "size_bytes": 24191,
+      "sha256": "6a70421b4e7d600059e5468ed161b726c580f3da5cfa03320516b9b5829136c3"
+    },
+    {
+      "path": "mvt/docs/docker.md",
+      "size_bytes": 2588,
+      "sha256": "3681990e57b57bf45dc27ee692facac335f065cb3586e56f7b3c1b2c5bad8839"
+    },
+    {
+      "path": "mvt/docs/command_completion.md",
+      "size_bytes": 2101,
+      "sha256": "ef2443465cc131b0bc9ece67f3e618a3b8c196d7f45ef4c988c0136ffc907a11"
+    },
+    {
+      "path": "mvt/docs/development/plugin_configuration.md",
+      "size_bytes": 5686,
+      "sha256": "1b5ab895e00abb65df8d6932d9ba46dce3dcec42bfe0e96d508db7249b4fc7f5"
+    },
+    {
+      "path": "mvt/docs/development/index.md",
+      "size_bytes": 16549,
+      "sha256": "671aa07a129722a6ee7ae877d70113662501a5dec67aa63b42bd064d51493006"
+    },
+    {
+      "path": "mvt/docs/development/plugins.md",
+      "size_bytes": 5141,
+      "sha256": "0ee7419f8a1a721eda9dc7dcc68e5726c4e27b83a6444daacd4cd3f84d8357e8"
+    },
+    {
+      "path": "mvt/docs/development/custom_commands.md",
+      "size_bytes": 7301,
+      "sha256": "99438dceb00cda1d44f3ea49b931fa8a579baf327976af267b4acee62ecc6eca"
+    },
+    {
+      "path": "mvt/docs/ios/methodology.md",
+      "size_bytes": 1473,
+      "sha256": "2a60560fc00f740bcbaa3783cb14756268aba76adb894fda453f9c79df58b222"
+    },
+    {
+      "path": "mvt/docs/ios/install.md",
+      "size_bytes": 1587,
+      "sha256": "60aaccd34947c5240e31464c152905ecf9ec9e2d0321c3babd54b8bed3a8ddf5"
+    },
+    {
+      "path": "mvt/docs/ios/sysdiagnose.md",
+      "size_bytes": 2236,
+      "sha256": "fd2b3d749e096651a080423141738dda98a969228901f201fbe5ed9158f9d305"
+    },
+    {
+      "path": "mvt/docs/ios/records.md",
+      "size_bytes": 24988,
+      "sha256": "b5fa82df7d34705002fe87f1710b1e2ae6ca0ad493db1ec3f2a6f99f2a415ff2"
+    },
+    {
+      "path": "mvt/docs/ios/filesystem/dump.md",
+      "size_bytes": 2399,
+      "sha256": "89da86d7f4d7ccd0add6ba86e2fc113af3abdcd330d4854e6e5f47a29a13a357"
+    },
+    {
+      "path": "mvt/docs/ios/filesystem/check.md",
+      "size_bytes": 1468,
+      "sha256": "0d1c6536ff171c4252c6a1eeae7a98c595e6b21897b273a8893fb47d23f941c2"
+    },
+    {
+      "path": "mvt/docs/ios/backup/libimobiledevice.md",
+      "size_bytes": 166,
+      "sha256": "a62d67ff30ef71e3e2bee056e065eaff0e58a2b355693cf642fbf159d975acac"
+    },
+    {
+      "path": "mvt/docs/ios/backup/check.md",
+      "size_bytes": 4349,
+      "sha256": "4574dfe8d17f2564319a1c702044502d746871729c8179c1c0351f0356a3736f"
+    },
+    {
+      "path": "mvt/docs/ios/backup/itunes.md",
+      "size_bytes": 2531,
+      "sha256": "8981715dd9c8bba70ccebc08451d28b3688b780cb38724917f03207392ed82db"
+    },
+    {
+      "path": "mvt/docs/ios/backup/pymobiledevice3.md",
+      "size_bytes": 1825,
+      "sha256": "cf46871bd27b9b35c68c1ff7354fb5667cbfa799e500f43e43ac260186c42d89"
+    },
+    {
+      "path": "mvt/docs/img/macos-backup2.png",
+      "size_bytes": 249603,
+      "sha256": "14d331ae352ee7f563cc865fee287ed7a8b3092d52d9ea1f8356ba0d96ed80c5"
+    },
+    {
+      "path": "mvt/docs/img/macos-backups.png",
+      "size_bytes": 255343,
+      "sha256": "d445e449ab2536e6f45710e2c709b3590fb765ac9b112cffd7e9b62d9f561f54"
+    },
+    {
+      "path": "mvt/docs/img/macos-backup.jpg",
+      "size_bytes": 141116,
+      "sha256": "11b407a77d418b8e782350d9e2a02a524c6ad8a8180f4208363b5f6d8ab063bc"
+    },
+    {
+      "path": "mvt/docs/android/intrusion_logs.md",
+      "size_bytes": 6411,
+      "sha256": "78fec01f1911b31b31da70f5253c266d51d4fe43ab7a1b91de5c5eb827dea22e"
+    },
+    {
+      "path": "mvt/docs/android/adb.md",
+      "size_bytes": 1259,
+      "sha256": "2f9242169559034ee216e04d8f418d528dda0952c73a464640b5967c666829cd"
+    },
+    {
+      "path": "mvt/docs/android/methodology.md",
+      "size_bytes": 5827,
+      "sha256": "04f194da040cb90c896ef6157f842b955969a1f813d0e439df81a4852f340cd9"
+    },
+    {
+      "path": "mvt/docs/android/backup.md",
+      "size_bytes": 4142,
+      "sha256": "b2c03acc93d9c9802a5d7fbf704fa3b0b0fa0dde81668003f2f9e5ef491ed0ac"
+    },
+    {
+      "path": "mvt/.github/dependabot.yml",
+      "size_bytes": 560,
+      "sha256": "717e6457391976c5e2856805bce42901a66ccb81ea0f7eb77feec84d57574f4d"
+    },
+    {
+      "path": "mvt/.github/workflows/release.yml",
+      "size_bytes": 1302,
+      "sha256": "1955c1de81ab4402f4792acff6d2cdd72aa3e2ef59ccb10b9405a2fee07a0aa2"
+    },
+    {
+      "path": "mvt/.github/workflows/mypy.yml",
+      "size_bytes": 573,
+      "sha256": "954c7eec030a7d472887fab0e7ff9727376581488ab5fac291694afab03752dd"
+    },
+    {
+      "path": "mvt/.github/workflows/ruff.yml",
+      "size_bytes": 592,
+      "sha256": "be69a40203369ff36e2c155786b85485b30e160be8a98c484a10596fced50feb"
+    },
+    {
+      "path": "mvt/.github/workflows/tests.yml",
+      "size_bytes": 1870,
+      "sha256": "ddf2b46854746f195ad9ef239fab9160bbe61f44b853784b1546b0b185497b59"
+    },
+    {
+      "path": "mvt/.github/workflows/publish-release-docker.yml",
+      "size_bytes": 4275,
+      "sha256": "6e8f3fff8e1dffff023eed461692ff2f26926704e139a34bfedaecb56bd66762"
+    },
+    {
+      "path": "mvt/.github/workflows/add-issue-to-project.yml",
+      "size_bytes": 451,
+      "sha256": "931552b4c72d25dfd79e9fb7e860801fd19fc4449b3fae328ffddce740cea684"
+    },
+    {
+      "path": "mvt/.github/workflows/update-ios-data.yml",
+      "size_bytes": 1137,
+      "sha256": "21be1f37e7951d596d0a900aa797cb412d47fa90d06e41c4d7c04cc4843b1b2a"
+    },
+    {
+      "path": "mvt/.github/workflows/scripts/update-ios-releases.py",
+      "size_bytes": 3036,
+      "sha256": "422cfd02c20f7644660196dbd70d6ee151bc30966675ee6646bbba9097663a66"
+    },
+    {
+      "path": "mvt/src/mvt/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/src/mvt/cli.py",
+      "size_bytes": 3843,
+      "sha256": "d596f168526bdc4d0f71a1318e877f1c28d2dac2ec6eb953346ab2f887221593"
+    },
+    {
+      "path": "mvt/src/mvt/plugin.py",
+      "size_bytes": 2353,
+      "sha256": "65868bc73e8b99c8837c23d06cf9631addf87b432a1cbf1549feb920cc15c696"
+    },
+    {
+      "path": "mvt/src/mvt/ios/__init__.py",
+      "size_bytes": 218,
+      "sha256": "51175f1fcdda6df565165fbc6fd52b09fc71726dd5cb714144ef753a132dca14"
+    },
+    {
+      "path": "mvt/src/mvt/ios/decrypt_config.py",
+      "size_bytes": 320,
+      "sha256": "81d53e0304b037f7e9b41c9d7e30f40e99e6ffc5d30418a1e5c2d21d6b1a9ce1"
+    },
+    {
+      "path": "mvt/src/mvt/ios/decrypt.py",
+      "size_bytes": 17973,
+      "sha256": "7b4352e95da59e78a578b4e3eda6a7877054e116e4a9235e9bcceb75a642a49f"
+    },
+    {
+      "path": "mvt/src/mvt/ios/cmd_check_fs.py",
+      "size_bytes": 1857,
+      "sha256": "61a399e9f0757ab52e9a8d6c3067af51b9c414506bd5e0563766c1185c65bbe9"
+    },
+    {
+      "path": "mvt/src/mvt/ios/cli.py",
+      "size_bytes": 17115,
+      "sha256": "cc9370ef1f49ea579f26d1a06e329b8f5dca33b912b139d3002c8f1eb3d6440f"
+    },
+    {
+      "path": "mvt/src/mvt/ios/cmd_check_sysdiagnose.py",
+      "size_bytes": 8062,
+      "sha256": "2f35a54afb072a1509049b7fa0fc5ff5e7a58176ee3fcf1d06030bf98998b277"
+    },
+    {
+      "path": "mvt/src/mvt/ios/versions.py",
+      "size_bytes": 1904,
+      "sha256": "bc60a7c2711bb9359f8bce583f879b766e61d37d35f68323d85e066d8e4c5ca3"
+    },
+    {
+      "path": "mvt/src/mvt/ios/cmd_check_backup.py",
+      "size_bytes": 3486,
+      "sha256": "62e55da5ae931223713dcc6122bc7848d0476726751c9396f4d715bb3dff0c83"
+    },
+    {
+      "path": "mvt/src/mvt/ios/command_modules.py",
+      "size_bytes": 889,
+      "sha256": "895cddc8f94d7b072cc922cc6eabae98f2cfa712331276263f1ef0ae9394d51f"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/net_base.py",
+      "size_bytes": 13038,
+      "sha256": "7d31d0e80cd72e7e56997bb66b7fcaff626710346054c7d5cfbeef1c7a0aa98d"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/base.py",
+      "size_bytes": 12266,
+      "sha256": "b2146369c7016f9af57dd53e8a7d3d8150d2950c17255a8ca9e6a1337a67cacc"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/sysdiagnose/__init__.py",
+      "size_bytes": 382,
+      "sha256": "97c9864af1cf548700f156e5115c7932d06b14042268f661cc574a21a6d2a448"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/sysdiagnose/sysdiagnose_info.py",
+      "size_bytes": 8637,
+      "sha256": "2b122206175b8aea5b64c5b80b231255540d986df10292fc12c41795dfcd4fb1"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/sysdiagnose/base.py",
+      "size_bytes": 3695,
+      "sha256": "198b2ea3af2745bbd27f2eb4a0761e2c59d96b64b1644330a575d250f7c6863a"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/whatsapp_contacts.py",
+      "size_bytes": 10422,
+      "sha256": "1e450b396471005cec44f7a6f3eb46bf1b04557198c5c6836631076bd6ab2230"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/chrome_history.py",
+      "size_bytes": 3426,
+      "sha256": "f5bf0456f7388094f84b0290fcf12b96a081f1aaad248e5cde140cf7df125ceb"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/osanalytics_addaily.py",
+      "size_bytes": 3589,
+      "sha256": "6d02bba27913bf9ba842a0bf6b2833342dc46746782135900b83b27cf5a04ed3"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/contacts.py",
+      "size_bytes": 2635,
+      "sha256": "9581441aa5a44f8bb717b3c818a64555a3a6e4a763f51e9a0eb0e9a3a4f46ebb"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/webkit_session_resource_log.py",
+      "size_bytes": 8047,
+      "sha256": "adf7b7bfdd4bee2c26120ce711673c223fa294f9da5ef167c40896415be6bba0"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/firefox_history.py",
+      "size_bytes": 3208,
+      "sha256": "11df9615fe5d037877040c52e940572c29a601889e2d4230fb94b45cf7067b78"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/whatsapp.py",
+      "size_bytes": 14019,
+      "sha256": "7c821a7b54997d1d62d4fd27c1ac843663630e01d15940d559186d967f2e8f42"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/shortcuts.py",
+      "size_bytes": 5874,
+      "sha256": "d0cd53c7b403a0302d73445ffe2367e7018a12439b18203c0605ab5b74b093d2"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/safari_history.py",
+      "size_bytes": 6903,
+      "sha256": "c47998c4310ab871f3d7bee2a9927546e8f447eca3daa57fb8694c7b190c23d6"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/applications.py",
+      "size_bytes": 6083,
+      "sha256": "6dca9138f6e94c4cf1bbb77c6df0f46b72dadfdbb0dcdb070ed129b81342c845"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/interactionc.py",
+      "size_bytes": 23410,
+      "sha256": "b1a12b53a6529acbf09db6b21629b6fe42d767052d3aeba9063ca562ff8c0ab4"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/__init__.py",
+      "size_bytes": 1717,
+      "sha256": "7fe9d869eab885f3611ff9658ec333286fee9dc849ea55c013b78b861b2021a2"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/idstatuscache.py",
+      "size_bytes": 4560,
+      "sha256": "f8d1ec7362d953b5ed2362ab93cb96d7732f240a0546b4484d86a42425b6b75d"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/locationd.py",
+      "size_bytes": 6440,
+      "sha256": "40d46d69e7ec58b01b9eb682e5e28fb15d00003dc5f241a922742741246cb9db"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/calendar.py",
+      "size_bytes": 5362,
+      "sha256": "90f95c5659da3f870c231c92a1347b32aad162e6ca38f6354e87eea79cc99dc0"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/chrome_favicon.py",
+      "size_bytes": 3653,
+      "sha256": "7c935f35f05fd92fa72e1a4360d4c8f1634859843eae8ee40e1482cf985fc8ae"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/sms_attachments.py",
+      "size_bytes": 5351,
+      "sha256": "36434b748ade4b8d59c4cde39faa1e421c08c66efcdc7d1472aa79ec86c05ed4"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/safari_browserstate.py",
+      "size_bytes": 7974,
+      "sha256": "66a91ac41075c3918e29aa8a509c233a0cab974d750acbe68bebb7df464dda75"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/firefox_favicon.py",
+      "size_bytes": 3526,
+      "sha256": "fd429d3c203959683acd33b2270b424d4034e3e0587c04c89ce397a84f506b59"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/webkit_resource_load_statistics.py",
+      "size_bytes": 6404,
+      "sha256": "333da3da5ce032317e262fb5a443b90c801f0ecd8ea25d95e678b8104ace4600"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/net_datausage.py",
+      "size_bytes": 1537,
+      "sha256": "4c0f872cbc10c759fa43998e7d6b82b19832bb6a804f7d1a899cf45a8ce3d3c2"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/calls.py",
+      "size_bytes": 2748,
+      "sha256": "b58969d11713226b9dc655b100a62382b80dc408fe2e6cf78956c4bfc93720b3"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/global_preferences.py",
+      "size_bytes": 2274,
+      "sha256": "1c10ac1f242fbf30c007e1390e3086657c13bb11fd02c2d95d5941d8e73c85f0"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/sms.py",
+      "size_bytes": 6790,
+      "sha256": "ca1da902e210c6c942b564e98cbaf8ce6afca6209bd632de8da0ab350c6d041e"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/mixed/tcc.py",
+      "size_bytes": 7901,
+      "sha256": "8ef22f576b9a99c5fad6c36696607392aac275ef23b20c20fc6faa09dffb1d21"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/backup/manifest.py",
+      "size_bytes": 8284,
+      "sha256": "b40a21968470f81bd29a07cf6f924471cce77acb993504b49a0886d659318d49"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/backup/backup_info.py",
+      "size_bytes": 2820,
+      "sha256": "215f17ae0c7113f5b05caba62589755cc043285898647ae3c48141b81897410d"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/backup/__init__.py",
+      "size_bytes": 520,
+      "sha256": "bb353b6c9479c728208d165ed61139c57eef00352a0644ebce524a2e7ec92b34"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/backup/profile_events.py",
+      "size_bytes": 4103,
+      "sha256": "8da88e23590eefcbdf838538a9dda49fe2d2e814737551bb924fef8d6e9c0843"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/backup/configuration_profiles.py",
+      "size_bytes": 6017,
+      "sha256": "811619347d6cc9a940a7e74d78c9246717bb7d7e4e68bcff7420b08dbb6218f9"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/webkit_safariviewservice.py",
+      "size_bytes": 1543,
+      "sha256": "54409c084eaa65cc9bf3d6f0fcc58ffc630f5c0ad9d10e088fb576b44b63f5f9"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/cache_files.py",
+      "size_bytes": 3489,
+      "sha256": "3b52c9ff2b4947203e1f8ff0a082749258bb1aa8a5e70fdec9725fc1dae3c3d2"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/version_history.py",
+      "size_bytes": 2415,
+      "sha256": "04547cfb3520cb91b15c98218a55b0a2c6fd1c0631ac175f146367bebf39a6ef"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/filesystem.py",
+      "size_bytes": 3540,
+      "sha256": "7907033faa1b7a446b4e8122f380748864e0039c7111ec2c580ffd729158e1bb"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/webkit_base.py",
+      "size_bytes": 1503,
+      "sha256": "df449ef61c89f1599ce5daefa7793f24ace78d651b6b450ed7b342ff13e8ecc0"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/webkit_localstorage.py",
+      "size_bytes": 1885,
+      "sha256": "1dfa4b0c2b710e30704ba007012617378c7b337ef5621b30849bf7f410c85010"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/__init__.py",
+      "size_bytes": 975,
+      "sha256": "ca70ad96df753418939a865eddf846e5f6f9b47f1d7e95c2287bc41d62b1c10a"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/safari_favicon.py",
+      "size_bytes": 4136,
+      "sha256": "2d7f04add8c7b824df691c843dac9a7ec783e53de46ce5048a2b3221d0dbb19c"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/analytics_ios_versions.py",
+      "size_bytes": 2946,
+      "sha256": "1bcdb478930a57a0863b3dc1be4de48db7180704ebcac4cc52b72686234c5940"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/analytics.py",
+      "size_bytes": 4878,
+      "sha256": "67ecbbd6a010005abf962104889956109ea864f45a9ea4ad82da6d6c8ab4f093"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/shutdownlog.py",
+      "size_bytes": 5390,
+      "sha256": "0ebad3e328686728ee1663756f58c5ecb2fbc7bdef4fd71c2aa9172775c7f872"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/webkit_indexeddb.py",
+      "size_bytes": 1862,
+      "sha256": "25666d96e09fe4d8fdd570c4add2a66b4d382a17fcfc9bcf4c7c4b33a585136a"
+    },
+    {
+      "path": "mvt/src/mvt/ios/modules/fs/net_netusage.py",
+      "size_bytes": 1806,
+      "sha256": "90e77184831d6f3964d0d329d5cd7400a04843e842364708185f23f3a5294b7c"
+    },
+    {
+      "path": "mvt/src/mvt/ios/data/ios_versions.json",
+      "size_bytes": 21599,
+      "sha256": "a273ba8189ea16018ad66f7febee80db941cae7ce9d44e22876204346c750d01"
+    },
+    {
+      "path": "mvt/src/mvt/ios/data/ios_models.json",
+      "size_bytes": 5041,
+      "sha256": "22ece76a7abd3a6b7c5c877df47f9c3509629ab0c29171562620665dd2c5d85e"
+    },
+    {
+      "path": "mvt/src/mvt/common/alerts.py",
+      "size_bytes": 7405,
+      "sha256": "651122e2c2995e2232e5a77b976aea64747fb8e5a8a0582eaf94d30b092872e4"
+    },
+    {
+      "path": "mvt/src/mvt/common/options.py",
+      "size_bytes": 1256,
+      "sha256": "2c37e8569ea725ee2d9777dfb4cad5f656b5dd3e403a25d50baa2087c1cb068f"
+    },
+    {
+      "path": "mvt/src/mvt/common/command.py",
+      "size_bytes": 30381,
+      "sha256": "bbef19e4c343c3db04595f70b52a7170015e6d06ba9860f23cfbe93a34a818fd"
+    },
+    {
+      "path": "mvt/src/mvt/common/config.py",
+      "size_bytes": 3980,
+      "sha256": "00ad9e0d8fdab661909c9c5fc35446e660b540f59fd3d8d342a57dfba0b038a6"
+    },
+    {
+      "path": "mvt/src/mvt/common/version.py",
+      "size_bytes": 260,
+      "sha256": "3c0eb676ba993f1de4e937a9fe51e75126af8064e541a77705ed5a6e72d9c61f"
+    },
+    {
+      "path": "mvt/src/mvt/common/virustotal.py",
+      "size_bytes": 1432,
+      "sha256": "dc5709d735bed123318bcbf88c486188344ff5e1490552c04c67079aa79c504d"
+    },
+    {
+      "path": "mvt/src/mvt/common/artifact.py",
+      "size_bytes": 420,
+      "sha256": "de68e4938709becf4a4d1d5de7482549e1f9f4feb71cb5daddea1e7128eeb86b"
+    },
+    {
+      "path": "mvt/src/mvt/common/completion.py",
+      "size_bytes": 5111,
+      "sha256": "f49483b043185826fceee4b188fe525a79da4b86cea067d5d63071254d831d19"
+    },
+    {
+      "path": "mvt/src/mvt/common/cmd_plugins.py",
+      "size_bytes": 5991,
+      "sha256": "51d5048b2fc7895915c6657eae64b39aa38f3822fcdd4667db63ad04e23a1dbd"
+    },
+    {
+      "path": "mvt/src/mvt/common/log.py",
+      "size_bytes": 2464,
+      "sha256": "09c30ea83465d8e573e553c9ea906a7551822e2eaf79d4c590430d48f5fd065e"
+    },
+    {
+      "path": "mvt/src/mvt/common/updates.py",
+      "size_bytes": 23395,
+      "sha256": "04254385f2bb5239124d6b0afda2d895bfaf60b8900400456b073eaade4c76b1"
+    },
+    {
+      "path": "mvt/src/mvt/common/module_types.py",
+      "size_bytes": 1319,
+      "sha256": "eaa150c009fc60dd1984fb2c6057ca540c95471db3549f20e858c532f2a61841"
+    },
+    {
+      "path": "mvt/src/mvt/common/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/src/mvt/common/indicators.py",
+      "size_bytes": 29648,
+      "sha256": "f803e5edb7d1dbada8b4f9ac32b20aeaf4ae11d3c686d6443a8cbc01e2eda729"
+    },
+    {
+      "path": "mvt/src/mvt/common/logo.py",
+      "size_bytes": 5546,
+      "sha256": "70df844c2b3cd8eb550334f0d3af63220f6e1c270c1251ead757a79eb190d6be"
+    },
+    {
+      "path": "mvt/src/mvt/common/url.py",
+      "size_bytes": 7644,
+      "sha256": "ba858d718477e6170abc52d3beb2361039bf4e944f3b5e62f3add3f553b30156"
+    },
+    {
+      "path": "mvt/src/mvt/common/cli_plugins.py",
+      "size_bytes": 10348,
+      "sha256": "04568a48f25f23112fd367853944b45b864832c013dd9a27ccb65b91c80612ad"
+    },
+    {
+      "path": "mvt/src/mvt/common/cmd_check_iocs.py",
+      "size_bytes": 3535,
+      "sha256": "370b8789f59ed4b9b5808d9ba1ee8606d727d3ace94a309b3539e242d37b5d98"
+    },
+    {
+      "path": "mvt/src/mvt/common/plugin_config.py",
+      "size_bytes": 11292,
+      "sha256": "179a226f6568b41e6b25598d059ed649288adb7e49f7779cac20c18b5ffcb316"
+    },
+    {
+      "path": "mvt/src/mvt/common/utils.py",
+      "size_bytes": 8920,
+      "sha256": "6d258b2c081ca604b42f7aeee271d3ed88ae9dbf3e74bee984b5ffa268e96771"
+    },
+    {
+      "path": "mvt/src/mvt/common/module.py",
+      "size_bytes": 10953,
+      "sha256": "9315da252a1d75737915631d21058c96b0506cb26a156e59abb23afe572e2e7c"
+    },
+    {
+      "path": "mvt/src/mvt/common/password.py",
+      "size_bytes": 4052,
+      "sha256": "c862a0d7bbf5c874d63a1e3807c767d5422d8ba2d8ddfc9a5a7f96b44d32c49b"
+    },
+    {
+      "path": "mvt/src/mvt/common/module_loader.py",
+      "size_bytes": 14346,
+      "sha256": "006e3c770231e5408279aefd7e63cebc9dccaf7e81b273bef8c41b3565e50719"
+    },
+    {
+      "path": "mvt/src/mvt/common/help.py",
+      "size_bytes": 3535,
+      "sha256": "2c9671737d8f714bd2b2dc89019f4fbe87183b719a9c8aeb8cd4d9c1192b5b68"
+    },
+    {
+      "path": "mvt/src/mvt/android/cmd_check_bugreport.py",
+      "size_bytes": 7831,
+      "sha256": "68293173201b3637f6f834ccc5fcd7b3a4c5f1382844dd6092cea38857e80f4f"
+    },
+    {
+      "path": "mvt/src/mvt/android/__init__.py",
+      "size_bytes": 218,
+      "sha256": "51175f1fcdda6df565165fbc6fd52b09fc71726dd5cb714144ef753a132dca14"
+    },
+    {
+      "path": "mvt/src/mvt/android/cli.py",
+      "size_bytes": 15983,
+      "sha256": "488aeb5ba459bf47d5ed39447c4c73bbf1160df60ea84065c752ecca23314ff0"
+    },
+    {
+      "path": "mvt/src/mvt/android/utils.py",
+      "size_bytes": 3305,
+      "sha256": "f8a9d54673838064ddd9f982b057cfa1d962a21a45148c83392ce137025d5ab4"
+    },
+    {
+      "path": "mvt/src/mvt/android/cmd_check_androidqf.py",
+      "size_bytes": 14040,
+      "sha256": "674cda60d53b45daf78607d8ddd1adf680e9db1ef746afb8d9e4b4420bede7d2"
+    },
+    {
+      "path": "mvt/src/mvt/android/cmd_check_intrusion_logs.py",
+      "size_bytes": 4057,
+      "sha256": "68169d40816384fb8d5cee758997eeb0101091c4e99d41fdb19e3ac016b044d0"
+    },
+    {
+      "path": "mvt/src/mvt/android/cmd_check_backup.py",
+      "size_bytes": 6915,
+      "sha256": "5539e8e1f87d25dfa469e7ccfbcc3b0209e3f18d3d3a4ac5194a51c79dfb09b6"
+    },
+    {
+      "path": "mvt/src/mvt/android/command_modules.py",
+      "size_bytes": 939,
+      "sha256": "e7db129a47200ff534474be18da9641ae1a37a1d0c6b4866144b3759b8084d9d"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/tombstone_crashes.py",
+      "size_bytes": 11579,
+      "sha256": "dfc92181ca576979dbc1ab4281ee9cd2a687a4b0d7d748ce0b5084fb9e28f14d"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/file_timestamps.py",
+      "size_bytes": 1338,
+      "sha256": "c6884a6cf4872ce1ad88576892c10bb9f961cd170dcf49b5a73fe96a29fcaceb"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_accessibility.py",
+      "size_bytes": 8691,
+      "sha256": "cc43c78bb21bcaa0a8e8edcb0ef449043b404658074e045a2878fe099b275f07"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/artifact.py",
+      "size_bytes": 2177,
+      "sha256": "609e70bcec1b6e6a703c2a7b9f399386f1c5f11e14e9415754776bac82c4c5d9"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_packages.py",
+      "size_bytes": 9660,
+      "sha256": "cc3d930c7d76dc99c17a3ea139d9a901637d39937b17c5339687e946ac189acc"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_battery_daily.py",
+      "size_bytes": 5731,
+      "sha256": "7e7d7d3cf10cb96d037b923102bb99ebe839197ff249019773c54132cbb70a49"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_adb.py",
+      "size_bytes": 10543,
+      "sha256": "122f877b6728d16821260bb28f99a18fee16b77e42ee7275f0efaf481cbca25d"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_dbinfo.py",
+      "size_bytes": 2815,
+      "sha256": "e787c94d362191f2fbeaa94f6de31bc5c6145fe2940bfb96e6357ea704e47100"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/mounts.py",
+      "size_bytes": 9523,
+      "sha256": "3f739c73b4df254972eb69a122561c6cb492ce3601d842aa57d4f39b196f57b0"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_platform_compat.py",
+      "size_bytes": 2394,
+      "sha256": "591d96d3a866033df050f51173192f697391161103fdfe2a6ae4b40dac01a3f9"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_package_activities.py",
+      "size_bytes": 1037,
+      "sha256": "d9aee0d30ef38f35373d788a6bdb1e0a23cd62af26a28f6d264a49e961c677d7"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/processes.py",
+      "size_bytes": 2696,
+      "sha256": "5d7e44896a70dc35cc6d1f3e5e6c5090882eee992ac48220d50444d7de2c8d46"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_battery_history.py",
+      "size_bytes": 6526,
+      "sha256": "cec14869b60a6820cae3db755516af7ae31dabcee5167981220096f7f0d20bd2"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/settings.py",
+      "size_bytes": 10760,
+      "sha256": "76e6d0a8ee9580a14e9bdaccad7b5ed7aeceab58ff3fba3859c66e797b0bd25b"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_appops.py",
+      "size_bytes": 8636,
+      "sha256": "da9755e5182d37930bf36e16e3b7fae9f883221f58682087e0ec158a4f201436"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/package_resolvers.py",
+      "size_bytes": 2022,
+      "sha256": "28375adf79e932e3fafaed30e9bbac33e27fd0415536dcf27d89e0375a72d400"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/getprop.py",
+      "size_bytes": 2503,
+      "sha256": "0cdb60aedd5d345e13253e3cdf941ef715c96e564ae31ba2e8dddffed3cda6f2"
+    },
+    {
+      "path": "mvt/src/mvt/android/artifacts/dumpsys_receivers.py",
+      "size_bytes": 2451,
+      "sha256": "8f99b6a8a41b03e6a247cc08f35867cc88b97c2b717e299e9e297216d0475115"
+    },
+    {
+      "path": "mvt/src/mvt/android/parsers/backup.py",
+      "size_bytes": 7810,
+      "sha256": "cad3d96d21f1ed4ed45dc1963abd5bd6cb7448ddddd16da03d4b86663d3baf54"
+    },
+    {
+      "path": "mvt/src/mvt/android/parsers/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/src/mvt/android/parsers/proto/tombstone.py",
+      "size_bytes": 10230,
+      "sha256": "6b1ee1107c46d6bdba02df54ee98a85eddda537782b05baf31a23bd6a57427c1"
+    },
+    {
+      "path": "mvt/src/mvt/android/parsers/proto/__init__.py",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mvt/src/mvt/android/parsers/proto/tombstone.proto",
+      "size_bytes": 4679,
+      "sha256": "5167fd72faab1d0a40868390d9c62844d80bbe6f7dd6eab9fe5a336da439c4a8"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/__init__.py",
+      "size_bytes": 190,
+      "sha256": "06cee4bb3b1c79cd4c84470497cc1df5194705adf7c77e602641c90f3f05c1f7"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_adb_state.py",
+      "size_bytes": 6486,
+      "sha256": "091b669fb00fdf02850a32b4dcab69c4785b46a2be052cac6e4f43255818a982"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/fs_timestamps.py",
+      "size_bytes": 2622,
+      "sha256": "56f0eebf6e26f97c19a2e49a8a35d84bd5a39fcda795566498b380fd0d164397"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_accessibility.py",
+      "size_bytes": 2351,
+      "sha256": "c939f3404b9ba4b790bb33d004288a92b1ac68f00b55ca3550ba558173e552f1"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_packages.py",
+      "size_bytes": 2405,
+      "sha256": "1a16e1cc859509b217ca7bd2606630b3b38c30c1afe7b0803b1293022fa7913a"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_battery_daily.py",
+      "size_bytes": 1664,
+      "sha256": "740f5956c6122976838fb1be06edca51602960e2c0ba7998181b909e0e6c63d9"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_dbinfo.py",
+      "size_bytes": 1676,
+      "sha256": "518cd348258b894a0903654a4ea36c19381c01af2865a3f886260b18ce3bdf5c"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/__init__.py",
+      "size_bytes": 1333,
+      "sha256": "0ad06dcb151888bda54bd95ce8690deef6adfc610c4f8d6b9f3b9f17a6e4f171"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/mounts.py",
+      "size_bytes": 1544,
+      "sha256": "17289ba1127adb454f67afe7603dd07a5138f37650a9f8b8f2cd91c9b7652661"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_platform_compat.py",
+      "size_bytes": 1717,
+      "sha256": "982e478e247ceef934041850072760a24115dc3593da70faa311430294e1e457"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_activities.py",
+      "size_bytes": 1761,
+      "sha256": "2a52e37fea1bbe294dd710dac940d607dba6e605b60c86f993fc2ec88634277f"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/processes.py",
+      "size_bytes": 742,
+      "sha256": "1d6b2181a26ab2457509abfaf57e8b037238e493c84bcaf50ba61d757c35c036"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_battery_history.py",
+      "size_bytes": 1698,
+      "sha256": "4c8b9d88f486de1aaf563e24c5d46978a93c101ee8704a6cc4a961983f4016b9"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/settings.py",
+      "size_bytes": 712,
+      "sha256": "291408f02a9cc7c3a5359767830774d56863970d4344d585bc089c11319328bb"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_appops.py",
+      "size_bytes": 1657,
+      "sha256": "f3fa41e460a6bdec9a4e3f41c01e8dcd7b4192e7c8b4e13cdcb2d5cd672df328"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_getprop.py",
+      "size_bytes": 1654,
+      "sha256": "10b0b00d0372fbb2eefecfa832b72d241bb5bb1dc6774f739d9d4d13550ee640"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/dumpsys_receivers.py",
+      "size_bytes": 1691,
+      "sha256": "6cd583345a3a17656f06f02ac76470d069ef083b8f4aec1cc62e145a43e68902"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/base.py",
+      "size_bytes": 6538,
+      "sha256": "5ed8e52a2cdd11c1057fa3dba25d1427f1604204a570293842dfc597e91416a8"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/bugreport/tombstones.py",
+      "size_bytes": 4668,
+      "sha256": "6f81b0edf9c4be47877da62c195b6e8ea8dfd8e9e5b9d9d803cb8ed87dc2a409"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/aqf_settings.py",
+      "size_bytes": 1153,
+      "sha256": "6932223c50d218fbb43455ff3757c3335e1c68ae764122d30b29ab42dab04f83"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/aqf_getprop.py",
+      "size_bytes": 1512,
+      "sha256": "a89640ef43ea92cd45e750fedf7b36ba38fc9ffde2a90b7d96e4454add9e66a5"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/__init__.py",
+      "size_bytes": 714,
+      "sha256": "b4053590406cf2b0a592decfc1edb19a511113127a7ac266296471361f609857"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/mounts.py",
+      "size_bytes": 2647,
+      "sha256": "5406397ca19c49177c232bc3598aac50995fa24b06cca12f07c2c9b7f3a7dc92"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/aqf_log_timestamps.py",
+      "size_bytes": 2439,
+      "sha256": "0de4812b0ce88cee2d6093965c441200becb95594fcbddbf0b637c04b2724a3b"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/aqf_processes.py",
+      "size_bytes": 1349,
+      "sha256": "21ff0a368778647bf11f313a8881a08adddeedd5da70cabcac1edfe6acac980c"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/aqf_files.py",
+      "size_bytes": 5638,
+      "sha256": "c322b4ba8ef663dfa85a6753de5b53faf1e500a10b9dfefd8329ab50c4d8d418"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/base.py",
+      "size_bytes": 3024,
+      "sha256": "a5de1536a5270b44dc3caf1415d40d49c988cbba805b8d9f8927cc83ded473f1"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/aqf_packages.py",
+      "size_bytes": 7499,
+      "sha256": "abf0810a7a780c9e5b8cd0865087b046d7f980c717b4d9c3c55ee1a0dcd2a80d"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/androidqf/root_binaries.py",
+      "size_bytes": 4110,
+      "sha256": "80ca92081b80b8dea5b1138493bd381059d40c64e2f5e37cff4199594bb9b17e"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/intrusion_logs/connect_event.py",
+      "size_bytes": 4544,
+      "sha256": "3d155cb513e57c2c27e329aabea70813a85998e442fc90c769aa1b13230f2de0"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/intrusion_logs/__init__.py",
+      "size_bytes": 549,
+      "sha256": "f9d771983262e660f990a207f0d91791befd7ff784b629b693ed9dceac3b74ae"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/intrusion_logs/security_event.py",
+      "size_bytes": 33096,
+      "sha256": "9dd60cca967e6902892a185e3ca84046228ae37dc36fb72a14b8a93f32a7eb4c"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/intrusion_logs/dns_event.py",
+      "size_bytes": 5248,
+      "sha256": "8455cb890ab6f3727d19f0a291760d1d1652a25a6b604e20388debcc8c9566d6"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/intrusion_logs/base.py",
+      "size_bytes": 15998,
+      "sha256": "409b4c82eb0203ce42a33fd8cd6758f583a6bc51f1613f44c00021870dafb38c"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/backup/__init__.py",
+      "size_bytes": 300,
+      "sha256": "f433e200c6c07351eb89186129bd57821817fcfff02eab69f18012162da64e53"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/backup/helpers.py",
+      "size_bytes": 2056,
+      "sha256": "b001c16c7a66570adf576cf59b433215794ed351e6986c6a2c4ed5e5b2a71960"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/backup/sms.py",
+      "size_bytes": 2793,
+      "sha256": "2a3f60f77df213390313a7f7b0820096ed8fcf86c2d66145adad9e0ff365dd80"
+    },
+    {
+      "path": "mvt/src/mvt/android/modules/backup/base.py",
+      "size_bytes": 2384,
+      "sha256": "9f5684880418c7d4c164c9f4f4cef2b2185a1709053f296f02d8a7d7bac30bcf"
+    },
+    {
+      "path": ".github/workflows/forensic_audit.yml",
+      "size_bytes": 772,
+      "sha256": "f04a77f2b15587c94abc24fa6088f7f38fe3d5f812f6ba7f5e8e30d58404db3b"
+    },
+    {
+      "path": "analisis/02_media_teratas.png",
+      "size_bytes": 66604,
+      "sha256": "aea947f9ffcefa8e161fe9f3641c1fda38426f7ff46bd35978a809e3200b70fe"
+    },
+    {
+      "path": "analisis/matriks_sna_10_media.csv",
+      "size_bytes": 533,
+      "sha256": "0f29561479c97d96d23f87e67c4a7677b15e92da0002b6969a5c6e86a922b8ec"
+    },
+    {
+      "path": "analisis/07_network_graph_betweenness.png",
+      "size_bytes": 384793,
+      "sha256": "32017d7d2c0e4be1a19f8c4341f2f4a4693a0b8b7691c336cf66d76d5f058719"
+    },
+    {
+      "path": "analisis/klaim_per_berita.csv",
+      "size_bytes": 58847,
+      "sha256": "81b986bbe4c61746a76c3b273aa747c45b389a27cf0856f3a439b197439ee070"
+    },
+    {
+      "path": "analisis/audit_historis_sec_10k.json",
+      "size_bytes": 989,
+      "sha256": "ad1134cce487b95ed7f824e3a09c1c845ed35dc2afb17f6bfa2d88ae97c9c1c4"
+    },
+    {
+      "path": "analisis/09_osint_artefak.csv",
+      "size_bytes": 7322,
+      "sha256": "138c459bf7ff014e273bf7306ebb736dba39fd59ac663b92a90ba2c3f873cfc7"
+    },
+    {
+      "path": "analisis/01_timeline_kemunculan_pertama.csv",
+      "size_bytes": 2093,
+      "sha256": "f6515d000b7128a70e38d9ab4f6235e40d782d0bf17b26b80338c550ecfce456"
+    },
+    {
+      "path": "analisis/01_timeline.png",
+      "size_bytes": 48077,
+      "sha256": "31e9f93df3343eb0226d68a8b370295ebdf229f422c5b2bd5427ca709daad3ce"
+    },
+    {
+      "path": "analisis/audit_historis_sec_20tahun.json",
+      "size_bytes": 2586,
+      "sha256": "65a6a4247c5d229a6aa2f13b08face3a57317b6ebacf4d3a8188ea2d9c8d9846"
+    },
+    {
+      "path": "analisis/08_komparasi_metode_intelijen.csv",
+      "size_bytes": 3355,
+      "sha256": "582ee15a2f624cee4a0173f5867ea79d7b65aa006dc1ea68acf0844c256d58d4"
+    },
+    {
+      "path": "analisis/03_bahasa.png",
+      "size_bytes": 18205,
+      "sha256": "5d5b053a844d169e055fe7ce85e199714039b60b9fb229ffc1b553c62e2ad9d4"
+    },
+    {
+      "path": "analisis/matriks_pemetaan_aktor.json",
+      "size_bytes": 3141,
+      "sha256": "65dc401cba3ea76242ae78b9a5429b886d0d706573ab10542e86823361ec5441"
+    },
+    {
+      "path": "analisis/04_klaim_ela_test.jpg",
+      "size_bytes": 56151,
+      "sha256": "2726538be1e2e8a86ed1d23c81181d34a332cee1c718ee95a588f74c94f946a5"
+    },
+    {
+      "path": "analisis/04_klaim.png",
+      "size_bytes": 53268,
+      "sha256": "76215c3340c9c993e43a70f994066cf6ac6aba6fa1aa1fe0b7d4786c88d1c795"
+    },
+    {
+      "path": "analisis/02_status_klaim.csv",
+      "size_bytes": 1743,
+      "sha256": "21f5bc1fbe8829cbb9eaa683efa2a922fde736e9d8a5071278b8e9083c1a9bab"
+    },
+    {
+      "path": "analisis/ringkasan.md",
+      "size_bytes": 1870,
+      "sha256": "8eeb887043b152c3b13bf70c9aa1d8c7c15ea31405f94bb921b9ae659570e26a"
+    },
+    {
+      "path": "analisis/matriks_sna_20_aktor.csv",
+      "size_bytes": 1153,
+      "sha256": "fe39d8930939e5aca99b60173755c90e63e5d90f041353a401eaa6bed3492ff9"
+    },
+    {
+      "path": "analisis/05_saham_event_study.png",
+      "size_bytes": 174471,
+      "sha256": "36cba88200efb11c09ed93bd9bd14f20fd91614effca14e869885d35ca8549f2"
+    },
+    {
+      "path": "analisis/klaster_sindikasi.csv",
+      "size_bytes": 41678,
+      "sha256": "454a53ba55abaa005abfa3955545d4755d58c9033369e649ac009b8c5da26bde"
+    },
+    {
+      "path": "youtube_transcripts_qa/README.md",
+      "size_bytes": 467,
+      "sha256": "d9686d9def94d99a873b0dffc8b7e94976d749e1734618c85e62e75c6280652e"
+    },
+    {
+      "path": "youtube_transcripts_qa/.gitattributes",
+      "size_bytes": 2307,
+      "sha256": "f4e703ea6e44bbebe53aceed2a89c11e40b88b7ae130c480c89860ab805ffc8f"
+    },
+    {
+      "path": "youtube_transcripts_qa/data/train-00000-of-00001.parquet",
+      "size_bytes": 1012276,
+      "sha256": "4a94caebf01158c378fee1b70576e54a5afc32cc754df1234eca408853ab79d2"
+    },
+    {
+      "path": "youtube_transcripts_qa/data/test-00000-of-00001.parquet",
+      "size_bytes": 61196,
+      "sha256": "0067ecba1568093233718e6d3b1fd6fa842466df00ed88710a69726e8a265056"
+    },
+    {
+      "path": "alice-huang-review/index.html",
+      "size_bytes": 8908,
+      "sha256": "8fc2d4ba1445e5efe92e57413f29152fbf726194e8327092bde60ad85e0d55b1"
+    },
+    {
+      "path": "alice-huang-review/icon.svg",
+      "size_bytes": 181,
+      "sha256": "35fd4731b39bbf67c3ed7de31b6864b5a8247912ac44745c408d54a476ecbe66"
+    },
+    {
+      "path": "alice-huang-review/README.md",
+      "size_bytes": 995,
+      "sha256": "8984cb9d4f9592466acdfe57ced87583ed276d2919aecd70ee5cb01a7dd090ec"
+    },
+    {
+      "path": "alice-huang-review/.nojekyll",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "alice-huang-review/.gitignore",
+      "size_bytes": 18,
+      "sha256": "7b5f0a8d9a18a6934e98dcea973828867cadc24ab2a29fdac19b2516a371441e"
+    },
+    {
+      "path": "alice-huang-review/data.js",
+      "size_bytes": 17898,
+      "sha256": "30840893802ab68450e6180996a60c323313215f2a8b88f407546ce10bc57bb3"
+    },
+    {
+      "path": "alice-huang-review/style.css",
+      "size_bytes": 10703,
+      "sha256": "c899b3d63db7cc141a9b740dafbf3c68fb1c5d87ce3bfde84254630a1d7ca354"
+    },
+    {
+      "path": "alice-huang-review/app.js",
+      "size_bytes": 4218,
+      "sha256": "e6ea9f098069eef0d1d3d40d26dd36d658f7806b8d7d09c6668f18ffd0fa62c6"
+    }
+  ]
+}

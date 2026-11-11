@@ -1,0 +1,10 @@
+{
+  "nodes_count": 30,
+  "edges_count": 28,
+  "network_density": 0.0322,
+  "reciprocity": 0.0,
+  "total_communities_detected": 7,
+  "clustering_method": "Louvain / Greedy Modularity",
+  "top_information_gatekeeper": "Jensen Huang (CEO)",
+  "top_media_conduit": "The New York Times"
+}

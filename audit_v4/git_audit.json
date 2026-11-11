@@ -1,0 +1,38 @@
+{
+  "is_git_repository": true,
+  "status": {
+    "command": [
+      "git",
+      "status",
+      "--short",
+      "--branch"
+    ],
+    "returncode": 0,
+    "stdout": "## feature/nvidia-forensic-intelligence-v4\nD  nvidia\n?? nvidia/\n?? nvidia_forensic_v4.py\n",
+    "stderr": "",
+    "timed_out": false
+  },
+  "branch": {
+    "command": [
+      "git",
+      "branch",
+      "--show-current"
+    ],
+    "returncode": 0,
+    "stdout": "feature/nvidia-forensic-intelligence-v4\n",
+    "stderr": "",
+    "timed_out": false
+  },
+  "recent_commits": {
+    "command": [
+      "git",
+      "log",
+      "-5",
+      "--oneline"
+    ],
+    "returncode": 0,
+    "stdout": "4f45d9f chore(forensics): register new deliverables in evidence ledger and integrate step 12 into master pipeline\n75be1c8 feat(academic): add LaTeX manuscript, BibTeX with IPSSJ citation, CITATION.cff, Docker, and GitHub Actions CI\nd3008b9 feat(forensics): add production ELA (Error Level Analysis) and EXIF extraction forensic tool\ndb786be fix(streamlit): auto-route Streamlit Cloud to app.py and add streamlit_app.py\nf3c5e33 docs(presentation): expand executive slide deck with OSINT catalog and intelligence triad\n",
+    "stderr": "",
+    "timed_out": false
+  }
+}

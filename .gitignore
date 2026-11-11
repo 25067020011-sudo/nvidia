@@ -25,3 +25,6 @@ mvt/
 # Forensic generated test artifacts
 *_ela_test.jpg
 analisis/*_ela_test.jpg
+
+# Avoid nested clones
+nvidia/

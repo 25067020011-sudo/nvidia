@@ -11,6 +11,7 @@ Menganalisis:
 """
 
 import os
+import json
 import pandas as pd
 import numpy as np
 import networkx as nx
@@ -158,8 +159,43 @@ def run_sna_centrality_analysis():
     # Perhitungan Metrik Sentralitas
     betweenness = nx.betweenness_centrality(G, normalized=True)
     in_degree = nx.in_degree_centrality(G)
+    out_degree = nx.out_degree_centrality(G)
+    degree_all = nx.degree_centrality(G)
     pagerank = nx.pagerank(G, alpha=0.85)
     closeness = nx.closeness_centrality(G)
+
+    # Deteksi Komunitas (Louvain / Modularity Clustering pada Undirected Projection)
+    G_undir = G.to_undirected()
+    try:
+        from networkx.algorithms.community import louvain_communities
+        communities = louvain_communities(G_undir, seed=42)
+    except Exception:
+        from networkx.algorithms.community import greedy_modularity_communities
+        communities = greedy_modularity_communities(G_undir)
+
+    community_map = {}
+    for c_id, comm in enumerate(communities, start=1):
+        for node in comm:
+            community_map[node] = c_id
+
+    # Metrik Topologi Graf Global
+    network_density = nx.density(G)
+    reciprocity = nx.reciprocity(G)
+    num_nodes = G.number_of_nodes()
+    num_edges = G.number_of_edges()
+
+    # Ekspor Edge List dengan Tipe Hubungan & Bobot
+    edge_records = []
+    for u, v in G.edges():
+        edge_records.append({
+            "source": u,
+            "target": v,
+            "source_type": G.nodes[u].get("node_type", "Unknown"),
+            "target_type": G.nodes[v].get("node_type", "Unknown"),
+            "relation": "Information_Flow"
+        })
+    df_edges = pd.DataFrame(edge_records)
+    df_edges.to_csv(os.path.join(OUT_DIR, "sna_edgelist.csv"), index=False, encoding="utf-8-sig")
 
     # 1. Matriks 20 Aktor
     actor_data = []
@@ -167,9 +203,12 @@ def run_sna_centrality_analysis():
         actor_data.append({
             "Aktor": a,
             "Betweenness_Centrality": round(betweenness.get(a, 0.0), 4),
+            "Degree_Centrality": round(degree_all.get(a, 0.0), 4),
             "In_Degree_Centrality": round(in_degree.get(a, 0.0), 4),
+            "Out_Degree_Centrality": round(out_degree.get(a, 0.0), 4),
             "PageRank": round(pagerank.get(a, 0.0), 4),
-            "Closeness_Centrality": round(closeness.get(a, 0.0), 4)
+            "Closeness_Centrality": round(closeness.get(a, 0.0), 4),
+            "Community_Cluster": community_map.get(a, 0)
         })
     df_actors = pd.DataFrame(actor_data).sort_values("Betweenness_Centrality", ascending=False).reset_index(drop=True)
     df_actors.insert(0, "Ranking", range(1, len(df_actors) + 1))
@@ -182,14 +221,31 @@ def run_sna_centrality_analysis():
         media_data.append({
             "Media": m,
             "Betweenness_Centrality": round(betweenness.get(m, 0.0), 4),
+            "Degree_Centrality": round(degree_all.get(m, 0.0), 4),
             "In_Degree_Centrality": round(in_degree.get(m, 0.0), 4),
+            "Out_Degree_Centrality": round(out_degree.get(m, 0.0), 4),
             "PageRank": round(pagerank.get(m, 0.0), 4),
-            "Closeness_Centrality": round(closeness.get(m, 0.0), 4)
+            "Closeness_Centrality": round(closeness.get(m, 0.0), 4),
+            "Community_Cluster": community_map.get(m, 0)
         })
     df_media = pd.DataFrame(media_data).sort_values("Betweenness_Centrality", ascending=False).reset_index(drop=True)
     df_media.insert(0, "Ranking", range(1, len(df_media) + 1))
     media_csv = os.path.join(OUT_DIR, "matriks_sna_10_media.csv")
     df_media.to_csv(media_csv, index=False, encoding="utf-8-sig")
+
+    # Ringkasan Topologi Graf
+    topology_summary = {
+        "nodes_count": num_nodes,
+        "edges_count": num_edges,
+        "network_density": round(float(network_density), 4),
+        "reciprocity": round(float(reciprocity), 4),
+        "total_communities_detected": len(communities),
+        "clustering_method": "Louvain / Greedy Modularity",
+        "top_information_gatekeeper": df_actors.iloc[0]["Aktor"],
+        "top_media_conduit": df_media.iloc[0]["Media"]
+    }
+    with open(os.path.join(OUT_DIR, "sna_metrics_summary.json"), "w", encoding="utf-8") as f:
+        json.dump(topology_summary, f, indent=2, ensure_ascii=False)
 
     print(f"[+] Matriks SNA 20 Aktor tersimpan di: {actor_csv}")
     print(f"[+] Matriks SNA 10 Media tersimpan di: {media_csv}")

@@ -1,0 +1,5566 @@
+{
+  "python_files_checked": 469,
+  "syntax_errors": [],
+  "imports": [
+    {
+      "file": "streamlit_app.py",
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "pandas",
+        "plotly.graph_objects",
+        "plotly.subplots",
+        "streamlit",
+        "subprocess"
+      ]
+    },
+    {
+      "file": "nvidia_forensic_v4.py",
+      "imports": [
+        "__future__",
+        "argparse",
+        "ast",
+        "csv",
+        "datetime",
+        "hashlib",
+        "json",
+        "logging",
+        "os",
+        "pathlib",
+        "re",
+        "subprocess",
+        "sys",
+        "time",
+        "typing"
+      ]
+    },
+    {
+      "file": "kumpulkan_berita.py",
+      "imports": [
+        "argparse",
+        "concurrent.futures",
+        "datetime",
+        "htmldate",
+        "os",
+        "pandas",
+        "re",
+        "requests",
+        "time"
+      ]
+    },
+    {
+      "file": "analisis_berita.py",
+      "imports": [
+        "collections",
+        "difflib",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "os",
+        "pandas",
+        "re",
+        "sys"
+      ]
+    },
+    {
+      "file": "app.py",
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "pandas",
+        "plotly.graph_objects",
+        "plotly.subplots",
+        "streamlit",
+        "subprocess"
+      ]
+    },
+    {
+      "file": "pipeline_run_all.py",
+      "imports": [
+        "os",
+        "subprocess",
+        "sys",
+        "time"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/frequency.py",
+      "imports": [
+        "cv2",
+        "json",
+        "logging",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "random"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/explore_pretrained.py",
+      "imports": [
+        "matplotlib.pyplot",
+        "matplotlib.ticker",
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/number_frames.py",
+      "imports": [
+        "matplotlib.pyplot",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/curve_draw.py",
+      "imports": [
+        "collections",
+        "glob",
+        "itertools",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas",
+        "pickle",
+        "sklearn",
+        "sklearn.metrics",
+        "tqdm"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/heatmap_tab2.py",
+      "imports": [
+        "matplotlib.colors",
+        "matplotlib.pyplot",
+        "numpy",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/model_archi.py",
+      "imports": [
+        "matplotlib",
+        "matplotlib.pyplot",
+        "matplotlib.ticker",
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/auc_table1_fromrecord.py",
+      "imports": [
+        "glob",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/auc_fromaug.py",
+      "imports": [
+        "glob",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas",
+        "seaborn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/auc_table2_fromrecord.py",
+      "imports": [
+        "glob",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/plot_curve.py",
+      "imports": [
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/analysis/tsne.py",
+      "imports": [
+        "matplotlib.pyplot",
+        "numpy",
+        "pandas",
+        "pickle",
+        "seaborn",
+        "sklearn.manifold"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/test.py",
+      "imports": [
+        "PIL",
+        "argparse",
+        "collections",
+        "copy",
+        "cv2",
+        "dataset.abstract_dataset",
+        "dataset.ff_blend",
+        "dataset.fwa_blend",
+        "dataset.pair_dataset",
+        "datetime",
+        "detectors",
+        "logger",
+        "metrics.base_metrics_class",
+        "metrics.utils",
+        "numpy",
+        "os",
+        "os.path",
+        "pickle",
+        "random",
+        "time",
+        "torch",
+        "torch.backends.cudnn",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.nn.parallel",
+        "torch.optim",
+        "torch.utils.data",
+        "tqdm",
+        "trainer.trainer",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/logger.py",
+      "imports": [
+        "logging",
+        "os",
+        "torch.distributed"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/train.py",
+      "imports": [
+        "PIL",
+        "argparse",
+        "copy",
+        "cv2",
+        "dataset",
+        "dataset.lsda_dataset",
+        "datetime",
+        "detectors",
+        "logger",
+        "metrics.utils",
+        "numpy",
+        "optimizor.LinearLR",
+        "optimizor.SAM",
+        "os",
+        "os.path",
+        "random",
+        "time",
+        "torch",
+        "torch.backends.cudnn",
+        "torch.distributed",
+        "torch.nn",
+        "torch.nn.parallel",
+        "torch.optim",
+        "torch.utils.data",
+        "torch.utils.data.distributed",
+        "tqdm",
+        "trainer.trainer",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/metrics/registry.py",
+      "imports": []
+    },
+    {
+      "file": "DeepfakeBench/training/metrics/base_metrics_class.py",
+      "imports": [
+        "collections",
+        "numpy",
+        "sklearn",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/metrics/__init__.py",
+      "imports": [
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/metrics/utils.py",
+      "imports": [
+        "numpy",
+        "sklearn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/optimizor/LinearLR.py",
+      "imports": [
+        "torch",
+        "torch.optim",
+        "torch.optim.lr_scheduler"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/optimizor/__init__.py",
+      "imports": [
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/optimizor/SAM.py",
+      "imports": [
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/patch_consistency_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/capsule_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/consistency_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/bce_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/id_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/region_independent_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "detectors.multi_attention_detector",
+        "metrics.registry",
+        "torch",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/am_softmax.py",
+      "imports": [
+        "abstract_loss_func",
+        "math",
+        "metrics.registry",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/__init__.py",
+      "imports": [
+        "am_softmax",
+        "bce_loss",
+        "capsule_loss",
+        "consistency_loss",
+        "contrastive_regularization",
+        "cross_entropy_loss",
+        "id_loss",
+        "js_loss",
+        "l1_loss",
+        "metrics.registry",
+        "os",
+        "patch_consistency_loss",
+        "region_independent_loss",
+        "supercontrast_loss",
+        "sys",
+        "vgg_loss"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/contrastive_regularization.py",
+      "imports": [
+        "abstract_loss_func",
+        "collections",
+        "metrics.registry",
+        "random",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/l1_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/js_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/supercontrast_loss.py",
+      "imports": [
+        "__future__",
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/vgg_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch",
+        "torch.nn",
+        "torchvision"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/cross_entropy_loss.py",
+      "imports": [
+        "abstract_loss_func",
+        "metrics.registry",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/loss/abstract_loss_func.py",
+      "imports": [
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/config/__init__.py",
+      "imports": [
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/face_utils.py",
+      "imports": [
+        "cv2",
+        "numpy",
+        "skimage"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/ff_blend.py",
+      "imports": [
+        "PIL",
+        "albumentations",
+        "cv2",
+        "dataset.utils",
+        "dataset.utils.color_transfer",
+        "dataset.utils.face_align",
+        "dataset.utils.face_aug",
+        "dataset.utils.face_blend",
+        "dataset.utils.faceswap_utils",
+        "dataset.utils.image_ae",
+        "dataset.utils.warp",
+        "heapq",
+        "json",
+        "lmdb",
+        "numpy",
+        "os",
+        "pickle",
+        "random",
+        "scipy",
+        "scipy.ndimage.filters",
+        "skimage.util",
+        "sys",
+        "time",
+        "torch",
+        "torch.autograd",
+        "torch.utils",
+        "torchvision"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/lrl_dataset.py",
+      "imports": [
+        "PIL",
+        "abstract_dataset",
+        "albumentations",
+        "copy",
+        "cv2",
+        "numpy",
+        "os",
+        "random",
+        "sys",
+        "torch",
+        "tqdm",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/albu.py",
+      "imports": [
+        "albumentations",
+        "albumentations.augmentations.crops.functional",
+        "cv2",
+        "numpy",
+        "random"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/lsda_dataset.py",
+      "imports": [
+        "PIL",
+        "abstract_dataset",
+        "albumentations",
+        "cv2",
+        "json",
+        "math",
+        "numpy",
+        "os",
+        "random",
+        "skimage.draw",
+        "sys",
+        "torch",
+        "torch.autograd",
+        "torch.utils",
+        "torch.utils.data.sampler",
+        "torchvision",
+        "tqdm",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/iid_dataset.py",
+      "imports": [
+        "PIL",
+        "copy",
+        "cv2",
+        "dataset.abstract_dataset",
+        "math",
+        "numpy",
+        "os.path",
+        "random",
+        "torch",
+        "torch.utils.data",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/__init__.py",
+      "imports": [
+        "I2G_dataset",
+        "abstract_dataset",
+        "ff_blend",
+        "fwa_blend",
+        "iid_dataset",
+        "lrl_dataset",
+        "lsda_dataset",
+        "os",
+        "pair_dataset",
+        "sbi_dataset",
+        "sys",
+        "tall_dataset"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/generate_xray_nearest.py",
+      "imports": [
+        "heapq",
+        "json",
+        "numpy",
+        "os",
+        "pickle",
+        "random",
+        "scipy.spatial",
+        "tqdm"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/sbi_dataset.py",
+      "imports": [
+        "albumentations",
+        "copy",
+        "cv2",
+        "numpy",
+        "sys",
+        "torch",
+        "tqdm",
+        "training.dataset.abstract_dataset",
+        "training.dataset.albu",
+        "training.dataset.sbi_api",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/pair_dataset.py",
+      "imports": [
+        "dataset.abstract_dataset",
+        "numpy",
+        "random",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/sbi_api.py",
+      "imports": [
+        "PIL",
+        "albumentations",
+        "cv2",
+        "glob",
+        "numpy",
+        "os",
+        "random",
+        "scipy",
+        "skimage.measure",
+        "sys",
+        "torch",
+        "torch.utils.data",
+        "torchvision",
+        "training.dataset.library.bi_online_generation",
+        "warnings"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/tall_dataset.py",
+      "imports": [
+        "copy",
+        "einops",
+        "numpy",
+        "random",
+        "sys",
+        "torch",
+        "torch.utils",
+        "torchvision.utils",
+        "tqdm",
+        "training.dataset",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/fwa_blend.py",
+      "imports": [
+        "PIL",
+        "albumentations",
+        "copy",
+        "cv2",
+        "dataset.abstract_dataset",
+        "dataset.utils",
+        "dataset.utils.color_transfer",
+        "dataset.utils.face_align",
+        "dataset.utils.face_aug",
+        "dataset.utils.face_blend",
+        "dataset.utils.faceswap_utils",
+        "dataset.utils.image_ae",
+        "dataset.utils.warp",
+        "dlib",
+        "heapq",
+        "json",
+        "numpy",
+        "os",
+        "pickle",
+        "random",
+        "scipy",
+        "scipy.ndimage.filters",
+        "skimage.draw",
+        "skimage.transform",
+        "skimage.util",
+        "sys",
+        "time",
+        "torch",
+        "torch.autograd",
+        "torch.utils",
+        "torchvision"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/generate_parsing_mask.py",
+      "imports": [
+        "PIL",
+        "albumentations",
+        "copy",
+        "cv2",
+        "numpy",
+        "os",
+        "random",
+        "sys",
+        "torch",
+        "torch.nn",
+        "tqdm",
+        "training.dataset.SimSwap.test_one_image",
+        "training.dataset.abstract_dataset",
+        "training.dataset.sbi_api",
+        "training.dataset.utils.bi_online_generation_yzy",
+        "transformers",
+        "warnings",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/I2G_dataset.py",
+      "imports": [
+        "PIL",
+        "albumentations",
+        "cv2",
+        "dataset.abstract_dataset",
+        "dataset.pair_dataset",
+        "dataset.utils.bi_online_generation",
+        "logging",
+        "numpy",
+        "os",
+        "pickle",
+        "random",
+        "scipy",
+        "skimage.measure",
+        "sys",
+        "torch",
+        "torch.utils.data",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/abstract_dataset.py",
+      "imports": [
+        "PIL",
+        "albu",
+        "albumentations",
+        "collections",
+        "copy",
+        "cv2",
+        "glob",
+        "json",
+        "lmdb",
+        "math",
+        "numpy",
+        "os",
+        "random",
+        "sys",
+        "torch",
+        "torch.autograd",
+        "torch.utils",
+        "torchvision",
+        "tqdm",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/library/DeepFakeMask.py",
+      "imports": [
+        "cv2",
+        "inspect",
+        "logging",
+        "numpy",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/library/bi_online_generation.py",
+      "imports": [
+        "DeepFakeMask",
+        "PIL",
+        "cv2",
+        "dlib",
+        "imgaug",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "random",
+        "skimage",
+        "tqdm"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/face_aug.py",
+      "imports": [
+        "PIL",
+        "cv2",
+        "numpy"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/umeyama.py",
+      "imports": [
+        "numpy"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/faceswap_utils.py",
+      "imports": [
+        "cv2",
+        "numpy"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/color_transfer.py",
+      "imports": [
+        "cv2",
+        "numpy",
+        "scipy",
+        "scipy.sparse",
+        "scipy.sparse.linalg"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/bi_online_generation_yzy.py",
+      "imports": [
+        "DeepFakeMask",
+        "PIL",
+        "SLADD",
+        "cv2",
+        "dlib",
+        "imgaug",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "pdb",
+        "random",
+        "skimage",
+        "torch",
+        "torch.nn",
+        "tqdm"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/DeepFakeMask.py",
+      "imports": [
+        "cv2",
+        "inspect",
+        "logging",
+        "math",
+        "numpy",
+        "random",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/faceswap.py",
+      "imports": [
+        "cv2",
+        "logging",
+        "numpy",
+        "scipy.spatial"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/bi_online_generation.py",
+      "imports": [
+        "PIL",
+        "cv2",
+        "dataset.library.DeepFakeMask",
+        "dataset.utils.attribution_mask",
+        "dlib",
+        "imgaug",
+        "json",
+        "matplotlib",
+        "numpy",
+        "os",
+        "random",
+        "skimage",
+        "tqdm"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/face_blend.py",
+      "imports": [
+        "argparse",
+        "cv2",
+        "dlib",
+        "numpy",
+        "os",
+        "random",
+        "skimage",
+        "time",
+        "tqdm",
+        "warp"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/SLADD.py",
+      "imports": [
+        "DeepFakeMask",
+        "cv2",
+        "enum",
+        "functools",
+        "numpy",
+        "scipy.ndimage"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/face_align.py",
+      "imports": [
+        "collections",
+        "cv2",
+        "face_blend",
+        "numpy",
+        "numpy.linalg",
+        "umeyama"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/image_ae.py",
+      "imports": [
+        "torch",
+        "torch.autograd",
+        "torch.nn.functional",
+        "torchvision.models"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/attribution_mask.py",
+      "imports": [
+        "cv2",
+        "math",
+        "numpy",
+        "scipy.ndimage"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/warp.py",
+      "imports": [
+        "cv2",
+        "numpy",
+        "skimage.transform"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/utils/faceswap_utils_sladd.py",
+      "imports": [
+        "cv2",
+        "numpy"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/time_transformer.py",
+      "imports": [
+        "einops",
+        "einops.layers.torch",
+        "math",
+        "random",
+        "torch",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/vgg.py",
+      "imports": [
+        "torch",
+        "torch.nn",
+        "torchvision"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/mesonet.py",
+      "imports": [
+        "argparse",
+        "logging",
+        "math",
+        "metrics.registry",
+        "os",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.utils.model_zoo",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/xception_sladd.py",
+      "imports": [
+        "metrics.registry",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.utils.model_zoo",
+        "torchvision"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/base_backbone.py",
+      "imports": [
+        "abc",
+        "torch",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/__init__.py",
+      "imports": [
+        "efficientnetb4",
+        "mesonet",
+        "metrics.registry",
+        "os",
+        "resnet34",
+        "sys",
+        "xception",
+        "xception_sladd"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/cls_hrnet.py",
+      "imports": [
+        "__future__",
+        "functools",
+        "logging",
+        "numpy",
+        "os",
+        "torch",
+        "torch._utils",
+        "torch.nn",
+        "torch.nn.functional",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/xception_ffd.py",
+      "imports": [
+        "os",
+        "sys",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/resnet.py",
+      "imports": [
+        "math",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.nn.utils.weight_norm",
+        "torch.utils.model_zoo"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/adaface.py",
+      "imports": [
+        "collections",
+        "os",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/iresnet.py",
+      "imports": [
+        "torch",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/iresnet_iid.py",
+      "imports": [
+        "torch",
+        "torch.utils.checkpoint"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/resnet34.py",
+      "imports": [
+        "logging",
+        "metrics.registry",
+        "os",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torchvision",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/xception.py",
+      "imports": [
+        "argparse",
+        "logging",
+        "math",
+        "metrics.registry",
+        "os",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.utils.model_zoo",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/networks/efficientnetb4.py",
+      "imports": [
+        "efficientnet_pytorch",
+        "metrics.registry",
+        "os",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/lib/component/attention.py",
+      "imports": [
+        "math",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/lib/component/__init__.py",
+      "imports": [
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/lib/component/gaussian_ops.py",
+      "imports": [
+        "cv2",
+        "math",
+        "numbers",
+        "numpy",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/lib/component/srm_conv.py",
+      "imports": [
+        "PIL",
+        "argparse",
+        "cv2",
+        "matplotlib.pyplot",
+        "numpy",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/ucf_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/sladd_detector.py",
+      "imports": [
+        "collections",
+        "dataset.pair_dataset",
+        "datetime",
+        "detectors",
+        "detectors.base_detector",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "tqdm",
+        "typing",
+        "utils.sladd_api",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/rfm_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/multi_attention_detector.py",
+      "imports": [
+        "base_detector",
+        "detectors",
+        "kornia",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/lsda_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "cv2",
+        "datetime",
+        "detectors",
+        "efficientnet_pytorch",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "networks.iresnet",
+        "networks.xception",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/base_detector.py",
+      "imports": [
+        "abc",
+        "torch",
+        "torch.nn",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/ftcn_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "inspect",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "networks.time_transformer",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "sys",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing",
+        "utils.slowfast.config.defaults",
+        "utils.slowfast.models.video_model_builder"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/recce_detector.py",
+      "imports": [
+        "argparse",
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "functools",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "networks.xception",
+        "numpy",
+        "os",
+        "sklearn",
+        "timm.models",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/stil_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.model_zoo",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/core_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "efficientnet_pytorch",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/timesformer_detector.py",
+      "imports": [
+        "base_detector",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "torch",
+        "torch.nn",
+        "transformers"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/sia_detector.py",
+      "imports": [
+        "base_detector",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/f3net_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/altfreezing_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "sys",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing",
+        "utils.slowfast.config.defaults",
+        "utils.slowfast.models.video_model_builder"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/effort_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loralib",
+        "loss",
+        "math",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "transformers",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/__init__.py",
+      "imports": [
+        "altfreezing_detector",
+        "capsule_net_detector",
+        "clip_detector",
+        "core_detector",
+        "efficientnetb4_detector",
+        "effort_detector",
+        "f3net_detector",
+        "facexray_detector",
+        "ffd_detector",
+        "ftcn_detector",
+        "fwa_detector",
+        "i3d_detector",
+        "iid_detector",
+        "lrl_detector",
+        "lsda_detector",
+        "meso4Inception_detector",
+        "meso4_detector",
+        "metrics.registry",
+        "multi_attention_detector",
+        "os",
+        "pcl_xception_detector",
+        "recce_detector",
+        "resnet34_detector",
+        "rfm_detector",
+        "sbi_detector",
+        "sia_detector",
+        "sladd_detector",
+        "spsl_detector",
+        "srm_detector",
+        "stil_detector",
+        "sys",
+        "tall_detector",
+        "timesformer_detector",
+        "ucf_detector",
+        "uia_vit_detector",
+        "utils",
+        "videomae_detector",
+        "xception_detector",
+        "xclip_detector"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/meso4_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/efficientnetb4_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/xclip_detector.py",
+      "imports": [
+        "base_detector",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "torch",
+        "torch.nn",
+        "transformers"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/uia_vit_detector.py",
+      "imports": [
+        "base_detector",
+        "detectors",
+        "functools",
+        "loss",
+        "metrics.base_metrics_class",
+        "sklearn.covariance",
+        "timm.models.layers",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/lrl_detector.py",
+      "imports": [
+        "collections",
+        "dataset.lrl_dataset",
+        "datetime",
+        "detectors",
+        "detectors.base_detector",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "tqdm",
+        "typing",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/fwa_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/videomae_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loralib",
+        "loss",
+        "metrics.base_metrics_class",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "transformers",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/capsule_net_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "torchvision.models",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/facexray_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "networks.cls_hrnet",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/sbi_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/srm_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "math",
+        "metrics.base_metrics_class",
+        "networks",
+        "numbers",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/tall_detector.py",
+      "imports": [
+        "base_detector",
+        "detectors",
+        "einops",
+        "logging",
+        "loss",
+        "math",
+        "metrics.base_metrics_class",
+        "timm.data",
+        "timm.models.layers",
+        "torch",
+        "torch.hub",
+        "torch.nn",
+        "torch.utils.checkpoint"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/sta_detector.py",
+      "imports": [
+        "base_detector",
+        "clip",
+        "collections",
+        "detectors",
+        "einops",
+        "logging",
+        "loss",
+        "math",
+        "metrics.base_metrics_class",
+        "numpy",
+        "sklearn",
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/pcl_xception_detector.py",
+      "imports": [
+        "collections",
+        "dataset.I2G_dataset",
+        "datetime",
+        "detectors",
+        "detectors.base_detector",
+        "logging",
+        "loss",
+        "math",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "torchvision",
+        "tqdm",
+        "typing",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/spsl_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/resnet34_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/clip_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "copy",
+        "datetime",
+        "detectors",
+        "logging",
+        "loralib",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "transformers",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/meso4Inception_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/ffd_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "imageio",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "networks.xception",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "torchvision",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/i3d_detector.py",
+      "imports": [
+        "base_detector",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "os",
+        "sys",
+        "torch",
+        "utils.slowfast.config.defaults",
+        "utils.slowfast.models.video_model_builder"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/iid_detector.py",
+      "imports": [
+        "collections",
+        "dataset.iid_dataset",
+        "datetime",
+        "detectors",
+        "detectors.base_detector",
+        "detectors.utils.iid_api",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "networks.iresnet_iid",
+        "numpy",
+        "os",
+        "random",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "tqdm",
+        "typing",
+        "utils.iid_api",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/xception_detector.py",
+      "imports": [
+        "base_detector",
+        "collections",
+        "datetime",
+        "detectors",
+        "logging",
+        "loss",
+        "metrics.base_metrics_class",
+        "networks",
+        "numpy",
+        "os",
+        "sklearn",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.optim",
+        "torch.utils.tensorboard",
+        "typing"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/iid_api.py",
+      "imports": [
+        "__future__",
+        "math",
+        "torch",
+        "torch.distributed",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/lsad_api.py",
+      "imports": [
+        "random",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/sladd_api.py",
+      "imports": [
+        "PIL",
+        "cv2",
+        "dataset.pair_dataset",
+        "dataset.utils",
+        "dataset.utils.color_transfer",
+        "dataset.utils.faceswap_utils_sladd",
+        "math",
+        "numpy",
+        "scipy.ndimage",
+        "skimage",
+        "skimage.transform",
+        "torch",
+        "torch.autograd",
+        "torch.nn",
+        "torch.nn.functional",
+        "torchvision",
+        "tqdm",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/__init__.py",
+      "imports": [
+        "os",
+        "slowfast.utils.env",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/config/defaults(1).py",
+      "imports": [
+        "fvcore.common.config",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/config/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/config/defaults.py",
+      "imports": [
+        "fvcore.common.config",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/config/custom_config.py",
+      "imports": []
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/logging.py",
+      "imports": [
+        "builtins",
+        "decimal",
+        "functools",
+        "fvcore.common.file_io",
+        "logging",
+        "os",
+        "simplejson",
+        "slowfast.utils.distributed",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/metrics.py",
+      "imports": [
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/misc.py",
+      "imports": [
+        "datetime",
+        "fvcore.common.file_io",
+        "fvcore.nn.activation_count",
+        "fvcore.nn.flop_count",
+        "json",
+        "logging",
+        "math",
+        "matplotlib",
+        "numpy",
+        "os",
+        "psutil",
+        "slowfast.datasets.utils",
+        "slowfast.models.batchnorm_helper",
+        "slowfast.utils.logging",
+        "slowfast.utils.multiprocessing",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/ava_eval_helper.py",
+      "imports": [
+        "__future__",
+        "collections",
+        "csv",
+        "fvcore.common.file_io",
+        "logging",
+        "numpy",
+        "pprint",
+        "slowfast.utils.ava_evaluation",
+        "time"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/meters.py",
+      "imports": [
+        "collections",
+        "datetime",
+        "fvcore.common.timer",
+        "numpy",
+        "os",
+        "sklearn.metrics",
+        "slowfast.datasets.ava_helper",
+        "slowfast.utils.ava_eval_helper",
+        "slowfast.utils.logging",
+        "slowfast.utils.metrics",
+        "slowfast.utils.misc",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/env.py",
+      "imports": [
+        "slowfast.utils.logging"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/benchmark.py",
+      "imports": [
+        "fvcore.common.timer",
+        "numpy",
+        "pprint",
+        "slowfast.datasets",
+        "slowfast.utils.env",
+        "slowfast.utils.logging",
+        "slowfast.utils.misc",
+        "torch",
+        "tqdm"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/checkpoint.py",
+      "imports": [
+        "collections",
+        "copy",
+        "fvcore.common.file_io",
+        "numpy",
+        "os",
+        "pickle",
+        "slowfast.utils.c2_model_loading",
+        "slowfast.utils.distributed",
+        "slowfast.utils.logging",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/lr_policy.py",
+      "imports": [
+        "math"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/c2_model_loading.py",
+      "imports": [
+        "re"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/weight_init_helper.py",
+      "imports": [
+        "fvcore.nn.weight_init",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/parser.py",
+      "imports": [
+        "argparse",
+        "slowfast.config.defaults",
+        "slowfast.utils.checkpoint",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/distributed.py",
+      "imports": [
+        "functools",
+        "logging",
+        "pickle",
+        "torch",
+        "torch.distributed"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/bn_helper.py",
+      "imports": [
+        "itertools",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/multigrid.py",
+      "imports": [
+        "numpy",
+        "slowfast.utils.logging"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/utils/multiprocessing.py",
+      "imports": [
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/build.py",
+      "imports": [
+        "fvcore.common.registry",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/resnet_helper.py",
+      "imports": [
+        "slowfast.models.nonlocal_helper",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/batchnorm_helper.py",
+      "imports": [
+        "functools",
+        "slowfast.utils.distributed",
+        "torch",
+        "torch.autograd.function",
+        "torch.distributed",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/__init__.py",
+      "imports": [
+        "build",
+        "custom_video_model_builder",
+        "video_model_builder"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/custom_video_model_builder.py",
+      "imports": []
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/head_helper.py",
+      "imports": [
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/video_model_builder.py",
+      "imports": [
+        "build",
+        "copy",
+        "slowfast.models.batchnorm_helper",
+        "slowfast.utils.weight_init_helper",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "unet_helper"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/stem_helper.py",
+      "imports": [
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/nonlocal_helper.py",
+      "imports": [
+        "torch",
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/optimizer.py",
+      "imports": [
+        "slowfast.utils.lr_policy",
+        "torch"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/losses.py",
+      "imports": [
+        "torch.nn"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/detectors/utils/slowfast/models/unet_helper.py",
+      "imports": [
+        "resnet_helper",
+        "torch",
+        "torch.nn.functional"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/trainer/base_trainer.py",
+      "imports": [
+        "abc",
+        "copy",
+        "datetime"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/trainer/__init__.py",
+      "imports": [
+        "metrics.registry",
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/training/trainer/trainer.py",
+      "imports": [
+        "collections",
+        "copy",
+        "datetime",
+        "logging",
+        "metrics.base_metrics_class",
+        "metrics.utils",
+        "numpy",
+        "os",
+        "pickle",
+        "sklearn",
+        "sys",
+        "time",
+        "torch",
+        "torch.nn",
+        "torch.nn.functional",
+        "torch.nn.parallel",
+        "torch.optim",
+        "torch.optim.swa_utils",
+        "torch.utils.tensorboard",
+        "tqdm"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/preprocessing/preprocess.py",
+      "imports": [
+        "concurrent.futures",
+        "cv2",
+        "datetime",
+        "dlib",
+        "glob",
+        "imutils",
+        "logging",
+        "numpy",
+        "os",
+        "pathlib",
+        "skimage",
+        "sys",
+        "time",
+        "tqdm",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/preprocessing/dataset2lmdb_test.py",
+      "imports": [
+        "PIL",
+        "argparse",
+        "cv2",
+        "io",
+        "json",
+        "lmdb",
+        "numpy",
+        "os",
+        "yaml"
+      ]
+    },
+    {
+      "file": "DeepfakeBench/preprocessing/rearrange.py",
+      "imports": [
+        "cv2",
+        "glob",
+        "json",
+        "os",
+        "pandas",
+        "pathlib",
+        "re",
+        "yaml"
+      ]
+    },
+    {
+      "file": "investigations/2021-12-16_cytrox/generate_stix.py",
+      "imports": [
+        "os",
+        "stix2.v21",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2024-12-16_serbia_novispy/generate_stix.py",
+      "imports": [
+        "os",
+        "stix2",
+        "stix2.v21",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2021-07-18_nso/generate_stix.py",
+      "imports": [
+        "os",
+        "stix2.v21",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/decode_modules.py",
+      "imports": [
+        "Crypto.Cipher",
+        "argparse",
+        "binascii",
+        "ctypes",
+        "hashlib",
+        "os",
+        "struct",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/read_config.py",
+      "imports": [
+        "argparse",
+        "io",
+        "json",
+        "os",
+        "struct",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/cobaltstrike/cobaltstrike_decode.py",
+      "imports": [
+        "argparse",
+        "struct",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/cobaltstrike/cobaltstrike_config.py",
+      "imports": [
+        "argparse",
+        "json",
+        "re",
+        "struct",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/linux/extract_config.py",
+      "imports": [
+        "argparse",
+        "os",
+        "re",
+        "struct",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/android/java_parser.py",
+      "imports": [
+        "glob",
+        "javalang",
+        "javalang.tree",
+        "pystache",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/android/string_decoder.py",
+      "imports": [
+        "strings"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/android/extract_config.py",
+      "imports": [
+        "androguard.core",
+        "androguard.core.bytecodes.apk",
+        "argparse",
+        "base64",
+        "os",
+        "re",
+        "struct",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/scripts/android/strings.py",
+      "imports": []
+    },
+    {
+      "file": "investigations/2024-05-02_wintego_helios/generate_stix.py",
+      "imports": [
+        "os",
+        "stix2.v21",
+        "sys"
+      ]
+    },
+    {
+      "file": "investigations/2023-03-29_android_campaign/generate_stix.py",
+      "imports": [
+        "os",
+        "stix2.v21",
+        "sys"
+      ]
+    },
+    {
+      "file": "tools/deepfake_signature_validator.py",
+      "imports": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "tools/stakeholder_actor_mapper.py",
+      "imports": [
+        "dataclasses",
+        "json",
+        "typing"
+      ]
+    },
+    {
+      "file": "tools/mobile_spyware_forensic_comparator.py",
+      "imports": [
+        "collections",
+        "csv",
+        "json",
+        "os",
+        "pathlib",
+        "re"
+      ]
+    },
+    {
+      "file": "tools/osint_artifact_manager.py",
+      "imports": [
+        "csv",
+        "json",
+        "os"
+      ]
+    },
+    {
+      "file": "tools/generate_corpus_and_charts.py",
+      "imports": [
+        "matplotlib",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "tools/social_media_sn_simulator.py",
+      "imports": [
+        "datetime",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas",
+        "random"
+      ]
+    },
+    {
+      "file": "tools/hash_chain_verifier.py",
+      "imports": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "streamlit",
+        "sys"
+      ]
+    },
+    {
+      "file": "tools/sec_edgar_10k_scanner.py",
+      "imports": [
+        "json",
+        "os"
+      ]
+    },
+    {
+      "file": "tools/tiered_truth_classifier.py",
+      "imports": [
+        "csv",
+        "dataclasses",
+        "json",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "tools/sna_centrality_analyzer.py",
+      "imports": [
+        "matplotlib",
+        "matplotlib.pyplot",
+        "networkx",
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "tools/event_study_analyzer.py",
+      "imports": [
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "tools/ela_exif_forensic_analyzer.py",
+      "imports": [
+        "PIL",
+        "PIL.ExifTags",
+        "io",
+        "json",
+        "numpy",
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "nvidia/streamlit_app.py",
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "pandas",
+        "plotly.graph_objects",
+        "plotly.subplots",
+        "streamlit",
+        "subprocess"
+      ]
+    },
+    {
+      "file": "nvidia/kumpulkan_berita.py",
+      "imports": [
+        "argparse",
+        "concurrent.futures",
+        "datetime",
+        "htmldate",
+        "os",
+        "pandas",
+        "re",
+        "requests",
+        "time"
+      ]
+    },
+    {
+      "file": "nvidia/analisis_berita.py",
+      "imports": [
+        "collections",
+        "difflib",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "os",
+        "pandas",
+        "re",
+        "sys"
+      ]
+    },
+    {
+      "file": "nvidia/app.py",
+      "imports": [
+        "datetime",
+        "json",
+        "os",
+        "pandas",
+        "plotly.graph_objects",
+        "plotly.subplots",
+        "streamlit",
+        "subprocess"
+      ]
+    },
+    {
+      "file": "nvidia/pipeline_run_all.py",
+      "imports": [
+        "os",
+        "subprocess",
+        "sys",
+        "time"
+      ]
+    },
+    {
+      "file": "nvidia/tools/stakeholder_actor_mapper.py",
+      "imports": [
+        "dataclasses",
+        "json",
+        "typing"
+      ]
+    },
+    {
+      "file": "nvidia/tools/mobile_spyware_forensic_comparator.py",
+      "imports": [
+        "collections",
+        "csv",
+        "json",
+        "os",
+        "pathlib",
+        "re"
+      ]
+    },
+    {
+      "file": "nvidia/tools/osint_artifact_manager.py",
+      "imports": [
+        "csv",
+        "json",
+        "os"
+      ]
+    },
+    {
+      "file": "nvidia/tools/generate_corpus_and_charts.py",
+      "imports": [
+        "matplotlib",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "nvidia/tools/social_media_sn_simulator.py",
+      "imports": [
+        "datetime",
+        "matplotlib",
+        "matplotlib.pyplot",
+        "numpy",
+        "os",
+        "pandas",
+        "random"
+      ]
+    },
+    {
+      "file": "nvidia/tools/hash_chain_verifier.py",
+      "imports": [
+        "datetime",
+        "hashlib",
+        "json",
+        "os",
+        "streamlit",
+        "sys"
+      ]
+    },
+    {
+      "file": "nvidia/tools/sec_edgar_10k_scanner.py",
+      "imports": [
+        "json",
+        "os"
+      ]
+    },
+    {
+      "file": "nvidia/tools/tiered_truth_classifier.py",
+      "imports": [
+        "csv",
+        "dataclasses",
+        "json",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "nvidia/tools/sna_centrality_analyzer.py",
+      "imports": [
+        "matplotlib",
+        "matplotlib.pyplot",
+        "networkx",
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "nvidia/tools/event_study_analyzer.py",
+      "imports": [
+        "numpy",
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "nvidia/tools/ela_exif_forensic_analyzer.py",
+      "imports": [
+        "PIL",
+        "PIL.ExifTags",
+        "io",
+        "json",
+        "numpy",
+        "os",
+        "sys"
+      ]
+    },
+    {
+      "file": "voices-celebrities/build_dataset.py",
+      "imports": [
+        "os",
+        "pandas"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_check_android_androidqf.py",
+      "imports": [
+        "click.testing",
+        "json",
+        "logging",
+        "mvt.android.cli",
+        "mvt.android.cmd_check_androidqf",
+        "mvt.android.modules.androidqf",
+        "mvt.android.modules.androidqf.aqf_log_timestamps",
+        "mvt.common.config",
+        "os",
+        "shutil",
+        "tempfile",
+        "utils",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/tests/conftest.py",
+      "imports": [
+        "artifacts.generate_stix",
+        "atexit",
+        "logging",
+        "mvt.android.cli",
+        "mvt.cli",
+        "mvt.common.cli_plugins",
+        "mvt.common.indicators",
+        "mvt.ios.cli",
+        "os",
+        "pytest",
+        "shutil",
+        "tempfile"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_check_android_adb_removed.py",
+      "imports": [
+        "click.testing",
+        "mvt.android.cli"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_cmd_check_sysdiagnose.py",
+      "imports": [
+        "datetime",
+        "io",
+        "mvt.ios.cmd_check_sysdiagnose",
+        "mvt.ios.modules.sysdiagnose",
+        "pathlib",
+        "tarfile"
+      ]
+    },
+    {
+      "file": "mvt/tests/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/test_ios_versions.py",
+      "imports": [
+        "mvt.ios.versions"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_cli_entry_points.py",
+      "imports": [
+        "click",
+        "mvt.android",
+        "mvt.android.cli",
+        "mvt.cli",
+        "mvt.common.cli_plugins",
+        "mvt.ios",
+        "mvt.ios.cli",
+        "plugin_fixtures",
+        "pytest",
+        "sys",
+        "types"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_check_ios_sysdiagnose.py",
+      "imports": [
+        "click.testing",
+        "logging",
+        "mvt.ios.cli",
+        "os",
+        "tarfile"
+      ]
+    },
+    {
+      "file": "mvt/tests/plugin_fixtures.py",
+      "imports": [
+        "os",
+        "pathlib",
+        "subprocess",
+        "sys",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/tests/utils.py",
+      "imports": [
+        "os",
+        "pathlib",
+        "sqlite3"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_check_ios_backup.py",
+      "imports": [
+        "click.testing",
+        "mvt.ios.cli",
+        "shutil",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_cli_startup.py",
+      "imports": [
+        "plugin_fixtures",
+        "pytest"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_cli_verbose.py",
+      "imports": [
+        "click.testing",
+        "logging",
+        "mvt.android.cli",
+        "mvt.cli",
+        "mvt.common.log",
+        "mvt.common.utils",
+        "mvt.ios.cli",
+        "pytest"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_cli.py",
+      "imports": [
+        "click.testing",
+        "mvt.cli",
+        "mvt.common.updates",
+        "mvt.common.version"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_check_android_backup.py",
+      "imports": [
+        "click.testing",
+        "logging",
+        "mvt.android.cli",
+        "mvt.common.config",
+        "os",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_completion.py",
+      "imports": [
+        "click.testing",
+        "mvt.android.cli",
+        "mvt.cli",
+        "mvt.ios.cli"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_check_android_bugreport.py",
+      "imports": [
+        "click.testing",
+        "datetime",
+        "logging",
+        "mvt.android.cli",
+        "mvt.android.cmd_check_bugreport",
+        "os",
+        "shutil",
+        "utils",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/tests/test_custom_modules.py",
+      "imports": [
+        "click.testing",
+        "hashlib",
+        "importlib.metadata",
+        "json",
+        "mvt.android.cli",
+        "mvt.android.cmd_check_androidqf",
+        "mvt.android.cmd_check_backup",
+        "mvt.android.cmd_check_bugreport",
+        "mvt.android.cmd_check_intrusion_logs",
+        "mvt.common",
+        "mvt.common.module",
+        "mvt.common.version",
+        "mvt.ios.cli",
+        "mvt.ios.cmd_check_backup",
+        "mvt.ios.modules.backup"
+      ]
+    },
+    {
+      "file": "mvt/tests/artifacts/generate_stix.py",
+      "imports": [
+        "os",
+        "stix2.v21"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_sysdiagnose/test_sysdiagnose_info.py",
+      "imports": [
+        "json",
+        "mvt.common.module",
+        "mvt.ios.cmd_check_sysdiagnose",
+        "mvt.ios.modules.sysdiagnose.sysdiagnose_info",
+        "mvt.ios.versions",
+        "plistlib",
+        "sqlite3",
+        "tarfile"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_sysdiagnose/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/android_bugreport/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/android_bugreport/test_bugreport.py",
+      "imports": [
+        "mvt.android.modules.bugreport.dumpsys_appops",
+        "mvt.android.modules.bugreport.dumpsys_getprop",
+        "mvt.android.modules.bugreport.dumpsys_packages",
+        "mvt.android.modules.bugreport.dumpsys_receivers",
+        "mvt.android.modules.bugreport.settings",
+        "mvt.android.modules.bugreport.tombstones",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_fs/test_cache_files.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.ios.modules.fs.cache_files"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_fs/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/ios_fs/test_filesystem.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.fs",
+        "mvt.ios.modules.fs.filesystem",
+        "ntpath",
+        "types",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_fs/test_shutdownlog.py",
+      "imports": [
+        "mvt.common.module",
+        "mvt.ios.modules.fs.shutdownlog"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_adb/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/common/test_command.py",
+      "imports": [
+        "click.testing",
+        "json",
+        "logging",
+        "mvt.common.command",
+        "mvt.common.config",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.cli",
+        "pytest",
+        "unittest.mock"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_utils.py",
+      "imports": [
+        "datetime",
+        "json",
+        "logging",
+        "mvt.common.log",
+        "mvt.common.utils",
+        "os",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_plugin.py",
+      "imports": [
+        "mvt.android.modules.backup.base",
+        "mvt.common.config",
+        "mvt.plugin",
+        "plugin_fixtures"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_cmd_check_iocs.py",
+      "imports": [
+        "click.testing",
+        "json",
+        "logging",
+        "mvt.android.cli",
+        "mvt.android.command_modules",
+        "mvt.common.cmd_check_iocs",
+        "mvt.common.module",
+        "mvt.ios.cli",
+        "mvt.ios.command_modules",
+        "mvt.ios.modules.backup.manifest",
+        "pytest"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/common/test_command_modules.py",
+      "imports": [
+        "mvt.android.command_modules",
+        "mvt.android.modules.androidqf",
+        "mvt.android.modules.backup",
+        "mvt.android.modules.bugreport",
+        "mvt.android.modules.intrusion_logs",
+        "mvt.ios.command_modules",
+        "mvt.ios.modules.backup",
+        "mvt.ios.modules.fs",
+        "mvt.ios.modules.mixed",
+        "mvt.ios.modules.sysdiagnose"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_cmd_plugins.py",
+      "imports": [
+        "click.testing",
+        "json",
+        "mvt.android.cli",
+        "mvt.cli",
+        "mvt.common.cli_plugins",
+        "mvt.common.cmd_plugins",
+        "mvt.common.module",
+        "mvt.common.module_loader",
+        "mvt.common.updates",
+        "mvt.ios.cli",
+        "pytest",
+        "re",
+        "types"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_alerts.py",
+      "imports": [
+        "mvt.common.alerts"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_plugin_updates.py",
+      "imports": [
+        "datetime",
+        "json",
+        "mvt.common",
+        "mvt.common.cli_plugins",
+        "mvt.common.module_loader",
+        "mvt.common.updates",
+        "pytest",
+        "shlex",
+        "types"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_password.py",
+      "imports": [
+        "io",
+        "mvt.common.password"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_plugin_config.py",
+      "imports": [
+        "mvt.common.plugin_config",
+        "os",
+        "pytest",
+        "stat",
+        "sys",
+        "typing",
+        "yaml"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_config.py",
+      "imports": [
+        "mvt.common",
+        "mvt.common.config",
+        "os",
+        "yaml"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_indicators.py",
+      "imports": [
+        "json",
+        "logging",
+        "mvt.common.config",
+        "mvt.common.indicators",
+        "os",
+        "requests",
+        "threading",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_url.py",
+      "imports": [
+        "mvt.common.url",
+        "pytest"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_cli_plugins.py",
+      "imports": [
+        "click",
+        "click.testing",
+        "mvt.cli",
+        "mvt.common.cli_plugins",
+        "shlex",
+        "types"
+      ]
+    },
+    {
+      "file": "mvt/tests/common/test_module_loader.py",
+      "imports": [
+        "mvt.common.cli_plugins",
+        "mvt.common.module",
+        "mvt.common.module_loader",
+        "mvt.ios.modules.mixed.whatsapp",
+        "pathlib",
+        "pytest"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_adb.py",
+      "imports": [
+        "base64",
+        "mvt.android.artifacts.dumpsys_adb",
+        "mvt.android.modules.bugreport.dumpsys_adb_state",
+        "mvt.common.alerts",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_accessibility.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_accessibility",
+        "mvt.common.alerts",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_backup_module.py",
+      "imports": [
+        "io",
+        "mvt.android.modules.backup.sms",
+        "mvt.android.parsers.backup",
+        "mvt.common.module",
+        "os",
+        "tarfile",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_check_bugreport_wrapper.py",
+      "imports": [
+        "io",
+        "mvt.android.cmd_check_bugreport",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_getprop.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.getprop",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_dbinfo.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_dbinfo",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact.py",
+      "imports": [
+        "mvt.android.artifacts.artifact",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_battery_daily.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_battery_daily",
+        "mvt.common.alerts",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_platform_compat.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_platform_compat",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_intrusion_logs.py",
+      "imports": [
+        "click.testing",
+        "json",
+        "logging",
+        "mvt.android.cli",
+        "mvt.android.cmd_check_intrusion_logs",
+        "mvt.android.modules.intrusion_logs.base",
+        "mvt.android.modules.intrusion_logs.security_event",
+        "mvt.common.alerts",
+        "pytest"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/android/test_backup_parser.py",
+      "imports": [
+        "hashlib",
+        "mvt.android.parsers.backup",
+        "pytest",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_processes.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.processes",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_accessibility_state.py",
+      "imports": [
+        "mvt.android.artifacts.dumpsys_accessibility",
+        "mvt.common.alerts",
+        "types",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_accessibility_count.py",
+      "imports": [
+        "mvt.android.artifacts.dumpsys_accessibility",
+        "mvt.common.alerts",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_battery_history.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_battery_history",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_tombstone_caused_by.py",
+      "imports": [
+        "datetime",
+        "mvt.android.artifacts.tombstone_crashes"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_settings.py",
+      "imports": [
+        "mvt.android.artifacts.settings",
+        "typing",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_tombstones.py",
+      "imports": [
+        "datetime",
+        "mvt.android.artifacts.tombstone_crashes",
+        "mvt.android.parsers.proto.tombstone",
+        "os",
+        "pytest",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_package_activities.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_package_activities",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_appops.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_appops",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_mounts.py",
+      "imports": [
+        "mvt.android.artifacts.mounts",
+        "mvt.common.alerts"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_bugreport_section_extraction.py",
+      "imports": [
+        "mvt.android.modules.bugreport.base"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_packages.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_packages",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_check_backup_optional_failure.py",
+      "imports": [
+        "mvt.android.cmd_check_backup",
+        "pytest"
+      ]
+    },
+    {
+      "file": "mvt/tests/android/test_artifact_dumpsys_receivers.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_receivers",
+        "mvt.common.indicators",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_backup_info.py",
+      "imports": [
+        "mvt.common.module",
+        "mvt.ios.modules.backup.backup_info",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_global_preferences.py",
+      "imports": [
+        "mvt.common.alerts",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.global_preferences",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_decrypt.py",
+      "imports": [
+        "Crypto.Cipher",
+        "logging",
+        "mvt.ios.decrypt",
+        "pathlib",
+        "pytest",
+        "threading"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_manifest.py",
+      "imports": [
+        "gc",
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.backup.manifest",
+        "mvt.ios.modules.base",
+        "os",
+        "pathlib",
+        "pytest",
+        "shutil",
+        "utils",
+        "warnings"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_whatsapp.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.whatsapp",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_interactionc.py",
+      "imports": [
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.interactionc",
+        "mvt.ios.modules.mixed.whatsapp_contacts",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_whatsapp_contacts.py",
+      "imports": [
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.whatsapp_contacts",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_webkit_resource_load_statistics.py",
+      "imports": [
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.webkit_resource_load_statistics",
+        "sqlite3",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_sms.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.sms",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_datausage.py",
+      "imports": [
+        "logging",
+        "mvt.common.alerts",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.net_datausage",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_tcc.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.tcc",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_calendar.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.calendar",
+        "os",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_sqlite_handling.py",
+      "imports": [
+        "hashlib",
+        "mvt.ios.modules.base",
+        "mvt.ios.modules.fs.analytics",
+        "os",
+        "plistlib",
+        "pytest",
+        "shutil",
+        "sqlite3"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_safari_history.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.safari_history",
+        "pathlib",
+        "pytest",
+        "shutil",
+        "sqlite3",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/ios_backup/test_safari_browserstate.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.safari_browserstate",
+        "pytest",
+        "shutil",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_packages.py",
+      "imports": [
+        "click.testing",
+        "logging",
+        "mvt.android.cli",
+        "mvt.android.modules.androidqf",
+        "mvt.android.modules.androidqf.aqf_packages",
+        "mvt.common.module",
+        "pathlib",
+        "pytest",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_processes.py",
+      "imports": [
+        "logging",
+        "mvt.android.modules.androidqf.aqf_processes",
+        "mvt.common.module",
+        "pathlib",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_files.py",
+      "imports": [
+        "logging",
+        "mvt.android.modules.androidqf.aqf_files",
+        "mvt.common.module",
+        "pathlib",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_tcc.py",
+      "imports": [
+        "logging",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "mvt.ios.modules.mixed.tcc",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_root_binaries.py",
+      "imports": [
+        "logging",
+        "mvt.android.modules.androidqf.root_binaries",
+        "mvt.common.module",
+        "pathlib",
+        "pytest",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_mounts.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.mounts",
+        "mvt.android.modules.androidqf.mounts",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "pathlib",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_settings.py",
+      "imports": [
+        "mvt.android.modules.androidqf.aqf_settings",
+        "mvt.common.module",
+        "pathlib",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/tests/android_androidqf/test_getprop.py",
+      "imports": [
+        "logging",
+        "mvt.android.modules.androidqf.aqf_getprop",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "pathlib",
+        "utils",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/.github/workflows/scripts/update-ios-releases.py",
+      "imports": [
+        "json",
+        "os",
+        "packaging",
+        "re",
+        "urllib.request",
+        "xml.dom.minidom"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/cli.py",
+      "imports": [
+        "click",
+        "mvt.common.cli_plugins",
+        "mvt.common.cmd_plugins",
+        "mvt.common.completion",
+        "mvt.common.help",
+        "mvt.common.logo",
+        "mvt.common.updates",
+        "mvt.common.utils"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/plugin.py",
+      "imports": [
+        "mvt.android.modules.androidqf.base",
+        "mvt.android.modules.backup.base",
+        "mvt.android.modules.bugreport.base",
+        "mvt.common.alerts",
+        "mvt.common.command",
+        "mvt.common.config",
+        "mvt.common.module",
+        "mvt.common.module_loader",
+        "mvt.common.module_types",
+        "mvt.common.plugin_config",
+        "mvt.common.utils",
+        "mvt.common.version",
+        "mvt.ios.modules.base",
+        "mvt.ios.modules.sysdiagnose.base"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/__init__.py",
+      "imports": [
+        "cli"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/decrypt_config.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/ios/decrypt.py",
+      "imports": [
+        "Crypto.Hash.SHA1",
+        "Crypto.Hash.SHA256",
+        "Crypto.Protocol.KDF",
+        "binascii",
+        "concurrent.futures",
+        "decrypt_config",
+        "fastpbkdf2",
+        "glob",
+        "iphone_backup_decrypt",
+        "iphone_backup_decrypt.utils",
+        "logging",
+        "os",
+        "os.path",
+        "pathlib",
+        "plistlib",
+        "shutil",
+        "sqlite3",
+        "tempfile",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/cmd_check_fs.py",
+      "imports": [
+        "logging",
+        "modules.fs",
+        "modules.mixed",
+        "mvt.common.command",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/cli.py",
+      "imports": [
+        "click",
+        "cmd_check_backup",
+        "cmd_check_fs",
+        "cmd_check_sysdiagnose",
+        "command_modules",
+        "decrypt",
+        "decrypt_config",
+        "json",
+        "logging",
+        "mvt.common.cli_plugins",
+        "mvt.common.cmd_check_iocs",
+        "mvt.common.help",
+        "mvt.common.logo",
+        "mvt.common.module_loader",
+        "mvt.common.options",
+        "mvt.common.password",
+        "mvt.common.updates",
+        "mvt.common.utils",
+        "os"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/cmd_check_sysdiagnose.py",
+      "imports": [
+        "json",
+        "logging",
+        "modules.sysdiagnose",
+        "mvt.common.command",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "shutil",
+        "sys",
+        "tarfile",
+        "tempfile",
+        "typing",
+        "zlib"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/versions.py",
+      "imports": [
+        "json",
+        "logging",
+        "packaging",
+        "pkgutil",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/cmd_check_backup.py",
+      "imports": [
+        "logging",
+        "modules.backup",
+        "modules.mixed",
+        "mvt.common.command",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/command_modules.py",
+      "imports": [
+        "modules.backup",
+        "modules.fs",
+        "modules.mixed",
+        "modules.sysdiagnose",
+        "mvt.common.module"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/net_base.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "operator",
+        "pathlib",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/base.py",
+      "imports": [
+        "glob",
+        "logging",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "shutil",
+        "sqlite3",
+        "subprocess",
+        "tempfile",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/sysdiagnose/__init__.py",
+      "imports": [
+        "base",
+        "mvt.common.module",
+        "sysdiagnose_info"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/sysdiagnose/sysdiagnose_info.py",
+      "imports": [
+        "base",
+        "datetime",
+        "json",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "mvt.ios.versions",
+        "os",
+        "pathlib",
+        "plistlib",
+        "re",
+        "sqlite3",
+        "tempfile",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/sysdiagnose/base.py",
+      "imports": [
+        "datetime",
+        "fnmatch",
+        "logging",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "re",
+        "tarfile",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/whatsapp_contacts.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/chrome_history.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/osanalytics_addaily.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/contacts.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/webkit_session_resource_log.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/firefox_history.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/whatsapp.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/shortcuts.py",
+      "imports": [
+        "base",
+        "io",
+        "itertools",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "plistlib",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/safari_history.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.url",
+        "mvt.common.utils",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/applications.py",
+      "imports": [
+        "base",
+        "datetime",
+        "hashlib",
+        "logging",
+        "mvt.common.module",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/interactionc.py",
+      "imports": [
+        "base",
+        "datetime",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "re",
+        "sqlite3",
+        "typing",
+        "whatsapp_contacts"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/__init__.py",
+      "imports": [
+        "applications",
+        "calendar",
+        "calls",
+        "chrome_favicon",
+        "chrome_history",
+        "contacts",
+        "firefox_favicon",
+        "firefox_history",
+        "global_preferences",
+        "idstatuscache",
+        "interactionc",
+        "locationd",
+        "mvt.common.module",
+        "net_datausage",
+        "osanalytics_addaily",
+        "safari_browserstate",
+        "safari_history",
+        "shortcuts",
+        "sms",
+        "sms_attachments",
+        "tcc",
+        "webkit_resource_load_statistics",
+        "webkit_session_resource_log",
+        "whatsapp",
+        "whatsapp_contacts"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/idstatuscache.py",
+      "imports": [
+        "base",
+        "collections",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/locationd.py",
+      "imports": [
+        "base",
+        "base64",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/calendar.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/chrome_favicon.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/sms_attachments.py",
+      "imports": [
+        "base",
+        "base64",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/safari_browserstate.py",
+      "imports": [
+        "base",
+        "io",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "plistlib",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/firefox_favicon.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/webkit_resource_load_statistics.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/net_datausage.py",
+      "imports": [
+        "logging",
+        "mvt.common.module_types",
+        "net_base",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/calls.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/global_preferences.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/sms.py",
+      "imports": [
+        "base",
+        "base64",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/mixed/tcc.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/backup/manifest.py",
+      "imports": [
+        "base",
+        "datetime",
+        "io",
+        "logging",
+        "mvt.common.module",
+        "mvt.common.module_types",
+        "mvt.common.url",
+        "mvt.common.utils",
+        "os",
+        "plistlib",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/backup/backup_info.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module",
+        "mvt.common.module_types",
+        "mvt.ios.versions",
+        "os",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/backup/__init__.py",
+      "imports": [
+        "backup_info",
+        "configuration_profiles",
+        "manifest",
+        "mvt.common.module",
+        "profile_events"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/backup/profile_events.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/backup/configuration_profiles.py",
+      "imports": [
+        "base",
+        "base64",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "plistlib",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/webkit_safariviewservice.py",
+      "imports": [
+        "logging",
+        "mvt.common.module_types",
+        "typing",
+        "webkit_base"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/cache_files.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "os",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/version_history.py",
+      "imports": [
+        "base",
+        "datetime",
+        "json",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/filesystem.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/webkit_base.py",
+      "imports": [
+        "base",
+        "mvt.common.utils",
+        "os"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/webkit_localstorage.py",
+      "imports": [
+        "logging",
+        "mvt.common.module_types",
+        "typing",
+        "webkit_base"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/__init__.py",
+      "imports": [
+        "analytics",
+        "analytics_ios_versions",
+        "cache_files",
+        "filesystem",
+        "mvt.common.module",
+        "net_netusage",
+        "safari_favicon",
+        "shutdownlog",
+        "version_history",
+        "webkit_indexeddb",
+        "webkit_localstorage",
+        "webkit_safariviewservice"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/safari_favicon.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/analytics_ios_versions.py",
+      "imports": [
+        "analytics",
+        "base",
+        "datetime",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.ios.versions",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/analytics.py",
+      "imports": [
+        "base",
+        "copy",
+        "logging",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "plistlib",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/shutdownlog.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.common.module",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/webkit_indexeddb.py",
+      "imports": [
+        "logging",
+        "mvt.common.module_types",
+        "typing",
+        "webkit_base"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/ios/modules/fs/net_netusage.py",
+      "imports": [
+        "logging",
+        "mvt.common.module_types",
+        "net_base",
+        "sqlite3",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/alerts.py",
+      "imports": [
+        "csv",
+        "dataclasses",
+        "enum",
+        "inspect",
+        "log",
+        "logging",
+        "module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/options.py",
+      "imports": [
+        "click"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/command.py",
+      "imports": [
+        "alerts",
+        "config",
+        "datetime",
+        "functools",
+        "heapq",
+        "indicators",
+        "json",
+        "logging",
+        "module",
+        "module_loader",
+        "module_types",
+        "os",
+        "rich.console",
+        "rich.panel",
+        "rich.text",
+        "sys",
+        "typing",
+        "utils",
+        "version"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/config.py",
+      "imports": [
+        "appdirs",
+        "json",
+        "os",
+        "pydantic",
+        "pydantic_settings",
+        "typing",
+        "yaml"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/version.py",
+      "imports": [
+        "importlib.metadata"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/virustotal.py",
+      "imports": [
+        "config",
+        "logging",
+        "requests",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/artifact.py",
+      "imports": [
+        "module"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/completion.py",
+      "imports": [
+        "click",
+        "click.shell_completion",
+        "help",
+        "mvt.android.cli",
+        "mvt.cli",
+        "mvt.ios.cli",
+        "pathlib",
+        "shlex"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/cmd_plugins.py",
+      "imports": [
+        "cli_plugins",
+        "click",
+        "config",
+        "help",
+        "importlib.metadata",
+        "logging",
+        "module",
+        "module_loader",
+        "rich.console",
+        "rich.table",
+        "typing",
+        "updates"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/log.py",
+      "imports": [
+        "logging",
+        "rich.console",
+        "rich.logging",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/updates.py",
+      "imports": [
+        "cli_plugins",
+        "config",
+        "datetime",
+        "importlib.metadata",
+        "indicators",
+        "json",
+        "logging",
+        "module_loader",
+        "os",
+        "packaging",
+        "re",
+        "requests",
+        "shlex",
+        "subprocess",
+        "typing",
+        "version",
+        "yaml"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/module_types.py",
+      "imports": [
+        "dataclasses",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/common/indicators.py",
+      "imports": [
+        "ahocorasick",
+        "appdirs",
+        "concurrent.futures",
+        "config",
+        "dataclasses",
+        "functools",
+        "glob",
+        "json",
+        "logging",
+        "os",
+        "typing",
+        "url"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/logo.py",
+      "imports": [
+        "config",
+        "logging",
+        "requests",
+        "rich",
+        "updates",
+        "version"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/url.py",
+      "imports": [
+        "config",
+        "logging",
+        "requests",
+        "tld",
+        "typing",
+        "urllib.parse"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/cli_plugins.py",
+      "imports": [
+        "click",
+        "hashlib",
+        "importlib.metadata",
+        "importlib.util",
+        "logging",
+        "os",
+        "pathlib",
+        "sys",
+        "types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/cmd_check_iocs.py",
+      "imports": [
+        "logging",
+        "mvt.common.command",
+        "mvt.common.module",
+        "mvt.common.module_loader",
+        "mvt.common.utils",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/plugin_config.py",
+      "imports": [
+        "appdirs",
+        "contextlib",
+        "json",
+        "os",
+        "pydantic",
+        "pydantic_settings",
+        "re",
+        "tempfile",
+        "typing",
+        "yaml"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/utils.py",
+      "imports": [
+        "cProfile",
+        "config",
+        "dataclasses",
+        "datetime",
+        "hashlib",
+        "json",
+        "log",
+        "logging",
+        "os",
+        "re",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/module.py",
+      "imports": [
+        "alerts",
+        "csv",
+        "dataclasses",
+        "indicators",
+        "json",
+        "logging",
+        "module_types",
+        "os",
+        "re",
+        "typing",
+        "utils"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/password.py",
+      "imports": [
+        "contextlib",
+        "io",
+        "msvcrt",
+        "os",
+        "sys",
+        "termios",
+        "typing",
+        "warnings"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/module_loader.py",
+      "imports": [
+        "cli_plugins",
+        "dataclasses",
+        "functools",
+        "hashlib",
+        "importlib.metadata",
+        "importlib.util",
+        "inspect",
+        "json",
+        "logging",
+        "module",
+        "os",
+        "pathlib",
+        "re",
+        "sys",
+        "types",
+        "typing",
+        "version"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/common/help.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/android/cmd_check_bugreport.py",
+      "imports": [
+        "fnmatch",
+        "io",
+        "logging",
+        "modules.bugreport",
+        "mvt.android.artifacts.getprop",
+        "mvt.android.modules.bugreport.base",
+        "mvt.common.command",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "typing",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/__init__.py",
+      "imports": [
+        "cli"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/cli.py",
+      "imports": [
+        "click",
+        "cmd_check_androidqf",
+        "cmd_check_backup",
+        "cmd_check_bugreport",
+        "cmd_check_intrusion_logs",
+        "command_modules",
+        "logging",
+        "modules.backup.helpers",
+        "mvt.common.cli_plugins",
+        "mvt.common.cmd_check_iocs",
+        "mvt.common.help",
+        "mvt.common.logo",
+        "mvt.common.module_loader",
+        "mvt.common.updates",
+        "mvt.common.utils",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/utils.py",
+      "imports": [
+        "datetime",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/cmd_check_androidqf.py",
+      "imports": [
+        "json",
+        "logging",
+        "modules.androidqf",
+        "modules.androidqf.base",
+        "mvt.android.artifacts.getprop",
+        "mvt.android.cmd_check_backup",
+        "mvt.android.cmd_check_bugreport",
+        "mvt.android.cmd_check_intrusion_logs",
+        "mvt.common.command",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "shutil",
+        "tempfile",
+        "typing",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/cmd_check_intrusion_logs.py",
+      "imports": [
+        "logging",
+        "modules.intrusion_logs",
+        "modules.intrusion_logs.base",
+        "mvt.common.command",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/cmd_check_backup.py",
+      "imports": [
+        "io",
+        "logging",
+        "modules.backup",
+        "mvt.android.modules.backup.base",
+        "mvt.android.modules.backup.helpers",
+        "mvt.android.parsers.backup",
+        "mvt.common.command",
+        "mvt.common.indicators",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "sys",
+        "tarfile",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/command_modules.py",
+      "imports": [
+        "modules.androidqf",
+        "modules.backup",
+        "modules.bugreport",
+        "modules.intrusion_logs",
+        "mvt.common.module"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/tombstone_crashes.py",
+      "imports": [
+        "artifact",
+        "betterproto2",
+        "datetime",
+        "dateutil",
+        "mvt.android.parsers.proto.tombstone",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "pydantic",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/file_timestamps.py",
+      "imports": [
+        "artifact",
+        "mvt.common.module_types"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_accessibility.py",
+      "imports": [
+        "artifact",
+        "re",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/artifact.py",
+      "imports": [
+        "mvt.common.artifact",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_packages.py",
+      "imports": [
+        "artifact",
+        "mvt.android.utils",
+        "mvt.common.module_types",
+        "re",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_battery_daily.py",
+      "imports": [
+        "artifact",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_adb.py",
+      "imports": [
+        "artifact",
+        "base64",
+        "binascii",
+        "hashlib",
+        "re",
+        "xml.etree.ElementTree"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_dbinfo.py",
+      "imports": [
+        "artifact",
+        "re"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/mounts.py",
+      "imports": [
+        "artifact",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_platform_compat.py",
+      "imports": [
+        "artifact",
+        "re"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_package_activities.py",
+      "imports": [
+        "artifact",
+        "package_resolvers"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/processes.py",
+      "imports": [
+        "artifact"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_battery_history.py",
+      "imports": [
+        "artifact",
+        "datetime",
+        "mvt.common.utils",
+        "re"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/settings.py",
+      "imports": [
+        "artifact",
+        "datetime",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "re",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_appops.py",
+      "imports": [
+        "artifact",
+        "datetime",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "re",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/package_resolvers.py",
+      "imports": [
+        "re"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/getprop.py",
+      "imports": [
+        "artifact",
+        "mvt.android.utils",
+        "re",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/artifacts/dumpsys_receivers.py",
+      "imports": [
+        "artifact",
+        "package_resolvers"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/parsers/backup.py",
+      "imports": [
+        "cryptography.hazmat.primitives",
+        "cryptography.hazmat.primitives.ciphers",
+        "cryptography.hazmat.primitives.kdf.pbkdf2",
+        "io",
+        "json",
+        "mvt.common.utils",
+        "tarfile",
+        "zlib"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/parsers/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/android/parsers/proto/tombstone.py",
+      "imports": [
+        "betterproto2",
+        "dataclasses"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/parsers/proto/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/__init__.py",
+      "imports": []
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_adb_state.py",
+      "imports": [
+        "base",
+        "base64",
+        "binascii",
+        "datetime",
+        "logging",
+        "mvt.android.artifacts.dumpsys_adb",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/fs_timestamps.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.file_timestamps",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_accessibility.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_accessibility",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_packages.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_packages",
+        "mvt.android.utils",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_battery_daily.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_battery_daily",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_dbinfo.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_dbinfo",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/__init__.py",
+      "imports": [
+        "dumpsys_accessibility",
+        "dumpsys_activities",
+        "dumpsys_adb_state",
+        "dumpsys_appops",
+        "dumpsys_battery_daily",
+        "dumpsys_battery_history",
+        "dumpsys_dbinfo",
+        "dumpsys_getprop",
+        "dumpsys_packages",
+        "dumpsys_platform_compat",
+        "dumpsys_receivers",
+        "fs_timestamps",
+        "mounts",
+        "mvt.common.module",
+        "processes",
+        "settings",
+        "tombstones"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/mounts.py",
+      "imports": [
+        "base",
+        "mvt.android.artifacts.mounts",
+        "re"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_platform_compat.py",
+      "imports": [
+        "logging",
+        "mvt.android.artifacts.dumpsys_platform_compat",
+        "mvt.android.modules.bugreport.base",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_activities.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_package_activities",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/processes.py",
+      "imports": [
+        "base",
+        "mvt.android.artifacts.processes"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_battery_history.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_battery_history",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/settings.py",
+      "imports": [
+        "base",
+        "mvt.android.artifacts.settings"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_appops.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_appops",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_getprop.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.getprop",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/dumpsys_receivers.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.dumpsys_receivers",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/base.py",
+      "imports": [
+        "datetime",
+        "fnmatch",
+        "logging",
+        "mvt.common.module",
+        "os",
+        "pathlib",
+        "re",
+        "typing",
+        "zipfile",
+        "zoneinfo"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/bugreport/tombstones.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.tombstone_crashes",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/aqf_settings.py",
+      "imports": [
+        "base",
+        "mvt.android.artifacts.settings"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/aqf_getprop.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.getprop",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/__init__.py",
+      "imports": [
+        "aqf_files",
+        "aqf_getprop",
+        "aqf_log_timestamps",
+        "aqf_packages",
+        "aqf_processes",
+        "aqf_settings",
+        "mounts",
+        "mvt.common.module",
+        "root_binaries"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/mounts.py",
+      "imports": [
+        "base",
+        "json",
+        "logging",
+        "mvt.android.artifacts.mounts",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/aqf_log_timestamps.py",
+      "imports": [
+        "base",
+        "datetime",
+        "logging",
+        "mvt.android.artifacts.file_timestamps",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "os",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/aqf_processes.py",
+      "imports": [
+        "base",
+        "logging",
+        "mvt.android.artifacts.processes",
+        "mvt.common.module_types",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/aqf_files.py",
+      "imports": [
+        "backports",
+        "datetime",
+        "json",
+        "logging",
+        "mvt.android.modules.androidqf.base",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing",
+        "zoneinfo"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/base.py",
+      "imports": [
+        "fnmatch",
+        "logging",
+        "mvt.android.artifacts.getprop",
+        "mvt.common.module",
+        "mvt.common.module_types",
+        "os",
+        "typing",
+        "zipfile"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/aqf_packages.py",
+      "imports": [
+        "base",
+        "json",
+        "logging",
+        "mvt.android.utils",
+        "mvt.common.module_types",
+        "mvt.common.virustotal",
+        "rich.progress",
+        "time",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/androidqf/root_binaries.py",
+      "imports": [
+        "base",
+        "json",
+        "logging",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/intrusion_logs/connect_event.py",
+      "imports": [
+        "base",
+        "logging",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/intrusion_logs/__init__.py",
+      "imports": [
+        "connect_event",
+        "dns_event",
+        "mvt.common.module",
+        "security_event"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/intrusion_logs/security_event.py",
+      "imports": [
+        "base",
+        "logging",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/intrusion_logs/dns_event.py",
+      "imports": [
+        "base",
+        "logging",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/intrusion_logs/base.py",
+      "imports": [
+        "backports",
+        "datetime",
+        "io",
+        "json",
+        "logging",
+        "mvt.common.module",
+        "mvt.common.utils",
+        "pathlib",
+        "typing",
+        "zipfile",
+        "zoneinfo"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/backup/__init__.py",
+      "imports": [
+        "mvt.common.module",
+        "sms"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/backup/helpers.py",
+      "imports": [
+        "mvt.common.config",
+        "mvt.common.password"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/backup/sms.py",
+      "imports": [
+        "logging",
+        "mvt.android.modules.backup.base",
+        "mvt.android.parsers.backup",
+        "mvt.common.module_types",
+        "mvt.common.utils",
+        "typing"
+      ]
+    },
+    {
+      "file": "mvt/src/mvt/android/modules/backup/base.py",
+      "imports": [
+        "fnmatch",
+        "logging",
+        "mvt.common.module",
+        "os",
+        "tarfile",
+        "typing"
+      ]
+    }
+  ]
+}

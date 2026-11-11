@@ -1,0 +1,531 @@
+{
+  "checked_files": 40,
+  "results": [
+    {
+      "file": "berita_skandal_jensen_huang.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 300,
+      "column_count": 7,
+      "headers": [
+        "no",
+        "tanggal_terbit",
+        "judul",
+        "media",
+        "url",
+        "bahasa",
+        "status_link"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "evidence_ledger.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "codemeta.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "dict"
+    },
+    {
+      "file": "nvda_skandal.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 37,
+      "column_count": 6,
+      "headers": [
+        "Price",
+        "Close",
+        "High",
+        "Low",
+        "Open",
+        "Volume"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "DeepfakeBench/training/dataset/library/precomuted_landmarks.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "dict"
+    },
+    {
+      "file": "investigations/2018-08-01_nso/indicators.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 604,
+      "column_count": 2,
+      "headers": [
+        "domain_name",
+        "ip_address"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/sha256.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 12,
+      "column_count": 2,
+      "headers": [
+        "sha256",
+        "Description"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "investigations/2020-09-25_finfisher/android_tlv_list.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 812,
+      "column_count": 6,
+      "headers": [
+        "Group ID",
+        "Group name",
+        "TLV value",
+        "Known TLV",
+        "TLV name",
+        "Function"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/berita_skandal_jensen_huang.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 300,
+      "column_count": 7,
+      "headers": [
+        "no",
+        "tanggal_terbit",
+        "judul",
+        "media",
+        "url",
+        "bahasa",
+        "status_link"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/evidence_ledger.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "nvidia/nvda_skandal.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 37,
+      "column_count": 6,
+      "headers": [
+        "Price",
+        "Close",
+        "High",
+        "Low",
+        "Open",
+        "Volume"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/matriks_sna_10_media.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 10,
+      "column_count": 6,
+      "headers": [
+        "Ranking",
+        "Media",
+        "Betweenness_Centrality",
+        "In_Degree_Centrality",
+        "PageRank",
+        "Closeness_Centrality"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/klaim_per_berita.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 300,
+      "column_count": 14,
+      "headers": [
+        "url",
+        "media",
+        "judul",
+        "tanggal_terbit",
+        "Spionase / Alice Huang",
+        "Megaspeed / ekspor chip",
+        "Perselingkuhan",
+        "Investigasi / Kongres / dewan",
+        "Kubu Garis Keras / Rubio / Hawkish",
+        "Spekulasi Politik / Dalang Trump",
+        "Saham / pasar",
+        "Bantahan NVIDIA / Huang",
+        "SERANGAN FISIK",
+        "Serangan siber / peretasan"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/audit_historis_sec_10k.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "nvidia/analisis/09_osint_artefak.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 11,
+      "column_count": 10,
+      "headers": [
+        "id_artefak",
+        "kategori_artefak",
+        "platform",
+        "tanggal_publikasi",
+        "pembuat_sumber",
+        "deskripsi_konten",
+        "status_verifikasi",
+        "metodologi_verifikasi_forensik",
+        "tool_osint_spesifik",
+        "tautan_pelaporan_primer"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/01_timeline_kemunculan_pertama.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 7,
+      "column_count": 6,
+      "headers": [
+        "tahap",
+        "tanggal",
+        "platform_dan_lokasi",
+        "pelopor_pertama",
+        "muatan_informasi",
+        "status_klaim"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/audit_historis_sec_20tahun.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "nvidia/analisis/08_komparasi_metode_intelijen.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 9,
+      "column_count": 5,
+      "headers": [
+        "id_dimensi",
+        "dimensi",
+        "sigint_fisa_unmasking",
+        "spyware_komersial_pegasus",
+        "humint_honeytrap"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/matriks_pemetaan_aktor.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "nvidia/analisis/02_status_klaim.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 4,
+      "column_count": 8,
+      "headers": [
+        "claim_id",
+        "target_subject",
+        "claim_statement",
+        "incident_date",
+        "status_label",
+        "confidence_score",
+        "forensic_rationale",
+        "total_evidence_sources"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/matriks_sna_20_aktor.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 20,
+      "column_count": 6,
+      "headers": [
+        "Ranking",
+        "Aktor",
+        "Betweenness_Centrality",
+        "In_Degree_Centrality",
+        "PageRank",
+        "Closeness_Centrality"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "nvidia/analisis/klaster_sindikasi.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 300,
+      "column_count": 5,
+      "headers": [
+        "klaster",
+        "ukuran",
+        "judul",
+        "media",
+        "url"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "voices-celebrities/metadata.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 13,
+      "column_count": 10,
+      "headers": [
+        "identifier",
+        "gender",
+        "name",
+        "age",
+        "file_name",
+        "language",
+        "language_code",
+        "url",
+        "start_time",
+        "end_time"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "mvt/tests/artifacts/stix2/638cd3ee5e5f019f84f9e0ea.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "dict"
+    },
+    {
+      "file": "mvt/tests/artifacts/androidqf/files.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "mvt/tests/artifacts/androidqf/packages.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "mvt/tests/artifacts/androidqf/root_binaries.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "mvt/src/mvt/ios/data/ios_versions.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "mvt/src/mvt/ios/data/ios_models.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "analisis/matriks_sna_10_media.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 10,
+      "column_count": 6,
+      "headers": [
+        "Ranking",
+        "Media",
+        "Betweenness_Centrality",
+        "In_Degree_Centrality",
+        "PageRank",
+        "Closeness_Centrality"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "analisis/klaim_per_berita.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 300,
+      "column_count": 14,
+      "headers": [
+        "url",
+        "media",
+        "judul",
+        "tanggal_terbit",
+        "Spionase / Alice Huang",
+        "Megaspeed / ekspor chip",
+        "Perselingkuhan",
+        "Investigasi / Kongres / dewan",
+        "Kubu Garis Keras / Rubio / Hawkish",
+        "Spekulasi Politik / Dalang Trump",
+        "Saham / pasar",
+        "Bantahan NVIDIA / Huang",
+        "SERANGAN FISIK",
+        "Serangan siber / peretasan"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "analisis/audit_historis_sec_10k.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "analisis/09_osint_artefak.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 11,
+      "column_count": 10,
+      "headers": [
+        "id_artefak",
+        "kategori_artefak",
+        "platform",
+        "tanggal_publikasi",
+        "pembuat_sumber",
+        "deskripsi_konten",
+        "status_verifikasi",
+        "metodologi_verifikasi_forensik",
+        "tool_osint_spesifik",
+        "tautan_pelaporan_primer"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "analisis/01_timeline_kemunculan_pertama.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 7,
+      "column_count": 6,
+      "headers": [
+        "tahap",
+        "tanggal",
+        "platform_dan_lokasi",
+        "pelopor_pertama",
+        "muatan_informasi",
+        "status_klaim"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "analisis/audit_historis_sec_20tahun.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "analisis/08_komparasi_metode_intelijen.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 9,
+      "column_count": 5,
+      "headers": [
+        "id_dimensi",
+        "dimensi",
+        "sigint_fisa_unmasking",
+        "spyware_komersial_pegasus",
+        "humint_honeytrap"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "analisis/matriks_pemetaan_aktor.json",
+      "format": ".json",
+      "status": "VALID",
+      "top_level_type": "list"
+    },
+    {
+      "file": "analisis/02_status_klaim.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 4,
+      "column_count": 8,
+      "headers": [
+        "claim_id",
+        "target_subject",
+        "claim_statement",
+        "incident_date",
+        "status_label",
+        "confidence_score",
+        "forensic_rationale",
+        "total_evidence_sources"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "analisis/matriks_sna_20_aktor.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 20,
+      "column_count": 6,
+      "headers": [
+        "Ranking",
+        "Aktor",
+        "Betweenness_Centrality",
+        "In_Degree_Centrality",
+        "PageRank",
+        "Closeness_Centrality"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    },
+    {
+      "file": "analisis/klaster_sindikasi.csv",
+      "format": ".csv",
+      "status": "VALID",
+      "row_count": 300,
+      "column_count": 5,
+      "headers": [
+        "klaster",
+        "ukuran",
+        "judul",
+        "media",
+        "url"
+      ],
+      "inconsistent_row_widths": 0,
+      "duplicate_rows": 0
+    }
+  ]
+}

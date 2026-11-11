@@ -1,0 +1,87 @@
+2026-11-11 08:08:56,567 [INFO] =====================================================================================
+2026-11-11 08:08:56,567 [INFO] MEMULAI MASTER PIPELINE AUDIT FORENSIK DIGITAL MULTIMODAL v4.0
+2026-11-11 08:08:56,567 [INFO] Standar: ISO/IEC 27037, NIST SP 800-86, & Ekonometrika MacKinlay (1997)
+2026-11-11 08:08:56,567 [INFO] =====================================================================================
+2026-11-11 08:08:56,833 [WARNING] /Users/jevin/.matplotlib is not a writable directory
+2026-11-11 08:08:56,834 [WARNING] Matplotlib created a temporary cache directory at /var/folders/7r/x063t3n96rvc1gx4fd84trh80000gn/T/matplotlib-8wsh3mnx because there was an issue with the default path (/Users/jevin/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+2026-11-11 08:08:56,932 [INFO] Pemeriksaan pra-eksekusi: Seluruh dependensi inti terpasang secara valid.
+2026-11-11 08:08:56,932 [INFO] MENJALANKAN TAHAP: 1. Audit Kriptografis Integritas Rantai Bukti (ISO/IEC 27037 SHA-256)
+2026-11-11 08:08:57,213 [INFO]   -> [SUKSES] Selesai dalam 0.28 detik (Percobaan ke-1).
+2026-11-11 08:08:57,214 [INFO]      | --> Memeriksa EVD-D2358755 (sna_centrality_analyzer.py)... [VERIFIED / OTENTIK]
+2026-11-11 08:08:57,214 [INFO]      | --> Memeriksa EVD-859C0C39 (tiered_truth_classifier.py)... [VERIFIED / OTENTIK]
+2026-11-11 08:08:57,214 [INFO]      | --> Memeriksa EVD-D24BC39F (reportica_intelligence_generator.py)... [VERIFIED / OTENTIK]
+2026-11-11 08:08:57,214 [INFO]      | [+] Seluruh bukti forensik memiliki integritas SHA-256 yang valid (100% Utuh).
+2026-11-11 08:08:57,214 [INFO] MENJALANKAN TAHAP: 2. Mesin Klasifikasi Kebenaran Bertingkat (5-Tier Truth Engine)
+2026-11-11 08:08:57,239 [INFO]   -> [SUKSES] Selesai dalam 0.02 detik (Percobaan ke-1).
+2026-11-11 08:08:57,239 [INFO]      |   Tingkat Keyakinan: 99%
+2026-11-11 08:08:57,239 [INFO]      |   Alasan Forensik  : Klaim telah terbantahkan secara definitif oleh data primer resmi, rekor ekonomi riil, dan/atau analisis laboratorium forensik (terbukti distorsi konteks, rekayasa, atau spekulasi tanpa dasar).
+2026-11-11 08:08:57,239 [INFO]      | [+] Berhasil mengekspor 4 evaluasi klaim ke: analisis/02_status_klaim.csv
+2026-11-11 08:08:57,239 [INFO]      | =====================================================================================
+2026-11-11 08:08:57,239 [INFO] MENJALANKAN TAHAP: 3. Audit Keterbukaan Informasi SEC EDGAR 20 Tahun (2006–2026)
+2026-11-11 08:08:57,257 [INFO]   -> [SUKSES] Selesai dalam 0.02 detik (Percobaan ke-1).
+2026-11-11 08:08:57,257 [INFO]      | 4. Investigasi lain di periode 2007-2025 diselesaikan oleh manajemen internal atau regulator,
+2026-11-11 08:08:57,257 [INFO]      |    menegaskan bahwa investigasi dewan adalah instrumen pengawasan paling luar biasa (extraordinary).
+2026-11-11 08:08:57,257 [INFO]      | =========================================================================================================
+2026-11-11 08:08:57,257 [INFO]      | [+] Laporan 20 tahun tersimpan di: analisis/audit_historis_sec_20tahun.json
+2026-11-11 08:08:57,257 [INFO] MENJALANKAN TAHAP: 4. Analisis Ekonometrika Event-Study (AR & CAR Saham NVDA)
+2026-11-11 08:08:57,700 [INFO]   -> [SUKSES] Selesai dalam 0.44 detik (Percobaan ke-1).
+2026-11-11 08:08:57,700 [INFO]      |   1. 05 Nov (Regulasi Makro Pasca-Pemilu): -12.14%
+2026-11-11 08:08:57,700 [INFO]      |   2. 09 Nov (Pengumuman Audit Dewan):      -1.61%
+2026-11-11 08:08:57,700 [INFO]      | [+] Laporan terstruktur diekspor ke: analisis/event_study_results.json
+2026-11-11 08:08:57,700 [INFO]      | ===============================================================================================
+2026-11-11 08:08:57,700 [INFO] MENJALANKAN TAHAP: 5. Dekomposisi Jaringan Aktor & Matriks Motif Pemangku Kepentingan
+2026-11-11 08:08:57,728 [INFO]   -> [SUKSES] Selesai dalam 0.03 detik (Percobaan ke-1).
+2026-11-11 08:08:57,728 [INFO]      | [Aktor]: Entitas Perantara Perdagangan (Megaspeed / Pihak Ketiga) (Foreign_Entity)
+2026-11-11 08:08:57,729 [INFO]      |   - Tindakan Terverifikasi : Menjalin interaksi bisnis dan komunikasi terkait rantai pasok perangkat keras; Menjadi subjek pemeriksaan aparat pengawas kepatuhan ekspor lintas batas
+2026-11-11 08:08:57,729 [INFO]      |   - Motif yang Dilaporkan  : Memperoleh wawasan arah lobi regulasi dan akses pasokan komputasi canggih
+2026-11-11 08:08:57,729 [INFO]      |   - Dugaan Tanpa Bukti     : Perencanaan sabotase fisik terhadap eksekutif korporasi
+2026-11-11 08:08:57,729 [INFO] MENJALANKAN TAHAP: 6. Rekonstruksi Korpus Berita & Pembangkitan Grafik Visualisasi Pasar
+2026-11-11 08:09:05,091 [INFO]   -> [SUKSES] Selesai dalam 7.36 detik (Percobaan ke-1).
+2026-11-11 08:09:05,092 [INFO]      | [*] Berkas 'berita_skandal_jensen_huang.csv' sudah ada.
+2026-11-11 08:09:05,092 [INFO]      | [+] Grafik event study saham tersimpan di: analisis/05_saham_event_study.png
+2026-11-11 08:09:05,092 [INFO] MENJALANKAN TAHAP: 7. Pemodelan SNA (Betweenness, PageRank, Louvain Cluster, Density)
+2026-11-11 08:09:05,972 [INFO]   -> [SUKSES] Selesai dalam 0.88 detik (Percobaan ke-1).
+2026-11-11 08:09:05,972 [INFO]      |        7             The Next Web                  0.0012    0.0247
+2026-11-11 08:09:05,972 [INFO]      |        8             Tech Insider                  0.0000    0.0295
+2026-11-11 08:09:05,972 [INFO]      |        9        Business Standard                  0.0000    0.0506
+2026-11-11 08:09:05,972 [INFO]      |       10          The Daily Beast                  0.0000    0.0133
+2026-11-11 08:09:05,972 [INFO] MENJALANKAN TAHAP: 8. Audit Leksikal Multibahasa & Klasterisasi Sindikasi Berita Arus Utama
+2026-11-11 08:09:06,696 [INFO]   -> [SUKSES] Selesai dalam 0.72 detik (Percobaan ke-1).
+2026-11-11 08:09:06,697 [INFO]      | 18. Anadolu Agency — 3
+2026-11-11 08:09:06,697 [INFO]      | 19. New York Times — 3
+2026-11-11 08:09:06,697 [INFO]      | 20. Block Media — 3
+2026-11-11 08:09:06,697 [INFO]      | _Label klaim berbasis kata kunci, bukan pembacaan isi artikel. Gunakan sebagai penyaring awal, lalu validasi sampel secara manual (mis. 100 baris acak) dan laporkan presisinya._
+2026-11-11 08:09:06,697 [INFO] MENJALANKAN TAHAP: 9. Komparasi Triad Intelijen Forensik: SIGINT vs Spyware vs HUMINT
+2026-11-11 08:09:06,725 [INFO]   -> [SUKSES] Selesai dalam 0.03 detik (Percobaan ke-1).
+2026-11-11 08:09:06,725 [INFO]      |     Distribusi Tipe Indikator: {'domain-name': 1438, 'process': 81, 'file': 1, 'email-addr': 29}
+2026-11-11 08:09:06,725 [INFO]      |     Contoh IOC Patterns    : ["[domain-name:value='weather4free.com']", "[domain-name:value='smscentro.com']", "[domain-name:value='tookcheckout.com']"]
+2026-11-11 08:09:06,725 [INFO]      | [+] Berhasil membangkitkan 9 dimensi komparasi ke: analisis/08_komparasi_metode_intelijen.csv
+2026-11-11 08:09:06,725 [INFO]      | ======================================================================
+2026-11-11 08:09:06,725 [INFO] MENJALANKAN TAHAP: 10. Pengelolaan & Verifikasi Katalog 11 Artefak Publik OSINT
+2026-11-11 08:09:06,745 [INFO]   -> [SUKSES] Selesai dalam 0.02 detik (Percobaan ke-1).
+2026-11-11 08:09:06,746 [INFO]      | Investigasi Komparatif Multimodal Kasus Jensen Huang / Alice Huang
+2026-11-11 08:09:06,746 [INFO]      | ================================================================================
+2026-11-11 08:09:06,746 [INFO]      | [+] Berhasil mengekspor 11 artefak publik OSINT ke: analisis/09_osint_artefak.csv
+2026-11-11 08:09:06,746 [INFO]      | ================================================================================
+2026-11-11 08:09:06,746 [INFO] MENJALANKAN TAHAP: 11. Validasi Forensik Visual ELA (Error Level Analysis) & Metadata EXIF
+2026-11-11 08:09:06,845 [INFO]   -> [SUKSES] Selesai dalam 0.10 detik (Percobaan ke-1).
+2026-11-11 08:09:06,845 [INFO]      |       "Software": "Matplotlib version3.11.2, https://matplotlib.org/"
+2026-11-11 08:09:06,845 [INFO]      |     }
+2026-11-11 08:09:06,845 [INFO]      |   }
+2026-11-11 08:09:06,845 [INFO]      | }
+2026-11-11 08:09:06,845 [INFO] MENJALANKAN TAHAP: 12. Pengujian Tanda Tangan Media Sintetis Deepfake & Provenansi C2PA
+2026-11-11 08:09:06,871 [INFO]   -> [SUKSES] Selesai dalam 0.03 detik (Percobaan ke-1).
+2026-11-11 08:09:06,871 [INFO]      |     "Ketiadaan tanda tangan kriptografis asal media (Missing C2PA / Content Credentials)."
+2026-11-11 08:09:06,871 [INFO]      |   ],
+2026-11-11 08:09:06,871 [INFO]      |   "evaluation_timestamp_utc": "2026-11-11T01:09:06.868346+00:00"
+2026-11-11 08:09:06,871 [INFO]      | }
+2026-11-11 08:09:06,871 [INFO] MENJALANKAN TAHAP: 13. Pembangkitan Laporan Intelijen Terpadu (Reportica Executive Brief v4.0)
+2026-11-11 08:09:07,091 [INFO]   -> [SUKSES] Selesai dalam 0.22 detik (Percobaan ke-1).
+2026-11-11 08:09:07,091 [INFO]      | [+] Laporan Reportica JSON berhasil dibuat: analisis/REPORTICA_INTELLIGENCE_BRIEF_V4.json
+2026-11-11 08:09:07,091 [INFO]      | [+] Ringkasan Reportica Markdown berhasil dibuat: analisis/REPORTICA_EXECUTIVE_SUMMARY_V4.md
+2026-11-11 08:09:07,092 [INFO] =====================================================================================
+2026-11-11 08:09:07,092 [INFO] RINGKASAN EKSEKUSI PIPELINE: 13/13 TAHAP BERHASIL DIVERIFIKASI (10.16 dtk)
+2026-11-11 08:09:07,092 [INFO] Manifest eksekusi disimpan di: pipeline_manifest.json
+2026-11-11 08:09:07,092 [INFO] Log lengkap disimpan di: pipeline_execution.log
+2026-11-11 08:09:07,092 [INFO] [+] STATUS: 100% REPRODUCIBLE & VERIFIED FOR SCIENTIFIC PUBLICATION.
+2026-11-11 08:09:07,092 [INFO] =====================================================================================
